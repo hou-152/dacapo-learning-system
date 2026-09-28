@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "graph/local/AI实战营-前沿速递/01-概念网络.md",
+                "file": "落地案例描述.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-概念网络"
+              "title": "落地案例描述"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "graph/local/AI实战营-前沿速递/01-概念网络.md",
+                "file": "落地案例描述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "graph/local/AI实战营-前沿速递/01-概念网络.md",
+                "file": "落地案例描述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "graph/local/AI实战营-前沿速递/01-概念网络.md",
+                "file": "落地案例描述.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,6 +190,19 @@
   },
   "active": "73ea41cc6c6bc017",
   "lastOpenFiles": [
+    "落地案例描述-简化版.md",
+    "README.md",
+    "purpose.md",
+    "raw-sources/01_Martin Fowler 为「harness 工程」站台：Thoughtworks 的一线笔记.md",
+    "articles/01-AI实战营-前沿速递与金融小龙虾.md",
+    "articles/01-Martin-Fowler-harness-engineering.md",
+    "落地案例描述.md",
+    "CONCEPT-COMPOUNDING-REPORT.md",
+    "graph/global/hub-concepts.md",
+    "graph/global/cross-project-hub.md",
+    "concepts/rigor-的搬迁.md",
+    "concepts/harness.md",
+    "graph/local/AI实战营-前沿速递/01-概念网络.md",
     "MVP-FINAL-REPORT.md",
     "SOLUTION-RESEARCH.md",
     "SOLUTION-IMPLEMENTATION-PROGRESS.md",
@@ -207,20 +220,7 @@
     "泛化测试-B类-低结构化/concepts/定制化-vs-标准化.md",
     "泛化测试-C类-多模态/concepts/useCallback.md",
     "泛化测试-C类-多模态/concepts/useMemo.md",
-    "泛化测试-B类-低结构化/concepts/垂直化.md",
-    "泛化测试-C类-多模态/concepts/useRef.md",
-    "泛化测试-B类-低结构化/concepts/ai-native.md",
-    "泛化测试-C类-多模态/concepts/useReducer.md",
-    "泛化测试-B类-低结构化/concepts/开源模型.md",
-    "泛化测试-C类-多模态/concepts/useContext.md",
-    "泛化测试-C类-多模态/concepts/useEffect.md",
-    "泛化测试-B类-低结构化/concepts/私有化部署.md",
-    "泛化测试-C类-多模态/concepts/useState.md",
-    "泛化测试-B类-低结构化/concepts/大语言模型.md",
-    "泛化测试-C类-多模态/concepts/hooks.md",
     "泛化测试-C类-多模态/concepts",
-    "泛化测试-B类-低结构化/concepts/企业知识库.md",
-    "泛化测试-B类-低结构化/concepts/rag.md",
     "泛化测试-B类-低结构化/graph",
     "泛化测试-B类-低结构化/articles",
     "泛化测试-B类-低结构化/concepts",
