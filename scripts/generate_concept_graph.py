@@ -5,7 +5,7 @@ from pathlib import Path
 from collections import defaultdict
 
 DACAPO_ROOT = Path(__file__).resolve().parents[1]
-CONCEPT_DIR = DACAPO_ROOT / "concepts"
+CONCEPT_DIR = DACAPO_ROOT / "concepts" / "core"
 OUTPUT_FILE = DACAPO_ROOT / "CONCEPT-GRAPH.md"
 
 HUB_MIN = 10
