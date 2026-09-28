@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SOLUTION-RESEARCH.md",
+                "file": "graph/local/AI实战营-前沿速递/01-概念网络.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SOLUTION-RESEARCH"
+              "title": "01-概念网络"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SOLUTION-RESEARCH.md",
+                "file": "graph/local/AI实战营-前沿速递/01-概念网络.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SOLUTION-RESEARCH.md",
+                "file": "graph/local/AI实战营-前沿速递/01-概念网络.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SOLUTION-RESEARCH.md",
+                "file": "graph/local/AI实战营-前沿速递/01-概念网络.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,6 +190,9 @@
   },
   "active": "73ea41cc6c6bc017",
   "lastOpenFiles": [
+    "MVP-FINAL-REPORT.md",
+    "SOLUTION-RESEARCH.md",
+    "SOLUTION-IMPLEMENTATION-PROGRESS.md",
     "GENERALIZATION-TEST-FINAL-REPORT.md",
     "GENERALIZATION-TEST-PROGRESS.md",
     "泛化测试-B类-低结构化/质量评估报告.md",
@@ -221,9 +224,6 @@
     "泛化测试-B类-低结构化/graph",
     "泛化测试-B类-低结构化/articles",
     "泛化测试-B类-低结构化/concepts",
-    "泛化测试-A类-陌生领域/raw-sources/糖尿病发病机制与并发症.md",
-    "泛化测试-B类-低结构化/raw-sources/AI创业访谈逐字稿.md",
-    "泛化测试-C类-多模态/raw-sources/React-Hooks-示例.md",
     "泛化测试-C类-多模态/raw-sources",
     "泛化测试-C类-多模态"
   ]
