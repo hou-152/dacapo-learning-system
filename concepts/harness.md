@@ -21,3 +21,11 @@ harness 原意是套在牲口身上的挽具——既限制它乱跑，又让它
 ## 出现文章
 
 - [[01-Martin-Fowler-harness-engineering]]
+
+## 相关概念
+
+- [[垃圾回收型-agent]]
+- [[架构约束的确定性执行]]
+- [[context-harness-engineering]]
+- [[熵与腐化]]
+- [[功能与行为验证的缺口]]

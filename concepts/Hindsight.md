@@ -43,3 +43,11 @@ tags:
 ```bash
 dacapo-wiki context "Hindsight"
 ```
+
+## 相关概念
+
+- [[AI-时代更重要的三种技能]]
+- [[和-agent-一起做规划]]
+- [[开放知识格式-OKF]]
+- [[我常常是错的]]
+- [[如实所现]]

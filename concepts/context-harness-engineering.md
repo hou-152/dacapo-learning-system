@@ -49,3 +49,11 @@ tags:
 ```bash
 dacapo-wiki context "context-harness-engineering"
 ```
+
+## 相关概念
+
+- [[如实所现]]
+- [[把自己当产品卖出去]]
+- [[熵增]]
+- [[开放知识格式-OKF]]
+- [[AI工作流控制权迁移]]

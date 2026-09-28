@@ -21,3 +21,11 @@ harness 的第三类组件，周期性运行的 agent，专找文档不一致与
 ## 出现文章
 
 - [[01-Martin-Fowler-harness-engineering]]
+
+## 相关概念
+
+- [[熵与腐化]]
+- [[架构约束的确定性执行]]
+- [[功能与行为验证的缺口]]
+- [[拓扑作为新抽象层]]
+- [[context-engineering]]
