@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "274423b44f3839cf",
+        "id": "6c310224b545946c",
         "type": "tabs",
         "children": [
           {
-            "id": "73ea41cc6c6bc017",
+            "id": "ce652a202e7ae0f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11-研究与验收/Jev打标-历史反馈-2026-09-23/jev-label-report.md",
+                "file": "courses/Agentic Engineering 工作流/主页.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "jev-label-report"
+              "title": "主页"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-研究与验收/Jev打标-历史反馈-2026-09-23/jev-label-report.md",
+                "file": "courses/Agentic Engineering 工作流/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-研究与验收/Jev打标-历史反馈-2026-09-23/jev-label-report.md",
+                "file": "courses/Agentic Engineering 工作流/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-研究与验收/Jev打标-历史反馈-2026-09-23/jev-label-report.md",
+                "file": "courses/Agentic Engineering 工作流/主页.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,8 +188,27 @@
       "bases:新建数据库": false
     }
   },
-  "active": "73ea41cc6c6bc017",
+  "active": "ce652a202e7ae0f7",
   "lastOpenFiles": [
+    "courses/牌一直在你手里/主页.md",
+    "courses/ABB机器人应用编程考证-理论知识题库/主页.md",
+    "courses/四级大冲刺/主页.md",
+    "courses/实体行业 AI 落地与 To B 视频素材/主页.md",
+    "courses/让-learning-skill-跨模型真正好用--846d6f1d/主页.md",
+    "courses/ai时代人的控制权边界--14313cd2/主页.md",
+    "courses/LLM Wiki 方法论/主页.md",
+    "courses/钱势金生/主页.md",
+    "courses/AI工作流控制权迁移/主页.md",
+    "courses/社会学七书共读/主页.md",
+    "02-课程真源/Agentic Engineering 工作流/01.md",
+    "CLEANUP-EXECUTION-PLAN.md",
+    "DUPLICATE-COURSES-ANALYSIS.md",
+    "CLEANUP-AUDIT-FULL.md",
+    "courses/Agentic Engineering 工作流/主页.md",
+    "02-课程真源/Agentic Engineering 工作流",
+    "courses/AI 时代更重要的三种技能/assets/260924-选材/文章原文/10-IEEE Spectrum：AI 时代更重要的三种技能.md",
+    "courses/和 agent 一起做规划/assets/反馈上下文/lw_77d5343630acbd6e1e6e5e9e.md",
+    "MIGRATION-PURITY-THEORY.md",
     "11-研究与验收/Jev打标-历史反馈-2026-09-23/jev-label-report.md",
     "11-研究与验收/Jev打标-历史反馈-2026-09-23",
     "11-研究与验收",
@@ -205,28 +224,9 @@
     "02-课程真源",
     "01-交互式学习/02-课程真源/和 agent 一起做规划/assets/疑问/W-0921-6.md",
     "01-交互式学习/02-课程真源/和 agent 一起做规划/assets/疑问",
-    "01-交互式学习/02-课程真源/和 agent 一起做规划/assets",
     "concepts/dontbesilent-商业方法论.md",
     "concepts/Agentic-Engineering-工作流.md",
-    "concepts/自迭代小龙虾与自迭代Skill.md",
-    "concepts/ABB机器人应用编程考证-理论知识题库-2.md",
-    "concepts/最小可用软件闭环.md",
-    "concepts/斯多葛生活哲学.md",
-    "concepts/实体行业-AI-落地与-To-B-视频素材.md",
-    "concepts/熵增.md",
-    "concepts/从知识生产到IP定位.md",
-    "concepts/把-AI-从窗口变成系统.md",
-    "concepts/2026气运-1.md",
-    "concepts/四级大冲刺.md",
-    "CONCEPT-MINING-MVP-REPORT.md",
-    "CONCEPT-LINKING-RESEARCH.md",
-    "CONCEPT-COMPOUNDING-REPORT.md",
-    "courses/个人学习工作台实践/02.md",
-    "CONCEPT-GRAPH.md",
-    "CONCEPT-MINING-RESEARCH.md",
-    "courses/个人学习工作台实践/00-学习计划.md",
     "courses/和 agent 一起做规划/学习画布.canvas",
-    "CLEANUP-PLAN.md",
     "courses/拜物教/学习画布.canvas",
     "courses/自迭代小龙虾与自迭代Skill/学习画布.canvas",
     "courses/牌一直在你手里/assets/source/OEBPS/images/spot44.svg",
