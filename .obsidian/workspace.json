@@ -11,10 +11,14 @@
             "id": "73ea41cc6c6bc017",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "courses/个人学习工作台实践/02.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02"
             }
           }
         ]
@@ -95,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "courses/个人学习工作台实践/02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "courses/个人学习工作台实践/02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -155,6 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "courses/个人学习工作台实践/02.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -181,8 +188,15 @@
       "bases:新建数据库": false
     }
   },
-  "active": "73ea41cc6c6bc017",
+  "active": "b8d085133a08904c",
   "lastOpenFiles": [
+    "CONCEPT-GRAPH.md",
+    "scripts/generate_concept_graph.py",
+    "05-证据原子",
+    "04-用户原话与费曼",
+    "CONCEPT-MINING-RESEARCH.md",
+    "courses/个人学习工作台实践/00-学习计划.md",
+    "courses/和 agent 一起做规划/学习画布.canvas",
     "CLEANUP-PLAN.md",
     "WIKILINK-FIX-REPORT.md",
     "MIGRATION-PLAN.md",
@@ -205,22 +219,15 @@
     "UNIFIED-MANAGEMENT-REPORT.md",
     "UNIFIED-MANAGEMENT-REPORT.md.tmp.82480.73d08c8b25ee",
     "courses/拜物教/学习画布.canvas",
-    "courses/和 agent 一起做规划/学习画布.canvas",
     "concepts/钱势金生.md",
     "concepts/迷失在中间-语言模型如何使用长上下文.md",
     "concepts/这世界既残酷也温柔.md",
     "concepts/认识自己-ENTP与天赋挖掘.md",
     "concepts/自迭代小龙虾与自迭代Skill.md",
     "concepts/社会学基本概念.md",
-    "concepts/社会学七书共读.md",
-    "concepts/知识库.md",
-    "concepts/牌一直在你手里.md",
     "scripts/extract_course_concepts.py",
     "scripts/provenance.py",
     "scripts/backend.py",
-    "scripts/test_provenance.py",
-    "scripts/test_backend.py",
-    "scripts/build_legacy_response_candidates.py",
     "courses/自迭代小龙虾与自迭代Skill/学习画布.canvas",
     "courses/牌一直在你手里/assets/source/OEBPS/images/spot44.svg",
     "courses/牌一直在你手里/assets/source/OEBPS/images/spot42.svg",

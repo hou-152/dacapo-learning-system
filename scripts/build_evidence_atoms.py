@@ -14,10 +14,10 @@ from extract_marked_user_responses import _validate_response_attribution
 SCRIPT_PATH = Path(__file__).resolve()
 LEARNING_ROOT = SCRIPT_PATH.parents[1]
 import sys
-sys.path.insert(0, str(LEARNING_ROOT / "08-脚本与工具/learning-workbench"))
-import provenance as workbench_provenance
+# sys.path.insert(0, str(LEARNING_ROOT / "08-脚本与工具/learning-workbench"))
+# import provenance as workbench_provenance
 PROJECT_ROOT = LEARNING_ROOT.parent
-INPUT_PATH = LEARNING_ROOT / "04-用户原话与费曼" / "user-utterances.jsonl"
+INPUT_PATH = LEARNING_ROOT / "user-feedback" / "user-utterances.jsonl"
 SNAPSHOT_ROOT = (
     LEARNING_ROOT
     / "01-原始素材区"
@@ -28,8 +28,8 @@ SNAPSHOT_ROOT = (
 INCREMENTAL_SNAPSHOT_ROOT = (
     LEARNING_ROOT / "01-原始素材区" / "增量摄取" / "课程修订"
 )
-CANONICAL_ROOT = LEARNING_ROOT / "02-课程真源"
-OUTPUT_ROOT = LEARNING_ROOT / "05-证据原子"
+CANONICAL_ROOT = LEARNING_ROOT / "courses"
+OUTPUT_ROOT = LEARNING_ROOT / "evidence-atoms"
 OUTPUT_PATH = OUTPUT_ROOT / "evidence-atoms.jsonl"
 FEYNMAN_PATH = OUTPUT_ROOT / "feynman-evidence-atoms.jsonl"
 INDEX_PATH = OUTPUT_ROOT / "证据原子索引.md"
