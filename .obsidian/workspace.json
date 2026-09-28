@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CONCEPT-MINING-MVP-REPORT.md",
+                "file": "courses/知识库/04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CONCEPT-MINING-MVP-REPORT"
+              "title": "04"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CONCEPT-MINING-MVP-REPORT.md",
+                "file": "courses/知识库/04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CONCEPT-MINING-MVP-REPORT.md",
+                "file": "courses/知识库/04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CONCEPT-MINING-MVP-REPORT.md",
+                "file": "courses/知识库/04.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,44 +190,44 @@
   },
   "active": "73ea41cc6c6bc017",
   "lastOpenFiles": [
+    "scripts/clear_concept_links.py",
+    "CONCEPT-LINK-AUDIT.md",
+    "scripts/audit_concept_links.py",
+    "scripts/fix_chapter_links.py",
+    "courses/梁文锋投资者交流会的战略与技术判断/主页.md",
+    "02-课程真源/梁文锋投资者交流会的战略与技术判断/01.md",
+    "02-课程真源/梁文锋投资者交流会的战略与技术判断",
+    "02-课程真源",
+    "01-交互式学习/02-课程真源/和 agent 一起做规划/assets/疑问/W-0921-6.md",
+    "01-交互式学习/02-课程真源/和 agent 一起做规划/assets/疑问",
+    "01-交互式学习/02-课程真源/和 agent 一起做规划/assets",
+    "01-交互式学习/02-课程真源/和 agent 一起做规划",
+    "01-交互式学习/02-课程真源",
+    "01-交互式学习",
+    "concepts/dontbesilent-商业方法论.md",
+    "concepts/Agentic-Engineering-工作流.md",
+    "concepts/自迭代小龙虾与自迭代Skill.md",
+    "concepts/ABB机器人应用编程考证-理论知识题库-2.md",
+    "concepts/最小可用软件闭环.md",
+    "concepts/斯多葛生活哲学.md",
+    "concepts/实体行业-AI-落地与-To-B-视频素材.md",
+    "concepts/熵增.md",
+    "concepts/从知识生产到IP定位.md",
+    "concepts/把-AI-从窗口变成系统.md",
+    "concepts/2026气运-1.md",
+    "concepts/四级大冲刺.md",
+    "CONCEPT-MINING-MVP-REPORT.md",
     "CONCEPT-LINKING-RESEARCH.md",
     "scripts/add_concept_links.py",
     "CONCEPT-COMPOUNDING-REPORT.md",
     "courses/个人学习工作台实践/02.md",
-    "CONCEPT-MINING-MVP-REPORT.md",
     "CONCEPT-GRAPH.md",
-    "scripts/generate_concept_graph.py",
-    "05-证据原子",
-    "04-用户原话与费曼",
     "CONCEPT-MINING-RESEARCH.md",
     "courses/个人学习工作台实践/00-学习计划.md",
     "courses/和 agent 一起做规划/学习画布.canvas",
     "CLEANUP-PLAN.md",
     "WIKILINK-FIX-REPORT.md",
-    "MIGRATION-PLAN.md",
-    "落地案例描述-简化版.md",
-    "落地案例描述.md",
-    "courses/让-learning-skill-跨模型真正好用--846d6f1d/05.md",
-    "concepts/让-learning-skill-跨模型真正好用--846d6f1d.md",
-    "03-知识入口与概念/把 AI 从窗口变成系统.md",
-    "courses/Agentic Engineering 工作流/主页.md",
-    "03-知识入口与概念",
-    "02-课程真源/Agentic Engineering 工作流/01.md",
-    "02-课程真源/Agentic Engineering 工作流",
-    "02-课程真源",
-    "concepts/如实所现-重学-2026-07-15.md",
-    "concepts/ai-友好度作为选型标准.md",
-    "concepts/拜物教.md",
-    "concepts/把-AI-从窗口变成系统.md",
-    "concepts/2026气运-1.md",
-    "courses/pages/第一性原理.md",
-    "UNIFIED-MANAGEMENT-REPORT.md",
-    "UNIFIED-MANAGEMENT-REPORT.md.tmp.82480.73d08c8b25ee",
     "courses/拜物教/学习画布.canvas",
-    "concepts/钱势金生.md",
-    "concepts/迷失在中间-语言模型如何使用长上下文.md",
-    "scripts/extract_course_concepts.py",
-    "scripts/provenance.py",
     "courses/自迭代小龙虾与自迭代Skill/学习画布.canvas",
     "courses/牌一直在你手里/assets/source/OEBPS/images/spot44.svg",
     "courses/牌一直在你手里/assets/source/OEBPS/images/spot42.svg",

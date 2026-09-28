@@ -21,11 +21,3 @@ firstAppearance: "[[01-Martin-Fowler-harness-engineering]]"
 ## 出现文章
 
 - [[01-Martin-Fowler-harness-engineering]]
-
-## 相关概念
-
-- [[垃圾回收型-agent]]
-- [[架构约束的确定性执行]]
-- [[熵与腐化]]
-- [[context-engineering]]
-- [[卡住即信号]]

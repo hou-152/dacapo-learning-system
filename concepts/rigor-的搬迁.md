@@ -21,11 +21,3 @@ firstAppearance: "[[01-Martin-Fowler-harness-engineering]]"
 ## 出现文章
 
 - [[01-Martin-Fowler-harness-engineering]]
-
-## 相关概念
-
-- [[功能与行为验证的缺口]]
-- [[无手打代码]]
-- [[垃圾回收型-agent]]
-- [[拓扑作为新抽象层]]
-- [[卡住即信号]]

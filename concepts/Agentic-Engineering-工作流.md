@@ -61,11 +61,3 @@ tags:
 ```bash
 dacapo-wiki context "Agentic Engineering 工作流"
 ```
-
-## 相关概念
-
-- [[AI工作流控制权迁移]]
-- [[如实所现]]
-- [[把自己当产品卖出去]]
-- [[熵增]]
-- [[把-AI-从窗口变成系统]]
