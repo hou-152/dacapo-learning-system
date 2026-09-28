@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-29T19:48:27.890327+00:00",
+  "course_dir": "/Users/housibo/Documents/DaCapo 内容资产/01-交互式学习/02-课程真源/2026气运+1",
+  "plan": "/Users/housibo/Documents/DaCapo 内容资产/01-交互式学习/02-课程真源/2026气运+1/00-学习计划.md",
+  "plan_sha256": "7e1846565a69ac0c75040eefe9cce81463509c359ed5e457f53e257e92b97c62",
+  "installed_skill": "/Users/housibo/.agents/skills/dbs-learning/SKILL.md",
+  "installed_skill_realpath": "/Users/housibo/Documents/DaCapo 内容资产/01-交互式学习/09-Skills/dbs-learning/SKILL.md",
+  "canonical_skill_realpath": "/Users/housibo/Documents/DaCapo 内容资产/01-交互式学习/09-Skills/dbs-learning/SKILL.md",
+  "skill_realpath_aligned": true,
+  "checks": [
+    {
+      "relative_path": "assets/直播文稿人物词典与清洗-20260830/README.md",
+      "listed_in_plan": true,
+      "resolver_ok": true,
+      "selected_path": "/Users/housibo/Documents/DaCapo 内容资产/01-交互式学习/02-课程真源/2026气运+1/assets/直播文稿人物词典与清洗-20260830/README.md",
+      "sha256": "699e3bbd9097de9c373e6f791b898506b062a1e787521fd5debe461c2cc44fe4"
+    },
+    {
+      "relative_path": "assets/直播文稿人物词典与清洗-20260830/profile/人物背景与表达画像.md",
+      "listed_in_plan": true,
+      "resolver_ok": true,
+      "selected_path": "/Users/housibo/Documents/DaCapo 内容资产/01-交互式学习/02-课程真源/2026气运+1/assets/直播文稿人物词典与清洗-20260830/profile/人物背景与表达画像.md",
+      "sha256": "81fa3d54bffb4b149b17e86d3ae0f8d4e201fec631664ce906f8518c8a1e0514"
+    },
+    {
+      "relative_path": "assets/直播文稿人物词典与清洗-20260830/dictionary/常用词与口头禅.md",
+      "listed_in_plan": true,
+      "resolver_ok": true,
+      "selected_path": "/Users/housibo/Documents/DaCapo 内容资产/01-交互式学习/02-课程真源/2026气运+1/assets/直播文稿人物词典与清洗-20260830/dictionary/常用词与口头禅.md",
+      "sha256": "bd4571f3e6ca3b86e69eea4e2443db18563b633004bd3d4deeca509f16ae7c96"
+    },
+    {
+      "relative_path": "assets/直播文稿人物词典与清洗-20260830/dictionary/typeless-like-dictionary.json",
+      "listed_in_plan": true,
+      "resolver_ok": true,
+      "selected_path": "/Users/housibo/Documents/DaCapo 内容资产/01-交互式学习/02-课程真源/2026气运+1/assets/直播文稿人物词典与清洗-20260830/dictionary/typeless-like-dictionary.json",
+      "sha256": "f36027814589392052f4a415e575b54e2e15428cb403286010700439119887c4"
+    },
+    {
+      "relative_path": "assets/直播文稿人物词典与清洗-20260830/audit/ADVERSARIAL-AUDIT.md",
+      "listed_in_plan": true,
+      "resolver_ok": true,
+      "selected_path": "/Users/housibo/Documents/DaCapo 内容资产/01-交互式学习/02-课程真源/2026气运+1/assets/直播文稿人物词典与清洗-20260830/audit/ADVERSARIAL-AUDIT.md",
+      "sha256": "019c2ea65619b4c3e7b3e0919d2fa2c309b9c28b2c694619d41305722590b444"
+    }
+  ],
+  "all_plan_entries_present": true,
+  "all_resolver_checks_readable": true,
+  "raw_document_count": 32,
+  "clean_document_count": 32,
+  "raw_clean_filename_bijection": true
+}

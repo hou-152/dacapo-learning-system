@@ -1,0 +1,365 @@
+
+388501eb8bc75419457355b3bacbf482_raw_原文
+2026年08月08日 10:44
+发言人   00:00
+We can go ahead, will get started. The session is being recorded to you guys, can all watch IT afterwards. And also, anyone who helps in late can catch up as well.
+
+发言人   00:10
+My name is mona. You guys all have probably received many emails for me. IM our community lead here at GP.
+
+发言人   00:18
+zero. We're very excited for this series. And with that, I am going to pass that off to our lovely moderator, Shawn. Thank you on um good morning, good afternoon and and good evening uh where are you happen to be in the world?
+
+发言人   00:36
+Roma moras um the acting had Petered gy for GPT zero and facilitator for today's officers um this hour is part of a series taking place this week and next as part of GPT zeroes teaching responsibly with AS certificate program. GPT zero is hosting the certificate program in order to build awareness and skills among teachers about the responsibility ble UVI at all level of teaching learning in keeping with the mission of preserving with human education. The focus here is on your work and in new york classroom.
+
+发言人   01:09
+During today's revenue, nize will be asking um will be talking for what AI detection is, how IT works um and how can support teaching both teaching and learning detection results often get used to make decisions about students. So it's important than anyone making those decisions know what the number underneath them means, but the mayor may not reveal and how to see the difference between a signal and a verdict. As we get started, please do feel free to introduce yourself in the chat and to use that space to connect with each other.
+
+发言人   01:42
+If you have questions for our speaker, please use the QNA function in zoom to post them on. If you put them in the chat, they might not be seen because we do have quite a few people here. So the QNA functions is probably the best way is to keep questions organized and to answers when he is possible um and also his mother said we will be sharing the recording of three years later in the week so our speaker today is alex adam.
+
+发言人   02:07
+Alex is the head of machine learning a GPT zero where he leads model development for AI detection and beyond. He joined the team shortly after completing his PHD in computer science at the university of toronto, focusing on high stakes decision making systems with the background and graduate teaching lecturing. Alex is naturally drawn to the add tax space, rigged the gap between cutting edge AI and education.
+
+发言人   02:31
+So with that, please welcome alex to the stage alex to floris yours. So thanks for the answer tion。Uh and just a quick screen check check so I don't enough talking about, uh, a blank patch.
+
+发言人   02:50
+I'll take us as as a yes, but yes, so welcome. Everyone is a privilege to be with you all today. I'm excited to be presenting on how detection works, a GPT zero as well as why is possible and why will continue to be possible.
+
+发言人   03:09
+This is a quick road map. Uh, we're gonna talk about how alams right wide detections possible and then do some light demos. I have a lot of interactive visualization set up since there are a bit more intuitive than just kind of looking at static tics on slides. So i'm going to be searching between the slides and these demons that may be a bit clunky at times, but please a bear west me.
+
+发言人   03:33
+So i'm sure you're all familiar with these kinds of stats about AI usage, but i'd like to briefly cover them because they are quite impactful when that stands out quite a bit is that eighty four percent of high school students report using generated vi for their school work. On the flip side, that out of his concert shows that just one in three schools have a formal policy around the usage. So IT could be quite Operate to have conversations about suspected AI usage without having the other things for IT.
+
+发言人   04:04
+Obviously, we'd like to avoid both false accusations and being totally an air. We are usage. I'm going to go with the tools igbt your provides said to be the confidence, uh, in assessing the origin of a document.
+
+发言人   04:20
+The first one key thing to know about large language models is that the right one taken at a time. So given some contacts, say a prompt, they assign probabilities to a massive vocabulary and then sample the most likely continuation to us, them that he ter. And every choice being made along the way is a statistical choice. And really, choice leaves behind a fingerprints. And the some of these fingerprints, as one our detector is based off of.
+
+发言人   05:02
+OK so in order for an allem to understand what should come next at the sequence of words, IT needs to know what to pay attention to previously. And this attention is learned during the training of an all time now, practically speaking, and means that first sentence, like this one, the word IT initially pays uniform attention to all other words, but once training is complete, the primary attends a dog and ball, with a bigger focus on ball, in this case, is the actual pronto that IT refers to.
+
+发言人   05:35
+Do we base our detectors architecture on the same kind of attention mechanism that way we end up reading in text the same way that other limbs generated? Now document can be consider to be just the sequence of words or tokens. Now then about to show this stamp when all arms are initially trained, they just click here.
+
+发言人   06:06
+There's no structure between the words, but as an I am learns in places related words closer together and unretire ated words further apart, resulting in this classic example where king minus men, uh, are king minus man plus woman, uh, is ego equal to queen. So you can do this kind of very intuitive thematic between words that to what makes sense. Now, in some cases, we know what an AI document looks like, right? So that predictable phrasing that most vital don't typically use the uniform rythm and the generic structure sometimes just screams out AID usage.
+
+发言人   06:49
+Obviously, each pattern on its own doesn't mean much, but when taken to together, along with many others, a strong signal separating from, sorry, separating human from AI text. Still, I think one question remains to be answered, which is if all lambs are trained to mimic human writing um why are they still identifiable um so the initial phase about and training typically referred to his preach training results in a knowledgeable model capable of guessing the next word in a sequence. But beyond that, that model isn't really useful.
+
+发言人   07:29
+In fact, if you to give an instruction as such a model, IT might go totally off the rails and eventually even generate jewish. I see messages popping up in the chance of, uh, so feel free to draw my attention to them if necessary. So IT was continuing to make alms actually useful.
+
+发言人   07:51
+All models and go ChatGPT, germania and so on. And open source ones undergo this process called post training. So that's where they're fed in these prompt response payers that are trained to generate the response that humans tend to prefer to this alignment and then constrain the outline style diversity.
+
+发言人   08:12
+As a result, as long as all lambs need to be able to actually be useful, they're going to be attacked. This demo here is going to show you what I mean. So imagine you have a problem, like, write me an opening line about the causes of world, or one, a retrained base.
+
+发言人   08:30
+Alarms are not exactly what you would encounter on ChatGPT, for example, would show you some of the following. So simple. And you'll notice that a lot of these talks can be from the first person perspective.
+
+发言人   08:47
+This was a bit more alisa al. This one seems a bit more formal. This one could just be a social media post, somebody making a the silk comment and so on. You can see that the spread of style as you sample more and more in tax is quite diverse. However, you have very little control over this. And if you to extend this problem and say, make IT form will make IT five hundred words are part of like a great ten in our history class if IT really wouldn't uh comply with those instructions. Now post train outline, on the other hand, ends up sapling text that we were all kind of familiar with the structure of so was just this pretty open ended um instruction is very formal IT rights in these sort of groups of trees and force, uh, just like exhibiting a lot of very obvious troops and IT ends up in this very narrow band style c league. So because of this, uh, you're able to really Carry out the space out of all possible tax, which is dedicated to all alumni.
+
+发言人   10:09
+Of course, the landscape of usage as expanded significantly and tragedies release um users have their own custom workload. Some asking allah s to generate a specific paragraph for a document that's largely in their own, others asking for a rough draft to be polished uh and others still taking a fully I generated output and running IT through a life faster to avoid detection.
+
+发言人   10:37
+And that's why we have put five different labels uh, covering the entire spectrum from entirely uh human written to entirely generated. We emphasize this level of granted because these scenarios represent different amounts of effort and intention. Our belief is that students shouldn't be punished for minor edits when the bulk of their work and the ideas for the role.
+
+发言人   11:06
+So to empathize the difference between polishing um and generating AA mini show, this demo images change to that very quickly. So this shows how the similarity with respective and original human document differs right? Well let me play real quite.
+
+发言人   11:28
+Here we go. So the gold spends represent phrases that are not present in the human document. And when polishing, a significant amount of the human tax is actually retained, right when generating being from scratch. You know with the prompt the longer light enerve you know write me and I say on this topic and this turn that's this long the majority of the phrase that is argento um so when our detector seize this data during training, IT learns that the statistical patterns associated with polishing or different than those associated with generating from scratch. And this makes IT possible to provide users of the high level of granular.
+
+发言人   12:15
+It's speaking of our detector. There's basically two ways at a high level to develop an detector. So the first one is metric based. And this detector is typically rely on the metric like perplexity, which basically measures how likely a given tax is to have been generated by at all.
+
+发言人   12:34
+Lam, if you remember my earlier slide, I presented where the model is predicting the probability the next token at a one token at a time. It's really the same concept. But instead of generating text, we're just running an existing text through a proxy to see how predictable IT is according to that all. Now the advantage of this kind approach is that is simple and fast build. Since there is nothing actually trained, you can take in off the shelf open source alm like lama drama and so on.
+
+发言人   13:12
+And you just have to have a threshold for how predictable something can be um and of that threshold maybe it's say, I beloved IT, the Carry out with this though is that IT confuses predictable with AI generated and that can lead to some pretty embarrassing errors, right? For example, they might end predicting that the U. S. Constitution, as I generated.
+
+发言人   13:39
+Um our approach though instead realize on super bise deep learning to with superbike because we have a data set of tax each with an associated label and that label is a supervision signal deep learning because that's a bright term that modern neil networks falls under and namely we use this transformer architecture so the transformers is the underpinning of all alarms. Uh and by sharing the structure, our detector has the added benefit of um having some building knowledge about language that in our lamp has. So if you go back to those embedding, I show were initially all of the wording bettins were kind of scanned all over the place.
+
+发言人   14:19
+That's not how detector starts off and actually starts off from this place where I kind of know was that you know there's AA group related to royalty and technology and in all these different concepts. So that gives having that right knowledge, gives you the benefits of a metric based approach, uh, without having this rigidity of having to call predictable tax ai. And additionally, this approach allows us to retrain quickly uh, as new islams are released but will never that it's pretty rare for new alarm to be significantly less attack table than a pretty ous generation uh, to the point that retraining is even necessary.
+
+发言人   15:04
+One of the children know with metric basic coaches like perplexity, for example, is that they are fragile. So if you had a couple of types they had thrown off entirely um and obviously outlander capable making types if instructed to do so. And humans can easily have them men post talk.
+
+发言人   15:24
+That lack of robustness is a really undesirable property there. okay. So on a high level architect or is built by following these steps. So first, we Carry a large training side of million tax, covering a variety of topics and domains on the human side. And the course funding AI tacks are generated using many different prompts and allies.
+
+发言人   15:52
+Our models then fed these examples during training and once it's trained, we calibrated to achieve the uh the trade after we prefer, namely having hedman or an unshared bias and ambiguous cases. And then lastly, we perform held out evaluation on a separate set of millions of tax uh to make sure that our model actually generalize as well and that doesn't have any biases. Okay, so we had to look at the word embedding previously with the king and queen example.
+
+发言人   16:26
+But to get a representation of an entire document, you can just take the average of the word embedding in the document. So we switched to another demo, real cake. Where does so here were basically looking at the embeddable of entire documents survive.
+
+发言人   16:47
+No one sect can not be just press play a quick guys through this. So I first, my model doesn't really know how to draw the boundaries between the human and a attacks. But during the course of training, after seeing millions of tax IT, is just this decision bound with until there is a cleared AI region and a clear human region. Now, I think this is like a bit abstract, and as a two DL stricture of what actually happens in hundreds of dimensions. And in those dimensions, each of them capture something about the document that's useful in making the human versus AI judgement.
+
+发言人   17:31
+So in our dosh board or in our crime extension, you're going to see probabilities everywhere are. And you can think of these probabilities as follows.
+
+发言人   17:42
+If we predict that a document is eighty percent likely to be human IT means that roughly in our training data eight out of ten of the nearest tax um in that ebel ding space I shot on the previous slide are human IT doesn't mean that eighty percent of the content in the document is uh is human generated for example. Um but I would say that this is a simplification, but I think it's helpful and conceptualizing what these numbers mean. So if you see a score like ninety nine percent uh probability of AI or nine nine percent probability of human, it's time.
+
+发言人   18:21
+But there is still a one in one hundred chance that the document still belongs to the opposite class. And this is where in a sensitive domain like education, having a conversation with the student is important. And the score should really just be a piece of supporting evidence, rather than the score itself having the final say.
+
+发言人   18:42
+okay. So here's a demo um or switch to IT and just a moment. So in this demo i'm gonna what happens roughly to the document when is run through out a tactless we fly this goes a bit so the heart so we first split up into sentences.
+
+发言人   19:06
+We run them through the transformer backbone that I was talking to about that essentially shares the same structure as all arms um and then we have two output heads. So there is a document level head in a sentence level head. And the sentence head is what allows us to point to which sentences in in the document are human and which are and that's very useful. These mixed ed documents we have into living of the two and IT also serves to make sure that the models paying attention uh to the entire document when making a decision so is not too focus on just one region and the document head just makes an overall determination about the sort of some um of the content in the document.
+
+发言人   19:57
+When are beyond being a reactive to all the release. We're also proactive about the business of architecture on both the human side in the eye side. So this final uh illustration will show the process we go through a discovering issues with our model, which we then validate effects.
+
+发言人   20:17
+So both in an automated way uh and manually we propose various edits to tax, which we believe should preserve the class. So i'm editing an AI tax I make, but II still believe I should fall under the air category like was the same for human uh, we come up with a bunch of these. We measure the impact on the model.
+
+发言人   20:41
+So that's this sort of attack step. So here still caught me in that, okay, this is probably okay. And then slip through for the sentence, a shufu orders.
+
+发言人   20:50
+So maybe somebody shuffles the sentence in a document. Um we might predict IT as a different class um and then obviously types um and that kind of think so maybe types causes to predit opposite class. We see that. And for all these sort of attack surfaces, IT doesn't need to be adversary in any way. I could just be luck over business, within training, against ad, and we make sure that her model is robust at the next dedication.
+
+发言人   21:30
+Now a key detail of our detector works is the concept of window. So like our lambs, which have a limited context length, as does our detector, and as a result, lung documents need to be split up into windows, which are then each individually scant, so the results from each can, each window, are aggregated into a single prediction for the entire document.
+
+发言人   21:56
+Now one thing to notice that these trunks are not explicit, marked in our dashboard and less using the feature called uh XL dogs, which i'll be damning shortly, but still the behind the scenes chunking explains why if you scan a document would say two paragraphs together, rather than scanning each of those paragraph s individually, you may see different results. And it's because the context that our model has access to differs, and this is actually expected behavior. Okay, now for the fun parts.
+
+发言人   22:31
+So why don't we go ahead and get some real documents? So switch to our website or quick, i'll pick the ChatGPT example, will do some life generations and so on after. But I just bear with me here for some of these presents.
+
+发言人   23:00
+Okay, so you'll notice me switch the basic scan view with lowers. So you'll notice that this is a fully air generated document as indicated by the one or two percent AI probably in here um and also the sentence level highlighting everything is orange. We use that to indicate AI but you also see in this particular scan now we have some grey highlighting and this is the ninth gate content that our model doesn't consider as part of the AI score.
+
+发言人   23:30
+So i'm not sure you will show um the toll tip that appears here, but when I have on this IT says not included in AI score. Now this is a recently release feature which applies is only to harder for now, but we're expanding IT to apply to things like front matter. Uh, you are wells, bibiaine, pes and so on, to with the first AI detector to take a ands on what matters and what can be reliably designed as AI IT makes no difference really, if I write, you know, environment impact or impact on the environment, or if an alone does that, for me, a head is just a tribute thing to have a proper place.
+
+发言人   24:16
+So moving on, if I go to the advances scant tab, you'll see that of the orange highlighting indicating AI. In this document, there are different shades of orange. So this is a separate signal that indicates how important this sentence is to our model in making the determination about the tax.
+
+发言人   24:37
+And it's actually complimentary to the sentence level probabilities. So you can think of the previous view, which was basic scan. Um you can think of that highlighting as indicating whether not a sentence is AI obviously, if it's a chat PT outbound because IT they're all AI in advance can is indicating the degree to which the senate matter start detector.
+
+发言人   25:01
+So how much does that impact its final decision? You'll also noticed in this advance can tab, but there's a sub tab called AI vote cab and this list of phrases in our document that tend to occur more frequently um you know NAI documents compared to human ones. So I click on the first phrase.
+
+发言人   25:24
+And says that, okay, when we see this phrase in our document did is said that happens thirteen point nine times more often on the air side and on the human side. Writers also get a suggestion for how they could rephrase this. And I want to note that this is not a means to humanize a document by any stretch, uh, because our model looks as much deeper features than just surface level vocabulary.
+
+发言人   25:49
+Uh, instead, IT just lets the writer know that this phrase could sound to somebody else like AI. So here's something you might want replace that with. Okay, now let's go to the mixed example quickly.
+
+发言人   26:05
+okay. So for this mixed example, we basically have a contamination of two paragraphs. The first is AI and that highlighted is orange. The second want to see him in and that highlighted is Green. And again, looking at the advanced get up, you have the different shades.
+
+发言人   26:25
+So you kind of know that can maybe this analyst second or third addition here is not quite as important to our model, but definitely the first one. And this last one is definitely trigger ant the overall prediction, and one more. Before we go into AA last present, a last scripted demo, I want to show the polished example.
+
+发言人   26:51
+So in the basic game for polish, right, this was we arrived at this tax by taking a human text asking in alam to polish IT and our model predict t IT with this label called I polish and IT indicates a we're confident that this is a human write text. Then it's been polished with the eye. And then you see that the highlighting here is a bit different.
+
+发言人   27:13
+So as a kind of yellow Green indicating some combination uh of human NA, I says not either or it's AA sort of enjoy IT effort. okay. So now for the fun part um and of a recent box office uh successful movies, I want to copy a snap um from the book osi then show your exile dogs view which is helpful for dealing with longer documents. Will we just be that here?
+
+发言人   27:55
+I'll turn that down a little bit. So IT doesn't take too long to can not to be good. So baby scandals, that will be good.
+
+发言人   28:22
+Where you go. So going to the basic santos, can we see that overall, this is one hundred percent human makes sense. IT was a book a long time ago um but if we look page by page, you see how our model tends to chunk this up into pages, right? So we scan this tax at a time and then this tax and then this tax.
+
+发言人   28:50
+And I think that for a long documents in general, gist makes sense to do this page wise because somebody could upload an arbitrarily large P, D, F, and IT becomes less and less meaningful photo sign a single score to something that, say, a thousand pages. We definitely to look at IT page wise. Okay, now why don't we go ahead and do the AI side of this? So I have this prompt.
+
+发言人   29:19
+H entered in charge. B, T, in a work report on the auto sy. Don't use both the points to district prose and also a little humanizing instruction as well. and. Let's give this just a second.
+
+发言人   29:50
+And maybe a thousand years still long next time or do five hundreds. Ah okay, i'll copy the same now. so.
+
+发言人   30:03
+We see that, but we this is one hundred percent then I generated with just computed from chat PT. Uh, that make sense. If we go to the advances gan tap though, I might still have some segments which are highlighted Green.
+
+发言人   30:20
+And the way you can think about this is that there is essentially a tug of war between the different sections of the document. Some, not all them exhibit like this a very strong AI troops, right? Uh, but overall, obviously we end up predicting that with one hundred percent confidence.
+
+发言人   30:40
+This is AI but there still might be some sections which are model things, leads towards the human side but still ends up highlighting as AI generated according to basic can though um it's sort of shows you the internal thinking process of our model and how IT uh thinks that the sentences within a document relate to each other and how they impact each other. Just like the mouse here. A moment.
+
+发言人   31:17
+okay. So going back um I showed our advanced highlighting, but I didn't really get into how that works behind the scenes. So at the end of the day, it's also based on attention and instead of computing the I score of a sentence, which is what the sentence level had already does, advance can measures how much attention or model paced to a given sentence when determining if the entire document is AI.
+
+发言人   31:48
+So like I said, it's possible for sentences to have uh sorry, for sentences which have an AI designation uh in the context stuff of surrounding document is possible for them to have a little bit of Green highlighting, indicating that the presence makes our model think um that they're contributing to the human spectrum of a prediction. What's also really useful about advancing is that you could be used as an indication of whether or not a prediction is stable. So you can imagine that if in a document just a single sentence is highlighted very dark orange, and if you take that sentence out, if flips the prediction from AI to human ah, then there's something peculiar about the sentence that triggers are detector.
+
+发言人   32:34
+And then as a teacher, you can take this as an indication that the predictions should be relied upon a bit less than usual, even if the prediction is made with high probability. So IT IT really gives you an actual chance to understand, okay, how much can we actually trust prediction? And like really a uniform everywhere orange, most likely this is like AI generated.
+
+发言人   33:05
+So the question we sometimes get from teachers s is how can I be absolutely sure that a document was that I generated? Um what answer appears that there is no absolute certaine machine learning. These are systems based on statistics cal patterns.
+
+发言人   33:20
+But still we prefer to give teachers is an extra tool to have a more certainty about the warrant of the document. So namely, a crime extension can be used to track that the typing process itself. So let's have a look at this right now. I have a blank google dog here. Then you can see on the right hand side, this is our core exemption. You can do uh all kinds of other things of that you can change with and so um and if I start typing, assuming I have the writing we play, uh that your feature turned on, uh, i'm gonna show to you what this looks like so many people today. Here is a document about time.
+
+发言人   34:14
+Dump on a weapon or.
+
+发言人   34:22
+Maybe i'll say something like the raining is not my own. But it's still here. well.
+
+发言人   34:33
+And then remember that mixed document I showed you with the climate change, the two paragraphs that had the origin Green highlighting um i'll take the human side and just pace that in as well because that's a very common added that people uh perform on this with their adding documents. Okay, so let me to skip this is a bar at my way will quick. OK.
+
+发言人   35:00
+So obviously, this is zero percent AI and or come extension very nicely integrates of the google dog here so you can render the here at the top. But we do have an indication that there's some unnatural writing patterns, and that comes primarily from the copy in pace. So we say that it's a not from this case because the bulk of the tax that ended up having came entirely from a company in pace, right?
+
+发言人   35:30
+So it's not it's not really my own um and in addition to that, til we have the activity log and where we can say, hey, this was a largEpace that happened in the document, but we'd also have this typing score, which we trained on both human and autotypes typing to be able to distinguish between the two. So uh, the short story here is that students are aware that the typing process itself is now对我看and all kinds of bypass。The websites now offer these prime extensions themselves, which automatically type a text for you.
+
+发言人   36:08
+So as a new company and pasting IT, there are some algorithms to simulates key strokes. Obviously, these key strokes, again, are these statistical decisions, which if you have enough data, you can relates apart human from iron. That's where our school comes in there.
+
+发言人   36:25
+And then you can also chat with what happened in this, uh, reply to walk me through the revision and other pattern, and they will tell you what happened. So there is these many edits made. Here's a total amount of editing time. There is a big pace of seven, one hundred and fifty character is it's really just me, uh h doing most of the edits and in the writing patterns nonlinear and call that a natural.
+
+发言人   37:02
+So was the two independent sources of evidence from our AI detector and from this riveting replay. This increases confidence significantly, right? So as a teacher, you can be most confidence that the document is original if IT ends on the top left quads of this figure.
+
+发言人   37:20
+Likewise, you can be most confident that is AI generated if IT lens in the bottom right. So thing is that we realize that errors have a human side to them, and we therefore take feedback reminded by users quite seriously. So when a student, my teacher reports are, is all that they believe is wrong.
+
+发言人   37:43
+This will eventually lead to improvements made to or her model once in sufficient evidence is either red. So we look for patterns and will look in our existing training data and see, okay, how can we flash out these patterns that are causing, uh, no, the wrong protection to be made in this. So we have very much value and encourage people to give us feedback regularly.
+
+发言人   38:08
+Okay, so to break up here, some dose and dose of a detection in the classroom. So for the dose, do treat detection results as a signal, waited with your own judgment as well. And you can use sentence highlights to point out to a student where you believe AI might might have been used in their document and have a conversation with them about IT.
+
+发言人   38:35
+Um you can compare against the students writing from past assignments, particularly in class ones and also as a tech pledge report results that seem wrong to you because that helps make our model Better as well. They don't, uh, we suggest don't failure discipline a student based on a score alone uh, don't ignore the confidence level about borderline results. So let's we predict something as AII but the confidence is sixty percent that doesn't really me much uh and also IT don't assume that any detector including our own is.
+
+发言人   39:15
+Also so thank you all for less thing. Uh and I guess all all start taking some questions from some, uh, this is fta tic a really nice information really in depth. And I and II love that this so many questions, i'm going to try a group by sort of topic um and in that way we can kind of address as many as possible.
+
+发言人   39:39
+Um one thing that kept coming up over and over again um what is actually the comparison this is probably you here is probably all the time comparison between GPT zero and canada um and whether like if if a turnin result is more accurate, if uh GPT zero result is more accurate, kind of like can you compare the two is that do have any sort of insight to do what makes them different systems of the way detection works? We question to think the last time we we did comparisons against china was um some time ago because they don't really allow you to benchmark. So the system is very closed unless you're a teacher, unless you're part of some institution like a school on someone, you don't really have an access.
+
+发言人   40:25
+So we are able to do IT at the time with a limited scale data set. And I could say that were much more accurate than them. I think it's also because we partied, add action, a lots of turn in, very much focuses on just traditional players.
+
+发言人   40:40
+M uh, no. And the a original business. And I think II detection is just the space that they're slow to move in. Um so I think we're definitely much more accurate than turning, especially a lot of other domain.
+
+发言人   40:54
+So obviously, we have education, but within education, there's essays, there is labour reports, there is academy papers, there's history paper, is all kinds of contents. And I think we have really been focusing on who've bring up as much data as possible to squash up all the false positives and were bitter erin im in our mol on this. So this year, we already had AA different model versions, just adapting to new alms and introducing uh new features. So from my impression, definitely more accurate than to them.
+
+发言人   41:29
+Yeah I mean, I also think that um and I just want that this out or just as a former educate myself that one of things that such stupid ties the apart to me is the emphasis on not using this as a as a penalty um but using this as a as a point of conversation to get to get conversation and started with a the student of the score comes back um and along those lines actually one of things that another another sort of set of questions that the cup coming in and was around the um the scoring of actual human writing sometimes hand written writing um by igbt there SAI um and and how how that might be happening or what what should I do you do in that situation yeah so in terms of how may be happening um there's I think there's a couple things. One is that some people tend to write like our lamps um and in that case, if you think back to that earlier slide where the model was learning some dissertation boundaries, there are some tax which are very close to that. Uh and it's really like a tough call to say it's like AI generated versus this person just has very formula writing style and they like five pirates h structure and they use these and uh uh connector races and so on.
+
+发言人   42:57
+Um there's that aspect and then there's also the aspect what domain is is happening on. So there is one blink of text. So if the text is short and it's happening in a bit of urban needs to be ain, uh, that could be a bit more um chAllenging to detect.
+
+发言人   43:14
+But as long as you would have enough context and it's like that say it's just I don't know and I say on to kill bucky bird a thousand words long um that should be that kind of areas should be quite infrequent um but like I said, if IT does happen, if you do think that this is a top student, they wouldn't use the eye. They haven't use that in the past. IT doesn't debate from the typical writing style uh please do report IT and then that just helps us maker system even Better ah that that's actually really good to know.
+
+发言人   43:44
+There is a two way the communication between teachers and TPT zero um that you wanted here back when something in error um and that helps you improve the system. Um there's there are also a lot of questions around um humanizing parsing software, obvious ly a lot of other other tools after the software. Um there's also ways of course inside of jeep of chat VT or cloth or whatever to say you make us more human, to give examples of human writing that IT and makes that more.
+
+发言人   44:18
+Um are you able to sort to keep up with that kind of thing? Um like is your is your system keeping up with that? Is is their way to do that because again, like it's getting Better and Better and Better doing this.
+
+发言人   44:32
+So just just uh yeah just a question of how you are keeping up. And yeah absolutely. So when I when I show that we attack our own model, uh, we also have our own internal, you can think as an nal or humanize that anybody in out, okay, this is a way that you can do, transform a text.
+
+发言人   44:55
+And does that fool us? And if IT does full us, we need to be able to be that. And from what we've seen or with this process, um all these bypasses least new versions on the released new versions. There's a new prompting approaches I come up we're able to state pretty up to date with them um and detect them.
+
+发言人   45:15
+And I think, uh, speaking to this, there was one by paster earlier this year, I think was like in january or december, which they had a banner on their website and he said, uh, we're quickly trying to find to fix because GPT you made a model update and are by passion no long your works at some this is we frame this in our office in our sort of whole of is really proud about this. So yeah, definitely well, IT is a bit of cat mouse. But I think because of how quickly we adapt, it's just just like effective, uh, I would say most of the time for them them to attack us.
+
+发言人   45:51
+Yeah yeah makes us that's that's really and congratulations, that's really good. Um another couple questions that came in were about um whether a detection works uh or GPT zero works um just as well no matter what kind of writing we're looking at. So if it's like a math and science or communities or what I like, does that matter what those of writing is at all? I think the rona matters in the sense that if there is Jones where you end up with something that's like I said, very short um so maybe it's like what we have by the way, you you have a minimum document like that were willing to scan uh which is things about two hundred fifty characters or fifty words if it's just that that pressured and it's only like, hey, you know I went to mcDonald night um Anthony IT was great.
+
+发言人   46:49
+I want to go back there next time. That kind of thing obviously like it's it's the just like not enough context to make a prediction on. But then it's like the john there. It's like some very short review of something. Uh, so from that perspective, john, what does impacting because it's corded also with document length, the email of connection.
+
+发言人   47:11
+But in terms of like from the education space, I guys if you look at backer ports, I says any flavor, whether you be like argumentative, expose tory, whether you talking about like masters thesis, fast thesis, uh, and academy papers or abstract from academy papers, we do our best to really cover all of those very common news cases. I me paradise, what our users are semesters, and we track this. So for whatever reason, like I don't know next months, there are some new assignment type, uh, the teachers are adopted.
+
+发言人   47:46
+We're going to then adjust our train data to mimic that uh, such that week to the bus possible got got. And how are you how like how are you keeping up with that? Do you have is mostly through education, staying in touch with her? How are you to finding out about those kinds of changes going on? Oh, great questions.
+
+发言人   48:08
+So we have a business active sort of automated uh, learning process of classified documents then according to meter data. Uh and then if there's things that fall out of our existing set of I think we have about forty different categories uh of types of running like genres, as you mentioned. Uh if IT falls into the other category, we tried that. We in fact that we say OK, what should this actually be called with that is a new category and then we try to mine from a very large web scale data set similar documents which would help improve performance on that. Okay, that makes sense.
+
+发言人   48:45
+Um along with that another person had asked actually on that is um are like if if if I am using GPT year and i'm being a document to check IT and i'm a teacher, i'm not upload thirty documents check um what um are those documents used to train your AI or they use are they held? Like like where are they stored? Are they stored? sure.
+
+发言人   49:12
+But I mean, they're not used to train um they use like their store just so you can have a look at this time later. Don't tell that. That is like we obviously this story just for that purpose.
+
+发言人   49:25
+Um and then once you like, if you want to delete account is something obviously we then data all together nature got good to know, good to know. Um one other question again back on um what you be also able to detect is IT um trained primarily with english language writing samples or do you work with other languages as well? Some great question here.
+
+发言人   49:52
+So everything that demo was an english fit, we also have we support budget language as I think it's uh twenty now. So obviously most popular european language portraits, italian, german and over uh and some initial languages too. So we definitely trained uh, multiple old fashion and we will be paradise.
+
+发言人   50:16
+More languages and just expanding that all. I think it's interesting because from an intuitive perspective, you may have a sentence in one language and if you if you speak multiple languages, is the probable activities the same region of your brain uh if you think about that sentence. But from a model perspective, those are actually different tokens.
+
+发言人   50:40
+Um so he doesn't really have a sometimes they might end up in the same part of IDS. Space, close together. But this gap at the initial token level where you might have award that has an accepted IT that can a sometimes cause these differences.
+
+发言人   50:57
+So again, we already trained with quite a Better of motile data um and actually working on a revamp of our mul models while to expand even. More but that have coverage there. That's great.
+
+发言人   51:10
+That's great. cool. And see not more questions keep coming as as your answer and questions people have more questions. Um uh, there's a lot of question and II think I know the answer from you all perspective, but i'd be curious if heard if you heard anything around this from teachers. Um what is a good sort of minimum score um or allowable score um for AI detection.
+
+发言人   51:40
+So if if you're making assignment or europe cepting assignment and whatever and IT comes back at thirty percent, is that a justifiable failure on the part of the student? Or like what how how is that being handled? Do you know in in the classroom? Yeah um I mean on the last I be very much to encourage against tic oh if the scores above this fast do this um this is just because that any any machine learning system will have areas.
+
+发言人   52:11
+Any scores that are low should just so you can feel free to ignore that if fit somewhere like ninety five percent and above that you could be more confidence at OK you probably AI was used here um but I shouldn't give you the confidence to condemn body right right? So I really is possibility it's you're not you're not literally saying thirty percent of this document is AI um it's really more of with three percent sure the same thing I was used here um okay I see interesting um to do then we see if these other questions there was one actually interesting questions I like that um that was essentially used on a great job explaining how this works. Um this teacher he was saying a that is much easier to explain to then um to be able and so what's an easy way to explain how GPT sitter works to students? Maybe the question well, like a sad you know what if they understand the concept of all arms, right? We're you using a very similar model structure there as all the systems that they interact with.
+
+发言人   53:35
+It's just that the final task is different. We're not doing general liv. I. We're doing was called discriminate ai, meaning that you're trying to classify between different categories and at the same concept of given enough data, you can learn the statistical patterns that separate between these are with these two or in our case, really like five different classes. Interesting OKOK good fully that work.
+
+发言人   54:01
+Um I don't know how I want to explain IT to a student um but that that sounds good. Um let me see there was a couple more questions, but there was one question about um running um running documents through multiple a architectures um uh entered of comparing the results. Is that do I seeing that is the best practice that's happening out there? Or is that something that shouldn't matter or class matter? I think it's not a bad idea.
+
+发言人   54:34
+Um I think that of multiple detectors up with the same like determination than you could be more confident in IT, but is the same thing like if the approach is being taken by the detectors are similar, uh then they could end up having similar internal very small um um do you think we zy that that triggered right so I could and making correlations in which don't much um so I would just say like for the most part, picking like a very accurate detector is good enough. But then also the explain ability is what matters. And I think that's that's one focus with our events. Again, this communicating to people like how stable is this prediction because you know um if I take out one sentence and then if flips the predictions of the other ad attacked ers that that s not stable. So having this extra like a deeper layer of information I think is very helpful and sometimes more helpful than just getting a multiple opinions from different detectors because they might fail in the same way right that make sense.
+
+发言人   55:46
+Um and I think time just one more question um and this kind is back to the humanizing thing but is slightly different um if if I ask GPT if I sorry if I ask p your later or ever um to credit to write some you for me um and I take that and I personally paraphrase that I personally change IT around will let so get detect them I think IT depends on like the level of the edits if you making a really significant at its um hard to say perhaps the well if you change seven percent of that uh the more more edits you make the more you could say that is really yours. So then that like once you crossed the threshold, um obviously you you just call that your own work at that point. But I would say that if you're making the like some minal amount about it's like you're just trying to, I don't know, pick different locations like how I show the apple cabuli you're trying to replace those common AI phrases would definite good to catch that.
+
+发言人   56:53
+Um yeah but if you I don't know, you try to like come up with the your own. I feel like that I did that people come up with are similar to the ones that happened in these very long prompts where people try to humanize from the outset. And we know that we've tested our system against they don't really work.
+
+发言人   57:12
+Um so i'm reasonable confident that if the amount of address is you know within scope is not like vastly changing the document, that we would definitely like that as a okay, good, just useful. Thank you. Um right.
+
+发言人   57:27
+And with that, I think we're going to go and close. Um II do not thank you very much. This has been fantastic, really, really informative. I know probably learn a lot about how this all works um and now I think everyone for joining us today too um I do hope you enjoy the session um just you know when you close the zoom dow, you will receive a very short feedback survey to complete um your feedback will help us.
+
+发言人   57:49
+Previous government is going forward um and as a quick command and we will send out the recording of today's roman like this week also we will be back with another reminder on thursday at the same time noon used a featured certain journalists from the education space jill bar shape of the hatch report uh scot cards on the quantico Harry education and outs con from ETC insider it's sure to be an insight ful conversation about the state of AI and education today so I hope you join a stand um if you didn't you answer your questions to answer to please do join for other web onions. We do, for example, the very last weber. We have some uh teachers to use GPT zero showing up and so we can actually talk about you know so some practical issues in the classroom with students and might be really useful for folks um and finally, GPT err is very invested in building strong relationship for educators.
+
+发言人   58:37
+They offer a teacher ambassage program where you can get free GPT zero premium for life by leading and participating in professional development sessions with your peers to learn more, you can visit uh GPT zero not me slash educators um and that also that site also has the um the rest of the the schedule for the web arses. You can check out that to thank you again for being part of the discussion today. Have a great day. Thank you again, alex, and i'll see you soon and take everybody.

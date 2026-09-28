@@ -1,0 +1,175 @@
+{
+  "nodes": [
+    {
+      "id": "lw-c9cfd4a04247ea18",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/认识自己-ENTP与天赋挖掘/00-学习计划.md",
+      "x": 0,
+      "y": 0,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-cde843d25417b03d",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/认识自己-ENTP与天赋挖掘/01.md",
+      "x": 660,
+      "y": 0,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-40f31e1f6d45e888",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_e96f472341f9e6d7050aea92.md",
+      "x": 1230,
+      "y": 0,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-d7a9e7278db996c7",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/认识自己-ENTP与天赋挖掘/02.md",
+      "x": 1810,
+      "y": 0,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-42a6f44a3bc26dba",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/认识自己-ENTP与天赋挖掘/03.md",
+      "x": 0,
+      "y": 510,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-b9a26720dd414bd9",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/认识自己-ENTP与天赋挖掘/04.md",
+      "x": 660,
+      "y": 510,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-f28cac6b8e1a2fa8",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/认识自己-ENTP与天赋挖掘/05.md",
+      "x": 1320,
+      "y": 510,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-1023ae66b9f610ac",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/认识自己-ENTP与天赋挖掘/06.md",
+      "x": 0,
+      "y": 1020,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-ebfeb362fa89adec",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_85baf712b2d1a2ac16ae37b9.md",
+      "x": 570,
+      "y": 510,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-583ca001bb72aae7",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_c08fcbd5bb602fac67afb9f9.md",
+      "x": 1720,
+      "y": 510,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-039be94b3d8b8519",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_21d260a73421b84ccaa4645a.md",
+      "x": 570,
+      "y": 1020,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-f15d0a635f26ab5b",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_e9492079907e8892ebe37a91.md",
+      "x": 1720,
+      "y": 1020,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-status-efc87a4d59d85a93",
+      "type": "text",
+      "text": "学习状态｜认识自己-ENTP与天赋挖掘\n\n正文 6 篇　｜　候选 0 条\n反馈：入账 5 / 手写 5（无缺口）\n疑问：未结 0　｜　已结清 0",
+      "x": 0,
+      "y": -300,
+      "width": 520,
+      "height": 240
+    }
+  ],
+  "edges": [
+    {
+      "id": "lw-e-b0cd74191a78db29",
+      "fromNode": "lw-cde843d25417b03d",
+      "toNode": "lw-40f31e1f6d45e888",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-cdb8bd14d49f9b79",
+      "fromNode": "lw-d7a9e7278db996c7",
+      "toNode": "lw-ebfeb362fa89adec",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-3e5deee235e475c7",
+      "fromNode": "lw-42a6f44a3bc26dba",
+      "toNode": "lw-583ca001bb72aae7",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-bf2907014a3fe99c",
+      "fromNode": "lw-b9a26720dd414bd9",
+      "toNode": "lw-039be94b3d8b8519",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-ce4d2dd0163d3260",
+      "fromNode": "lw-f28cac6b8e1a2fa8",
+      "toNode": "lw-f15d0a635f26ab5b",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid" xml:lang="zh-CN">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="bookid">urn:uuid:d145f020-0944-5500-9835-c5a875d4932c</dc:identifier>
+    <dc:title>牌一直在你手里</dc:title>
+    <dc:creator>树林</dc:creator>
+    <dc:language>zh-CN</dc:language>
+    <dc:description>输入、能量、重复、出手——这四张牌，一直在你手里。</dc:description>
+    <meta property="dcterms:modified">2026-07-12T15:29:14Z</meta>
+    <meta name="cover" content="cover-img"/>
+    </metadata>
+    <manifest>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="css" href="css/style.css" media-type="text/css"/>
+<item id="cover-img" href="images/cover.png" media-type="image/png" properties="cover-image"/>
+<item id="img-fig00" href="images/fig00.svg" media-type="image/svg+xml"/>
+<item id="img-fig01" href="images/fig01.svg" media-type="image/svg+xml"/>
+<item id="img-fig02" href="images/fig02.svg" media-type="image/svg+xml"/>
+<item id="img-fig03" href="images/fig03.svg" media-type="image/svg+xml"/>
+<item id="img-fig04" href="images/fig04.svg" media-type="image/svg+xml"/>
+<item id="img-fig05" href="images/fig05.svg" media-type="image/svg+xml"/>
+<item id="img-spot15" href="images/spot15.svg" media-type="image/svg+xml"/>
+<item id="img-spot16" href="images/spot16.svg" media-type="image/svg+xml"/>
+<item id="img-spot23" href="images/spot23.svg" media-type="image/svg+xml"/>
+<item id="img-spot25" href="images/spot25.svg" media-type="image/svg+xml"/>
+<item id="img-spot33" href="images/spot33.svg" media-type="image/svg+xml"/>
+<item id="img-spot35" href="images/spot35.svg" media-type="image/svg+xml"/>
+<item id="img-spot42" href="images/spot42.svg" media-type="image/svg+xml"/>
+<item id="img-spot44" href="images/spot44.svg" media-type="image/svg+xml"/>
+<item id="cover" href="text/cover.xhtml" media-type="application/xhtml+xml"/>
+<item id="c00" href="text/c00.xhtml" media-type="application/xhtml+xml"/>
+<item id="c01" href="text/c01.xhtml" media-type="application/xhtml+xml"/>
+<item id="c02" href="text/c02.xhtml" media-type="application/xhtml+xml"/>
+<item id="c03" href="text/c03.xhtml" media-type="application/xhtml+xml"/>
+<item id="c04" href="text/c04.xhtml" media-type="application/xhtml+xml"/>
+<item id="c05" href="text/c05.xhtml" media-type="application/xhtml+xml"/>
+<item id="fin" href="text/fin.xhtml" media-type="application/xhtml+xml"/>
+    </manifest>
+    <spine toc="ncx">
+    <itemref idref="cover"/>
+<itemref idref="c00"/>
+<itemref idref="c01"/>
+<itemref idref="c02"/>
+<itemref idref="c03"/>
+<itemref idref="c04"/>
+<itemref idref="c05"/>
+<itemref idref="fin"/>
+    </spine>
+    </package>

@@ -1,0 +1,331 @@
+{
+  "nodes": [
+    {
+      "id": "lw-b1357561b3b28342",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/个人学习工作台实践/00-学习计划.md",
+      "x": 0,
+      "y": 0,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-0e61c4c56c6bd112",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_feffbcacbfa35952c8a393b6.md",
+      "x": 570,
+      "y": 0,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-506436c630ef7521",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/和 agent 一起做规划/assets/反馈上下文/lw_feffbcacbfa35952c8a393b6.md",
+      "x": 570,
+      "y": 400,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-08aca7a45725b9fd",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_6c65e1057044fb2e7ca2ed1f.md",
+      "x": 570,
+      "y": 800,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-1211d09c8941bb85",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/和 agent 一起做规划/assets/反馈上下文/lw_6c65e1057044fb2e7ca2ed1f.md",
+      "x": 570,
+      "y": 1200,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-ea9884626088d118",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_43b9c1c73225d34110db8982.md",
+      "x": 1060,
+      "y": 0,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-4973dd5863eb937b",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/和 agent 一起做规划/assets/反馈上下文/lw_43b9c1c73225d34110db8982.md",
+      "x": 1060,
+      "y": 400,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-e857e6f2dbcb147f",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/个人学习工作台实践/assets/疑问/W-0bf69294e4cc.md",
+      "x": 1550,
+      "y": 0,
+      "width": 360,
+      "height": 220,
+      "color": "3"
+    },
+    {
+      "id": "lw-c9ea66531517da15",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/个人学习工作台实践/assets/疑问/W-1bdbea9d0c85.md",
+      "x": 1550,
+      "y": 400,
+      "width": 360,
+      "height": 220,
+      "color": "3"
+    },
+    {
+      "id": "lw-8f7174126a40d658",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/个人学习工作台实践/assets/疑问/W-9edca53da78a.md",
+      "x": 1550,
+      "y": 800,
+      "width": 360,
+      "height": 220,
+      "color": "3"
+    },
+    {
+      "id": "lw-38a00cd71857e74c",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/个人学习工作台实践/assets/疑问/W-bde2c3eac9a0.md",
+      "x": 1550,
+      "y": 1200,
+      "width": 360,
+      "height": 220,
+      "color": "3"
+    },
+    {
+      "id": "lw-e3fb8925befa062d",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/个人学习工作台实践/01.md",
+      "x": 0,
+      "y": 1710,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-4834a4aeb2c36f3a",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_a27e8f3c8f0676c25bb0b7ac.md",
+      "x": 570,
+      "y": 1710,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-112cb047ddfd558e",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/个人学习工作台实践/assets/反馈上下文/lw_a27e8f3c8f0676c25bb0b7ac.md",
+      "x": 570,
+      "y": 2110,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-8269486090ef0920",
+      "type": "file",
+      "file": "01-交互式学习/06-内容候选/工作台候选/CON-lw_a27e8f3c8f0676c25bb0b7ac.md",
+      "x": 1060,
+      "y": 1710,
+      "width": 360,
+      "height": 220,
+      "color": "5"
+    },
+    {
+      "id": "lw-status-90ba0e2f2d3ab133",
+      "type": "text",
+      "text": "学习状态｜个人学习工作台实践\n\n正文 3 篇　｜　候选 1 条\n反馈：入账 2 / 手写 3（缺口 1）\n疑问：未结 0　｜　已结清 4",
+      "x": 0,
+      "y": -300,
+      "width": 520,
+      "height": 240
+    },
+    {
+      "id": "lw-3cdc45d7238150cf",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_507d1131300fc4a88f265060.md",
+      "x": 2170,
+      "y": 1710,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-be31cbcef279d326",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/个人学习工作台实践/02.md",
+      "x": 1550,
+      "y": 1750,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-63853ba3630ae207",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/个人学习工作台实践/03.md",
+      "x": 0,
+      "y": 2620,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "lw-e-15424f7c825b0ccd",
+      "fromNode": "lw-b1357561b3b28342",
+      "fromSide": "right",
+      "toNode": "lw-0e61c4c56c6bd112",
+      "toSide": "left",
+      "label": "沿用反馈"
+    },
+    {
+      "id": "lw-e-15428a2d349fd935",
+      "fromNode": "lw-0e61c4c56c6bd112",
+      "fromSide": "bottom",
+      "toNode": "lw-506436c630ef7521",
+      "toSide": "top",
+      "label": "补充上下文"
+    },
+    {
+      "id": "lw-e-76b7f8e8459ed7f5",
+      "fromNode": "lw-b1357561b3b28342",
+      "fromSide": "right",
+      "toNode": "lw-08aca7a45725b9fd",
+      "toSide": "left",
+      "label": "沿用反馈"
+    },
+    {
+      "id": "lw-e-5a904d4906bb5e7e",
+      "fromNode": "lw-08aca7a45725b9fd",
+      "fromSide": "bottom",
+      "toNode": "lw-1211d09c8941bb85",
+      "toSide": "top",
+      "label": "补充上下文"
+    },
+    {
+      "id": "lw-e-8b7109332f23abc1",
+      "fromNode": "lw-b1357561b3b28342",
+      "fromSide": "right",
+      "toNode": "lw-ea9884626088d118",
+      "toSide": "left",
+      "label": "沿用反馈"
+    },
+    {
+      "id": "lw-e-5f909ab2bed0d58f",
+      "fromNode": "lw-ea9884626088d118",
+      "fromSide": "bottom",
+      "toNode": "lw-4973dd5863eb937b",
+      "toSide": "top",
+      "label": "补充上下文"
+    },
+    {
+      "id": "lw-e-a21f712418d543e4",
+      "fromNode": "lw-e3fb8925befa062d",
+      "fromSide": "right",
+      "toNode": "lw-4834a4aeb2c36f3a",
+      "toSide": "left",
+      "label": "反馈"
+    },
+    {
+      "id": "lw-e-46a09a49513be582",
+      "fromNode": "lw-4834a4aeb2c36f3a",
+      "fromSide": "bottom",
+      "toNode": "lw-112cb047ddfd558e",
+      "toSide": "top",
+      "label": "补充上下文"
+    },
+    {
+      "id": "lw-e-a3a2b75b8dfc5e0c",
+      "fromNode": "lw-b1357561b3b28342",
+      "fromSide": "right",
+      "toNode": "lw-e857e6f2dbcb147f",
+      "toSide": "left",
+      "label": "提出疑问"
+    },
+    {
+      "id": "lw-e-70943f2ba0cad4b6",
+      "fromNode": "lw-b1357561b3b28342",
+      "fromSide": "right",
+      "toNode": "lw-c9ea66531517da15",
+      "toSide": "left",
+      "label": "提出疑问"
+    },
+    {
+      "id": "lw-e-254f885b0c1e309e",
+      "fromNode": "lw-112cb047ddfd558e",
+      "fromSide": "right",
+      "toNode": "lw-c9ea66531517da15",
+      "toSide": "left",
+      "label": "提出疑问"
+    },
+    {
+      "id": "lw-e-ae29ef4494d60a4d",
+      "fromNode": "lw-b1357561b3b28342",
+      "fromSide": "right",
+      "toNode": "lw-8f7174126a40d658",
+      "toSide": "left",
+      "label": "提出疑问"
+    },
+    {
+      "id": "lw-e-8bf251fb5d940273",
+      "fromNode": "lw-112cb047ddfd558e",
+      "fromSide": "right",
+      "toNode": "lw-38a00cd71857e74c",
+      "toSide": "left",
+      "label": "提出疑问"
+    },
+    {
+      "id": "lw-e-14d4aa277a4dbf95",
+      "fromNode": "lw-c9ea66531517da15",
+      "fromSide": "bottom",
+      "toNode": "lw-38a00cd71857e74c",
+      "toSide": "top",
+      "label": "提出疑问"
+    },
+    {
+      "id": "lw-e-6725679d9828fc40",
+      "fromNode": "lw-4834a4aeb2c36f3a",
+      "fromSide": "right",
+      "toNode": "lw-8269486090ef0920",
+      "toSide": "left",
+      "label": "内容候选"
+    },
+    {
+      "id": "lw-e-48cb333fd9661627",
+      "fromNode": "lw-e3fb8925befa062d",
+      "fromSide": "right",
+      "toNode": "lw-8269486090ef0920",
+      "toSide": "left",
+      "label": "内容候选"
+    },
+    {
+      "id": "lw-e-43b8286bf8a6c9ad",
+      "fromNode": "lw-be31cbcef279d326",
+      "fromSide": "right",
+      "toNode": "lw-3cdc45d7238150cf",
+      "toSide": "left",
+      "label": "反馈"
+    }
+  ]
+}

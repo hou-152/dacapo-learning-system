@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="zh-CN">
+    <head><meta name="dtb:uid" content="urn:uuid:d145f020-0944-5500-9835-c5a875d4932c"/><meta name="dtb:depth" content="1"/>
+    <meta name="dtb:totalPageCount" content="0"/><meta name="dtb:maxPageNumber" content="0"/></head>
+    <docTitle><text>牌一直在你手里</text></docTitle>
+    <navMap>
+    <navPoint id="np1" playOrder="1"><navLabel><text>00　前言</text></navLabel><content src="text/c00.xhtml"/></navPoint>
+<navPoint id="np2" playOrder="2"><navLabel><text>01　你看到什么，就成为什么</text></navLabel><content src="text/c01.xhtml"/></navPoint>
+<navPoint id="np3" playOrder="3"><navLabel><text>02　人的本质是烧炭的机器</text></navLabel><content src="text/c02.xhtml"/></navPoint>
+<navPoint id="np4" playOrder="4"><navLabel><text>03　知道和做到之间，差的是重复</text></navLabel><content src="text/c03.xhtml"/></navPoint>
+<navPoint id="np5" playOrder="5"><navLabel><text>04　出手才会有桃花</text></navLabel><content src="text/c04.xhtml"/></navPoint>
+<navPoint id="np6" playOrder="6"><navLabel><text>05　后记</text></navLabel><content src="text/c05.xhtml"/></navPoint>
+<navPoint id="np7" playOrder="7"><navLabel><text>终点</text></navLabel><content src="text/fin.xhtml"/></navPoint>
+    </navMap></ncx>

@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-29T19:47:45.664826+00:00",
+  "engine": "HaujetZhao/asr-hotword",
+  "engine_commit": "7e282137e780ac4096cac537bef360235d2efe43",
+  "threshold": 0.97,
+  "similar_threshold": 0.9,
+  "hotword_count": 55,
+  "hotwords_sha256": "d7f5a6c2668f57f2e18f39ad98624b630f09e66ba1d13ec55a9c8092b072bdd3",
+  "processing_scope": "body_after_first_markdown_divider_line_by_line",
+  "file_count": 32,
+  "total_matches": 2515,
+  "files": [
+    {
+      "file": "2026-06-16_防呆指南_姜禹.md",
+      "input_bytes": 28694,
+      "output_bytes": 28694,
+      "input_sha256": "f5faac3f68512c0084fed4b736f38e69002f0e014d0fd9eaa8e9c4e9eb933ce7",
+      "output_sha256": "2c97c298dd506e3a7e998214f453be35c9d2b3dd1fb1726943e39099147e9406",
+      "metadata_preserved": true,
+      "match_count": 6,
+      "similar_only_count": 1
+    },
+    {
+      "file": "2026.06.16_2026.2.22_一次重要的沟通实录_part.2…_699ac885e4b0.md",
+      "input_bytes": 154651,
+      "output_bytes": 154651,
+      "input_sha256": "a030cb2624f6f05b12719fe7b83d8d4767712a6001f23567790197b6afff80cf",
+      "output_sha256": "ed33ce6c81d5f4114fea0aceed9fc8684e645093c00a01e0f24c3027b6c67d3b",
+      "metadata_preserved": true,
+      "match_count": 1,
+      "similar_only_count": 0
+    },
+    {
+      "file": "Ai时代背景下的 自我 财富 家庭_xWT111.md",
+      "input_bytes": 188697,
+      "output_bytes": 188641,
+      "input_sha256": "3536a5561a5f46156bb85f6e6ea0e97cfe5f909f98d7c1fdc27aaa4ccfdf9ac8",
+      "output_sha256": "51f89eabd0b6d3a6d8c36d0433a2089559f70ad444cfd92465640fc34a13f415",
+      "metadata_preserved": true,
+      "match_count": 47,
+      "similar_only_count": 10
+    },
+    {
+      "file": "万象气运＋1刻 树成林线上春晚 _xWT111.md",
+      "input_bytes": 170783,
+      "output_bytes": 170695,
+      "input_sha256": "c90c10aff8df7577265885da8532c26005d49cfb2e0411b6d7860c91d71c1980",
+      "output_sha256": "120d5e01d289204b3f021093c10060a5a15b10d9cbb4349da9a151981a8dc497",
+      "metadata_preserved": true,
+      "match_count": 200,
+      "similar_only_count": 44
+    },
+    {
+      "file": "与老王一起聊20个场景问，气运＋1_xWT111.md",
+      "input_bytes": 215693,
+      "output_bytes": 215630,
+      "input_sha256": "a48c1bdb0cf8e3d3823f8b949cd9e707193704130575d927a4a193508ec56312",
+      "output_sha256": "15c93fb218a5ca90739c87b532fb84c37fbb18c4d16e52c6f5668554373e6bdb",
+      "metadata_preserved": true,
+      "match_count": 61,
+      "similar_only_count": 18
+    },
+    {
+      "file": "五台山之行，在路上的人生杠杆_xWT111(1).md",
+      "input_bytes": 93382,
+      "output_bytes": 93377,
+      "input_sha256": "11ab22fa1bb29513e97b52da376741e931a475c877bc670f7bcb71f5695cebe7",
+      "output_sha256": "de338a5961f4579135104a85466d7a4681c2c56f1326df756ede019c4e0b2818",
+      "metadata_preserved": true,
+      "match_count": 73,
+      "similar_only_count": 12
+    },
+    {
+      "file": "人生立足之地-解决十年蹉跎 气运＋1_xV0.md",
+      "input_bytes": 100795,
+      "output_bytes": 100788,
+      "input_sha256": "ec1b8346f27088037c6fea772280218415fff3960cd1909866e10159b24a9e94",
+      "output_sha256": "f70a76d538b37430998ebae9af5849f177132721bfb39b0602b1f9664a44e8a5",
+      "metadata_preserved": true,
+      "match_count": 21,
+      "similar_only_count": 12
+    },
+    {
+      "file": "剑指自己，如果我错了怎么办_xWT111.md",
+      "input_bytes": 82623,
+      "output_bytes": 82599,
+      "input_sha256": "eb513ca3222e9e44563669dcafe2c88214524cf8185c1c520cec30ca9f5cde40",
+      "output_sha256": "31d1a2930ab75c1c4e0d2f9169db50a931f4305eaf30dc91bae5b84e1b9192d7",
+      "metadata_preserved": true,
+      "match_count": 161,
+      "similar_only_count": 16
+    },
+    {
+      "file": "在冈仁波齐，生死之间的感悟我_xWT111.md",
+      "input_bytes": 109368,
+      "output_bytes": 109359,
+      "input_sha256": "6c893e37fabfc9330b82327dc4084356bb0b44ddb29025062d5dd6993b3f4f59",
+      "output_sha256": "4fbfa643d7f5f635e79a36df262ff69d20d6461ad646b64f0001ab6453f80f95",
+      "metadata_preserved": true,
+      "match_count": 56,
+      "similar_only_count": 17
+    },
+    {
+      "file": "在西藏在路上，阳谋无解 坦荡立世_xWT111.md",
+      "input_bytes": 92609,
+      "output_bytes": 92609,
+      "input_sha256": "cac01f325d006e08a50c88a3586c95f03d65a96bf9f297c69611714f4d77fd25",
+      "output_sha256": "dce008c149b86174bfe4f1602a5e102341360832ead4a41de3a25f4e9d68f2f6",
+      "metadata_preserved": true,
+      "match_count": 37,
+      "similar_only_count": 8
+    },
+    {
+      "file": "奥德彪与奥德赛的人生轨迹Ai时代_.md",
+      "input_bytes": 114076,
+      "output_bytes": 114072,
+      "input_sha256": "ee1941e6069a1fc02e0405fdb2aba2b1ac57e16d88a58f845404f67a0285163a",
+      "output_sha256": "5ea5885830d45741b9a0976ba2f4360b8a9982319a27099929b3ea2c715cc8dd",
+      "metadata_preserved": true,
+      "match_count": 31,
+      "similar_only_count": 7
+    },
+    {
+      "file": "客观规律与无常性看懂事物变化_xWT111.md",
+      "input_bytes": 141088,
+      "output_bytes": 141088,
+      "input_sha256": "86b031d98fff35213211c1155ddb5fd896db887abc14dfc6a654e6d8709b6fe7",
+      "output_sha256": "cc79481cec7c33393f1d44a974a0c06e6f0bccb3a2dbb42764a9baac6bd4e1a4",
+      "metadata_preserved": true,
+      "match_count": 74,
+      "similar_only_count": 6
+    },
+    {
+      "file": "小世界，气运＋1_.md",
+      "input_bytes": 65967,
+      "output_bytes": 65967,
+      "input_sha256": "1eaf8a01ea0dcedef0bf94a953b20542f142f6eebaf450ef44de0834600dad5c",
+      "output_sha256": "1ee32d9af9bd036b47651d142776f2c4ee23547d952801d26ea5d1c947aad1a7",
+      "metadata_preserved": true,
+      "match_count": 34,
+      "similar_only_count": 9
+    },
+    {
+      "file": "我们万岁，随机一播，动态总结_xWT111.md",
+      "input_bytes": 99009,
+      "output_bytes": 98997,
+      "input_sha256": "9d58d467b3bd9fea539dcc508265f624aaeff7a860386ae1ac7d0fc3d3546ff9",
+      "output_sha256": "1bda10bb3ff55eff088aff7f66646e3d5c0086f12c27ba378cda27b051aba524",
+      "metadata_preserved": true,
+      "match_count": 134,
+      "similar_only_count": 9
+    },
+    {
+      "file": "我辈青年！改变世界！_xWT111(1).md",
+      "input_bytes": 118807,
+      "output_bytes": 118786,
+      "input_sha256": "3dab8e9fa29a7461c5d15c5591af521f70c3375423a5d984bf6e97c628a215d4",
+      "output_sha256": "4144d6f21a5150b342c1fe744a6cc142a367d1a170a1801aa48224ed4cd35b4d",
+      "metadata_preserved": true,
+      "match_count": 166,
+      "similar_only_count": 36
+    },
+    {
+      "file": "晒气运大赛 改变2025从这一刻开始_xWT111.md",
+      "input_bytes": 142685,
+      "output_bytes": 142624,
+      "input_sha256": "85c8cdfbf895774f121f911d49698e6a84ed6ef7dcf125ccd742ea46902d730e",
+      "output_sha256": "93e2285823edae0d086c09dd7b6d71dac1a0c01f8223f4be8ec9b06ac7c85abb",
+      "metadata_preserved": true,
+      "match_count": 188,
+      "similar_only_count": 16
+    },
+    {
+      "file": "有病治病，深夜诊断，气运＋1_xWT111.md",
+      "input_bytes": 39601,
+      "output_bytes": 39601,
+      "input_sha256": "cc6af6603261dc3d38f4a91930d367f5e32fc8353cd3cee5363c7f64da887b07",
+      "output_sha256": "0e5bbe18337e81c4d6f9ff0431853f8ab3693f8bdf1e4f84009965259cfdf65d",
+      "metadata_preserved": true,
+      "match_count": 9,
+      "similar_only_count": 6
+    },
+    {
+      "file": "来参加姜哥的婚礼！_.md",
+      "input_bytes": 22733,
+      "output_bytes": 22733,
+      "input_sha256": "59a160253fe9c3fd5cc31520b6d8b55a1e0ce02c0fac921b548470b4cad16a25",
+      "output_sha256": "d05a0801d9110bb98cd0bd9146f4987c0ee3dc18f5912610a6b7b924bfc9e6c5",
+      "metadata_preserved": true,
+      "match_count": 14,
+      "similar_only_count": 1
+    },
+    {
+      "file": "欢迎来到我的直播间_(2).md",
+      "input_bytes": 66240,
+      "output_bytes": 66240,
+      "input_sha256": "24e01c5c0b4becc0fdcdef125dcfbfc076e0d8644dfd12e464072f5092359276",
+      "output_sha256": "7dd2c00c8dfadc390c88aaaacce3c7136231475286e8c69e3e21dc56c7d3401e",
+      "metadata_preserved": true,
+      "match_count": 13,
+      "similar_only_count": 12
+    },
+    {
+      "file": "气运+1我的奋斗_xWT111.md",
+      "input_bytes": 138854,
+      "output_bytes": 138830,
+      "input_sha256": "683148329aac49075c62a284639820d0014bb7131f99888cccd28842b4f4a0e7",
+      "output_sha256": "2b2af4aa854cf8130af3264ae4996b227a23f5ff152a53f5829e525e0369946f",
+      "metadata_preserved": true,
+      "match_count": 122,
+      "similar_only_count": 43
+    },
+    {
+      "file": "气运➕1再次改变这个世界  多维世界_xWT111.md",
+      "input_bytes": 192319,
+      "output_bytes": 192310,
+      "input_sha256": "68a041e58c05d1ea9ec824b27e7cf6e7bd5bea8f0ac6210230ef766774d19ca6",
+      "output_sha256": "7959c99b246f045572693c704a2bab0adeec0c1b6b27fc8df3855158204c5c73",
+      "metadata_preserved": true,
+      "match_count": 222,
+      "similar_only_count": 21
+    },
+    {
+      "file": "气运加一 · 无限进化_xWT111.md",
+      "input_bytes": 135581,
+      "output_bytes": 135481,
+      "input_sha256": "64e8ea806e70ff5d6745058330cb720e94376adc3ac49a822705bce8144e86fa",
+      "output_sha256": "a49c02c315fd76e8bab9619eb3b4120013f3de85b5495675f2d54ee07e024c8e",
+      "metadata_preserved": true,
+      "match_count": 116,
+      "similar_only_count": 16
+    },
+    {
+      "file": "气运加持 静态增长 气运+1_xWT111.md",
+      "input_bytes": 94084,
+      "output_bytes": 94083,
+      "input_sha256": "a05057407a7796502a8fd4a80cd45239e0f6e60b787b7c269f9e32133f224c0e",
+      "output_sha256": "fdf48335bbbb6e95850e16e25cf5c183ff490f0c17094131e2699f26ba195e41",
+      "metadata_preserved": true,
+      "match_count": 204,
+      "similar_only_count": 7
+    },
+    {
+      "file": "气运感 气运+1_(2).md",
+      "input_bytes": 37061,
+      "output_bytes": 37064,
+      "input_sha256": "12cfcd7a39ef3fee887e5f26f1340582e3d94518abf874970a0187c7d40bcaf0",
+      "output_sha256": "da26960c711d3c06b416559d10ed3f41e5925c3aaf7ff2c3378606338dd33a09",
+      "metadata_preserved": true,
+      "match_count": 7,
+      "similar_only_count": 1
+    },
+    {
+      "file": "气运第一章 致世人_xWT111.md",
+      "input_bytes": 105314,
+      "output_bytes": 105306,
+      "input_sha256": "913df1074179a185f792aaa088e8a83f107bd2f612022ce0ba428eb8d8f1a833",
+      "output_sha256": "c828320210e32b1bcaf74ee80dd6566c6ba61d2e08f7f06462c74c3525e969c3",
+      "metadata_preserved": true,
+      "match_count": 102,
+      "similar_only_count": 20
+    },
+    {
+      "file": "气运＋6 如有神助 气运碎片_xWT111.md",
+      "input_bytes": 92992,
+      "output_bytes": 92984,
+      "input_sha256": "652d5440d1bfe8ddb0c6b22f017c27532dc56cd28569a66f820ae963fc8aa4ad",
+      "output_sha256": "1415a8b65946bcc06695490ecb475097849706210b4bf49807367931393af351",
+      "metadata_preserved": true,
+      "match_count": 80,
+      "similar_only_count": 12
+    },
+    {
+      "file": "深圳直播，神来一手_xWT111.md",
+      "input_bytes": 73791,
+      "output_bytes": 73783,
+      "input_sha256": "23aa56f5170c7b91dc247ea3cb1de9fbc31361961e4bcdf0d6918424534ccbd0",
+      "output_sha256": "143eb8a18106bdb33ccf2c79e063d790ec9cd0817b2fd86f6eca45f11ef32bfd",
+      "metadata_preserved": true,
+      "match_count": 68,
+      "similar_only_count": 6
+    },
+    {
+      "file": "澳门之行 最大限度撬动地利资源_(2).md",
+      "input_bytes": 64937,
+      "output_bytes": 64921,
+      "input_sha256": "e36107e502c9f0a5c95c6f26303040f269accb22fb7ccf46b7dee9166579c005",
+      "output_sha256": "c75c441f1ae3f2bdada330f6aa8afe533bcc5d27420490068e5dfc273cabb517",
+      "metadata_preserved": true,
+      "match_count": 23,
+      "similar_only_count": 9
+    },
+    {
+      "file": "神通敌不过业力_xWT111.md",
+      "input_bytes": 41733,
+      "output_bytes": 41724,
+      "input_sha256": "f4a8a1e94879e1dd2e92dee3ba20629bf2de4ca4b77269391940505c5f1ac20f",
+      "output_sha256": "8e5e3a324ae6e775a31ca399904fd832816b12a27d4d63714c6e3a61bf835072",
+      "metadata_preserved": true,
+      "match_count": 21,
+      "similar_only_count": 3
+    },
+    {
+      "file": "给世界的礼物_xWT111.md",
+      "input_bytes": 91572,
+      "output_bytes": 91560,
+      "input_sha256": "62b74df51e8087abad21715900d55bfe3dce74ab8c4af2549d72ba00ed8f844e",
+      "output_sha256": "2d9033bddf15e61a7a04fa8e6f6c80f3de0a6d077b3b81c2af03141dba84edf5",
+      "metadata_preserved": true,
+      "match_count": 45,
+      "similar_only_count": 15
+    },
+    {
+      "file": "聊对错之上的规矩与道义_(1).md",
+      "input_bytes": 134143,
+      "output_bytes": 134143,
+      "input_sha256": "71428f047c5f9e5e2d15054814dab067f3d20c8a094ee691abca496d2a18349c",
+      "output_sha256": "3736913c8773b4b5b620361328865626c0fa00be6522ddfb51ab7ae53a223b39",
+      "metadata_preserved": true,
+      "match_count": 61,
+      "similar_only_count": 11
+    },
+    {
+      "file": "财富与气运的快速积累与猫哥财富课_xWT111.md",
+      "input_bytes": 174944,
+      "output_bytes": 174864,
+      "input_sha256": "b727c919580ea67f1b43f6c5a044b4ec754e3f3933f8752fafa0a87098345172",
+      "output_sha256": "68d5fa4645c2c3a4c57e717a1d506d3c2c5124bd97dd0dc702d59d4080803235",
+      "metadata_preserved": true,
+      "match_count": 118,
+      "similar_only_count": 22
+    }
+  ]
+}

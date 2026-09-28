@@ -1,0 +1,325 @@
+{
+  "nodes": [
+    {
+      "id": "lw-e0d1e7af2a7c1722",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/dontbesilent-商业方法论/00-学习计划.md",
+      "x": 0,
+      "y": 0,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-787d0e9e21b5f417",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/dontbesilent-商业方法论/01.md",
+      "x": 660,
+      "y": 0,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-ca5e9dd85d033f1e",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/dontbesilent-商业方法论/02.md",
+      "x": 1320,
+      "y": 0,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-f94cf2d91bfe2d20",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_b9e654ca1d0fda86aa3ecd43.md",
+      "x": 1890,
+      "y": 0,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-cae033adb83e8e32",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/dontbesilent-商业方法论/03.md",
+      "x": 0,
+      "y": 510,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-c6e2d75f90d8cfcf",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/dontbesilent-商业方法论/04.md",
+      "x": 660,
+      "y": 510,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-dca071749674f7b4",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/dontbesilent-商业方法论/05.md",
+      "x": 1320,
+      "y": 510,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-1cc069d920f5ebb8",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/dontbesilent-商业方法论/06.md",
+      "x": 0,
+      "y": 1020,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-9a2ee6b76e50c326",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/dontbesilent-商业方法论/07.md",
+      "x": 660,
+      "y": 1020,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-af68fcb6d717a075",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/dontbesilent-商业方法论/08.md",
+      "x": 1320,
+      "y": 1020,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-58506914f6bafbad",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/dontbesilent-商业方法论/09.md",
+      "x": 0,
+      "y": 1530,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-b4c0247d9581edac",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/dontbesilent-商业方法论/10.md",
+      "x": 660,
+      "y": 1530,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-da528052bca3aae9",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/dontbesilent-商业方法论/11.md",
+      "x": 1320,
+      "y": 1530,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-144a70895fb31154",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/dontbesilent-商业方法论/12.md",
+      "x": 0,
+      "y": 2040,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-49aeff1ba8e8ae0c",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_8a07a8c1ac84efd8ea593781.md",
+      "x": 570,
+      "y": 510,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-9f930c84bc444197",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_dcd9806e60307341188fe30d.md",
+      "x": 1720,
+      "y": 510,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-612743bed0e46656",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_b9ec82ebd0fa95835d6d2974.md",
+      "x": 570,
+      "y": 1020,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-ef94e36c478020a6",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_3e23ea3419b38eb7f80b46f5.md",
+      "x": 1720,
+      "y": 1020,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-a869910dc45dbcd4",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_f4f50cdf2fb44eed3b317c86.md",
+      "x": 570,
+      "y": 1530,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-60f04ced9b0fa0f1",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_6e9625f703a2c84fa798a95d.md",
+      "x": 1720,
+      "y": 1530,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-0228ec6580ca5610",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_c8f2246a4401220f2403963d.md",
+      "x": 570,
+      "y": 2040,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-738f7375d98d21dd",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_53e8c89d4bda8fa74ef275ba.md",
+      "x": 1720,
+      "y": 2040,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-4ecf74955a14edac",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_b07c8a02f2f26eca5e667c37.md",
+      "x": 570,
+      "y": 2550,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-status-ace1e60622b6d28a",
+      "type": "text",
+      "text": "学习状态｜dontbesilent-商业方法论\n\n正文 12 篇　｜　候选 0 条\n反馈：入账 10 / 手写 10（无缺口）\n疑问：未结 0　｜　已结清 0",
+      "x": 0,
+      "y": -300,
+      "width": 520,
+      "height": 240
+    }
+  ],
+  "edges": [
+    {
+      "id": "lw-e-5d4b5d247067a60b",
+      "fromNode": "lw-ca5e9dd85d033f1e",
+      "toNode": "lw-f94cf2d91bfe2d20",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-e9e651b6182d7a8b",
+      "fromNode": "lw-cae033adb83e8e32",
+      "toNode": "lw-49aeff1ba8e8ae0c",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-9da7666562e0b42e",
+      "fromNode": "lw-c6e2d75f90d8cfcf",
+      "toNode": "lw-9f930c84bc444197",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-a51c58e8fe6f4da3",
+      "fromNode": "lw-dca071749674f7b4",
+      "toNode": "lw-612743bed0e46656",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-cca599bc350547f1",
+      "fromNode": "lw-1cc069d920f5ebb8",
+      "toNode": "lw-ef94e36c478020a6",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-419fc218fb6ebf4b",
+      "fromNode": "lw-9a2ee6b76e50c326",
+      "toNode": "lw-a869910dc45dbcd4",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-1b714620d5334051",
+      "fromNode": "lw-af68fcb6d717a075",
+      "toNode": "lw-60f04ced9b0fa0f1",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-420c504477089751",
+      "fromNode": "lw-58506914f6bafbad",
+      "toNode": "lw-0228ec6580ca5610",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-ee6e07769f0e5da4",
+      "fromNode": "lw-b4c0247d9581edac",
+      "toNode": "lw-738f7375d98d21dd",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-97c14beb6b23eff4",
+      "fromNode": "lw-da528052bca3aae9",
+      "toNode": "lw-4ecf74955a14edac",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ]
+}

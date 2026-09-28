@@ -1,0 +1,114 @@
+{
+  "actor": {
+    "actor_id": "local-user",
+    "ownership_scope": "personal",
+    "verification": "local_single_user"
+  },
+  "application_context": {
+    "constraints": [],
+    "observable_result": null,
+    "real_task": null
+  },
+  "constraints": {
+    "language": "zh-CN",
+    "no_file": false,
+    "no_open_search": true,
+    "presentation_preferences": [],
+    "risk_level": "ordinary"
+  },
+  "course_ref": {
+    "course_id": "ce8ccdb8-04e8-40fe-9493-f4521115ee4e",
+    "expected_lesson": "03",
+    "runtime_state_token": "st_5fb39c3416db97f646ef4ccf3e1d4a9b1456d58dfb0acff01270b2e54840423a"
+  },
+  "knowledge_port": null,
+  "learner_signal": {
+    "attribution_path": "/Users/housibo/Documents/DaCapo 内容资产/history/runtime/interactive-learning-captures/requests/ilrq_30d16e0bd986c82dcf89b967/attribution-envelope.json",
+    "attribution_sha256": "87ca556ac48a9edde80b95d9666fdbf3a934c04d17f14c2f26b47ca2171535b1",
+    "kind": "learning_feedback"
+  },
+  "mode": {
+    "intent": "use",
+    "interaction": "guided",
+    "persistence": "course"
+  },
+  "operation": "submit_learner_signal",
+  "origin": {
+    "message_id": "019f7171-5a32-72d1-9334-99e54a6c5760",
+    "received_at": "2026-07-17T19:01:06.000Z",
+    "surface": "codex",
+    "thread_id": "019f712a-641b-7b31-9a45-384e9edad8ed"
+  },
+  "provenance": {
+    "agent_inferred_fields": [
+      "learner_signal.kind"
+    ],
+    "runtime_derived_fields": [
+      "actor.actor_id",
+      "actor.ownership_scope",
+      "actor.verification",
+      "application_context.observable_result",
+      "application_context.real_task",
+      "constraints.language",
+      "constraints.no_file",
+      "constraints.no_open_search",
+      "constraints.risk_level",
+      "course_ref.course_id",
+      "course_ref.expected_lesson",
+      "course_ref.runtime_state_token",
+      "knowledge_port",
+      "learner_signal.attribution_path",
+      "learner_signal.attribution_sha256",
+      "mode.intent",
+      "mode.interaction",
+      "mode.persistence",
+      "operation",
+      "origin.message_id",
+      "origin.received_at",
+      "origin.surface",
+      "origin.thread_id",
+      "request_id",
+      "schema",
+      "source_input.mode",
+      "source_input.path",
+      "source_input.schema",
+      "source_input.sha256",
+      "source_input.status",
+      "target",
+      "task_anchor",
+      "teaching_prior.evidence_refs",
+      "teaching_prior.gap_hypothesis",
+      "teaching_prior.knowledge_tree_role",
+      "teaching_prior.status",
+      "writeback_policy.course_runtime",
+      "writeback_policy.evidence_assets",
+      "writeback_policy.knowledge_assets"
+    ],
+    "user_explicit_fields": [
+      "application_context.constraints",
+      "constraints.presentation_preferences"
+    ]
+  },
+  "request_id": "ilrq_30d16e0bd986c82dcf89b967",
+  "schema": "interactive-learning.ingress.v1",
+  "source_input": {
+    "mode": "none",
+    "path": null,
+    "schema": null,
+    "sha256": null,
+    "status": "ready"
+  },
+  "target": null,
+  "task_anchor": null,
+  "teaching_prior": {
+    "evidence_refs": [],
+    "gap_hypothesis": null,
+    "knowledge_tree_role": "none",
+    "status": "none"
+  },
+  "writeback_policy": {
+    "course_runtime": "required",
+    "evidence_assets": "candidate_only",
+    "knowledge_assets": "candidate_only"
+  }
+}

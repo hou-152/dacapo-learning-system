@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-29T19:23:58.425648+00:00",
+  "source_archive": "/Users/housibo/Desktop/转文字文稿/_Codex洗稿去重汇总/files/逐字稿-信息源.zip",
+  "source_archive_sha256": "22c591983c4025fd37ca7ada9174b77fc1ae5685ad72474cad4c877ae3a1c814",
+  "document_count": 32,
+  "total_bytes": 3424826,
+  "documents": [
+    {
+      "archive_path": "逐字稿-信息源/2026-06-16_防呆指南_姜禹.md",
+      "output_path": "raw/2026-06-16_防呆指南_姜禹.md",
+      "bytes": 28694,
+      "lines": 124,
+      "sha256": "f5faac3f68512c0084fed4b736f38e69002f0e014d0fd9eaa8e9c4e9eb933ce7",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/2026.06.16_2026.2.22_一次重要的沟通实录_part.2…_699ac885e4b0.md",
+      "output_path": "raw/2026.06.16_2026.2.22_一次重要的沟通实录_part.2…_699ac885e4b0.md",
+      "bytes": 154651,
+      "lines": 410,
+      "sha256": "a030cb2624f6f05b12719fe7b83d8d4767712a6001f23567790197b6afff80cf",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/Ai时代背景下的 自我 财富 家庭_xWT111.md",
+      "output_path": "raw/Ai时代背景下的 自我 财富 家庭_xWT111.md",
+      "bytes": 188697,
+      "lines": 403,
+      "sha256": "3536a5561a5f46156bb85f6e6ea0e97cfe5f909f98d7c1fdc27aaa4ccfdf9ac8",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/万象气运＋1刻 树成林线上春晚 _xWT111.md",
+      "output_path": "raw/万象气运＋1刻 树成林线上春晚 _xWT111.md",
+      "bytes": 170783,
+      "lines": 483,
+      "sha256": "c90c10aff8df7577265885da8532c26005d49cfb2e0411b6d7860c91d71c1980",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/与老王一起聊20个场景问，气运＋1_xWT111.md",
+      "output_path": "raw/与老王一起聊20个场景问，气运＋1_xWT111.md",
+      "bytes": 215693,
+      "lines": 512,
+      "sha256": "a48c1bdb0cf8e3d3823f8b949cd9e707193704130575d927a4a193508ec56312",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/五台山之行，在路上的人生杠杆_xWT111(1).md",
+      "output_path": "raw/五台山之行，在路上的人生杠杆_xWT111(1).md",
+      "bytes": 93382,
+      "lines": 250,
+      "sha256": "11ab22fa1bb29513e97b52da376741e931a475c877bc670f7bcb71f5695cebe7",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/人生立足之地-解决十年蹉跎 气运＋1_xV0.md",
+      "output_path": "raw/人生立足之地-解决十年蹉跎 气运＋1_xV0.md",
+      "bytes": 100795,
+      "lines": 283,
+      "sha256": "ec1b8346f27088037c6fea772280218415fff3960cd1909866e10159b24a9e94",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/剑指自己，如果我错了怎么办_xWT111.md",
+      "output_path": "raw/剑指自己，如果我错了怎么办_xWT111.md",
+      "bytes": 82623,
+      "lines": 249,
+      "sha256": "eb513ca3222e9e44563669dcafe2c88214524cf8185c1c520cec30ca9f5cde40",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/在冈仁波齐，生死之间的感悟我_xWT111.md",
+      "output_path": "raw/在冈仁波齐，生死之间的感悟我_xWT111.md",
+      "bytes": 109368,
+      "lines": 296,
+      "sha256": "6c893e37fabfc9330b82327dc4084356bb0b44ddb29025062d5dd6993b3f4f59",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/在西藏在路上，阳谋无解 坦荡立世_xWT111.md",
+      "output_path": "raw/在西藏在路上，阳谋无解 坦荡立世_xWT111.md",
+      "bytes": 92609,
+      "lines": 236,
+      "sha256": "cac01f325d006e08a50c88a3586c95f03d65a96bf9f297c69611714f4d77fd25",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/奥德彪与奥德赛的人生轨迹Ai时代_.md",
+      "output_path": "raw/奥德彪与奥德赛的人生轨迹Ai时代_.md",
+      "bytes": 114076,
+      "lines": 318,
+      "sha256": "ee1941e6069a1fc02e0405fdb2aba2b1ac57e16d88a58f845404f67a0285163a",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/客观规律与无常性看懂事物变化_xWT111.md",
+      "output_path": "raw/客观规律与无常性看懂事物变化_xWT111.md",
+      "bytes": 141088,
+      "lines": 393,
+      "sha256": "86b031d98fff35213211c1155ddb5fd896db887abc14dfc6a654e6d8709b6fe7",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/小世界，气运＋1_.md",
+      "output_path": "raw/小世界，气运＋1_.md",
+      "bytes": 65967,
+      "lines": 175,
+      "sha256": "1eaf8a01ea0dcedef0bf94a953b20542f142f6eebaf450ef44de0834600dad5c",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/我们万岁，随机一播，动态总结_xWT111.md",
+      "output_path": "raw/我们万岁，随机一播，动态总结_xWT111.md",
+      "bytes": 99009,
+      "lines": 317,
+      "sha256": "9d58d467b3bd9fea539dcc508265f624aaeff7a860386ae1ac7d0fc3d3546ff9",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/我辈青年！改变世界！_xWT111(1).md",
+      "output_path": "raw/我辈青年！改变世界！_xWT111(1).md",
+      "bytes": 118807,
+      "lines": 363,
+      "sha256": "3dab8e9fa29a7461c5d15c5591af521f70c3375423a5d984bf6e97c628a215d4",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/晒气运大赛 改变2025从这一刻开始_xWT111.md",
+      "output_path": "raw/晒气运大赛 改变2025从这一刻开始_xWT111.md",
+      "bytes": 142685,
+      "lines": 438,
+      "sha256": "85c8cdfbf895774f121f911d49698e6a84ed6ef7dcf125ccd742ea46902d730e",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/有病治病，深夜诊断，气运＋1_xWT111.md",
+      "output_path": "raw/有病治病，深夜诊断，气运＋1_xWT111.md",
+      "bytes": 39601,
+      "lines": 110,
+      "sha256": "cc6af6603261dc3d38f4a91930d367f5e32fc8353cd3cee5363c7f64da887b07",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/来参加姜哥的婚礼！_.md",
+      "output_path": "raw/来参加姜哥的婚礼！_.md",
+      "bytes": 22733,
+      "lines": 129,
+      "sha256": "59a160253fe9c3fd5cc31520b6d8b55a1e0ce02c0fac921b548470b4cad16a25",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/欢迎来到我的直播间_(2).md",
+      "output_path": "raw/欢迎来到我的直播间_(2).md",
+      "bytes": 66240,
+      "lines": 171,
+      "sha256": "24e01c5c0b4becc0fdcdef125dcfbfc076e0d8644dfd12e464072f5092359276",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/气运+1我的奋斗_xWT111.md",
+      "output_path": "raw/气运+1我的奋斗_xWT111.md",
+      "bytes": 138854,
+      "lines": 492,
+      "sha256": "683148329aac49075c62a284639820d0014bb7131f99888cccd28842b4f4a0e7",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/气运➕1再次改变这个世界  多维世界_xWT111.md",
+      "output_path": "raw/气运➕1再次改变这个世界  多维世界_xWT111.md",
+      "bytes": 192319,
+      "lines": 475,
+      "sha256": "68a041e58c05d1ea9ec824b27e7cf6e7bd5bea8f0ac6210230ef766774d19ca6",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/气运加一 · 无限进化_xWT111.md",
+      "output_path": "raw/气运加一 · 无限进化_xWT111.md",
+      "bytes": 135581,
+      "lines": 447,
+      "sha256": "64e8ea806e70ff5d6745058330cb720e94376adc3ac49a822705bce8144e86fa",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/气运加持 静态增长 气运+1_xWT111.md",
+      "output_path": "raw/气运加持 静态增长 气运+1_xWT111.md",
+      "bytes": 94084,
+      "lines": 334,
+      "sha256": "a05057407a7796502a8fd4a80cd45239e0f6e60b787b7c269f9e32133f224c0e",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/气运感 气运+1_(2).md",
+      "output_path": "raw/气运感 气运+1_(2).md",
+      "bytes": 37061,
+      "lines": 106,
+      "sha256": "12cfcd7a39ef3fee887e5f26f1340582e3d94518abf874970a0187c7d40bcaf0",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/气运第一章 致世人_xWT111.md",
+      "output_path": "raw/气运第一章 致世人_xWT111.md",
+      "bytes": 105314,
+      "lines": 274,
+      "sha256": "913df1074179a185f792aaa088e8a83f107bd2f612022ce0ba428eb8d8f1a833",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/气运＋6 如有神助 气运碎片_xWT111.md",
+      "output_path": "raw/气运＋6 如有神助 气运碎片_xWT111.md",
+      "bytes": 92992,
+      "lines": 325,
+      "sha256": "652d5440d1bfe8ddb0c6b22f017c27532dc56cd28569a66f820ae963fc8aa4ad",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/深圳直播，神来一手_xWT111.md",
+      "output_path": "raw/深圳直播，神来一手_xWT111.md",
+      "bytes": 73791,
+      "lines": 204,
+      "sha256": "23aa56f5170c7b91dc247ea3cb1de9fbc31361961e4bcdf0d6918424534ccbd0",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/澳门之行 最大限度撬动地利资源_(2).md",
+      "output_path": "raw/澳门之行 最大限度撬动地利资源_(2).md",
+      "bytes": 64937,
+      "lines": 220,
+      "sha256": "e36107e502c9f0a5c95c6f26303040f269accb22fb7ccf46b7dee9166579c005",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/神通敌不过业力_xWT111.md",
+      "output_path": "raw/神通敌不过业力_xWT111.md",
+      "bytes": 41733,
+      "lines": 154,
+      "sha256": "f4a8a1e94879e1dd2e92dee3ba20629bf2de4ca4b77269391940505c5f1ac20f",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/给世界的礼物_xWT111.md",
+      "output_path": "raw/给世界的礼物_xWT111.md",
+      "bytes": 91572,
+      "lines": 258,
+      "sha256": "62b74df51e8087abad21715900d55bfe3dce74ab8c4af2549d72ba00ed8f844e",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/聊对错之上的规矩与道义_(1).md",
+      "output_path": "raw/聊对错之上的规矩与道义_(1).md",
+      "bytes": 134143,
+      "lines": 343,
+      "sha256": "71428f047c5f9e5e2d15054814dab067f3d20c8a094ee691abca496d2a18349c",
+      "decode_replacement_count": 0
+    },
+    {
+      "archive_path": "逐字稿-信息源/财富与气运的快速积累与猫哥财富课_xWT111.md",
+      "output_path": "raw/财富与气运的快速积累与猫哥财富课_xWT111.md",
+      "bytes": 174944,
+      "lines": 425,
+      "sha256": "b727c919580ea67f1b43f6c5a044b4ec754e3f3933f8752fafa0a87098345172",
+      "decode_replacement_count": 0
+    }
+  ]
+}

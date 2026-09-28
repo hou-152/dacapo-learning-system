@@ -1,0 +1,501 @@
+{
+  "nodes": [
+    {
+      "id": "lw-f98a82550ed0729b",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/我常常是错的/00-学习计划.md",
+      "x": 0,
+      "y": 0,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-b3464bbec165b083",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/我常常是错的/01.md",
+      "x": 660,
+      "y": 0,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-04e11c6cdc7c7b94",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/我常常是错的/02.md",
+      "x": 1320,
+      "y": 0,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-7b89123ab3942fdc",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/我常常是错的/03.md",
+      "x": 0,
+      "y": 510,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-51193b2755ef802e",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/我常常是错的/04.md",
+      "x": 660,
+      "y": 510,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-f95f27f8a74c9383",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/我常常是错的/assets/疑问/W-0922-1.md",
+      "x": 1230,
+      "y": 510,
+      "width": 360,
+      "height": 220,
+      "color": "3"
+    },
+    {
+      "id": "lw-e33707b366cafac8",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/我常常是错的/assets/疑问/W-0922-2.md",
+      "x": 1230,
+      "y": 910,
+      "width": 360,
+      "height": 220,
+      "color": "3"
+    },
+    {
+      "id": "lw-9a8dc4f97ad927f8",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/我常常是错的/05.md",
+      "x": 1770,
+      "y": 510,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-a6361b857b747f28",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/我常常是错的/06.md",
+      "x": 0,
+      "y": 1420,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-53b33d3ba458d3d4",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_a5f73368efa4bdf2b894e22e.md",
+      "x": 1230,
+      "y": 0,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-78a580ba66f87032",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_be3532846646283c26f87f9a.md",
+      "x": 570,
+      "y": 510,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-09a251167cf7a763",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_2ebc4d356979472ea56e0c2f.md",
+      "x": 1720,
+      "y": 510,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-b752219d6b33179c",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_69a86c9e2bb03f119c907c36.md",
+      "x": 570,
+      "y": 1020,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-4251b015d3446cc0",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_2b72b96f6d4e9ea210ac2a4f.md",
+      "x": 570,
+      "y": 1930,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-904cd400cbe5cbe3",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/我常常是错的/assets/反馈上下文/lw_be3532846646283c26f87f9a.md",
+      "x": 570,
+      "y": 910,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-6f6103c5a3aca2a1",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/我常常是错的/assets/疑问/W-697ec598ad82.md",
+      "x": 1060,
+      "y": 510,
+      "width": 360,
+      "height": 220,
+      "color": "3"
+    },
+    {
+      "id": "lw-81bc4fdec95d327e",
+      "type": "file",
+      "file": "01-交互式学习/06-内容候选/工作台候选/QST-lw_be3532846646283c26f87f9a.md",
+      "x": 1510,
+      "y": 510,
+      "width": 360,
+      "height": 220,
+      "color": "5"
+    },
+    {
+      "id": "lw-feb5c11c90b62c51",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/我常常是错的/assets/反馈上下文/lw_69a86c9e2bb03f119c907c36.md",
+      "x": 570,
+      "y": 1820,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-dec4eb52a2c97194",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/我常常是错的/assets/疑问/W-467d59035d7f.md",
+      "x": 1060,
+      "y": 2220,
+      "width": 360,
+      "height": 220,
+      "color": "3"
+    },
+    {
+      "id": "lw-99877272f65f4079",
+      "type": "file",
+      "file": "01-交互式学习/06-内容候选/工作台候选/QST-lw_69a86c9e2bb03f119c907c36.md",
+      "x": 1510,
+      "y": 1420,
+      "width": 360,
+      "height": 220,
+      "color": "5"
+    },
+    {
+      "id": "lw-5aef445628ac460b",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/我常常是错的/assets/反馈上下文/lw_2ebc4d356979472ea56e0c2f.md",
+      "x": 570,
+      "y": 1820,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-92a606c68933fdb2",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/我常常是错的/assets/疑问/W-dff0b0d87eaf.md",
+      "x": 1060,
+      "y": 1420,
+      "width": 360,
+      "height": 220,
+      "color": "3"
+    },
+    {
+      "id": "lw-a6ed6d82f0cd3ffc",
+      "type": "file",
+      "file": "01-交互式学习/06-内容候选/工作台候选/SOL-lw_2ebc4d356979472ea56e0c2f.md",
+      "x": 1510,
+      "y": 1420,
+      "width": 360,
+      "height": 220,
+      "color": "5"
+    },
+    {
+      "id": "lw-6db93421fc923ae3",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/我常常是错的/assets/反馈上下文/lw_2b72b96f6d4e9ea210ac2a4f.md",
+      "x": 570,
+      "y": 3530,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-96df2bbf7343094a",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/我常常是错的/assets/疑问/W-2f0e5be2ee3a.md",
+      "x": 1060,
+      "y": 3130,
+      "width": 360,
+      "height": 220,
+      "color": "3"
+    },
+    {
+      "id": "lw-5671d633e0dc75b5",
+      "type": "file",
+      "file": "01-交互式学习/06-内容候选/工作台候选/SOL-lw_2b72b96f6d4e9ea210ac2a4f.md",
+      "x": 1510,
+      "y": 3130,
+      "width": 360,
+      "height": 220,
+      "color": "5"
+    },
+    {
+      "id": "lw-ac6263e15e22b4f5",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/我常常是错的/assets/疑问/W-0925-1.md",
+      "x": 2710,
+      "y": 3130,
+      "width": 360,
+      "height": 220,
+      "color": "3"
+    },
+    {
+      "id": "lw-status-4fdb74a0b747dd63",
+      "type": "text",
+      "text": "学习状态｜我常常是错的\n\n正文 6 篇　｜　候选 4 条\n反馈：入账 5 / 手写 5（无缺口）\n疑问：未结 3　｜　已结清 4\n最老未结疑问 2 天",
+      "x": 0,
+      "y": -300,
+      "width": 520,
+      "height": 240
+    }
+  ],
+  "edges": [
+    {
+      "id": "lw-e-d770f446138ff9c8",
+      "fromNode": "lw-51193b2755ef802e",
+      "toNode": "lw-f95f27f8a74c9383",
+      "label": "提出疑问",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-34f6949d0f39c8fc",
+      "fromNode": "lw-51193b2755ef802e",
+      "toNode": "lw-e33707b366cafac8",
+      "label": "提出疑问",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-ec563f31471d387f",
+      "fromNode": "lw-b3464bbec165b083",
+      "toNode": "lw-53b33d3ba458d3d4",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-67d400b415d021da",
+      "fromNode": "lw-04e11c6cdc7c7b94",
+      "toNode": "lw-78a580ba66f87032",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-dbf209a3b73499da",
+      "fromNode": "lw-7b89123ab3942fdc",
+      "toNode": "lw-09a251167cf7a763",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-77bbe1d2868e9696",
+      "fromNode": "lw-51193b2755ef802e",
+      "toNode": "lw-b752219d6b33179c",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-4033a22394cb9a1c",
+      "fromNode": "lw-9a8dc4f97ad927f8",
+      "toNode": "lw-4251b015d3446cc0",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-b06a0499c6065782",
+      "fromNode": "lw-78a580ba66f87032",
+      "toNode": "lw-904cd400cbe5cbe3",
+      "label": "补充上下文",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "lw-e-1ca01715134a019c",
+      "fromNode": "lw-04e11c6cdc7c7b94",
+      "toNode": "lw-6f6103c5a3aca2a1",
+      "label": "提出疑问",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-2e5928fc17793769",
+      "fromNode": "lw-78a580ba66f87032",
+      "toNode": "lw-6f6103c5a3aca2a1",
+      "label": "提出疑问",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-91f5058630bbece3",
+      "fromNode": "lw-904cd400cbe5cbe3",
+      "toNode": "lw-6f6103c5a3aca2a1",
+      "label": "提出疑问",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-058cf5b0ab623246",
+      "fromNode": "lw-78a580ba66f87032",
+      "toNode": "lw-81bc4fdec95d327e",
+      "label": "内容候选",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-193e5465d7417a62",
+      "fromNode": "lw-f95f27f8a74c9383",
+      "toNode": "lw-81bc4fdec95d327e",
+      "label": "内容候选",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-685405826d5fc97b",
+      "fromNode": "lw-7b89123ab3942fdc",
+      "toNode": "lw-81bc4fdec95d327e",
+      "label": "内容候选",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-38eb496aa62a033f",
+      "fromNode": "lw-b752219d6b33179c",
+      "toNode": "lw-feb5c11c90b62c51",
+      "label": "补充上下文",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "lw-e-2520b93a40795499",
+      "fromNode": "lw-feb5c11c90b62c51",
+      "toNode": "lw-dec4eb52a2c97194",
+      "label": "提出疑问",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-4fa04176e77654cd",
+      "fromNode": "lw-b752219d6b33179c",
+      "toNode": "lw-99877272f65f4079",
+      "label": "内容候选",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-99d60e6db453d062",
+      "fromNode": "lw-09a251167cf7a763",
+      "toNode": "lw-5aef445628ac460b",
+      "label": "补充上下文",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "lw-e-2b63edeac2e4f74a",
+      "fromNode": "lw-51193b2755ef802e",
+      "toNode": "lw-92a606c68933fdb2",
+      "label": "提出疑问",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-5ebf3bdb7fd94d93",
+      "fromNode": "lw-9a8dc4f97ad927f8",
+      "toNode": "lw-92a606c68933fdb2",
+      "label": "提出疑问",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-cf9c14a2b401bdd0",
+      "fromNode": "lw-5aef445628ac460b",
+      "toNode": "lw-92a606c68933fdb2",
+      "label": "提出疑问",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-6a3be82d05744c72",
+      "fromNode": "lw-51193b2755ef802e",
+      "toNode": "lw-a6ed6d82f0cd3ffc",
+      "label": "内容候选",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-efe77da790134b07",
+      "fromNode": "lw-9a8dc4f97ad927f8",
+      "toNode": "lw-a6ed6d82f0cd3ffc",
+      "label": "内容候选",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-0b52ea7f70c26038",
+      "fromNode": "lw-09a251167cf7a763",
+      "toNode": "lw-a6ed6d82f0cd3ffc",
+      "label": "内容候选",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-cbdeb6ab4ca8db2e",
+      "fromNode": "lw-4251b015d3446cc0",
+      "toNode": "lw-6db93421fc923ae3",
+      "label": "补充上下文",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "lw-e-4f3a2961bf4bb8ba",
+      "fromNode": "lw-6db93421fc923ae3",
+      "toNode": "lw-96df2bbf7343094a",
+      "label": "提出疑问",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-7847fbdc63015bac",
+      "fromNode": "lw-4251b015d3446cc0",
+      "toNode": "lw-5671d633e0dc75b5",
+      "label": "内容候选",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ]
+}

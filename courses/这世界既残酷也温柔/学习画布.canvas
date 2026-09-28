@@ -1,0 +1,325 @@
+{
+  "nodes": [
+    {
+      "id": "lw-9af8a705dc23e27b",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/这世界既残酷也温柔/00-学习计划.md",
+      "x": 0,
+      "y": 0,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-b045cd39c54defdf",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/这世界既残酷也温柔/01.md",
+      "x": 660,
+      "y": 0,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-c71818f27c4bdda7",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_6e953ab4031f348f555d2088.md",
+      "x": 1230,
+      "y": 0,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-a9248d4f06b11a1e",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/这世界既残酷也温柔/02.md",
+      "x": 1810,
+      "y": 0,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-eedce8467a711b84",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/这世界既残酷也温柔/03.md",
+      "x": 0,
+      "y": 510,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-e0711e3a80e20ebe",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/这世界既残酷也温柔/04.md",
+      "x": 660,
+      "y": 510,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-b321688ad042a557",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/这世界既残酷也温柔/05.md",
+      "x": 1320,
+      "y": 510,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-fce9a05515e25078",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/这世界既残酷也温柔/06.md",
+      "x": 0,
+      "y": 1020,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-51c9a2e83a3b0d39",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/这世界既残酷也温柔/07.md",
+      "x": 660,
+      "y": 1020,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-1942079e53991f09",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/这世界既残酷也温柔/08.md",
+      "x": 1320,
+      "y": 1020,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-d3a5aea9719dd7b9",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/这世界既残酷也温柔/09.md",
+      "x": 0,
+      "y": 1530,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-3b5cd37416672ead",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/这世界既残酷也温柔/10.md",
+      "x": 660,
+      "y": 1530,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-fa272accb224c372",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/这世界既残酷也温柔/11.md",
+      "x": 1320,
+      "y": 1530,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-9d8fa5787dabe2b7",
+      "type": "file",
+      "file": "01-交互式学习/02-课程真源/这世界既残酷也温柔/12.md",
+      "x": 0,
+      "y": 2040,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "lw-6b2295b28054a014",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_c8d8e9517cc9babaa3df55a7.md",
+      "x": 570,
+      "y": 510,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-93f185d1d3162afc",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_8505e6ae221e66625a0782bf.md",
+      "x": 1720,
+      "y": 510,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-b944aacff8b82e9e",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_bd2de2b9dbc116014ac58fb1.md",
+      "x": 570,
+      "y": 1020,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-aa0de27bea9d65e2",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_b3a7709d56031d0b5aa16480.md",
+      "x": 1720,
+      "y": 1020,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-64182e42481ceba1",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_c51338057b6feef60cbc343d.md",
+      "x": 570,
+      "y": 1530,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-e48db9bedd9a2e57",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_02cbd1ebf66a4613d00af2d9.md",
+      "x": 1720,
+      "y": 1530,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-c8dcf1b6959a1bd7",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_088808abaf80688360d370a4.md",
+      "x": 570,
+      "y": 2040,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-21e5fccc886acdbf",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_101dcb149e5b1f7db27bd8e3.md",
+      "x": 1720,
+      "y": 2040,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-bc5bcd178fd4039e",
+      "type": "file",
+      "file": "01-交互式学习/04-用户原话与费曼/工作台视图/lw_821cbe48359e9a338f324302.md",
+      "x": 2380,
+      "y": 2040,
+      "width": 400,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "lw-status-ec7b470ed3ef007c",
+      "type": "text",
+      "text": "学习状态｜这世界既残酷也温柔\n\n正文 12 篇　｜　候选 0 条\n反馈：入账 10 / 手写 10（无缺口）\n疑问：未结 0　｜　已结清 0",
+      "x": 0,
+      "y": -300,
+      "width": 520,
+      "height": 240
+    }
+  ],
+  "edges": [
+    {
+      "id": "lw-e-84af97ebb43276a4",
+      "fromNode": "lw-b045cd39c54defdf",
+      "toNode": "lw-c71818f27c4bdda7",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-0d140111191a30b6",
+      "fromNode": "lw-a9248d4f06b11a1e",
+      "toNode": "lw-6b2295b28054a014",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-9ae7e82df5afbf8f",
+      "fromNode": "lw-eedce8467a711b84",
+      "toNode": "lw-93f185d1d3162afc",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-6a8a7a4b5c27028d",
+      "fromNode": "lw-e0711e3a80e20ebe",
+      "toNode": "lw-b944aacff8b82e9e",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-a6385c66b8e5f682",
+      "fromNode": "lw-b321688ad042a557",
+      "toNode": "lw-aa0de27bea9d65e2",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-201b73cd69c80ca4",
+      "fromNode": "lw-fce9a05515e25078",
+      "toNode": "lw-64182e42481ceba1",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-b901375c9145f1b6",
+      "fromNode": "lw-51c9a2e83a3b0d39",
+      "toNode": "lw-e48db9bedd9a2e57",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-f221e3f5213e7d9a",
+      "fromNode": "lw-1942079e53991f09",
+      "toNode": "lw-c8dcf1b6959a1bd7",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-bdf5fa7a8b79bd60",
+      "fromNode": "lw-d3a5aea9719dd7b9",
+      "toNode": "lw-21e5fccc886acdbf",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "lw-e-49d1396a251fb295",
+      "fromNode": "lw-fa272accb224c372",
+      "toNode": "lw-bc5bcd178fd4039e",
+      "label": "反馈",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ]
+}

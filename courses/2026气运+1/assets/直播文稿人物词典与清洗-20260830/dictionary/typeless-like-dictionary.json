@@ -1,0 +1,1305 @@
+{
+  "schema_version": "typeless-like-corpus-dictionary/v1",
+  "compatibility": "Typeless-inspired local interchange; not claimed as an official Typeless import schema",
+  "source": "32 local livestream transcripts; corpus-level candidates include multiple speakers",
+  "speaker_attribution": "UNRESOLVED",
+  "exported_at": "2026-08-29T19:47:45.760206+00:00",
+  "exported_count": 95,
+  "total_count": 95,
+  "records": [
+    {
+      "user_dictionary_id": "corpus-approved-001",
+      "term": "姜禹",
+      "replace": true,
+      "replace_targets": [
+        "江宇",
+        "姜宇"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-002",
+      "term": "姜哥",
+      "replace": true,
+      "replace_targets": [
+        "江哥"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-003",
+      "term": "气运+1",
+      "replace": true,
+      "replace_targets": [
+        "气运加一",
+        "气运＋1",
+        "幸云加一",
+        "幸运加一",
+        "汽运加一"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-004",
+      "term": "罗树林",
+      "replace": true,
+      "replace_targets": [
+        "罗树玲",
+        "罗树莲",
+        "罗树人",
+        "罗主流"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-005",
+      "term": "树成林",
+      "replace": true,
+      "replace_targets": [
+        "树城林",
+        "树生林",
+        "树中林",
+        "书成林",
+        "树情龄",
+        "舒盆林"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-006",
+      "term": "气运手札",
+      "replace": true,
+      "replace_targets": [
+        "汽运手闸",
+        "幸运手闸"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-007",
+      "term": "派代",
+      "replace": true,
+      "replace_targets": [
+        "派戴"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-008",
+      "term": "客服白皮书",
+      "replace": true,
+      "replace_targets": [
+        "克服白皮书"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-009",
+      "term": "工商联",
+      "replace": true,
+      "replace_targets": [
+        "官商联"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-010",
+      "term": "冈仁波齐",
+      "replace": true,
+      "replace_targets": [
+        "冈尔伯奇",
+        "冈尔波旗",
+        "高尔波基",
+        "冈仁伯旗",
+        "冈尔波奇",
+        "刚尔国请"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-011",
+      "term": "日喀则",
+      "replace": true,
+      "replace_targets": [
+        "日喀日喀泽"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-012",
+      "term": "经幡广场",
+      "replace": true,
+      "replace_targets": [
+        "京帆广场",
+        "金帆广场",
+        "金京湾广场"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-013",
+      "term": "快刀斩乱麻",
+      "replace": true,
+      "replace_targets": [
+        "快刀转乱麻"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-014",
+      "term": "以一敌十",
+      "replace": true,
+      "replace_targets": [
+        "一一敌十"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-015",
+      "term": "大音希声，大象无形",
+      "replace": true,
+      "replace_targets": [
+        "大音牺牲，大象无形",
+        "大因牺牲，大象无形"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-016",
+      "term": "小卡拉米",
+      "replace": true,
+      "replace_targets": [
+        "小咖里咪",
+        "小咖里迷"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-017",
+      "term": "良师益友",
+      "replace": true,
+      "replace_targets": [
+        "良食益有"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-018",
+      "term": "如释重负",
+      "replace": true,
+      "replace_targets": [
+        "属治重负",
+        "如负重负"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-019",
+      "term": "塞翁失马，焉知非福",
+      "replace": true,
+      "replace_targets": [
+        "塞翁之马焉知非福"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-020",
+      "term": "广结善缘",
+      "replace": true,
+      "replace_targets": [
+        "广洁善缘"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-021",
+      "term": "不破不立",
+      "replace": true,
+      "replace_targets": [
+        "不破不利"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-022",
+      "term": "Apple Store",
+      "replace": true,
+      "replace_targets": [
+        "APPstore"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-023",
+      "term": "NPC",
+      "replace": true,
+      "replace_targets": [
+        "NBC"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": [
+        "新闻",
+        "电视",
+        "美国",
+        "媒体"
+      ]
+    },
+    {
+      "user_dictionary_id": "corpus-approved-024",
+      "term": "PPT",
+      "replace": true,
+      "replace_targets": [
+        "PPPT",
+        "PPD"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": [
+        "产后",
+        "抑郁"
+      ]
+    },
+    {
+      "user_dictionary_id": "corpus-approved-025",
+      "term": "主旋律",
+      "replace": true,
+      "replace_targets": [
+        "主旋率"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-026",
+      "term": "心肌炎",
+      "replace": true,
+      "replace_targets": [
+        "心肌眼"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-027",
+      "term": "淘宝大学",
+      "replace": true,
+      "replace_targets": [
+        "top 宝大学"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-028",
+      "term": "人情世故",
+      "replace": true,
+      "replace_targets": [
+        "人经事故"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-029",
+      "term": "山巅相见",
+      "replace": true,
+      "replace_targets": [
+        "山相见",
+        "身临相见",
+        "山巅相镇"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-030",
+      "term": "防呆指南",
+      "replace": true,
+      "replace_targets": [
+        "防灾指南",
+        "房贷指南"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-031",
+      "term": "剑指自己",
+      "replace": true,
+      "replace_targets": [
+        "见止自己"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-032",
+      "term": "拍胸脯",
+      "replace": true,
+      "replace_targets": [
+        "开胸脯"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-033",
+      "term": "无垢琉璃心",
+      "replace": true,
+      "replace_targets": [
+        "无垢流璃心",
+        "无垢留璃心",
+        "无垢流离心"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-034",
+      "term": "人生复利",
+      "replace": true,
+      "replace_targets": [
+        "人生富力",
+        "人生富利"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-035",
+      "term": "人生杠杆",
+      "replace": true,
+      "replace_targets": [
+        "人生干杆"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-036",
+      "term": "文殊菩萨",
+      "replace": true,
+      "replace_targets": [
+        "文殊不责"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-037",
+      "term": "大文殊寺",
+      "replace": true,
+      "replace_targets": [
+        "大文书寺"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-038",
+      "term": "一千零八级台阶",
+      "replace": true,
+      "replace_targets": [
+        "111100八节",
+        "1008解太监",
+        "一千0八姐台阶"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-039",
+      "term": "中轴线",
+      "replace": true,
+      "replace_targets": [
+        "中轴县"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-040",
+      "term": "命比纸薄",
+      "replace": true,
+      "replace_targets": [
+        "命密纸薄"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-041",
+      "term": "神经元",
+      "replace": true,
+      "replace_targets": [
+        "神经语元"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-042",
+      "term": "黑暗丛林",
+      "replace": true,
+      "replace_targets": [
+        "黑暗丛理"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-043",
+      "term": "一朝被蛇咬，十年怕井绳",
+      "replace": true,
+      "replace_targets": [
+        "一招被蛇咬，十年变成今生"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-044",
+      "term": "电商手札",
+      "replace": true,
+      "replace_targets": [
+        "电商手闸"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-045",
+      "term": "电商相对论",
+      "replace": true,
+      "replace_targets": [
+        "电视相对论"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-046",
+      "term": "聚势大会",
+      "replace": true,
+      "replace_targets": [
+        "聚巨式",
+        "聚聚式",
+        "巨势大会"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-047",
+      "term": "文人相轻",
+      "replace": true,
+      "replace_targets": [
+        "文人向亲"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-048",
+      "term": "首发售罄",
+      "replace": true,
+      "replace_targets": [
+        "首扎售罄"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-049",
+      "term": "熵增熵减",
+      "replace": true,
+      "replace_targets": [
+        "伤增商减"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-050",
+      "term": "一鱼多吃",
+      "replace": true,
+      "replace_targets": [
+        "没有一于多吃"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-051",
+      "term": "事缓则圆",
+      "replace": true,
+      "replace_targets": [
+        "事缓择圆",
+        "适缓则圆"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-052",
+      "term": "接人待物",
+      "replace": true,
+      "replace_targets": [
+        "接人带物"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-053",
+      "term": "船大难掉头",
+      "replace": true,
+      "replace_targets": [
+        "传大难调头"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-054",
+      "term": "水满则溢",
+      "replace": true,
+      "replace_targets": [
+        "水满则意"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-approved-055",
+      "term": "GMV",
+      "replace": true,
+      "replace_targets": [
+        "GMOV"
+      ],
+      "category": "approved_correction",
+      "lang": "zh-CN",
+      "auto": false,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-056",
+      "term": "你看",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-057",
+      "term": "各位",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-058",
+      "term": "我觉得",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-059",
+      "term": "对吧",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-060",
+      "term": "其实",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-061",
+      "term": "兄弟们",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-062",
+      "term": "我希望",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-063",
+      "term": "记住",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-064",
+      "term": "能理解吗",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-065",
+      "term": "明白吗",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-066",
+      "term": "我认为",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-067",
+      "term": "懂吗",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-068",
+      "term": "买单",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-069",
+      "term": "真实",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-070",
+      "term": "所以说",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-071",
+      "term": "拿到结果",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-072",
+      "term": "我想告诉",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-073",
+      "term": "就这么简单",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-074",
+      "term": "客观",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-075",
+      "term": "我跟你讲",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-076",
+      "term": "气运加一",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-077",
+      "term": "你们记住",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-078",
+      "term": "如果我是",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-079",
+      "term": "假设",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-080",
+      "term": "向善而行",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-081",
+      "term": "认账",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-082",
+      "term": "大家能理解",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-083",
+      "term": "无限进化",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-084",
+      "term": "说白了",
+      "replace": false,
+      "replace_targets": [],
+      "category": "corpus_expression_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-085",
+      "term": "气运流转",
+      "replace": false,
+      "replace_targets": [],
+      "category": "concept_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-086",
+      "term": "气运叠加",
+      "replace": false,
+      "replace_targets": [],
+      "category": "concept_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-087",
+      "term": "改变世界",
+      "replace": false,
+      "replace_targets": [],
+      "category": "concept_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-088",
+      "term": "创造价值",
+      "replace": false,
+      "replace_targets": [],
+      "category": "concept_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-089",
+      "term": "人生攻略",
+      "replace": false,
+      "replace_targets": [],
+      "category": "concept_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-090",
+      "term": "狩猎范围",
+      "replace": false,
+      "replace_targets": [],
+      "category": "concept_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-091",
+      "term": "互为贵人",
+      "replace": false,
+      "replace_targets": [],
+      "category": "concept_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-092",
+      "term": "不让好人失望",
+      "replace": false,
+      "replace_targets": [],
+      "category": "concept_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-093",
+      "term": "求真",
+      "replace": false,
+      "replace_targets": [],
+      "category": "concept_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-094",
+      "term": "小世界",
+      "replace": false,
+      "replace_targets": [],
+      "category": "concept_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    },
+    {
+      "user_dictionary_id": "corpus-candidate-095",
+      "term": "原生家庭",
+      "replace": false,
+      "replace_targets": [],
+      "category": "concept_candidate",
+      "lang": "zh-CN",
+      "auto": true,
+      "created_at": "2026-08-29T19:47:45.760206+00:00",
+      "updated_at": "2026-08-29T19:47:45.760206+00:00",
+      "blacklist": []
+    }
+  ]
+}

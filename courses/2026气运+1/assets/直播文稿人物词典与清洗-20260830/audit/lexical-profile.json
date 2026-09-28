@@ -1,0 +1,9134 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-29T19:27:50.457059+00:00",
+  "engine": {
+    "jieba_version": "0.42.1",
+    "method": "jieba POS + frequency + TF-IDF + TextRank + token bigrams",
+    "speaker_attribution": "UNRESOLVED; corpus-level statistics may include guests and quoted speech"
+  },
+  "document_count": 32,
+  "body_characters": 1159893,
+  "documents": [
+    {
+      "file": "2026-06-16_防呆指南_姜禹.md",
+      "body_characters": 10082,
+      "body_sha256": "885515e0c6377089b1617d7a1840184eb0085e68ba3332a496d032756e350d99",
+      "clauses": 335,
+      "average_clause_characters": 28.39,
+      "first_person_count": 258,
+      "second_person_count": 254,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "2026.06.16_2026.2.22_一次重要的沟通实录_part.2…_699ac885e4b0.md",
+      "body_characters": 52402,
+      "body_sha256": "50b80b71630748fff69f7295e61052f4c35e7b48792b74fc62a869f4f3a1d88f",
+      "clauses": 1331,
+      "average_clause_characters": 38.05,
+      "first_person_count": 1639,
+      "second_person_count": 929,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "Ai时代背景下的 自我 财富 家庭_xWT111.md",
+      "body_characters": 63913,
+      "body_sha256": "54fcb0f5cb2d3a6d9ea09277d5742a0427e35a0fcd4709ce74cb77e2882a6b2e",
+      "clauses": 1890,
+      "average_clause_characters": 32.6,
+      "first_person_count": 2706,
+      "second_person_count": 1484,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "万象气运＋1刻 树成林线上春晚 _xWT111.md",
+      "body_characters": 57727,
+      "body_sha256": "f53f239d673c43ef4b20cb5ee4d5966092d0c433a4c44df4ad334dd66cc45c80",
+      "clauses": 1696,
+      "average_clause_characters": 32.74,
+      "first_person_count": 1776,
+      "second_person_count": 915,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "与老王一起聊20个场景问，气运＋1_xWT111.md",
+      "body_characters": 72764,
+      "body_sha256": "ea334877be22f263b7748ed2007dde7a4cf3d54e8419ed2961cbc0a4611dcd3c",
+      "clauses": 2367,
+      "average_clause_characters": 29.51,
+      "first_person_count": 2470,
+      "second_person_count": 1720,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "五台山之行，在路上的人生杠杆_xWT111(1).md",
+      "body_characters": 31407,
+      "body_sha256": "792b6b442c4715c4f8dba47aa47c8fc7fe04dd7a73fdbf66bb458049d5ce15ff",
+      "clauses": 926,
+      "average_clause_characters": 32.64,
+      "first_person_count": 888,
+      "second_person_count": 831,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "人生立足之地-解决十年蹉跎 气运＋1_xV0.md",
+      "body_characters": 33993,
+      "body_sha256": "1069d2564225eb1056ead5068f2731fe78c3f3208aea50be05c21f12cca27786",
+      "clauses": 1043,
+      "average_clause_characters": 31.29,
+      "first_person_count": 1057,
+      "second_person_count": 1151,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "剑指自己，如果我错了怎么办_xWT111.md",
+      "body_characters": 27956,
+      "body_sha256": "7c2b5cd57bb6540c8b0e932be178d50bd07ccc061d33d2f6fef16c9a8120da31",
+      "clauses": 808,
+      "average_clause_characters": 33.26,
+      "first_person_count": 1109,
+      "second_person_count": 741,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "在冈仁波齐，生死之间的感悟我_xWT111.md",
+      "body_characters": 36825,
+      "body_sha256": "1a765eb9159bf1f9e2f590b17faa0ec00e0744e3ee3246275ab6e9063ba43d24",
+      "clauses": 1131,
+      "average_clause_characters": 31.3,
+      "first_person_count": 1217,
+      "second_person_count": 951,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "在西藏在路上，阳谋无解 坦荡立世_xWT111.md",
+      "body_characters": 31185,
+      "body_sha256": "d44c087af34b2f1466304c652ff8c2d4b580775eff8d4527b54a458acda9196e",
+      "clauses": 941,
+      "average_clause_characters": 31.89,
+      "first_person_count": 944,
+      "second_person_count": 870,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "奥德彪与奥德赛的人生轨迹Ai时代_.md",
+      "body_characters": 38467,
+      "body_sha256": "b30037a4aa3a69bbd913d2e9ad63e018d2f4dca907ff651e1f411f58138475e0",
+      "clauses": 1185,
+      "average_clause_characters": 31.19,
+      "first_person_count": 1006,
+      "second_person_count": 919,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "客观规律与无常性看懂事物变化_xWT111.md",
+      "body_characters": 47448,
+      "body_sha256": "ba17b70222e737525fe89192a794eb837181239b9499ce83ed4d097924831f3d",
+      "clauses": 1479,
+      "average_clause_characters": 30.81,
+      "first_person_count": 1521,
+      "second_person_count": 1280,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "小世界，气运＋1_.md",
+      "body_characters": 22138,
+      "body_sha256": "e2619849979223e133df0746a818a5a7196dae07fe6002b717fdaefabccdfdc8",
+      "clauses": 639,
+      "average_clause_characters": 33.38,
+      "first_person_count": 691,
+      "second_person_count": 535,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "我们万岁，随机一播，动态总结_xWT111.md",
+      "body_characters": 33797,
+      "body_sha256": "bd7184c620d390fd2b077835e17dd6f15728b0dc488d43219c35cef9eddeba49",
+      "clauses": 1016,
+      "average_clause_characters": 31.82,
+      "first_person_count": 874,
+      "second_person_count": 787,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "我辈青年！改变世界！_xWT111(1).md",
+      "body_characters": 40109,
+      "body_sha256": "e7ccf7d1ba71380b987246d789dbf04390cdc5c1ab4bc90f7c541cc79f91eae0",
+      "clauses": 1277,
+      "average_clause_characters": 30.11,
+      "first_person_count": 921,
+      "second_person_count": 1212,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "晒气运大赛 改变2025从这一刻开始_xWT111.md",
+      "body_characters": 48329,
+      "body_sha256": "38bcf21186713b54fd6c9d551c78107037dddaf2509ea5ccbb9d2d0b08f2e247",
+      "clauses": 1472,
+      "average_clause_characters": 31.51,
+      "first_person_count": 1218,
+      "second_person_count": 1186,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "有病治病，深夜诊断，气运＋1_xWT111.md",
+      "body_characters": 13342,
+      "body_sha256": "4f1d4ab0946c3b48be2df38b5a0ea8b797b533adc23a3b4b2258086104fc7360",
+      "clauses": 384,
+      "average_clause_characters": 33.47,
+      "first_person_count": 627,
+      "second_person_count": 359,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "来参加姜哥的婚礼！_.md",
+      "body_characters": 7949,
+      "body_sha256": "d17768d351a4933f6195f480cdc8f3b5a8c87d829d51e68bd1a19072edba1c4b",
+      "clauses": 284,
+      "average_clause_characters": 26.32,
+      "first_person_count": 339,
+      "second_person_count": 121,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "欢迎来到我的直播间_(2).md",
+      "body_characters": 22309,
+      "body_sha256": "7e19a3050d22d43f13448996e8ff2beac1694911f77719d4acc39a17fe27f17a",
+      "clauses": 671,
+      "average_clause_characters": 32.0,
+      "first_person_count": 531,
+      "second_person_count": 514,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "气运+1我的奋斗_xWT111.md",
+      "body_characters": 48800,
+      "body_sha256": "0cc5efef6dbe98dfe9b679cbad4d87a89678524ab10f535afbe47af9dc49d8f1",
+      "clauses": 1513,
+      "average_clause_characters": 30.55,
+      "first_person_count": 1446,
+      "second_person_count": 867,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "气运➕1再次改变这个世界  多维世界_xWT111.md",
+      "body_characters": 64949,
+      "body_sha256": "96b71196f7183bf3c5a17217e262af85506aed3e5e3c3b8a1cae4b9e01c966a5",
+      "clauses": 1952,
+      "average_clause_characters": 32.02,
+      "first_person_count": 2252,
+      "second_person_count": 1926,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "气运加一 · 无限进化_xWT111.md",
+      "body_characters": 46078,
+      "body_sha256": "b1aef07c152e8685c9330eaa635995955bf5ab2221c61be61ba878fb869633eb",
+      "clauses": 1387,
+      "average_clause_characters": 31.79,
+      "first_person_count": 1665,
+      "second_person_count": 970,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "气运加持 静态增长 气运+1_xWT111.md",
+      "body_characters": 32049,
+      "body_sha256": "f4ce8d2a36e5768231e6651684104bdc2cc53c25a22b4f93b00824301af18cbe",
+      "clauses": 1072,
+      "average_clause_characters": 28.5,
+      "first_person_count": 965,
+      "second_person_count": 895,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "气运感 气运+1_(2).md",
+      "body_characters": 12487,
+      "body_sha256": "823ef86b92d769f41b45bd5915e012cf276cf127c436d14b1292d4fad3f3cc32",
+      "clauses": 386,
+      "average_clause_characters": 31.09,
+      "first_person_count": 369,
+      "second_person_count": 251,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "气运第一章 致世人_xWT111.md",
+      "body_characters": 35525,
+      "body_sha256": "446ae7106a55d2ffc43c47898afa43e00e63bcba700a8439cd154e7c0ba38244",
+      "clauses": 1104,
+      "average_clause_characters": 30.92,
+      "first_person_count": 1123,
+      "second_person_count": 877,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "气运＋6 如有神助 气运碎片_xWT111.md",
+      "body_characters": 31921,
+      "body_sha256": "a699339bc63f59b0e89b4a1a3261d4000a99a809d3890eb033c9d2205d39096b",
+      "clauses": 978,
+      "average_clause_characters": 31.13,
+      "first_person_count": 736,
+      "second_person_count": 847,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "深圳直播，神来一手_xWT111.md",
+      "body_characters": 24960,
+      "body_sha256": "cf589f748fbdcc6e774cab87a764997389742d4e5c57f6ce2dcf012bd15192ad",
+      "clauses": 815,
+      "average_clause_characters": 29.33,
+      "first_person_count": 624,
+      "second_person_count": 819,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "澳门之行 最大限度撬动地利资源_(2).md",
+      "body_characters": 22092,
+      "body_sha256": "f983e2355357de13801fcf990d3093242f86dc215a5e3776ab903a9163616fb2",
+      "clauses": 666,
+      "average_clause_characters": 31.66,
+      "first_person_count": 541,
+      "second_person_count": 520,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "神通敌不过业力_xWT111.md",
+      "body_characters": 14047,
+      "body_sha256": "bcc6019a16eb3c9987017391c0dbb9fbbdba4f76a892616a631598a4d13d4e2e",
+      "clauses": 425,
+      "average_clause_characters": 31.68,
+      "first_person_count": 717,
+      "second_person_count": 275,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "给世界的礼物_xWT111.md",
+      "body_characters": 30794,
+      "body_sha256": "f85ccfba78d6a89193a61ad825de623ef93caf091d0cf05b1a54bd1ac5b2f16c",
+      "clauses": 1001,
+      "average_clause_characters": 29.5,
+      "first_person_count": 945,
+      "second_person_count": 880,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "聊对错之上的规矩与道义_(1).md",
+      "body_characters": 45050,
+      "body_sha256": "ecbede2b125994251b1edefe3934533ae19a82a5bc763886e399868e2826cb91",
+      "clauses": 1418,
+      "average_clause_characters": 30.52,
+      "first_person_count": 1448,
+      "second_person_count": 1077,
+      "replacement_character_count": 0
+    },
+    {
+      "file": "财富与气运的快速积累与猫哥财富课_xWT111.md",
+      "body_characters": 58968,
+      "body_sha256": "becf4cefc53a538ddfec0649424b821951a76c97a1eaf70f03fc75cb2f3d9468",
+      "clauses": 1856,
+      "average_clause_characters": 30.54,
+      "first_person_count": 1852,
+      "second_person_count": 1413,
+      "replacement_character_count": 0
+    }
+  ],
+  "oral_markers": [
+    {
+      "term": "你看",
+      "count": 908,
+      "document_count": 32
+    },
+    {
+      "term": "各位",
+      "count": 805,
+      "document_count": 32
+    },
+    {
+      "term": "我觉得",
+      "count": 780,
+      "document_count": 31
+    },
+    {
+      "term": "对吧",
+      "count": 734,
+      "document_count": 32
+    },
+    {
+      "term": "其实",
+      "count": 640,
+      "document_count": 32
+    },
+    {
+      "term": "兄弟们",
+      "count": 371,
+      "document_count": 29
+    },
+    {
+      "term": "我希望",
+      "count": 255,
+      "document_count": 30
+    },
+    {
+      "term": "记住",
+      "count": 232,
+      "document_count": 27
+    },
+    {
+      "term": "能理解吗",
+      "count": 232,
+      "document_count": 28
+    },
+    {
+      "term": "明白吗",
+      "count": 206,
+      "document_count": 26
+    },
+    {
+      "term": "我认为",
+      "count": 199,
+      "document_count": 31
+    },
+    {
+      "term": "懂吗",
+      "count": 171,
+      "document_count": 25
+    },
+    {
+      "term": "买单",
+      "count": 148,
+      "document_count": 27
+    },
+    {
+      "term": "真实",
+      "count": 128,
+      "document_count": 25
+    },
+    {
+      "term": "所以说",
+      "count": 121,
+      "document_count": 26
+    },
+    {
+      "term": "拿到结果",
+      "count": 97,
+      "document_count": 23
+    },
+    {
+      "term": "我想告诉",
+      "count": 96,
+      "document_count": 22
+    },
+    {
+      "term": "就这么简单",
+      "count": 94,
+      "document_count": 24
+    },
+    {
+      "term": "客观",
+      "count": 88,
+      "document_count": 19
+    },
+    {
+      "term": "我跟你讲",
+      "count": 76,
+      "document_count": 22
+    },
+    {
+      "term": "气运加一",
+      "count": 75,
+      "document_count": 18
+    },
+    {
+      "term": "你们记住",
+      "count": 74,
+      "document_count": 25
+    },
+    {
+      "term": "如果我是",
+      "count": 55,
+      "document_count": 20
+    },
+    {
+      "term": "假设",
+      "count": 44,
+      "document_count": 20
+    },
+    {
+      "term": "向善而行",
+      "count": 32,
+      "document_count": 7
+    },
+    {
+      "term": "认账",
+      "count": 24,
+      "document_count": 8
+    },
+    {
+      "term": "大家能理解",
+      "count": 22,
+      "document_count": 15
+    },
+    {
+      "term": "无限进化",
+      "count": 10,
+      "document_count": 1
+    },
+    {
+      "term": "说白了",
+      "count": 1,
+      "document_count": 1
+    }
+  ],
+  "frequent_tokens": [
+    {
+      "term": "江哥",
+      "count": 1965,
+      "document_count": 31
+    },
+    {
+      "term": "事儿",
+      "count": 1611,
+      "document_count": 32
+    },
+    {
+      "term": "人生",
+      "count": 1502,
+      "document_count": 31
+    },
+    {
+      "term": "世界",
+      "count": 1146,
+      "document_count": 32
+    },
+    {
+      "term": "希望",
+      "count": 1089,
+      "document_count": 32
+    },
+    {
+      "term": "兄弟",
+      "count": 1076,
+      "document_count": 32
+    },
+    {
+      "term": "不能",
+      "count": 1042,
+      "document_count": 32
+    },
+    {
+      "term": "不要",
+      "count": 1039,
+      "document_count": 32
+    },
+    {
+      "term": "告诉",
+      "count": 938,
+      "document_count": 32
+    },
+    {
+      "term": "所有",
+      "count": 879,
+      "document_count": 32
+    },
+    {
+      "term": "未来",
+      "count": 725,
+      "document_count": 31
+    },
+    {
+      "term": "看到",
+      "count": 719,
+      "document_count": 32
+    },
+    {
+      "term": "赚钱",
+      "count": 713,
+      "document_count": 31
+    },
+    {
+      "term": "父母",
+      "count": 712,
+      "document_count": 31
+    },
+    {
+      "term": "老板",
+      "count": 694,
+      "document_count": 29
+    },
+    {
+      "term": "结果",
+      "count": 694,
+      "document_count": 32
+    },
+    {
+      "term": "大哥",
+      "count": 675,
+      "document_count": 30
+    },
+    {
+      "term": "朋友",
+      "count": 656,
+      "document_count": 32
+    },
+    {
+      "term": "不行",
+      "count": 654,
+      "document_count": 31
+    },
+    {
+      "term": "的话",
+      "count": 643,
+      "document_count": 32
+    },
+    {
+      "term": "时间",
+      "count": 605,
+      "document_count": 32
+    },
+    {
+      "term": "公司",
+      "count": 600,
+      "document_count": 32
+    },
+    {
+      "term": "还有",
+      "count": 600,
+      "document_count": 32
+    },
+    {
+      "term": "重要",
+      "count": 596,
+      "document_count": 30
+    },
+    {
+      "term": "不会",
+      "count": 592,
+      "document_count": 32
+    },
+    {
+      "term": "这件",
+      "count": 573,
+      "document_count": 32
+    },
+    {
+      "term": "气运",
+      "count": 533,
+      "document_count": 27
+    },
+    {
+      "term": "改变",
+      "count": 518,
+      "document_count": 29
+    },
+    {
+      "term": "是不是",
+      "count": 512,
+      "document_count": 31
+    },
+    {
+      "term": "发现",
+      "count": 508,
+      "document_count": 32
+    },
+    {
+      "term": "感觉",
+      "count": 494,
+      "document_count": 31
+    },
+    {
+      "term": "我会",
+      "count": 494,
+      "document_count": 32
+    },
+    {
+      "term": "出来",
+      "count": 494,
+      "document_count": 32
+    },
+    {
+      "term": "选择",
+      "count": 487,
+      "document_count": 31
+    },
+    {
+      "term": "关系",
+      "count": 475,
+      "document_count": 31
+    },
+    {
+      "term": "地方",
+      "count": 457,
+      "document_count": 32
+    },
+    {
+      "term": "想法",
+      "count": 454,
+      "document_count": 31
+    },
+    {
+      "term": "肯定",
+      "count": 439,
+      "document_count": 32
+    },
+    {
+      "term": "工作",
+      "count": 433,
+      "document_count": 32
+    },
+    {
+      "term": "价值",
+      "count": 414,
+      "document_count": 28
+    },
+    {
+      "term": "看看",
+      "count": 414,
+      "document_count": 32
+    },
+    {
+      "term": "思考",
+      "count": 409,
+      "document_count": 32
+    },
+    {
+      "term": "想要",
+      "count": 404,
+      "document_count": 31
+    },
+    {
+      "term": "努力",
+      "count": 400,
+      "document_count": 32
+    },
+    {
+      "term": "经历",
+      "count": 399,
+      "document_count": 32
+    },
+    {
+      "term": "有没有",
+      "count": 397,
+      "document_count": 31
+    },
+    {
+      "term": "成为",
+      "count": 388,
+      "document_count": 30
+    },
+    {
+      "term": "直播",
+      "count": 387,
+      "document_count": 31
+    },
+    {
+      "term": "感受",
+      "count": 383,
+      "document_count": 32
+    },
+    {
+      "term": "人家",
+      "count": 383,
+      "document_count": 31
+    },
+    {
+      "term": "需要",
+      "count": 383,
+      "document_count": 31
+    },
+    {
+      "term": "找到",
+      "count": 382,
+      "document_count": 31
+    },
+    {
+      "term": "当时",
+      "count": 377,
+      "document_count": 32
+    },
+    {
+      "term": "道理",
+      "count": 372,
+      "document_count": 30
+    },
+    {
+      "term": "孩子",
+      "count": 372,
+      "document_count": 28
+    },
+    {
+      "term": "比如说",
+      "count": 369,
+      "document_count": 31
+    },
+    {
+      "term": "所有人",
+      "count": 369,
+      "document_count": 31
+    },
+    {
+      "term": "城市",
+      "count": 362,
+      "document_count": 27
+    },
+    {
+      "term": "能力",
+      "count": 361,
+      "document_count": 30
+    },
+    {
+      "term": "开始",
+      "count": 359,
+      "document_count": 30
+    },
+    {
+      "term": "视角",
+      "count": 357,
+      "document_count": 28
+    },
+    {
+      "term": "影响",
+      "count": 351,
+      "document_count": 31
+    },
+    {
+      "term": "过去",
+      "count": 346,
+      "document_count": 32
+    },
+    {
+      "term": "老师",
+      "count": 345,
+      "document_count": 27
+    },
+    {
+      "term": "干嘛",
+      "count": 342,
+      "document_count": 31
+    },
+    {
+      "term": "AI",
+      "count": 335,
+      "document_count": 19
+    },
+    {
+      "term": "礼物",
+      "count": 334,
+      "document_count": 27
+    },
+    {
+      "term": "开心",
+      "count": 332,
+      "document_count": 31
+    },
+    {
+      "term": "个人",
+      "count": 325,
+      "document_count": 32
+    },
+    {
+      "term": "家庭",
+      "count": 320,
+      "document_count": 31
+    },
+    {
+      "term": "获得",
+      "count": 317,
+      "document_count": 29
+    },
+    {
+      "term": "简单",
+      "count": 317,
+      "document_count": 29
+    },
+    {
+      "term": "身边",
+      "count": 311,
+      "document_count": 32
+    },
+    {
+      "term": "遇到",
+      "count": 309,
+      "document_count": 32
+    },
+    {
+      "term": "贵人",
+      "count": 302,
+      "document_count": 29
+    },
+    {
+      "term": "感谢",
+      "count": 302,
+      "document_count": 29
+    },
+    {
+      "term": "机会",
+      "count": 298,
+      "document_count": 30
+    },
+    {
+      "term": "资源",
+      "count": 297,
+      "document_count": 29
+    },
+    {
+      "term": "不了",
+      "count": 296,
+      "document_count": 32
+    },
+    {
+      "term": "树林",
+      "count": 296,
+      "document_count": 28
+    },
+    {
+      "term": "故事",
+      "count": 287,
+      "document_count": 31
+    },
+    {
+      "term": "发生",
+      "count": 285,
+      "document_count": 31
+    },
+    {
+      "term": "认识",
+      "count": 280,
+      "document_count": 32
+    },
+    {
+      "term": "起来",
+      "count": 279,
+      "document_count": 31
+    },
+    {
+      "term": "解决",
+      "count": 274,
+      "document_count": 32
+    },
+    {
+      "term": "才能",
+      "count": 273,
+      "document_count": 32
+    },
+    {
+      "term": "生活",
+      "count": 273,
+      "document_count": 30
+    },
+    {
+      "term": "得到",
+      "count": 269,
+      "document_count": 32
+    },
+    {
+      "term": "环境",
+      "count": 268,
+      "document_count": 26
+    },
+    {
+      "term": "老妈",
+      "count": 267,
+      "document_count": 19
+    },
+    {
+      "term": "社会",
+      "count": 266,
+      "document_count": 29
+    },
+    {
+      "term": "最好",
+      "count": 265,
+      "document_count": 32
+    },
+    {
+      "term": "财富",
+      "count": 262,
+      "document_count": 25
+    },
+    {
+      "term": "投资",
+      "count": 262,
+      "document_count": 29
+    },
+    {
+      "term": "分享",
+      "count": 261,
+      "document_count": 28
+    },
+    {
+      "term": "成功",
+      "count": 261,
+      "document_count": 27
+    },
+    {
+      "term": "过程",
+      "count": 259,
+      "document_count": 28
+    },
+    {
+      "term": "怎么办",
+      "count": 258,
+      "document_count": 31
+    },
+    {
+      "term": "理由",
+      "count": 255,
+      "document_count": 25
+    },
+    {
+      "term": "不想",
+      "count": 252,
+      "document_count": 32
+    },
+    {
+      "term": "有点",
+      "count": 244,
+      "document_count": 30
+    },
+    {
+      "term": "金钱",
+      "count": 243,
+      "document_count": 25
+    },
+    {
+      "term": "逻辑",
+      "count": 242,
+      "document_count": 27
+    },
+    {
+      "term": "不用",
+      "count": 242,
+      "document_count": 32
+    },
+    {
+      "term": "学习",
+      "count": 240,
+      "document_count": 25
+    },
+    {
+      "term": "内容",
+      "count": 239,
+      "document_count": 29
+    },
+    {
+      "term": "过来",
+      "count": 238,
+      "document_count": 30
+    },
+    {
+      "term": "信息",
+      "count": 235,
+      "document_count": 26
+    },
+    {
+      "term": "听懂",
+      "count": 235,
+      "document_count": 25
+    },
+    {
+      "term": "成就",
+      "count": 235,
+      "document_count": 25
+    },
+    {
+      "term": "记住",
+      "count": 232,
+      "document_count": 27
+    },
+    {
+      "term": "优秀",
+      "count": 230,
+      "document_count": 28
+    },
+    {
+      "term": "老王",
+      "count": 230,
+      "document_count": 24
+    },
+    {
+      "term": "出去",
+      "count": 229,
+      "document_count": 29
+    },
+    {
+      "term": "拿到",
+      "count": 227,
+      "document_count": 30
+    },
+    {
+      "term": "答案",
+      "count": 224,
+      "document_count": 30
+    },
+    {
+      "term": "痛苦",
+      "count": 222,
+      "document_count": 30
+    },
+    {
+      "term": "意思",
+      "count": 219,
+      "document_count": 31
+    },
+    {
+      "term": "追求",
+      "count": 215,
+      "document_count": 24
+    },
+    {
+      "term": "有钱",
+      "count": 213,
+      "document_count": 29
+    },
+    {
+      "term": "做到",
+      "count": 212,
+      "document_count": 28
+    },
+    {
+      "term": "尊重",
+      "count": 208,
+      "document_count": 27
+    },
+    {
+      "term": "决定",
+      "count": 206,
+      "document_count": 31
+    },
+    {
+      "term": "教育",
+      "count": 206,
+      "document_count": 26
+    },
+    {
+      "term": "拥有",
+      "count": 204,
+      "document_count": 30
+    },
+    {
+      "term": "情况",
+      "count": 204,
+      "document_count": 26
+    },
+    {
+      "term": "汽运",
+      "count": 203,
+      "document_count": 22
+    },
+    {
+      "term": "发展",
+      "count": 202,
+      "document_count": 31
+    },
+    {
+      "term": "不到",
+      "count": 200,
+      "document_count": 29
+    },
+    {
+      "term": "厉害",
+      "count": 199,
+      "document_count": 28
+    },
+    {
+      "term": "你好",
+      "count": 199,
+      "document_count": 30
+    },
+    {
+      "term": "回来",
+      "count": 199,
+      "document_count": 30
+    },
+    {
+      "term": "行业",
+      "count": 195,
+      "document_count": 29
+    },
+    {
+      "term": "意义",
+      "count": 194,
+      "document_count": 29
+    },
+    {
+      "term": "路上",
+      "count": 194,
+      "document_count": 24
+    },
+    {
+      "term": "变得",
+      "count": 194,
+      "document_count": 30
+    },
+    {
+      "term": "代表",
+      "count": 193,
+      "document_count": 32
+    },
+    {
+      "term": "直接",
+      "count": 193,
+      "document_count": 29
+    },
+    {
+      "term": "块钱",
+      "count": 193,
+      "document_count": 27
+    },
+    {
+      "term": "认知",
+      "count": 192,
+      "document_count": 27
+    },
+    {
+      "term": "规矩",
+      "count": 191,
+      "document_count": 25
+    },
+    {
+      "term": "体验",
+      "count": 190,
+      "document_count": 26
+    },
+    {
+      "term": "支持",
+      "count": 190,
+      "document_count": 27
+    },
+    {
+      "term": "阶段",
+      "count": 188,
+      "document_count": 28
+    },
+    {
+      "term": "办法",
+      "count": 187,
+      "document_count": 32
+    },
+    {
+      "term": "面对",
+      "count": 187,
+      "document_count": 28
+    },
+    {
+      "term": "经验",
+      "count": 186,
+      "document_count": 27
+    },
+    {
+      "term": "吃饭",
+      "count": 186,
+      "document_count": 27
+    },
+    {
+      "term": "没关系",
+      "count": 185,
+      "document_count": 30
+    },
+    {
+      "term": "创业",
+      "count": 183,
+      "document_count": 27
+    },
+    {
+      "term": "样子",
+      "count": 183,
+      "document_count": 30
+    },
+    {
+      "term": "音乐",
+      "count": 182,
+      "document_count": 28
+    },
+    {
+      "term": "意识",
+      "count": 181,
+      "document_count": 26
+    },
+    {
+      "term": "判断",
+      "count": 180,
+      "document_count": 25
+    },
+    {
+      "term": "家族",
+      "count": 180,
+      "document_count": 22
+    },
+    {
+      "term": "愿意",
+      "count": 180,
+      "document_count": 29
+    },
+    {
+      "term": "儿子",
+      "count": 180,
+      "document_count": 27
+    },
+    {
+      "term": "帮助",
+      "count": 179,
+      "document_count": 27
+    },
+    {
+      "term": "爸妈",
+      "count": 178,
+      "document_count": 25
+    },
+    {
+      "term": "项目",
+      "count": 176,
+      "document_count": 26
+    },
+    {
+      "term": "付出",
+      "count": 175,
+      "document_count": 27
+    },
+    {
+      "term": "时代",
+      "count": 173,
+      "document_count": 21
+    },
+    {
+      "term": "确实",
+      "count": 172,
+      "document_count": 29
+    },
+    {
+      "term": "下来",
+      "count": 172,
+      "document_count": 30
+    },
+    {
+      "term": "方式",
+      "count": 171,
+      "document_count": 30
+    },
+    {
+      "term": "继续",
+      "count": 171,
+      "document_count": 30
+    },
+    {
+      "term": "准备",
+      "count": 170,
+      "document_count": 27
+    },
+    {
+      "term": "证明",
+      "count": 169,
+      "document_count": 29
+    },
+    {
+      "term": "想想",
+      "count": 168,
+      "document_count": 32
+    },
+    {
+      "term": "看一看",
+      "count": 166,
+      "document_count": 31
+    },
+    {
+      "term": "学校",
+      "count": 166,
+      "document_count": 25
+    },
+    {
+      "term": "客户",
+      "count": 164,
+      "document_count": 26
+    },
+    {
+      "term": "比如",
+      "count": 164,
+      "document_count": 31
+    },
+    {
+      "term": "行为",
+      "count": 163,
+      "document_count": 29
+    },
+    {
+      "term": "喜欢",
+      "count": 163,
+      "document_count": 28
+    },
+    {
+      "term": "接下来",
+      "count": 162,
+      "document_count": 31
+    },
+    {
+      "term": "好像",
+      "count": 162,
+      "document_count": 31
+    },
+    {
+      "term": "内耗",
+      "count": 161,
+      "document_count": 22
+    },
+    {
+      "term": "深圳",
+      "count": 160,
+      "document_count": 13
+    },
+    {
+      "term": "力量",
+      "count": 159,
+      "document_count": 21
+    },
+    {
+      "term": "不同",
+      "count": 158,
+      "document_count": 30
+    },
+    {
+      "term": "杭州",
+      "count": 156,
+      "document_count": 27
+    },
+    {
+      "term": "当下",
+      "count": 155,
+      "document_count": 25
+    },
+    {
+      "term": "所谓",
+      "count": 154,
+      "document_count": 28
+    },
+    {
+      "term": "学生",
+      "count": 154,
+      "document_count": 26
+    },
+    {
+      "term": "玩意儿",
+      "count": 154,
+      "document_count": 29
+    },
+    {
+      "term": "做好",
+      "count": 154,
+      "document_count": 30
+    },
+    {
+      "term": "快乐",
+      "count": 154,
+      "document_count": 25
+    },
+    {
+      "term": "方法",
+      "count": 153,
+      "document_count": 28
+    },
+    {
+      "term": "在于",
+      "count": 152,
+      "document_count": 31
+    },
+    {
+      "term": "今年",
+      "count": 152,
+      "document_count": 25
+    },
+    {
+      "term": "大学",
+      "count": 151,
+      "document_count": 26
+    },
+    {
+      "term": "攻略",
+      "count": 151,
+      "document_count": 21
+    },
+    {
+      "term": "年轻人",
+      "count": 147,
+      "document_count": 25
+    },
+    {
+      "term": "买单",
+      "count": 147,
+      "document_count": 27
+    },
+    {
+      "term": "苦难",
+      "count": 146,
+      "document_count": 23
+    },
+    {
+      "term": "链接",
+      "count": 145,
+      "document_count": 25
+    },
+    {
+      "term": "相信",
+      "count": 144,
+      "document_count": 24
+    },
+    {
+      "term": "变成",
+      "count": 142,
+      "document_count": 28
+    },
+    {
+      "term": "家里",
+      "count": 142,
+      "document_count": 29
+    },
+    {
+      "term": "目标",
+      "count": 140,
+      "document_count": 25
+    },
+    {
+      "term": "幸运",
+      "count": 140,
+      "document_count": 24
+    },
+    {
+      "term": "总结",
+      "count": 139,
+      "document_count": 25
+    },
+    {
+      "term": "认可",
+      "count": 138,
+      "document_count": 25
+    },
+    {
+      "term": "懂吗",
+      "count": 138,
+      "document_count": 25
+    },
+    {
+      "term": "提前",
+      "count": 136,
+      "document_count": 25
+    },
+    {
+      "term": "失败",
+      "count": 136,
+      "document_count": 23
+    },
+    {
+      "term": "好人",
+      "count": 135,
+      "document_count": 28
+    },
+    {
+      "term": "就行了",
+      "count": 135,
+      "document_count": 27
+    },
+    {
+      "term": "带来",
+      "count": 135,
+      "document_count": 29
+    },
+    {
+      "term": "介绍",
+      "count": 134,
+      "document_count": 24
+    },
+    {
+      "term": "善意",
+      "count": 134,
+      "document_count": 22
+    },
+    {
+      "term": "干什么",
+      "count": 133,
+      "document_count": 32
+    },
+    {
+      "term": "位置",
+      "count": 131,
+      "document_count": 28
+    },
+    {
+      "term": "放在",
+      "count": 131,
+      "document_count": 27
+    },
+    {
+      "term": "电商",
+      "count": 130,
+      "document_count": 23
+    },
+    {
+      "term": "身上",
+      "count": 129,
+      "document_count": 31
+    },
+    {
+      "term": "需求",
+      "count": 129,
+      "document_count": 17
+    },
+    {
+      "term": "合作",
+      "count": 129,
+      "document_count": 26
+    },
+    {
+      "term": "全部",
+      "count": 129,
+      "document_count": 28
+    },
+    {
+      "term": "家人",
+      "count": 128,
+      "document_count": 28
+    },
+    {
+      "term": "无限",
+      "count": 128,
+      "document_count": 21
+    },
+    {
+      "term": "期待",
+      "count": 127,
+      "document_count": 27
+    },
+    {
+      "term": "要求",
+      "count": 126,
+      "document_count": 24
+    },
+    {
+      "term": "只能",
+      "count": 125,
+      "document_count": 31
+    },
+    {
+      "term": "接受",
+      "count": 125,
+      "document_count": 26
+    },
+    {
+      "term": "容易",
+      "count": 125,
+      "document_count": 29
+    },
+    {
+      "term": "值得",
+      "count": 125,
+      "document_count": 24
+    },
+    {
+      "term": "不让",
+      "count": 124,
+      "document_count": 24
+    },
+    {
+      "term": "包括",
+      "count": 123,
+      "document_count": 28
+    },
+    {
+      "term": "后来",
+      "count": 121,
+      "document_count": 27
+    },
+    {
+      "term": "反馈",
+      "count": 120,
+      "document_count": 25
+    },
+    {
+      "term": "但凡",
+      "count": 120,
+      "document_count": 28
+    },
+    {
+      "term": "很大",
+      "count": 119,
+      "document_count": 28
+    },
+    {
+      "term": "状态",
+      "count": 119,
+      "document_count": 29
+    },
+    {
+      "term": "同学",
+      "count": 119,
+      "document_count": 23
+    },
+    {
+      "term": "看待",
+      "count": 119,
+      "document_count": 27
+    },
+    {
+      "term": "生意",
+      "count": 117,
+      "document_count": 25
+    },
+    {
+      "term": "游戏",
+      "count": 117,
+      "document_count": 23
+    },
+    {
+      "term": "收益",
+      "count": 117,
+      "document_count": 24
+    },
+    {
+      "term": "来到",
+      "count": 117,
+      "document_count": 30
+    },
+    {
+      "term": "最大",
+      "count": 117,
+      "document_count": 28
+    },
+    {
+      "term": "送礼",
+      "count": 117,
+      "document_count": 11
+    },
+    {
+      "term": "好吃",
+      "count": 117,
+      "document_count": 23
+    },
+    {
+      "term": "出现",
+      "count": 116,
+      "document_count": 25
+    },
+    {
+      "term": "难受",
+      "count": 116,
+      "document_count": 25
+    },
+    {
+      "term": "年纪",
+      "count": 116,
+      "document_count": 28
+    },
+    {
+      "term": "哥们",
+      "count": 116,
+      "document_count": 25
+    },
+    {
+      "term": "无法",
+      "count": 115,
+      "document_count": 25
+    },
+    {
+      "term": "沟通",
+      "count": 115,
+      "document_count": 21
+    },
+    {
+      "term": "业务",
+      "count": 115,
+      "document_count": 23
+    },
+    {
+      "term": "感情",
+      "count": 115,
+      "document_count": 22
+    },
+    {
+      "term": "例子",
+      "count": 115,
+      "document_count": 22
+    },
+    {
+      "term": "毛病",
+      "count": 115,
+      "document_count": 26
+    },
+    {
+      "term": "不错",
+      "count": 114,
+      "document_count": 29
+    },
+    {
+      "term": "说话",
+      "count": 114,
+      "document_count": 28
+    },
+    {
+      "term": "心里",
+      "count": 114,
+      "document_count": 30
+    },
+    {
+      "term": "视频",
+      "count": 114,
+      "document_count": 25
+    },
+    {
+      "term": "成长",
+      "count": 112,
+      "document_count": 23
+    },
+    {
+      "term": "活着",
+      "count": 112,
+      "document_count": 22
+    },
+    {
+      "term": "思维",
+      "count": 112,
+      "document_count": 24
+    },
+    {
+      "term": "董事长",
+      "count": 111,
+      "document_count": 19
+    },
+    {
+      "term": "吹牛",
+      "count": 110,
+      "document_count": 27
+    },
+    {
+      "term": "坚持",
+      "count": 109,
+      "document_count": 20
+    },
+    {
+      "term": "变化",
+      "count": 108,
+      "document_count": 25
+    },
+    {
+      "term": "想象",
+      "count": 108,
+      "document_count": 25
+    },
+    {
+      "term": "求真",
+      "count": 108,
+      "document_count": 18
+    },
+    {
+      "term": "成林",
+      "count": 107,
+      "document_count": 20
+    },
+    {
+      "term": "干活",
+      "count": 106,
+      "document_count": 22
+    },
+    {
+      "term": "手机",
+      "count": 106,
+      "document_count": 26
+    },
+    {
+      "term": "明天",
+      "count": 105,
+      "document_count": 26
+    },
+    {
+      "term": "叠加",
+      "count": 105,
+      "document_count": 16
+    },
+    {
+      "term": "事业",
+      "count": 104,
+      "document_count": 27
+    },
+    {
+      "term": "精彩",
+      "count": 104,
+      "document_count": 20
+    },
+    {
+      "term": "存在",
+      "count": 104,
+      "document_count": 23
+    },
+    {
+      "term": "见到",
+      "count": 104,
+      "document_count": 29
+    },
+    {
+      "term": "房子",
+      "count": 103,
+      "document_count": 17
+    },
+    {
+      "term": "属于",
+      "count": 103,
+      "document_count": 24
+    },
+    {
+      "term": "姑娘",
+      "count": 103,
+      "document_count": 24
+    },
+    {
+      "term": "超越",
+      "count": 103,
+      "document_count": 22
+    },
+    {
+      "term": "规则",
+      "count": 103,
+      "document_count": 18
+    },
+    {
+      "term": "美好",
+      "count": 103,
+      "document_count": 22
+    },
+    {
+      "term": "方向",
+      "count": 102,
+      "document_count": 23
+    },
+    {
+      "term": "对方",
+      "count": 102,
+      "document_count": 23
+    },
+    {
+      "term": "意味着",
+      "count": 102,
+      "document_count": 25
+    },
+    {
+      "term": "人会",
+      "count": 102,
+      "document_count": 29
+    },
+    {
+      "term": "身价",
+      "count": 101,
+      "document_count": 26
+    },
+    {
+      "term": "傻子",
+      "count": 101,
+      "document_count": 23
+    },
+    {
+      "term": "来看",
+      "count": 101,
+      "document_count": 27
+    },
+    {
+      "term": "照片",
+      "count": 101,
+      "document_count": 23
+    },
+    {
+      "term": "安排",
+      "count": 101,
+      "document_count": 21
+    },
+    {
+      "term": "意见",
+      "count": 100,
+      "document_count": 23
+    },
+    {
+      "term": "失望",
+      "count": 100,
+      "document_count": 21
+    },
+    {
+      "term": "想到",
+      "count": 100,
+      "document_count": 23
+    },
+    {
+      "term": "酒店",
+      "count": 100,
+      "document_count": 13
+    },
+    {
+      "term": "正确",
+      "count": 99,
+      "document_count": 24
+    },
+    {
+      "term": "小时",
+      "count": 99,
+      "document_count": 26
+    },
+    {
+      "term": "变好",
+      "count": 99,
+      "document_count": 25
+    },
+    {
+      "term": "阿姨",
+      "count": 99,
+      "document_count": 14
+    },
+    {
+      "term": "观察",
+      "count": 98,
+      "document_count": 25
+    },
+    {
+      "term": "聪明",
+      "count": 98,
+      "document_count": 26
+    },
+    {
+      "term": "西藏",
+      "count": 98,
+      "document_count": 12
+    },
+    {
+      "term": "足够",
+      "count": 97,
+      "document_count": 20
+    },
+    {
+      "term": "市场",
+      "count": 97,
+      "document_count": 18
+    },
+    {
+      "term": "好坏",
+      "count": 97,
+      "document_count": 23
+    },
+    {
+      "term": "会议",
+      "count": 97,
+      "document_count": 7
+    },
+    {
+      "term": "系统",
+      "count": 96,
+      "document_count": 13
+    },
+    {
+      "term": "方案",
+      "count": 96,
+      "document_count": 18
+    },
+    {
+      "term": "结婚",
+      "count": 96,
+      "document_count": 25
+    },
+    {
+      "term": "这帮",
+      "count": 95,
+      "document_count": 23
+    },
+    {
+      "term": "差不多",
+      "count": 95,
+      "document_count": 23
+    },
+    {
+      "term": "核心",
+      "count": 95,
+      "document_count": 24
+    },
+    {
+      "term": "心态",
+      "count": 95,
+      "document_count": 24
+    },
+    {
+      "term": "麻烦",
+      "count": 94,
+      "document_count": 24
+    },
+    {
+      "term": "组织",
+      "count": 94,
+      "document_count": 18
+    },
+    {
+      "term": "作为",
+      "count": 93,
+      "document_count": 22
+    },
+    {
+      "term": "坐在",
+      "count": 93,
+      "document_count": 24
+    },
+    {
+      "term": "毕业",
+      "count": 91,
+      "document_count": 23
+    },
+    {
+      "term": "情绪",
+      "count": 90,
+      "document_count": 23
+    },
+    {
+      "term": "决策",
+      "count": 90,
+      "document_count": 23
+    },
+    {
+      "term": "结束",
+      "count": 90,
+      "document_count": 28
+    },
+    {
+      "term": "放弃",
+      "count": 90,
+      "document_count": 20
+    },
+    {
+      "term": "记得",
+      "count": 90,
+      "document_count": 24
+    },
+    {
+      "term": "考虑",
+      "count": 89,
+      "document_count": 21
+    },
+    {
+      "term": "算法",
+      "count": 89,
+      "document_count": 24
+    },
+    {
+      "term": "上来",
+      "count": 88,
+      "document_count": 28
+    },
+    {
+      "term": "表达",
+      "count": 88,
+      "document_count": 26
+    },
+    {
+      "term": "了解",
+      "count": 88,
+      "document_count": 20
+    },
+    {
+      "term": "想一想",
+      "count": 88,
+      "document_count": 25
+    },
+    {
+      "term": "动力",
+      "count": 88,
+      "document_count": 20
+    },
+    {
+      "term": "规律",
+      "count": 87,
+      "document_count": 24
+    },
+    {
+      "term": "晚上",
+      "count": 87,
+      "document_count": 25
+    },
+    {
+      "term": "精进",
+      "count": 87,
+      "document_count": 17
+    },
+    {
+      "term": "当中",
+      "count": 86,
+      "document_count": 23
+    },
+    {
+      "term": "突然",
+      "count": 85,
+      "document_count": 28
+    },
+    {
+      "term": "类似",
+      "count": 85,
+      "document_count": 24
+    },
+    {
+      "term": "复盘",
+      "count": 85,
+      "document_count": 16
+    },
+    {
+      "term": "立场",
+      "count": 85,
+      "document_count": 11
+    },
+    {
+      "term": "上去",
+      "count": 84,
+      "document_count": 28
+    },
+    {
+      "term": "年轻",
+      "count": 84,
+      "document_count": 27
+    },
+    {
+      "term": "花钱",
+      "count": 84,
+      "document_count": 19
+    },
+    {
+      "term": "听到",
+      "count": 83,
+      "document_count": 23
+    },
+    {
+      "term": "对错",
+      "count": 83,
+      "document_count": 20
+    },
+    {
+      "term": "接触",
+      "count": 83,
+      "document_count": 23
+    },
+    {
+      "term": "基金",
+      "count": 83,
+      "document_count": 16
+    },
+    {
+      "term": "创造",
+      "count": 83,
+      "document_count": 23
+    },
+    {
+      "term": "梦幻",
+      "count": 83,
+      "document_count": 15
+    },
+    {
+      "term": "帮忙",
+      "count": 83,
+      "document_count": 17
+    },
+    {
+      "term": "建议",
+      "count": 82,
+      "document_count": 23
+    },
+    {
+      "term": "命运",
+      "count": 82,
+      "document_count": 24
+    },
+    {
+      "term": "利用",
+      "count": 82,
+      "document_count": 25
+    },
+    {
+      "term": "上学",
+      "count": 81,
+      "document_count": 26
+    },
+    {
+      "term": "完成",
+      "count": 81,
+      "document_count": 23
+    },
+    {
+      "term": "来说",
+      "count": 81,
+      "document_count": 25
+    },
+    {
+      "term": "负责",
+      "count": 81,
+      "document_count": 25
+    },
+    {
+      "term": "在座",
+      "count": 81,
+      "document_count": 17
+    },
+    {
+      "term": "员工",
+      "count": 81,
+      "document_count": 18
+    },
+    {
+      "term": "上海",
+      "count": 81,
+      "document_count": 18
+    },
+    {
+      "term": "恋爱",
+      "count": 81,
+      "document_count": 14
+    },
+    {
+      "term": "实习",
+      "count": 81,
+      "document_count": 11
+    },
+    {
+      "term": "程度",
+      "count": 80,
+      "document_count": 25
+    },
+    {
+      "term": "责任",
+      "count": 80,
+      "document_count": 17
+    },
+    {
+      "term": "送给",
+      "count": 80,
+      "document_count": 20
+    },
+    {
+      "term": "值钱",
+      "count": 80,
+      "document_count": 18
+    },
+    {
+      "term": "观念",
+      "count": 79,
+      "document_count": 15
+    },
+    {
+      "term": "大师",
+      "count": 79,
+      "document_count": 12
+    },
+    {
+      "term": "看见",
+      "count": 79,
+      "document_count": 24
+    },
+    {
+      "term": "也就是说",
+      "count": 78,
+      "document_count": 25
+    },
+    {
+      "term": "这辈子",
+      "count": 78,
+      "document_count": 23
+    },
+    {
+      "term": "资格",
+      "count": 78,
+      "document_count": 17
+    },
+    {
+      "term": "他妈的",
+      "count": 78,
+      "document_count": 17
+    },
+    {
+      "term": "享受",
+      "count": 78,
+      "document_count": 25
+    },
+    {
+      "term": "领导",
+      "count": 78,
+      "document_count": 16
+    },
+    {
+      "term": "女朋友",
+      "count": 77,
+      "document_count": 19
+    },
+    {
+      "term": "清楚",
+      "count": 77,
+      "document_count": 25
+    },
+    {
+      "term": "打开",
+      "count": 77,
+      "document_count": 25
+    },
+    {
+      "term": "关注",
+      "count": 77,
+      "document_count": 23
+    },
+    {
+      "term": "服务",
+      "count": 76,
+      "document_count": 26
+    },
+    {
+      "term": "观点",
+      "count": 76,
+      "document_count": 24
+    },
+    {
+      "term": "垃圾",
+      "count": 76,
+      "document_count": 23
+    },
+    {
+      "term": "东北",
+      "count": 76,
+      "document_count": 22
+    },
+    {
+      "term": "话题",
+      "count": 75,
+      "document_count": 22
+    },
+    {
+      "term": "事物",
+      "count": 75,
+      "document_count": 23
+    },
+    {
+      "term": "抱怨",
+      "count": 75,
+      "document_count": 18
+    },
+    {
+      "term": "好事",
+      "count": 75,
+      "document_count": 25
+    },
+    {
+      "term": "能量",
+      "count": 75,
+      "document_count": 20
+    },
+    {
+      "term": "谈恋爱",
+      "count": 75,
+      "document_count": 16
+    },
+    {
+      "term": "分析",
+      "count": 74,
+      "document_count": 23
+    },
+    {
+      "term": "原因",
+      "count": 74,
+      "document_count": 23
+    },
+    {
+      "term": "经济",
+      "count": 74,
+      "document_count": 25
+    },
+    {
+      "term": "体系",
+      "count": 74,
+      "document_count": 18
+    },
+    {
+      "term": "便宜",
+      "count": 74,
+      "document_count": 24
+    },
+    {
+      "term": "持续",
+      "count": 74,
+      "document_count": 19
+    },
+    {
+      "term": "内心",
+      "count": 74,
+      "document_count": 23
+    },
+    {
+      "term": "活动",
+      "count": 74,
+      "document_count": 24
+    },
+    {
+      "term": "声音",
+      "count": 74,
+      "document_count": 23
+    },
+    {
+      "term": "代价",
+      "count": 74,
+      "document_count": 21
+    },
+    {
+      "term": "天天",
+      "count": 74,
+      "document_count": 22
+    },
+    {
+      "term": "问问",
+      "count": 73,
+      "document_count": 25
+    },
+    {
+      "term": "整个",
+      "count": 73,
+      "document_count": 19
+    },
+    {
+      "term": "不够",
+      "count": 73,
+      "document_count": 23
+    },
+    {
+      "term": "老天爷",
+      "count": 72,
+      "document_count": 23
+    },
+    {
+      "term": "一般",
+      "count": 72,
+      "document_count": 23
+    },
+    {
+      "term": "标准",
+      "count": 72,
+      "document_count": 18
+    },
+    {
+      "term": "范围",
+      "count": 72,
+      "document_count": 18
+    },
+    {
+      "term": "这场",
+      "count": 72,
+      "document_count": 20
+    },
+    {
+      "term": "地图",
+      "count": 72,
+      "document_count": 18
+    },
+    {
+      "term": "进入",
+      "count": 71,
+      "document_count": 21
+    },
+    {
+      "term": "概念",
+      "count": 71,
+      "document_count": 21
+    },
+    {
+      "term": "婆婆",
+      "count": 71,
+      "document_count": 3
+    },
+    {
+      "term": "中国",
+      "count": 71,
+      "document_count": 17
+    },
+    {
+      "term": "回到",
+      "count": 71,
+      "document_count": 21
+    },
+    {
+      "term": "探索",
+      "count": 71,
+      "document_count": 19
+    },
+    {
+      "term": "明确",
+      "count": 70,
+      "document_count": 24
+    },
+    {
+      "term": "等于",
+      "count": 70,
+      "document_count": 22
+    },
+    {
+      "term": "OK",
+      "count": 70,
+      "document_count": 23
+    },
+    {
+      "term": "妈妈",
+      "count": 70,
+      "document_count": 20
+    },
+    {
+      "term": "生命",
+      "count": 70,
+      "document_count": 21
+    },
+    {
+      "term": "回去",
+      "count": 70,
+      "document_count": 24
+    },
+    {
+      "term": "相关",
+      "count": 70,
+      "document_count": 18
+    },
+    {
+      "term": "没什么",
+      "count": 70,
+      "document_count": 25
+    },
+    {
+      "term": "想着",
+      "count": 70,
+      "document_count": 22
+    },
+    {
+      "term": "企业",
+      "count": 70,
+      "document_count": 21
+    },
+    {
+      "term": "同行",
+      "count": 70,
+      "document_count": 19
+    },
+    {
+      "term": "五台山",
+      "count": 70,
+      "document_count": 6
+    },
+    {
+      "term": "白姐姐",
+      "count": 70,
+      "document_count": 4
+    },
+    {
+      "term": "澳门",
+      "count": 70,
+      "document_count": 3
+    },
+    {
+      "term": "满足",
+      "count": 69,
+      "document_count": 21
+    },
+    {
+      "term": "自由",
+      "count": 69,
+      "document_count": 22
+    },
+    {
+      "term": "讨论",
+      "count": 69,
+      "document_count": 19
+    },
+    {
+      "term": "投入",
+      "count": 69,
+      "document_count": 19
+    },
+    {
+      "term": "讲课",
+      "count": 69,
+      "document_count": 16
+    },
+    {
+      "term": "真诚",
+      "count": 69,
+      "document_count": 21
+    },
+    {
+      "term": "做事",
+      "count": 68,
+      "document_count": 19
+    },
+    {
+      "term": "实现",
+      "count": 68,
+      "document_count": 18
+    },
+    {
+      "term": "有意思",
+      "count": 68,
+      "document_count": 22
+    },
+    {
+      "term": "北京",
+      "count": 68,
+      "document_count": 16
+    },
+    {
+      "term": "产品",
+      "count": 68,
+      "document_count": 22
+    },
+    {
+      "term": "眼里",
+      "count": 68,
+      "document_count": 22
+    },
+    {
+      "term": "节点",
+      "count": 68,
+      "document_count": 12
+    },
+    {
+      "term": "女生",
+      "count": 68,
+      "document_count": 16
+    },
+    {
+      "term": "聊天",
+      "count": 67,
+      "document_count": 21
+    },
+    {
+      "term": "目的",
+      "count": 67,
+      "document_count": 22
+    },
+    {
+      "term": "打工",
+      "count": 67,
+      "document_count": 21
+    },
+    {
+      "term": "留下",
+      "count": 67,
+      "document_count": 20
+    },
+    {
+      "term": "当年",
+      "count": 67,
+      "document_count": 21
+    },
+    {
+      "term": "充满",
+      "count": 67,
+      "document_count": 15
+    },
+    {
+      "term": "you",
+      "count": 67,
+      "document_count": 8
+    },
+    {
+      "term": "具备",
+      "count": 67,
+      "document_count": 22
+    },
+    {
+      "term": "吃苦",
+      "count": 66,
+      "document_count": 16
+    },
+    {
+      "term": "连接",
+      "count": 66,
+      "document_count": 20
+    },
+    {
+      "term": "技术",
+      "count": 66,
+      "document_count": 19
+    },
+    {
+      "term": "成本",
+      "count": 66,
+      "document_count": 22
+    },
+    {
+      "term": "好不好",
+      "count": 66,
+      "document_count": 25
+    },
+    {
+      "term": "读书",
+      "count": 66,
+      "document_count": 13
+    },
+    {
+      "term": "奶茶",
+      "count": 66,
+      "document_count": 15
+    },
+    {
+      "term": "主题",
+      "count": 66,
+      "document_count": 23
+    },
+    {
+      "term": "世道",
+      "count": 66,
+      "document_count": 17
+    },
+    {
+      "term": "矛盾",
+      "count": 65,
+      "document_count": 13
+    },
+    {
+      "term": "完全",
+      "count": 65,
+      "document_count": 19
+    },
+    {
+      "term": "有用",
+      "count": 65,
+      "document_count": 23
+    },
+    {
+      "term": "主动",
+      "count": 65,
+      "document_count": 22
+    },
+    {
+      "term": "认真",
+      "count": 65,
+      "document_count": 21
+    },
+    {
+      "term": "精神",
+      "count": 65,
+      "document_count": 21
+    },
+    {
+      "term": "舒服",
+      "count": 65,
+      "document_count": 22
+    },
+    {
+      "term": "流转",
+      "count": 65,
+      "document_count": 16
+    },
+    {
+      "term": "确定",
+      "count": 64,
+      "document_count": 20
+    },
+    {
+      "term": "直播间",
+      "count": 64,
+      "document_count": 20
+    },
+    {
+      "term": "关键",
+      "count": 64,
+      "document_count": 16
+    },
+    {
+      "term": "解决问题",
+      "count": 64,
+      "document_count": 18
+    },
+    {
+      "term": "边界",
+      "count": 64,
+      "document_count": 18
+    },
+    {
+      "term": "朋友圈",
+      "count": 64,
+      "document_count": 23
+    },
+    {
+      "term": "玩意",
+      "count": 64,
+      "document_count": 25
+    },
+    {
+      "term": "无敌",
+      "count": 64,
+      "document_count": 19
+    },
+    {
+      "term": "家长",
+      "count": 64,
+      "document_count": 12
+    },
+    {
+      "term": "提醒",
+      "count": 63,
+      "document_count": 21
+    },
+    {
+      "term": "来讲",
+      "count": 63,
+      "document_count": 20
+    },
+    {
+      "term": "身体",
+      "count": 63,
+      "document_count": 18
+    },
+    {
+      "term": "团队",
+      "count": 63,
+      "document_count": 21
+    },
+    {
+      "term": "叫做",
+      "count": 62,
+      "document_count": 22
+    },
+    {
+      "term": "拜拜",
+      "count": 62,
+      "document_count": 19
+    },
+    {
+      "term": "下去",
+      "count": 62,
+      "document_count": 25
+    },
+    {
+      "term": "理论",
+      "count": 62,
+      "document_count": 20
+    },
+    {
+      "term": "看着",
+      "count": 62,
+      "document_count": 22
+    },
+    {
+      "term": "版本",
+      "count": 62,
+      "document_count": 21
+    },
+    {
+      "term": "研究",
+      "count": 62,
+      "document_count": 18
+    },
+    {
+      "term": "信任",
+      "count": 62,
+      "document_count": 20
+    },
+    {
+      "term": "走过",
+      "count": 62,
+      "document_count": 21
+    },
+    {
+      "term": "坏人",
+      "count": 62,
+      "document_count": 20
+    },
+    {
+      "term": "体面",
+      "count": 62,
+      "document_count": 15
+    },
+    {
+      "term": "道义",
+      "count": 62,
+      "document_count": 3
+    },
+    {
+      "term": "错误",
+      "count": 61,
+      "document_count": 21
+    },
+    {
+      "term": "管理",
+      "count": 61,
+      "document_count": 20
+    },
+    {
+      "term": "到时候",
+      "count": 61,
+      "document_count": 20
+    },
+    {
+      "term": "本质",
+      "count": 61,
+      "document_count": 21
+    },
+    {
+      "term": "布局",
+      "count": 61,
+      "document_count": 17
+    },
+    {
+      "term": "眼睛",
+      "count": 61,
+      "document_count": 20
+    },
+    {
+      "term": "the",
+      "count": 61,
+      "document_count": 11
+    },
+    {
+      "term": "习惯",
+      "count": 60,
+      "document_count": 21
+    },
+    {
+      "term": "达到",
+      "count": 60,
+      "document_count": 24
+    }
+  ],
+  "proper_noun_candidates": [
+    {
+      "term": "AI",
+      "count": 335,
+      "document_count": 19
+    },
+    {
+      "term": "老王",
+      "count": 230,
+      "document_count": 24
+    },
+    {
+      "term": "家族",
+      "count": 180,
+      "document_count": 22
+    },
+    {
+      "term": "但凡",
+      "count": 120,
+      "document_count": 28
+    },
+    {
+      "term": "求真",
+      "count": 108,
+      "document_count": 18
+    },
+    {
+      "term": "阿姨",
+      "count": 99,
+      "document_count": 14
+    },
+    {
+      "term": "老天爷",
+      "count": 72,
+      "document_count": 23
+    },
+    {
+      "term": "OK",
+      "count": 70,
+      "document_count": 23
+    },
+    {
+      "term": "白姐姐",
+      "count": 70,
+      "document_count": 4
+    },
+    {
+      "term": "聊天",
+      "count": 67,
+      "document_count": 21
+    },
+    {
+      "term": "you",
+      "count": 67,
+      "document_count": 8
+    },
+    {
+      "term": "the",
+      "count": 61,
+      "document_count": 11
+    },
+    {
+      "term": "谢谢",
+      "count": 59,
+      "document_count": 19
+    },
+    {
+      "term": "阿斌",
+      "count": 53,
+      "document_count": 15
+    },
+    {
+      "term": "宝贵",
+      "count": 52,
+      "document_count": 17
+    },
+    {
+      "term": "智慧",
+      "count": 46,
+      "document_count": 17
+    },
+    {
+      "term": "连麦",
+      "count": 44,
+      "document_count": 15
+    },
+    {
+      "term": "牛马",
+      "count": 43,
+      "document_count": 7
+    },
+    {
+      "term": "to",
+      "count": 42,
+      "document_count": 11
+    },
+    {
+      "term": "那江哥",
+      "count": 41,
+      "document_count": 22
+    },
+    {
+      "term": "no",
+      "count": 40,
+      "document_count": 13
+    },
+    {
+      "term": "师傅",
+      "count": 40,
+      "document_count": 12
+    },
+    {
+      "term": "李教授",
+      "count": 40,
+      "document_count": 3
+    },
+    {
+      "term": "尼克",
+      "count": 39,
+      "document_count": 7
+    },
+    {
+      "term": "小姑娘",
+      "count": 35,
+      "document_count": 10
+    },
+    {
+      "term": "江宇",
+      "count": 34,
+      "document_count": 15
+    },
+    {
+      "term": "二叔",
+      "count": 33,
+      "document_count": 1
+    },
+    {
+      "term": "黄总",
+      "count": 33,
+      "document_count": 3
+    },
+    {
+      "term": "拉萨",
+      "count": 31,
+      "document_count": 4
+    },
+    {
+      "term": "my",
+      "count": 30,
+      "document_count": 8
+    },
+    {
+      "term": "and",
+      "count": 29,
+      "document_count": 9
+    },
+    {
+      "term": "PPT",
+      "count": 28,
+      "document_count": 9
+    },
+    {
+      "term": "阿里",
+      "count": 27,
+      "document_count": 15
+    },
+    {
+      "term": "me",
+      "count": 27,
+      "document_count": 6
+    },
+    {
+      "term": "荣幸",
+      "count": 27,
+      "document_count": 13
+    },
+    {
+      "term": "英语",
+      "count": 26,
+      "document_count": 9
+    },
+    {
+      "term": "宝藏",
+      "count": 26,
+      "document_count": 9
+    },
+    {
+      "term": "卓越",
+      "count": 26,
+      "document_count": 9
+    },
+    {
+      "term": "we",
+      "count": 25,
+      "document_count": 8
+    },
+    {
+      "term": "汇报",
+      "count": 24,
+      "document_count": 10
+    },
+    {
+      "term": "最大化",
+      "count": 23,
+      "document_count": 11
+    },
+    {
+      "term": "普通",
+      "count": 23,
+      "document_count": 12
+    },
+    {
+      "term": "双子座",
+      "count": 23,
+      "document_count": 5
+    },
+    {
+      "term": "老公",
+      "count": 23,
+      "document_count": 10
+    },
+    {
+      "term": "达人",
+      "count": 22,
+      "document_count": 9
+    },
+    {
+      "term": "your",
+      "count": 22,
+      "document_count": 6
+    },
+    {
+      "term": "IP",
+      "count": 21,
+      "document_count": 5
+    },
+    {
+      "term": "小七",
+      "count": 21,
+      "document_count": 6
+    },
+    {
+      "term": "栗子",
+      "count": 21,
+      "document_count": 1
+    },
+    {
+      "term": "in",
+      "count": 20,
+      "document_count": 9
+    },
+    {
+      "term": "马斯克",
+      "count": 20,
+      "document_count": 10
+    },
+    {
+      "term": "丛林",
+      "count": 20,
+      "document_count": 6
+    },
+    {
+      "term": "祝福",
+      "count": 19,
+      "document_count": 7
+    },
+    {
+      "term": "真真正正",
+      "count": 19,
+      "document_count": 11
+    },
+    {
+      "term": "MVP",
+      "count": 19,
+      "document_count": 6
+    },
+    {
+      "term": "of",
+      "count": 19,
+      "document_count": 8
+    },
+    {
+      "term": "麻木",
+      "count": 18,
+      "document_count": 5
+    },
+    {
+      "term": "永远都是",
+      "count": 18,
+      "document_count": 10
+    },
+    {
+      "term": "it",
+      "count": 18,
+      "document_count": 5
+    },
+    {
+      "term": "曹操",
+      "count": 18,
+      "document_count": 3
+    },
+    {
+      "term": "淘宝",
+      "count": 18,
+      "document_count": 8
+    },
+    {
+      "term": "大佬",
+      "count": 17,
+      "document_count": 8
+    },
+    {
+      "term": "原谅",
+      "count": 17,
+      "document_count": 8
+    },
+    {
+      "term": "白白",
+      "count": 17,
+      "document_count": 6
+    },
+    {
+      "term": "low",
+      "count": 17,
+      "document_count": 10
+    },
+    {
+      "term": "家里人",
+      "count": 17,
+      "document_count": 5
+    },
+    {
+      "term": "富士山",
+      "count": 17,
+      "document_count": 9
+    },
+    {
+      "term": "伯伯",
+      "count": 16,
+      "document_count": 2
+    },
+    {
+      "term": "段时间",
+      "count": 16,
+      "document_count": 9
+    },
+    {
+      "term": "小江",
+      "count": 16,
+      "document_count": 7
+    },
+    {
+      "term": "all",
+      "count": 16,
+      "document_count": 6
+    },
+    {
+      "term": "天大",
+      "count": 16,
+      "document_count": 9
+    },
+    {
+      "term": "can",
+      "count": 16,
+      "document_count": 5
+    },
+    {
+      "term": "安全感",
+      "count": 15,
+      "document_count": 6
+    },
+    {
+      "term": "for",
+      "count": 15,
+      "document_count": 6
+    },
+    {
+      "term": "蓝哥",
+      "count": 15,
+      "document_count": 2
+    },
+    {
+      "term": "ok",
+      "count": 14,
+      "document_count": 8
+    },
+    {
+      "term": "敬老院",
+      "count": 14,
+      "document_count": 8
+    },
+    {
+      "term": "小兄弟",
+      "count": 14,
+      "document_count": 9
+    },
+    {
+      "term": "马云",
+      "count": 14,
+      "document_count": 5
+    },
+    {
+      "term": "罗树玲",
+      "count": 14,
+      "document_count": 9
+    },
+    {
+      "term": "清华",
+      "count": 14,
+      "document_count": 6
+    },
+    {
+      "term": "don",
+      "count": 14,
+      "document_count": 6
+    },
+    {
+      "term": "hello",
+      "count": 14,
+      "document_count": 9
+    },
+    {
+      "term": "华为",
+      "count": 13,
+      "document_count": 7
+    },
+    {
+      "term": "保安",
+      "count": 13,
+      "document_count": 9
+    },
+    {
+      "term": "what",
+      "count": 13,
+      "document_count": 5
+    },
+    {
+      "term": "升华",
+      "count": 12,
+      "document_count": 10
+    },
+    {
+      "term": "姜宇",
+      "count": 12,
+      "document_count": 9
+    },
+    {
+      "term": "黄毛",
+      "count": 12,
+      "document_count": 7
+    },
+    {
+      "term": "明星",
+      "count": 12,
+      "document_count": 7
+    },
+    {
+      "term": "never",
+      "count": 12,
+      "document_count": 4
+    },
+    {
+      "term": "be",
+      "count": 12,
+      "document_count": 5
+    },
+    {
+      "term": "when",
+      "count": 12,
+      "document_count": 5
+    },
+    {
+      "term": "see",
+      "count": 12,
+      "document_count": 2
+    },
+    {
+      "term": "is",
+      "count": 12,
+      "document_count": 5
+    },
+    {
+      "term": "too",
+      "count": 12,
+      "document_count": 1
+    },
+    {
+      "term": "老汉",
+      "count": 11,
+      "document_count": 1
+    },
+    {
+      "term": "two",
+      "count": 11,
+      "document_count": 3
+    },
+    {
+      "term": "权威",
+      "count": 11,
+      "document_count": 3
+    },
+    {
+      "term": "荣耀",
+      "count": 11,
+      "document_count": 5
+    },
+    {
+      "term": "do",
+      "count": 11,
+      "document_count": 4
+    },
+    {
+      "term": "江哥",
+      "count": 11,
+      "document_count": 9
+    },
+    {
+      "term": "欧皇",
+      "count": 11,
+      "document_count": 5
+    },
+    {
+      "term": "罗树莲",
+      "count": 11,
+      "document_count": 6
+    },
+    {
+      "term": "希尔顿",
+      "count": 11,
+      "document_count": 3
+    },
+    {
+      "term": "NBC",
+      "count": 11,
+      "document_count": 2
+    },
+    {
+      "term": "正宗",
+      "count": 11,
+      "document_count": 3
+    },
+    {
+      "term": "make",
+      "count": 11,
+      "document_count": 4
+    },
+    {
+      "term": "银行卡",
+      "count": 10,
+      "document_count": 8
+    },
+    {
+      "term": "part",
+      "count": 10,
+      "document_count": 1
+    },
+    {
+      "term": "one",
+      "count": 10,
+      "document_count": 5
+    },
+    {
+      "term": "道德",
+      "count": 10,
+      "document_count": 9
+    },
+    {
+      "term": "get",
+      "count": 10,
+      "document_count": 8
+    },
+    {
+      "term": "re",
+      "count": 10,
+      "document_count": 8
+    },
+    {
+      "term": "罗树人",
+      "count": 10,
+      "document_count": 8
+    },
+    {
+      "term": "段子",
+      "count": 10,
+      "document_count": 7
+    },
+    {
+      "term": "迈巴赫",
+      "count": 10,
+      "document_count": 5
+    },
+    {
+      "term": "新手村",
+      "count": 10,
+      "document_count": 7
+    },
+    {
+      "term": "寻思",
+      "count": 10,
+      "document_count": 5
+    },
+    {
+      "term": "小猫咪",
+      "count": 10,
+      "document_count": 4
+    },
+    {
+      "term": "on",
+      "count": 10,
+      "document_count": 6
+    },
+    {
+      "term": "way",
+      "count": 10,
+      "document_count": 2
+    },
+    {
+      "term": "孙子",
+      "count": 9,
+      "document_count": 6
+    },
+    {
+      "term": "养老",
+      "count": 9,
+      "document_count": 5
+    },
+    {
+      "term": "陈浩",
+      "count": 9,
+      "document_count": 1
+    },
+    {
+      "term": "麦克风",
+      "count": 9,
+      "document_count": 4
+    },
+    {
+      "term": "世界观",
+      "count": 9,
+      "document_count": 7
+    },
+    {
+      "term": "崇拜",
+      "count": 9,
+      "document_count": 8
+    },
+    {
+      "term": "nice",
+      "count": 9,
+      "document_count": 4
+    },
+    {
+      "term": "敬畏",
+      "count": 9,
+      "document_count": 4
+    },
+    {
+      "term": "just",
+      "count": 9,
+      "document_count": 7
+    },
+    {
+      "term": "何弦",
+      "count": 9,
+      "document_count": 3
+    },
+    {
+      "term": "神通",
+      "count": 9,
+      "document_count": 2
+    },
+    {
+      "term": "小妹妹",
+      "count": 9,
+      "document_count": 1
+    },
+    {
+      "term": "老姜",
+      "count": 9,
+      "document_count": 3
+    },
+    {
+      "term": "ll",
+      "count": 9,
+      "document_count": 1
+    },
+    {
+      "term": "miss",
+      "count": 9,
+      "document_count": 1
+    },
+    {
+      "term": "文科",
+      "count": 8,
+      "document_count": 1
+    },
+    {
+      "term": "高三",
+      "count": 8,
+      "document_count": 4
+    },
+    {
+      "term": "爱马仕",
+      "count": 8,
+      "document_count": 4
+    },
+    {
+      "term": "颗牙",
+      "count": 8,
+      "document_count": 5
+    },
+    {
+      "term": "KTV",
+      "count": 8,
+      "document_count": 6
+    },
+    {
+      "term": "脱敏",
+      "count": 8,
+      "document_count": 3
+    },
+    {
+      "term": "want",
+      "count": 8,
+      "document_count": 5
+    },
+    {
+      "term": "but",
+      "count": 8,
+      "document_count": 6
+    },
+    {
+      "term": "老虎",
+      "count": 8,
+      "document_count": 4
+    },
+    {
+      "term": "赛总",
+      "count": 8,
+      "document_count": 4
+    },
+    {
+      "term": "爱上你",
+      "count": 8,
+      "document_count": 3
+    },
+    {
+      "term": "so",
+      "count": 8,
+      "document_count": 6
+    },
+    {
+      "term": "罗树仁",
+      "count": 8,
+      "document_count": 6
+    },
+    {
+      "term": "like",
+      "count": 8,
+      "document_count": 5
+    },
+    {
+      "term": "高阶",
+      "count": 8,
+      "document_count": 2
+    },
+    {
+      "term": "are",
+      "count": 8,
+      "document_count": 5
+    },
+    {
+      "term": "三代人",
+      "count": 8,
+      "document_count": 4
+    },
+    {
+      "term": "try",
+      "count": 8,
+      "document_count": 5
+    },
+    {
+      "term": "正儿八经",
+      "count": 7,
+      "document_count": 4
+    },
+    {
+      "term": "杜绝",
+      "count": 7,
+      "document_count": 4
+    },
+    {
+      "term": "flag",
+      "count": 7,
+      "document_count": 4
+    },
+    {
+      "term": "SOP",
+      "count": 7,
+      "document_count": 3
+    },
+    {
+      "term": "联合国",
+      "count": 7,
+      "document_count": 2
+    },
+    {
+      "term": "改变命运",
+      "count": 7,
+      "document_count": 5
+    },
+    {
+      "term": "义乌",
+      "count": 7,
+      "document_count": 3
+    },
+    {
+      "term": "李白",
+      "count": 7,
+      "document_count": 3
+    },
+    {
+      "term": "白皮书",
+      "count": 7,
+      "document_count": 2
+    },
+    {
+      "term": "top",
+      "count": 7,
+      "document_count": 6
+    },
+    {
+      "term": "那本书",
+      "count": 7,
+      "document_count": 5
+    },
+    {
+      "term": "美的",
+      "count": 7,
+      "document_count": 6
+    },
+    {
+      "term": "秋雨",
+      "count": 7,
+      "document_count": 4
+    },
+    {
+      "term": "这歌",
+      "count": 7,
+      "document_count": 6
+    },
+    {
+      "term": "聊天记录",
+      "count": 7,
+      "document_count": 4
+    },
+    {
+      "term": "爸爸妈妈",
+      "count": 7,
+      "document_count": 4
+    },
+    {
+      "term": "文殊",
+      "count": 7,
+      "document_count": 1
+    },
+    {
+      "term": "章姐",
+      "count": 7,
+      "document_count": 5
+    },
+    {
+      "term": "You",
+      "count": 7,
+      "document_count": 4
+    },
+    {
+      "term": "that",
+      "count": 7,
+      "document_count": 4
+    },
+    {
+      "term": "托举",
+      "count": 7,
+      "document_count": 5
+    },
+    {
+      "term": "冈尔伯奇",
+      "count": 7,
+      "document_count": 2
+    },
+    {
+      "term": "冈尔波奇",
+      "count": 7,
+      "document_count": 2
+    },
+    {
+      "term": "加薪",
+      "count": 7,
+      "document_count": 3
+    },
+    {
+      "term": "QQ",
+      "count": 7,
+      "document_count": 5
+    },
+    {
+      "term": "up",
+      "count": 7,
+      "document_count": 4
+    },
+    {
+      "term": "with",
+      "count": 7,
+      "document_count": 5
+    },
+    {
+      "term": "张姐",
+      "count": 7,
+      "document_count": 4
+    },
+    {
+      "term": "光辉",
+      "count": 7,
+      "document_count": 1
+    },
+    {
+      "term": "老邓",
+      "count": 7,
+      "document_count": 3
+    },
+    {
+      "term": "We",
+      "count": 7,
+      "document_count": 5
+    },
+    {
+      "term": "over",
+      "count": 7,
+      "document_count": 3
+    },
+    {
+      "term": "hard",
+      "count": 7,
+      "document_count": 1
+    },
+    {
+      "term": "let",
+      "count": 7,
+      "document_count": 2
+    },
+    {
+      "term": "us",
+      "count": 7,
+      "document_count": 4
+    },
+    {
+      "term": "time",
+      "count": 7,
+      "document_count": 4
+    },
+    {
+      "term": "和平",
+      "count": 6,
+      "document_count": 4
+    },
+    {
+      "term": "live",
+      "count": 6,
+      "document_count": 3
+    },
+    {
+      "term": "plus",
+      "count": 6,
+      "document_count": 1
+    },
+    {
+      "term": "go",
+      "count": 6,
+      "document_count": 5
+    },
+    {
+      "term": "王哥",
+      "count": 6,
+      "document_count": 3
+    },
+    {
+      "term": "deep",
+      "count": 6,
+      "document_count": 2
+    },
+    {
+      "term": "DNA",
+      "count": 6,
+      "document_count": 2
+    },
+    {
+      "term": "李博士",
+      "count": 6,
+      "document_count": 2
+    },
+    {
+      "term": "顺语",
+      "count": 6,
+      "document_count": 2
+    },
+    {
+      "term": "抽奖",
+      "count": 6,
+      "document_count": 4
+    },
+    {
+      "term": "高中生",
+      "count": 6,
+      "document_count": 6
+    },
+    {
+      "term": "白姐",
+      "count": 6,
+      "document_count": 2
+    },
+    {
+      "term": "连成",
+      "count": 6,
+      "document_count": 5
+    },
+    {
+      "term": "腾讯",
+      "count": 6,
+      "document_count": 5
+    },
+    {
+      "term": "周杰伦",
+      "count": 6,
+      "document_count": 4
+    },
+    {
+      "term": "沙滩",
+      "count": 6,
+      "document_count": 3
+    },
+    {
+      "term": "温泉",
+      "count": 6,
+      "document_count": 2
+    },
+    {
+      "term": "张哥",
+      "count": 6,
+      "document_count": 4
+    },
+    {
+      "term": "干死你",
+      "count": 6,
+      "document_count": 4
+    },
+    {
+      "term": "大王",
+      "count": 6,
+      "document_count": 4
+    },
+    {
+      "term": "know",
+      "count": 6,
+      "document_count": 3
+    },
+    {
+      "term": "和田玉",
+      "count": 6,
+      "document_count": 6
+    },
+    {
+      "term": "富豪",
+      "count": 6,
+      "document_count": 5
+    },
+    {
+      "term": "苏打水",
+      "count": 6,
+      "document_count": 2
+    },
+    {
+      "term": "沙茶",
+      "count": 6,
+      "document_count": 2
+    },
+    {
+      "term": "雪山",
+      "count": 6,
+      "document_count": 6
+    },
+    {
+      "term": "玉米",
+      "count": 6,
+      "document_count": 2
+    },
+    {
+      "term": "阳光",
+      "count": 6,
+      "document_count": 6
+    },
+    {
+      "term": "新世界",
+      "count": 6,
+      "document_count": 2
+    },
+    {
+      "term": "again",
+      "count": 6,
+      "document_count": 2
+    },
+    {
+      "term": "by",
+      "count": 6,
+      "document_count": 4
+    },
+    {
+      "term": "练一练",
+      "count": 6,
+      "document_count": 3
+    },
+    {
+      "term": "rose",
+      "count": 6,
+      "document_count": 1
+    },
+    {
+      "term": "腾冲",
+      "count": 6,
+      "document_count": 1
+    },
+    {
+      "term": "or",
+      "count": 6,
+      "document_count": 2
+    },
+    {
+      "term": "sky",
+      "count": 6,
+      "document_count": 4
+    },
+    {
+      "term": "love",
+      "count": 6,
+      "document_count": 4
+    },
+    {
+      "term": "梭哈",
+      "count": 6,
+      "document_count": 1
+    },
+    {
+      "term": "小聪明",
+      "count": 6,
+      "document_count": 2
+    },
+    {
+      "term": "博伯",
+      "count": 5,
+      "document_count": 2
+    },
+    {
+      "term": "恐龙",
+      "count": 5,
+      "document_count": 2
+    },
+    {
+      "term": "公允",
+      "count": 5,
+      "document_count": 1
+    },
+    {
+      "term": "read",
+      "count": 5,
+      "document_count": 1
+    },
+    {
+      "term": "英文",
+      "count": 5,
+      "document_count": 3
+    },
+    {
+      "term": "authority",
+      "count": 5,
+      "document_count": 1
+    },
+    {
+      "term": "乔布斯",
+      "count": 5,
+      "document_count": 3
+    },
+    {
+      "term": "麦克",
+      "count": 5,
+      "document_count": 5
+    },
+    {
+      "term": "聚一聚",
+      "count": 5,
+      "document_count": 4
+    },
+    {
+      "term": "护城河",
+      "count": 5,
+      "document_count": 5
+    },
+    {
+      "term": "娶媳妇",
+      "count": 5,
+      "document_count": 5
+    },
+    {
+      "term": "调教",
+      "count": 5,
+      "document_count": 3
+    },
+    {
+      "term": "文明",
+      "count": 5,
+      "document_count": 3
+    },
+    {
+      "term": "清华大学",
+      "count": 5,
+      "document_count": 2
+    },
+    {
+      "term": "okK",
+      "count": 5,
+      "document_count": 5
+    },
+    {
+      "term": "山东大学",
+      "count": 5,
+      "document_count": 3
+    },
+    {
+      "term": "五百强",
+      "count": 5,
+      "document_count": 3
+    },
+    {
+      "term": "雷军",
+      "count": 5,
+      "document_count": 3
+    },
+    {
+      "term": "努力奋斗",
+      "count": 5,
+      "document_count": 4
+    },
+    {
+      "term": "太多太多",
+      "count": 5,
+      "document_count": 4
+    },
+    {
+      "term": "阿良",
+      "count": 5,
+      "document_count": 2
+    },
+    {
+      "term": "从政",
+      "count": 5,
+      "document_count": 3
+    },
+    {
+      "term": "back",
+      "count": 5,
+      "document_count": 5
+    },
+    {
+      "term": "安抚",
+      "count": 5,
+      "document_count": 4
+    },
+    {
+      "term": "was",
+      "count": 5,
+      "document_count": 4
+    },
+    {
+      "term": "帅哥",
+      "count": 5,
+      "document_count": 5
+    },
+    {
+      "term": "精华",
+      "count": 5,
+      "document_count": 3
+    },
+    {
+      "term": "养老院",
+      "count": 5,
+      "document_count": 2
+    },
+    {
+      "term": "唐卡",
+      "count": 5,
+      "document_count": 2
+    },
+    {
+      "term": "OKOK",
+      "count": 5,
+      "document_count": 4
+    },
+    {
+      "term": "在世",
+      "count": 5,
+      "document_count": 4
+    },
+    {
+      "term": "冈人",
+      "count": 5,
+      "document_count": 2
+    },
+    {
+      "term": "太久",
+      "count": 5,
+      "document_count": 2
+    },
+    {
+      "term": "晋升",
+      "count": 5,
+      "document_count": 5
+    },
+    {
+      "term": "新奇",
+      "count": 5,
+      "document_count": 5
+    },
+    {
+      "term": "友谊",
+      "count": 5,
+      "document_count": 5
+    },
+    {
+      "term": "ipad",
+      "count": 5,
+      "document_count": 3
+    },
+    {
+      "term": "罗树",
+      "count": 5,
+      "document_count": 5
+    },
+    {
+      "term": "保时捷",
+      "count": 5,
+      "document_count": 3
+    },
+    {
+      "term": "那小子",
+      "count": 5,
+      "document_count": 4
+    },
+    {
+      "term": "out",
+      "count": 5,
+      "document_count": 4
+    },
+    {
+      "term": "安静",
+      "count": 5,
+      "document_count": 3
+    },
+    {
+      "term": "金贵",
+      "count": 5,
+      "document_count": 1
+    },
+    {
+      "term": "BGM",
+      "count": 5,
+      "document_count": 3
+    },
+    {
+      "term": "唐僧",
+      "count": 5,
+      "document_count": 2
+    },
+    {
+      "term": "充满希望",
+      "count": 5,
+      "document_count": 4
+    },
+    {
+      "term": "NPC",
+      "count": 5,
+      "document_count": 4
+    },
+    {
+      "term": "things",
+      "count": 5,
+      "document_count": 4
+    },
+    {
+      "term": "宝山",
+      "count": 5,
+      "document_count": 1
+    },
+    {
+      "term": "wna",
+      "count": 5,
+      "document_count": 1
+    },
+    {
+      "term": "笑霞姐",
+      "count": 5,
+      "document_count": 1
+    },
+    {
+      "term": "初中生",
+      "count": 5,
+      "document_count": 3
+    },
+    {
+      "term": "this",
+      "count": 5,
+      "document_count": 2
+    },
+    {
+      "term": "顾全大局",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "demo",
+      "count": 4,
+      "document_count": 1
+    },
+    {
+      "term": "宝典",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "老友记",
+      "count": 4,
+      "document_count": 1
+    },
+    {
+      "term": "lo",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "克隆",
+      "count": 4,
+      "document_count": 1
+    },
+    {
+      "term": "蒋介石",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "红利",
+      "count": 4,
+      "document_count": 4
+    },
+    {
+      "term": "大侠",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "家教",
+      "count": 4,
+      "document_count": 4
+    },
+    {
+      "term": "喜讯",
+      "count": 4,
+      "document_count": 4
+    },
+    {
+      "term": "二人",
+      "count": 4,
+      "document_count": 4
+    },
+    {
+      "term": "昌盛",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "奥特曼",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "think",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "弗洛伊德",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "荷尔蒙",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "越往后",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "越牛",
+      "count": 4,
+      "document_count": 4
+    },
+    {
+      "term": "金钞",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "李树晨",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "中国矿业大学",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "卡住",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "金字塔",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "富利",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "幸福感",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "赛赛",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "士林",
+      "count": 4,
+      "document_count": 4
+    },
+    {
+      "term": "罗世林",
+      "count": 4,
+      "document_count": 4
+    },
+    {
+      "term": "星星",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "罗志林",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "美颜",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "太多人",
+      "count": 4,
+      "document_count": 4
+    },
+    {
+      "term": "敲门砖",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "波澜",
+      "count": 4,
+      "document_count": 4
+    },
+    {
+      "term": "福报",
+      "count": 4,
+      "document_count": 4
+    },
+    {
+      "term": "care",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "才华",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "丛林中",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "宝宝",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "小狗",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "曝光",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "鱼跃龙门",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "林虎",
+      "count": 4,
+      "document_count": 1
+    },
+    {
+      "term": "龙蝎石",
+      "count": 4,
+      "document_count": 1
+    },
+    {
+      "term": "戴眼镜",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "佛法",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "密宗",
+      "count": 4,
+      "document_count": 1
+    },
+    {
+      "term": "浙浪",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "劳斯莱斯",
+      "count": 4,
+      "document_count": 4
+    },
+    {
+      "term": "李丽华",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "江雨",
+      "count": 4,
+      "document_count": 4
+    },
+    {
+      "term": "wifi",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "幸云加",
+      "count": 4,
+      "document_count": 4
+    },
+    {
+      "term": "波奇",
+      "count": 4,
+      "document_count": 1
+    },
+    {
+      "term": "GDP",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "藏族",
+      "count": 4,
+      "document_count": 1
+    },
+    {
+      "term": "顾问",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "威士忌",
+      "count": 4,
+      "document_count": 1
+    },
+    {
+      "term": "矫正",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "MV",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "范冰冰",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "海浪",
+      "count": 4,
+      "document_count": 1
+    },
+    {
+      "term": "金山",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "武功",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "恒定",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "LV",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "哈尔",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "李总",
+      "count": 4,
+      "document_count": 4
+    },
+    {
+      "term": "down",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "feel",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "next",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "It",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "rain",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "宁静",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "释怀",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "boss",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "ra",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "PS",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "老登",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "forever",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "heart",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "light",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "ever",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "岳飞",
+      "count": 4,
+      "document_count": 1
+    },
+    {
+      "term": "without",
+      "count": 4,
+      "document_count": 1
+    },
+    {
+      "term": "tell",
+      "count": 4,
+      "document_count": 3
+    },
+    {
+      "term": "chase",
+      "count": 4,
+      "document_count": 1
+    },
+    {
+      "term": "them",
+      "count": 4,
+      "document_count": 1
+    },
+    {
+      "term": "away",
+      "count": 4,
+      "document_count": 1
+    },
+    {
+      "term": "stand",
+      "count": 4,
+      "document_count": 1
+    },
+    {
+      "term": "our",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "When",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "麦风",
+      "count": 4,
+      "document_count": 1
+    },
+    {
+      "term": "博彩业",
+      "count": 4,
+      "document_count": 2
+    },
+    {
+      "term": "珠宝",
+      "count": 4,
+      "document_count": 1
+    },
+    {
+      "term": "论文",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "今天下午",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "芥蒂",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "伯妈",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "王振宇",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "老二",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "巴拉",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "双语",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "高亮",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "entire",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "important",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "bug",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "agent",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "宝妈",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "PV",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "slogan",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "嘉年华",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "心理咨询",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "太棒了",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "修正",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "长盛",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "乾坤",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "deps",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "龙王",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "山姆",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "比尔盖茨",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "拉康",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "赛博",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "修仙",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "de",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "文科生",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "渣男",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "哪吒",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "刘伟",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "拉高",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "淘淘",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "李东",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "李树",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "姜总",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "比比",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "AA",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "巧劲儿",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "老爹",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "荣誉",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "普通家庭",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "三观",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "万能",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "新东方",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "小姐姐",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "神龙",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "罗志玲",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "金白银",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "万幸",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "蒋哥",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "完美主义",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "fuckfuck",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "life",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "阿呆",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "隔山",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "比人强",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "幸云佳",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "巴菲特",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "GDB",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "幼儿园",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "董明珠",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "鲤鱼",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "罗淑林",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "叶子",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "全景图",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "长得帅",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "link",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "And",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "will",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "常胜将军",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "烂命",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "look",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "司马懿",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "胡子",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "毛巾",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "谢江哥",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "right",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "萨武",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "高尔波",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "滤镜",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "冈仁波奇",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "大昭寺",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "金牛座",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "拉齐",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "广结善缘",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "喝咖啡",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "越广",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "老大哥",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "奥德赛",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "宋宁",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "和弦",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "旷野",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "春夏秋冬",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "宝马",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "奥迪",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "美味",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "小丸子",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "卡不卡",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "令人",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "has",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "He",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "gets",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "happy",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "马骝",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "钱能",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "days",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "falling",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "from",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "pain",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "常青",
+      "count": 3,
+      "document_count": 3
+    },
+    {
+      "term": "胡萝卜",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "YY",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "俊杰",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "向前走",
+      "count": 3,
+      "document_count": 2
+    },
+    {
+      "term": "肖申克",
+      "count": 3,
+      "document_count": 1
+    },
+    {
+      "term": "老祖",
+      "count": 3,
+      "document_count": 2
+    }
+  ],
+  "token_bigrams": [
+    {
+      "term": "改变 世界",
+      "count": 166,
+      "document_count": 18
+    },
+    {
+      "term": "这件 事儿",
+      "count": 150,
+      "document_count": 27
+    },
+    {
+      "term": "拿到 结果",
+      "count": 142,
+      "document_count": 28
+    },
+    {
+      "term": "江哥 江哥",
+      "count": 98,
+      "document_count": 20
+    },
+    {
+      "term": "希望 你好",
+      "count": 94,
+      "document_count": 26
+    },
+    {
+      "term": "事儿 事儿",
+      "count": 75,
+      "document_count": 27
+    },
+    {
+      "term": "老板 老板",
+      "count": 72,
+      "document_count": 24
+    },
+    {
+      "term": "大哥 大哥",
+      "count": 68,
+      "document_count": 22
+    },
+    {
+      "term": "不行 不行",
+      "count": 67,
+      "document_count": 22
+    },
+    {
+      "term": "朋友 朋友",
+      "count": 53,
+      "document_count": 21
+    },
+    {
+      "term": "重要 重要",
+      "count": 51,
+      "document_count": 20
+    },
+    {
+      "term": "过去 未来",
+      "count": 51,
+      "document_count": 20
+    },
+    {
+      "term": "赚钱 赚钱",
+      "count": 51,
+      "document_count": 18
+    },
+    {
+      "term": "工作 工作",
+      "count": 49,
+      "document_count": 11
+    },
+    {
+      "term": "结果 结果",
+      "count": 48,
+      "document_count": 20
+    },
+    {
+      "term": "希望 希望",
+      "count": 48,
+      "document_count": 22
+    },
+    {
+      "term": "不要 不要",
+      "count": 47,
+      "document_count": 19
+    },
+    {
+      "term": "兄弟 兄弟",
+      "count": 44,
+      "document_count": 18
+    },
+    {
+      "term": "感谢 大哥",
+      "count": 43,
+      "document_count": 13
+    },
+    {
+      "term": "气运 气运",
+      "count": 42,
+      "document_count": 13
+    },
+    {
+      "term": "创造 价值",
+      "count": 41,
+      "document_count": 17
+    },
+    {
+      "term": "尊重 尊重",
+      "count": 41,
+      "document_count": 15
+    },
+    {
+      "term": "看到 看到",
+      "count": 40,
+      "document_count": 19
+    },
+    {
+      "term": "开心 开心",
+      "count": 38,
+      "document_count": 19
+    },
+    {
+      "term": "世界 世界",
+      "count": 38,
+      "document_count": 18
+    },
+    {
+      "term": "这场 直播",
+      "count": 37,
+      "document_count": 14
+    },
+    {
+      "term": "道理 道理",
+      "count": 37,
+      "document_count": 13
+    },
+    {
+      "term": "人生 路上",
+      "count": 36,
+      "document_count": 13
+    },
+    {
+      "term": "老王 老王",
+      "count": 36,
+      "document_count": 8
+    },
+    {
+      "term": "还有 还有",
+      "count": 35,
+      "document_count": 16
+    },
+    {
+      "term": "人生 攻略",
+      "count": 35,
+      "document_count": 10
+    },
+    {
+      "term": "兄弟 江哥",
+      "count": 34,
+      "document_count": 14
+    },
+    {
+      "term": "金钱 观念",
+      "count": 34,
+      "document_count": 4
+    },
+    {
+      "term": "思考 思考",
+      "count": 33,
+      "document_count": 14
+    },
+    {
+      "term": "不会 不会",
+      "count": 33,
+      "document_count": 17
+    },
+    {
+      "term": "二级 市场",
+      "count": 33,
+      "document_count": 3
+    },
+    {
+      "term": "理由 理由",
+      "count": 32,
+      "document_count": 6
+    },
+    {
+      "term": "父母 父母",
+      "count": 32,
+      "document_count": 12
+    },
+    {
+      "term": "老师 老师",
+      "count": 31,
+      "document_count": 9
+    },
+    {
+      "term": "气运 流转",
+      "count": 31,
+      "document_count": 12
+    },
+    {
+      "term": "未来 人生",
+      "count": 31,
+      "document_count": 15
+    },
+    {
+      "term": "AI 时代",
+      "count": 30,
+      "document_count": 9
+    },
+    {
+      "term": "过程 当中",
+      "count": 30,
+      "document_count": 3
+    },
+    {
+      "term": "个人 个人",
+      "count": 30,
+      "document_count": 14
+    },
+    {
+      "term": "改变 改变",
+      "count": 30,
+      "document_count": 14
+    },
+    {
+      "term": "狩猎 范围",
+      "count": 30,
+      "document_count": 8
+    },
+    {
+      "term": "礼物 礼物",
+      "count": 30,
+      "document_count": 14
+    },
+    {
+      "term": "选择 选择",
+      "count": 29,
+      "document_count": 18
+    },
+    {
+      "term": "公司 公司",
+      "count": 29,
+      "document_count": 18
+    },
+    {
+      "term": "不能 不能",
+      "count": 29,
+      "document_count": 15
+    },
+    {
+      "term": "块钱 块钱",
+      "count": 29,
+      "document_count": 13
+    },
+    {
+      "term": "告诉 告诉",
+      "count": 29,
+      "document_count": 16
+    },
+    {
+      "term": "感觉 感觉",
+      "count": 28,
+      "document_count": 11
+    },
+    {
+      "term": "准备 礼物",
+      "count": 28,
+      "document_count": 10
+    },
+    {
+      "term": "努力 努力",
+      "count": 28,
+      "document_count": 14
+    },
+    {
+      "term": "未来 未来",
+      "count": 27,
+      "document_count": 15
+    },
+    {
+      "term": "气运 叠加",
+      "count": 27,
+      "document_count": 8
+    },
+    {
+      "term": "感受 世界",
+      "count": 27,
+      "document_count": 14
+    },
+    {
+      "term": "好人 失望",
+      "count": 27,
+      "document_count": 9
+    },
+    {
+      "term": "身边 朋友",
+      "count": 27,
+      "document_count": 18
+    },
+    {
+      "term": "大哥 栽培",
+      "count": 27,
+      "document_count": 9
+    },
+    {
+      "term": "家族 基金",
+      "count": 27,
+      "document_count": 5
+    },
+    {
+      "term": "感受 感受",
+      "count": 26,
+      "document_count": 10
+    },
+    {
+      "term": "希望 所有人",
+      "count": 26,
+      "document_count": 13
+    },
+    {
+      "term": "人生 人生",
+      "count": 26,
+      "document_count": 14
+    },
+    {
+      "term": "经历 经历",
+      "count": 26,
+      "document_count": 14
+    },
+    {
+      "term": "发现 反馈",
+      "count": 26,
+      "document_count": 7
+    },
+    {
+      "term": "需要 理由",
+      "count": 26,
+      "document_count": 8
+    },
+    {
+      "term": "想要 想要",
+      "count": 25,
+      "document_count": 14
+    },
+    {
+      "term": "对错 好坏",
+      "count": 25,
+      "document_count": 7
+    },
+    {
+      "term": "时间 时间",
+      "count": 25,
+      "document_count": 13
+    },
+    {
+      "term": "世界 改变",
+      "count": 25,
+      "document_count": 10
+    },
+    {
+      "term": "不要 江哥",
+      "count": 25,
+      "document_count": 16
+    },
+    {
+      "term": "父母 关系",
+      "count": 25,
+      "document_count": 12
+    },
+    {
+      "term": "江哥 直播",
+      "count": 25,
+      "document_count": 12
+    },
+    {
+      "term": "无比 希望",
+      "count": 25,
+      "document_count": 7
+    },
+    {
+      "term": "探索 世界",
+      "count": 25,
+      "document_count": 11
+    },
+    {
+      "term": "认识 朋友",
+      "count": 25,
+      "document_count": 14
+    },
+    {
+      "term": "世界 礼物",
+      "count": 25,
+      "document_count": 3
+    },
+    {
+      "term": "有钱 穷人",
+      "count": 25,
+      "document_count": 6
+    },
+    {
+      "term": "孩子 孩子",
+      "count": 24,
+      "document_count": 7
+    },
+    {
+      "term": "视角 看待",
+      "count": 24,
+      "document_count": 14
+    },
+    {
+      "term": "想法 想法",
+      "count": 23,
+      "document_count": 12
+    },
+    {
+      "term": "关系 关系",
+      "count": 23,
+      "document_count": 15
+    },
+    {
+      "term": "原生 家庭",
+      "count": 23,
+      "document_count": 9
+    },
+    {
+      "term": "不让 好人",
+      "count": 23,
+      "document_count": 8
+    },
+    {
+      "term": "面对 世界",
+      "count": 23,
+      "document_count": 11
+    },
+    {
+      "term": "价值 价值",
+      "count": 23,
+      "document_count": 9
+    },
+    {
+      "term": "故事 故事",
+      "count": 23,
+      "document_count": 13
+    },
+    {
+      "term": "答案 答案",
+      "count": 22,
+      "document_count": 12
+    },
+    {
+      "term": "家庭 关系",
+      "count": 22,
+      "document_count": 8
+    },
+    {
+      "term": "贵人 贵人",
+      "count": 22,
+      "document_count": 12
+    },
+    {
+      "term": "江哥 事儿",
+      "count": 22,
+      "document_count": 11
+    },
+    {
+      "term": "发生 事儿",
+      "count": 22,
+      "document_count": 16
+    },
+    {
+      "term": "中年 危机",
+      "count": 22,
+      "document_count": 4
+    },
+    {
+      "term": "意义 价值",
+      "count": 21,
+      "document_count": 11
+    },
+    {
+      "term": "世界 关系",
+      "count": 21,
+      "document_count": 10
+    },
+    {
+      "term": "父母 孩子",
+      "count": 21,
+      "document_count": 9
+    },
+    {
+      "term": "分享 分享",
+      "count": 21,
+      "document_count": 8
+    },
+    {
+      "term": "希望 江哥",
+      "count": 21,
+      "document_count": 11
+    },
+    {
+      "term": "人生 重要",
+      "count": 21,
+      "document_count": 13
+    },
+    {
+      "term": "痛苦 痛苦",
+      "count": 21,
+      "document_count": 10
+    },
+    {
+      "term": "树林 树林",
+      "count": 21,
+      "document_count": 11
+    },
+    {
+      "term": "no no",
+      "count": 20,
+      "document_count": 6
+    },
+    {
+      "term": "总结 总结",
+      "count": 20,
+      "document_count": 8
+    },
+    {
+      "term": "认识 认识",
+      "count": 20,
+      "document_count": 11
+    },
+    {
+      "term": "城市 城市",
+      "count": 20,
+      "document_count": 9
+    },
+    {
+      "term": "影响 影响",
+      "count": 20,
+      "document_count": 11
+    },
+    {
+      "term": "希望 开心",
+      "count": 20,
+      "document_count": 9
+    },
+    {
+      "term": "事儿 江哥",
+      "count": 20,
+      "document_count": 12
+    },
+    {
+      "term": "人生 贵人",
+      "count": 20,
+      "document_count": 11
+    },
+    {
+      "term": "人家 人家",
+      "count": 20,
+      "document_count": 13
+    },
+    {
+      "term": "人生 阶段",
+      "count": 20,
+      "document_count": 14
+    },
+    {
+      "term": "寻找 答案",
+      "count": 20,
+      "document_count": 9
+    },
+    {
+      "term": "所有 事儿",
+      "count": 20,
+      "document_count": 15
+    },
+    {
+      "term": "经历 事儿",
+      "count": 20,
+      "document_count": 15
+    },
+    {
+      "term": "不到 结果",
+      "count": 20,
+      "document_count": 7
+    },
+    {
+      "term": "财富 财富",
+      "count": 19,
+      "document_count": 7
+    },
+    {
+      "term": "我会 我会",
+      "count": 19,
+      "document_count": 11
+    },
+    {
+      "term": "投资 投资",
+      "count": 19,
+      "document_count": 10
+    },
+    {
+      "term": "气运 加一",
+      "count": 19,
+      "document_count": 12
+    },
+    {
+      "term": "介绍 介绍",
+      "count": 19,
+      "document_count": 12
+    },
+    {
+      "term": "不要 小瞧",
+      "count": 19,
+      "document_count": 12
+    },
+    {
+      "term": "思考 人生",
+      "count": 19,
+      "document_count": 11
+    },
+    {
+      "term": "解决 所有",
+      "count": 19,
+      "document_count": 11
+    },
+    {
+      "term": "变得 美好",
+      "count": 19,
+      "document_count": 7
+    },
+    {
+      "term": "赚钱 机会",
+      "count": 18,
+      "document_count": 10
+    },
+    {
+      "term": "看看 看看",
+      "count": 18,
+      "document_count": 9
+    },
+    {
+      "term": "优秀 优秀",
+      "count": 18,
+      "document_count": 8
+    },
+    {
+      "term": "琢磨 琢磨",
+      "count": 18,
+      "document_count": 11
+    },
+    {
+      "term": "付出 努力",
+      "count": 18,
+      "document_count": 10
+    },
+    {
+      "term": "反馈 获得",
+      "count": 18,
+      "document_count": 8
+    },
+    {
+      "term": "世界 变得",
+      "count": 18,
+      "document_count": 9
+    },
+    {
+      "term": "世界 所有",
+      "count": 18,
+      "document_count": 7
+    },
+    {
+      "term": "情绪 价值",
+      "count": 18,
+      "document_count": 10
+    },
+    {
+      "term": "告诉 江哥",
+      "count": 18,
+      "document_count": 12
+    },
+    {
+      "term": "想要 结果",
+      "count": 17,
+      "document_count": 8
+    },
+    {
+      "term": "视角 视角",
+      "count": 17,
+      "document_count": 10
+    },
+    {
+      "term": "过去 经历",
+      "count": 17,
+      "document_count": 12
+    },
+    {
+      "term": "肯定 不行",
+      "count": 17,
+      "document_count": 11
+    },
+    {
+      "term": "有点 有点",
+      "count": 17,
+      "document_count": 13
+    },
+    {
+      "term": "当时 当时",
+      "count": 17,
+      "document_count": 7
+    },
+    {
+      "term": "公司 老板",
+      "count": 17,
+      "document_count": 10
+    },
+    {
+      "term": "周期性 视角",
+      "count": 17,
+      "document_count": 4
+    },
+    {
+      "term": "视角 来看",
+      "count": 17,
+      "document_count": 6
+    },
+    {
+      "term": "喜欢 喜欢",
+      "count": 17,
+      "document_count": 11
+    },
+    {
+      "term": "这帮 兄弟",
+      "count": 17,
+      "document_count": 10
+    },
+    {
+      "term": "想尽 一切办法",
+      "count": 17,
+      "document_count": 9
+    },
+    {
+      "term": "拜拜 拜拜",
+      "count": 17,
+      "document_count": 8
+    },
+    {
+      "term": "需要 需要",
+      "count": 17,
+      "document_count": 13
+    },
+    {
+      "term": "江哥 人生",
+      "count": 17,
+      "document_count": 9
+    },
+    {
+      "term": "江哥 兄弟",
+      "count": 17,
+      "document_count": 12
+    },
+    {
+      "term": "结果 过程",
+      "count": 17,
+      "document_count": 7
+    },
+    {
+      "term": "成为 朋友",
+      "count": 17,
+      "document_count": 11
+    },
+    {
+      "term": "意识 种子",
+      "count": 17,
+      "document_count": 4
+    },
+    {
+      "term": "遇到 事儿",
+      "count": 16,
+      "document_count": 11
+    },
+    {
+      "term": "这帮 学生",
+      "count": 16,
+      "document_count": 8
+    },
+    {
+      "term": "告诉 人生",
+      "count": 16,
+      "document_count": 9
+    },
+    {
+      "term": "阶段 阶段",
+      "count": 16,
+      "document_count": 10
+    },
+    {
+      "term": "人生 算法",
+      "count": 16,
+      "document_count": 10
+    },
+    {
+      "term": "买单 买单",
+      "count": 16,
+      "document_count": 8
+    },
+    {
+      "term": "相信 相信",
+      "count": 16,
+      "document_count": 6
+    },
+    {
+      "term": "经历 所有",
+      "count": 16,
+      "document_count": 8
+    },
+    {
+      "term": "支持 支持",
+      "count": 16,
+      "document_count": 8
+    },
+    {
+      "term": "环境 环境",
+      "count": 16,
+      "document_count": 8
+    },
+    {
+      "term": "不用 不用",
+      "count": 16,
+      "document_count": 6
+    },
+    {
+      "term": "关键 节点",
+      "count": 16,
+      "document_count": 6
+    },
+    {
+      "term": "干嘛 干嘛",
+      "count": 16,
+      "document_count": 8
+    },
+    {
+      "term": "希望 世界",
+      "count": 16,
+      "document_count": 9
+    },
+    {
+      "term": "提前 布局",
+      "count": 16,
+      "document_count": 6
+    },
+    {
+      "term": "规矩 规矩",
+      "count": 16,
+      "document_count": 9
+    },
+    {
+      "term": "最好 最好",
+      "count": 16,
+      "document_count": 8
+    },
+    {
+      "term": "江哥 赚钱",
+      "count": 16,
+      "document_count": 7
+    },
+    {
+      "term": "听懂 听懂",
+      "count": 15,
+      "document_count": 10
+    },
+    {
+      "term": "房子 房子",
+      "count": 15,
+      "document_count": 6
+    },
+    {
+      "term": "生活 生活",
+      "count": 15,
+      "document_count": 8
+    },
+    {
+      "term": "做到 做到",
+      "count": 15,
+      "document_count": 9
+    },
+    {
+      "term": "看能 不能",
+      "count": 15,
+      "document_count": 11
+    },
+    {
+      "term": "深圳 深圳",
+      "count": 15,
+      "document_count": 5
+    },
+    {
+      "term": "事儿 不行",
+      "count": 15,
+      "document_count": 10
+    },
+    {
+      "term": "想象 不到",
+      "count": 15,
+      "document_count": 9
+    },
+    {
+      "term": "出来 出来",
+      "count": 15,
+      "document_count": 10
+    },
+    {
+      "term": "江哥 的话",
+      "count": 15,
+      "document_count": 11
+    },
+    {
+      "term": "黑暗 丛林",
+      "count": 15,
+      "document_count": 5
+    },
+    {
+      "term": "老板 客户",
+      "count": 15,
+      "document_count": 9
+    },
+    {
+      "term": "江哥 告诉",
+      "count": 15,
+      "document_count": 11
+    },
+    {
+      "term": "带来 改变",
+      "count": 15,
+      "document_count": 7
+    },
+    {
+      "term": "成为 成为",
+      "count": 15,
+      "document_count": 4
+    },
+    {
+      "term": "意义 意义",
+      "count": 15,
+      "document_count": 9
+    },
+    {
+      "term": "江哥 气运",
+      "count": 15,
+      "document_count": 11
+    },
+    {
+      "term": "坚持 坚持",
+      "count": 15,
+      "document_count": 8
+    },
+    {
+      "term": "礼物 江哥",
+      "count": 15,
+      "document_count": 12
+    },
+    {
+      "term": "出去 出去",
+      "count": 15,
+      "document_count": 8
+    },
+    {
+      "term": "所有 苦难",
+      "count": 15,
+      "document_count": 10
+    },
+    {
+      "term": "求真 求真",
+      "count": 15,
+      "document_count": 8
+    },
+    {
+      "term": "这场 游戏",
+      "count": 15,
+      "document_count": 9
+    },
+    {
+      "term": "兄弟 告诉",
+      "count": 15,
+      "document_count": 10
+    },
+    {
+      "term": "直播 内容",
+      "count": 15,
+      "document_count": 10
+    },
+    {
+      "term": "无限 叠加",
+      "count": 15,
+      "document_count": 3
+    },
+    {
+      "term": "事儿 不能",
+      "count": 15,
+      "document_count": 8
+    },
+    {
+      "term": "人生 锚点",
+      "count": 15,
+      "document_count": 3
+    },
+    {
+      "term": "人生 选择",
+      "count": 14,
+      "document_count": 9
+    },
+    {
+      "term": "希望 看到",
+      "count": 14,
+      "document_count": 11
+    },
+    {
+      "term": "希望 不要",
+      "count": 14,
+      "document_count": 12
+    },
+    {
+      "term": "感受 感觉",
+      "count": 14,
+      "document_count": 10
+    },
+    {
+      "term": "愿意 愿意",
+      "count": 14,
+      "document_count": 11
+    },
+    {
+      "term": "人生 折叠",
+      "count": 14,
+      "document_count": 4
+    },
+    {
+      "term": "告诉 世界",
+      "count": 14,
+      "document_count": 10
+    },
+    {
+      "term": "汽运 加一",
+      "count": 14,
+      "document_count": 5
+    },
+    {
+      "term": "证明 证明",
+      "count": 14,
+      "document_count": 11
+    },
+    {
+      "term": "记住 江哥",
+      "count": 14,
+      "document_count": 8
+    },
+    {
+      "term": "能力 能力",
+      "count": 14,
+      "document_count": 10
+    },
+    {
+      "term": "准备 准备",
+      "count": 14,
+      "document_count": 12
+    },
+    {
+      "term": "改变 人生",
+      "count": 14,
+      "document_count": 5
+    },
+    {
+      "term": "内耗 内耗",
+      "count": 14,
+      "document_count": 9
+    },
+    {
+      "term": "学习 学习",
+      "count": 14,
+      "document_count": 12
+    },
+    {
+      "term": "孩子 父母",
+      "count": 14,
+      "document_count": 4
+    },
+    {
+      "term": "看到 江哥",
+      "count": 14,
+      "document_count": 9
+    },
+    {
+      "term": "选择 生活",
+      "count": 14,
+      "document_count": 8
+    },
+    {
+      "term": "体验 世界",
+      "count": 14,
+      "document_count": 8
+    },
+    {
+      "term": "我会 思考",
+      "count": 14,
+      "document_count": 12
+    },
+    {
+      "term": "江哥 干嘛",
+      "count": 14,
+      "document_count": 9
+    },
+    {
+      "term": "所有 事物",
+      "count": 14,
+      "document_count": 11
+    },
+    {
+      "term": "江哥 不能",
+      "count": 14,
+      "document_count": 7
+    },
+    {
+      "term": "过程 结果",
+      "count": 14,
+      "document_count": 10
+    },
+    {
+      "term": "成功 成功",
+      "count": 14,
+      "document_count": 8
+    },
+    {
+      "term": "做人 做事",
+      "count": 14,
+      "document_count": 7
+    },
+    {
+      "term": "开始 开始",
+      "count": 13,
+      "document_count": 9
+    },
+    {
+      "term": "家庭 会议",
+      "count": 13,
+      "document_count": 2
+    },
+    {
+      "term": "希望 未来",
+      "count": 13,
+      "document_count": 9
+    },
+    {
+      "term": "结果 拿到",
+      "count": 13,
+      "document_count": 11
+    },
+    {
+      "term": "家庭 家庭",
+      "count": 13,
+      "document_count": 7
+    },
+    {
+      "term": "毛病 毛病",
+      "count": 13,
+      "document_count": 10
+    },
+    {
+      "term": "感谢 感谢",
+      "count": 13,
+      "document_count": 8
+    },
+    {
+      "term": "AI AI",
+      "count": 13,
+      "document_count": 5
+    },
+    {
+      "term": "通关 攻略",
+      "count": 13,
+      "document_count": 9
+    },
+    {
+      "term": "兄弟 不要",
+      "count": 13,
+      "document_count": 10
+    },
+    {
+      "term": "告诉 事儿",
+      "count": 13,
+      "document_count": 10
+    },
+    {
+      "term": "追求 追求",
+      "count": 13,
+      "document_count": 6
+    },
+    {
+      "term": "影响 父母",
+      "count": 13,
+      "document_count": 5
+    },
+    {
+      "term": "当下 贵人",
+      "count": 13,
+      "document_count": 6
+    },
+    {
+      "term": "例子 例子",
+      "count": 13,
+      "document_count": 6
+    },
+    {
+      "term": "赋予 意义",
+      "count": 13,
+      "document_count": 6
+    },
+    {
+      "term": "投资 基金",
+      "count": 13,
+      "document_count": 7
+    },
+    {
+      "term": "后来 发现",
+      "count": 13,
+      "document_count": 8
+    },
+    {
+      "term": "体验 人生",
+      "count": 13,
+      "document_count": 9
+    },
+    {
+      "term": "重要 事儿",
+      "count": 13,
+      "document_count": 11
+    },
+    {
+      "term": "你好 希望",
+      "count": 13,
+      "document_count": 9
+    },
+    {
+      "term": "人生 地图",
+      "count": 13,
+      "document_count": 6
+    },
+    {
+      "term": "告诉 兄弟",
+      "count": 13,
+      "document_count": 9
+    },
+    {
+      "term": "树林 老王",
+      "count": 13,
+      "document_count": 3
+    },
+    {
+      "term": "影响 家庭",
+      "count": 13,
+      "document_count": 4
+    },
+    {
+      "term": "教育 集团",
+      "count": 13,
+      "document_count": 3
+    },
+    {
+      "term": "遇到 贵人",
+      "count": 13,
+      "document_count": 8
+    },
+    {
+      "term": "结果 买单",
+      "count": 13,
+      "document_count": 5
+    },
+    {
+      "term": "过去 过去",
+      "count": 13,
+      "document_count": 9
+    },
+    {
+      "term": "影响 身边",
+      "count": 13,
+      "document_count": 9
+    },
+    {
+      "term": "世界 美好",
+      "count": 13,
+      "document_count": 9
+    },
+    {
+      "term": "直播 直播",
+      "count": 13,
+      "document_count": 11
+    },
+    {
+      "term": "难受 难受",
+      "count": 13,
+      "document_count": 5
+    },
+    {
+      "term": "上进 理由",
+      "count": 13,
+      "document_count": 5
+    },
+    {
+      "term": "攻略 攻略",
+      "count": 13,
+      "document_count": 4
+    },
+    {
+      "term": "得到 得到",
+      "count": 13,
+      "document_count": 7
+    },
+    {
+      "term": "领导 领导",
+      "count": 13,
+      "document_count": 4
+    },
+    {
+      "term": "失败 失败",
+      "count": 13,
+      "document_count": 7
+    },
+    {
+      "term": "小时 小时",
+      "count": 13,
+      "document_count": 6
+    },
+    {
+      "term": "城市 发展",
+      "count": 13,
+      "document_count": 5
+    },
+    {
+      "term": "事儿 发生",
+      "count": 13,
+      "document_count": 8
+    },
+    {
+      "term": "江哥 不会",
+      "count": 13,
+      "document_count": 9
+    },
+    {
+      "term": "大哥 兄弟",
+      "count": 13,
+      "document_count": 8
+    },
+    {
+      "term": "人生 体验",
+      "count": 13,
+      "document_count": 8
+    },
+    {
+      "term": "苦难 苦难",
+      "count": 13,
+      "document_count": 6
+    },
+    {
+      "term": "有钱 有钱",
+      "count": 13,
+      "document_count": 6
+    },
+    {
+      "term": "送礼 送礼",
+      "count": 13,
+      "document_count": 3
+    },
+    {
+      "term": "阿姨 阿姨",
+      "count": 13,
+      "document_count": 5
+    },
+    {
+      "term": "成功 失败",
+      "count": 13,
+      "document_count": 7
+    },
+    {
+      "term": "财税 公司",
+      "count": 13,
+      "document_count": 3
+    },
+    {
+      "term": "肯定 肯定",
+      "count": 12,
+      "document_count": 6
+    },
+    {
+      "term": "客户 客户",
+      "count": 12,
+      "document_count": 7
+    },
+    {
+      "term": "老板 公司",
+      "count": 12,
+      "document_count": 7
+    },
+    {
+      "term": "时间 浪费",
+      "count": 12,
+      "document_count": 10
+    },
+    {
+      "term": "获得 收益",
+      "count": 12,
+      "document_count": 10
+    },
+    {
+      "term": "最好 不要",
+      "count": 12,
+      "document_count": 9
+    },
+    {
+      "term": "看看 有没有",
+      "count": 12,
+      "document_count": 10
+    },
+    {
+      "term": "做好 准备",
+      "count": 12,
+      "document_count": 11
+    },
+    {
+      "term": "事儿 我会",
+      "count": 12,
+      "document_count": 8
+    },
+    {
+      "term": "不行 不能",
+      "count": 12,
+      "document_count": 10
+    },
+    {
+      "term": "对得起 对得起",
+      "count": 12,
+      "document_count": 6
+    },
+    {
+      "term": "我会 不会",
+      "count": 12,
+      "document_count": 9
+    },
+    {
+      "term": "项目 项目",
+      "count": 12,
+      "document_count": 9
+    },
+    {
+      "term": "深圳 城市",
+      "count": 12,
+      "document_count": 4
+    },
+    {
+      "term": "思维 想法",
+      "count": 12,
+      "document_count": 10
+    },
+    {
+      "term": "人生 狩猎",
+      "count": 12,
+      "document_count": 6
+    },
+    {
+      "term": "拥有 拥有",
+      "count": 12,
+      "document_count": 9
+    },
+    {
+      "term": "北京 北京",
+      "count": 12,
+      "document_count": 6
+    },
+    {
+      "term": "无心 为善",
+      "count": 12,
+      "document_count": 5
+    },
+    {
+      "term": "关系 世界",
+      "count": 12,
+      "document_count": 8
+    },
+    {
+      "term": "汽运 这件",
+      "count": 12,
+      "document_count": 4
+    },
+    {
+      "term": "安排 安排",
+      "count": 12,
+      "document_count": 9
+    },
+    {
+      "term": "遇到 遇到",
+      "count": 12,
+      "document_count": 10
+    }
+  ],
+  "tfidf": [
+    {
+      "term": "江哥",
+      "weight": 0.06197282
+    },
+    {
+      "term": "自己",
+      "weight": 0.03418502
+    },
+    {
+      "term": "事儿",
+      "weight": 0.03293281
+    },
+    {
+      "term": "人生",
+      "weight": 0.03179494
+    },
+    {
+      "term": "别人",
+      "weight": 0.02518808
+    },
+    {
+      "term": "我要",
+      "weight": 0.0230227
+    },
+    {
+      "term": "兄弟",
+      "weight": 0.01911063
+    },
+    {
+      "term": "气运",
+      "weight": 0.01773682
+    },
+    {
+      "term": "希望",
+      "weight": 0.01752282
+    },
+    {
+      "term": "赚钱",
+      "weight": 0.01581266
+    },
+    {
+      "term": "一定",
+      "weight": 0.01579698
+    },
+    {
+      "term": "不要",
+      "weight": 0.01571494
+    },
+    {
+      "term": "世界",
+      "weight": 0.01547204
+    },
+    {
+      "term": "老板",
+      "weight": 0.01497204
+    },
+    {
+      "term": "大哥",
+      "weight": 0.01461423
+    },
+    {
+      "term": "告诉",
+      "weight": 0.01455598
+    },
+    {
+      "term": "父母",
+      "weight": 0.0140597
+    },
+    {
+      "term": "很多",
+      "weight": 0.01401172
+    },
+    {
+      "term": "所有",
+      "weight": 0.01304553
+    },
+    {
+      "term": "不能",
+      "weight": 0.01285244
+    },
+    {
+      "term": "一样",
+      "weight": 0.01275587
+    },
+    {
+      "term": "不行",
+      "weight": 0.0127552
+    },
+    {
+      "term": "AI",
+      "weight": 0.01237978
+    },
+    {
+      "term": "什么样",
+      "weight": 0.01210392
+    },
+    {
+      "term": "朋友",
+      "weight": 0.01185692
+    },
+    {
+      "term": "100",
+      "weight": 0.01160374
+    },
+    {
+      "term": "10",
+      "weight": 0.01134505
+    },
+    {
+      "term": "我会",
+      "weight": 0.01121019
+    },
+    {
+      "term": "直播",
+      "weight": 0.01089212
+    },
+    {
+      "term": "这件",
+      "weight": 0.01081796
+    },
+    {
+      "term": "看到",
+      "weight": 0.01081239
+    },
+    {
+      "term": "结果",
+      "weight": 0.01060979
+    },
+    {
+      "term": "未来",
+      "weight": 0.01051228
+    },
+    {
+      "term": "我能",
+      "weight": 0.01027337
+    },
+    {
+      "term": "视角",
+      "weight": 0.01005693
+    },
+    {
+      "term": "之后",
+      "weight": 0.00997138
+    },
+    {
+      "term": "干嘛",
+      "weight": 0.00978566
+    },
+    {
+      "term": "哎呀",
+      "weight": 0.00976318
+    },
+    {
+      "term": "的话",
+      "weight": 0.00973518
+    },
+    {
+      "term": "一点",
+      "weight": 0.00948649
+    },
+    {
+      "term": "一件",
+      "weight": 0.00933991
+    },
+    {
+      "term": "想法",
+      "weight": 0.0093139
+    },
+    {
+      "term": "是不是",
+      "weight": 0.00926479
+    },
+    {
+      "term": "思考",
+      "weight": 0.00918813
+    },
+    {
+      "term": "有人",
+      "weight": 0.00918418
+    },
+    {
+      "term": "所有人",
+      "weight": 0.00874903
+    },
+    {
+      "term": "想要",
+      "weight": 0.00863119
+    },
+    {
+      "term": "感觉",
+      "weight": 0.00861483
+    },
+    {
+      "term": "老妈",
+      "weight": 0.00853852
+    },
+    {
+      "term": "比如说",
+      "weight": 0.00848555
+    },
+    {
+      "term": "改变",
+      "weight": 0.00836421
+    },
+    {
+      "term": "开心",
+      "weight": 0.00834606
+    },
+    {
+      "term": "有没有",
+      "weight": 0.00833672
+    },
+    {
+      "term": "或者",
+      "weight": 0.00823793
+    },
+    {
+      "term": "感受",
+      "weight": 0.00816199
+    },
+    {
+      "term": "20",
+      "weight": 0.00809305
+    },
+    {
+      "term": "贵人",
+      "weight": 0.00807855
+    },
+    {
+      "term": "不会",
+      "weight": 0.00807341
+    },
+    {
+      "term": "怎么样",
+      "weight": 0.00792595
+    },
+    {
+      "term": "礼物",
+      "weight": 0.00791512
+    },
+    {
+      "term": "永远",
+      "weight": 0.00788733
+    },
+    {
+      "term": "选择",
+      "weight": 0.00775407
+    },
+    {
+      "term": "时间",
+      "weight": 0.00762946
+    },
+    {
+      "term": "肯定",
+      "weight": 0.0075959
+    },
+    {
+      "term": "更好",
+      "weight": 0.00754577
+    },
+    {
+      "term": "还有",
+      "weight": 0.00747016
+    },
+    {
+      "term": "努力",
+      "weight": 0.0074472
+    },
+    {
+      "term": "道理",
+      "weight": 0.00741771
+    },
+    {
+      "term": "重要",
+      "weight": 0.0073933
+    },
+    {
+      "term": "不好",
+      "weight": 0.00731031
+    },
+    {
+      "term": "树林",
+      "weight": 0.00729594
+    },
+    {
+      "term": "真的",
+      "weight": 0.00714016
+    },
+    {
+      "term": "经历",
+      "weight": 0.00710046
+    },
+    {
+      "term": "感谢",
+      "weight": 0.00699424
+    },
+    {
+      "term": "关系",
+      "weight": 0.00695329
+    },
+    {
+      "term": "看看",
+      "weight": 0.00692405
+    },
+    {
+      "term": "发现",
+      "weight": 0.00686713
+    },
+    {
+      "term": "老师",
+      "weight": 0.00679702
+    },
+    {
+      "term": "人家",
+      "weight": 0.00668711
+    },
+    {
+      "term": "找到",
+      "weight": 0.00668545
+    },
+    {
+      "term": "如何",
+      "weight": 0.0066739
+    },
+    {
+      "term": "出来",
+      "weight": 0.00667199
+    },
+    {
+      "term": "只要",
+      "weight": 0.00660404
+    },
+    {
+      "term": "30",
+      "weight": 0.006504
+    },
+    {
+      "term": "一切",
+      "weight": 0.00650236
+    },
+    {
+      "term": "公司",
+      "weight": 0.00649796
+    },
+    {
+      "term": "这儿",
+      "weight": 0.00649599
+    },
+    {
+      "term": "听懂",
+      "weight": 0.00643889
+    },
+    {
+      "term": "老王",
+      "weight": 0.00634963
+    },
+    {
+      "term": "地方",
+      "weight": 0.00623824
+    },
+    {
+      "term": "价值",
+      "weight": 0.00622638
+    },
+    {
+      "term": "每个",
+      "weight": 0.00609255
+    },
+    {
+      "term": "分享",
+      "weight": 0.00608001
+    },
+    {
+      "term": "孩子",
+      "weight": 0.00595818
+    },
+    {
+      "term": "金钱",
+      "weight": 0.00592991
+    },
+    {
+      "term": "遇到",
+      "weight": 0.00589395
+    },
+    {
+      "term": "后面",
+      "weight": 0.0057713
+    },
+    {
+      "term": "家庭",
+      "weight": 0.00571346
+    },
+    {
+      "term": "大概",
+      "weight": 0.00564996
+    },
+    {
+      "term": "那一刻",
+      "weight": 0.00563934
+    },
+    {
+      "term": "工作",
+      "weight": 0.00562532
+    },
+    {
+      "term": "身边",
+      "weight": 0.00560003
+    },
+    {
+      "term": "1000",
+      "weight": 0.00558014
+    },
+    {
+      "term": "城市",
+      "weight": 0.00557901
+    },
+    {
+      "term": "不了",
+      "weight": 0.00552491
+    },
+    {
+      "term": "能力",
+      "weight": 0.00550746
+    },
+    {
+      "term": "简单",
+      "weight": 0.00550533
+    },
+    {
+      "term": "一起",
+      "weight": 0.00549699
+    },
+    {
+      "term": "当时",
+      "weight": 0.00544914
+    },
+    {
+      "term": "这句",
+      "weight": 0.00543235
+    },
+    {
+      "term": "故事",
+      "weight": 0.00542984
+    },
+    {
+      "term": "内耗",
+      "weight": 0.00542721
+    },
+    {
+      "term": "个人",
+      "weight": 0.00540325
+    },
+    {
+      "term": "块钱",
+      "weight": 0.00540312
+    },
+    {
+      "term": "汽运",
+      "weight": 0.00535841
+    },
+    {
+      "term": "记住",
+      "weight": 0.0053567
+    },
+    {
+      "term": "哪个",
+      "weight": 0.00532119
+    },
+    {
+      "term": "一天",
+      "weight": 0.00528942
+    },
+    {
+      "term": "怎么办",
+      "weight": 0.00526872
+    },
+    {
+      "term": "也好",
+      "weight": 0.00526417
+    },
+    {
+      "term": "逻辑",
+      "weight": 0.00526408
+    },
+    {
+      "term": "爸妈",
+      "weight": 0.00520412
+    },
+    {
+      "term": "认知",
+      "weight": 0.00516812
+    },
+    {
+      "term": "财富",
+      "weight": 0.00515702
+    },
+    {
+      "term": "需要",
+      "weight": 0.00514356
+    },
+    {
+      "term": "几个",
+      "weight": 0.00512504
+    },
+    {
+      "term": "过去",
+      "weight": 0.00508594
+    },
+    {
+      "term": "有钱",
+      "weight": 0.00503996
+    },
+    {
+      "term": "拿到",
+      "weight": 0.00502596
+    },
+    {
+      "term": "没关系",
+      "weight": 0.00494878
+    },
+    {
+      "term": "电商",
+      "weight": 0.00493931
+    },
+    {
+      "term": "资源",
+      "weight": 0.00492252
+    },
+    {
+      "term": "理由",
+      "weight": 0.00491619
+    },
+    {
+      "term": "认识",
+      "weight": 0.00491578
+    },
+    {
+      "term": "攻略",
+      "weight": 0.00490085
+    },
+    {
+      "term": "你好",
+      "weight": 0.00489528
+    },
+    {
+      "term": "这是",
+      "weight": 0.00485546
+    },
+    {
+      "term": "比较",
+      "weight": 0.00485291
+    },
+    {
+      "term": "优秀",
+      "weight": 0.00482289
+    },
+    {
+      "term": "就要",
+      "weight": 0.00481358
+    },
+    {
+      "term": "获得",
+      "weight": 0.00477305
+    },
+    {
+      "term": "一堆",
+      "weight": 0.00475594
+    },
+    {
+      "term": "最好",
+      "weight": 0.00473438
+    },
+    {
+      "term": "成就",
+      "weight": 0.00471654
+    },
+    {
+      "term": "答案",
+      "weight": 0.00467605
+    },
+    {
+      "term": "不想",
+      "weight": 0.00464614
+    },
+    {
+      "term": "成为",
+      "weight": 0.00463997
+    },
+    {
+      "term": "机会",
+      "weight": 0.00462197
+    },
+    {
+      "term": "有个",
+      "weight": 0.00461932
+    },
+    {
+      "term": "尊重",
+      "weight": 0.00460681
+    },
+    {
+      "term": "任何",
+      "weight": 0.0046052
+    },
+    {
+      "term": "解决",
+      "weight": 0.00452279
+    },
+    {
+      "term": "才能",
+      "weight": 0.00451964
+    },
+    {
+      "term": "不用",
+      "weight": 0.00449513
+    },
+    {
+      "term": "痛苦",
+      "weight": 0.00444285
+    },
+    {
+      "term": "追求",
+      "weight": 0.00440613
+    },
+    {
+      "term": "体验",
+      "weight": 0.0043656
+    },
+    {
+      "term": "做到",
+      "weight": 0.00436314
+    },
+    {
+      "term": "变好",
+      "weight": 0.00435621
+    },
+    {
+      "term": "规矩",
+      "weight": 0.00433766
+    },
+    {
+      "term": "影响",
+      "weight": 0.00432491
+    },
+    {
+      "term": "玩意儿",
+      "weight": 0.00430386
+    },
+    {
+      "term": "之前",
+      "weight": 0.00430253
+    },
+    {
+      "term": "环境",
+      "weight": 0.004293
+    },
+    {
+      "term": "学习",
+      "weight": 0.00428598
+    },
+    {
+      "term": "那种",
+      "weight": 0.00428152
+    },
+    {
+      "term": "成功",
+      "weight": 0.00427938
+    },
+    {
+      "term": "开始",
+      "weight": 0.00426698
+    },
+    {
+      "term": "厉害",
+      "weight": 0.00425949
+    },
+    {
+      "term": "有点",
+      "weight": 0.00422262
+    },
+    {
+      "term": "加一",
+      "weight": 0.00421282
+    },
+    {
+      "term": "懂吗",
+      "weight": 0.00415571
+    },
+    {
+      "term": "通过",
+      "weight": 0.00411555
+    },
+    {
+      "term": "看一看",
+      "weight": 0.00408215
+    },
+    {
+      "term": "买单",
+      "weight": 0.00403367
+    },
+    {
+      "term": "出去",
+      "weight": 0.00398859
+    },
+    {
+      "term": "要么",
+      "weight": 0.0039792
+    },
+    {
+      "term": "过来",
+      "weight": 0.00396805
+    },
+    {
+      "term": "创业",
+      "weight": 0.00395132
+    },
+    {
+      "term": "意思",
+      "weight": 0.00393215
+    },
+    {
+      "term": "一句",
+      "weight": 0.00391716
+    },
+    {
+      "term": "付出",
+      "weight": 0.00391591
+    },
+    {
+      "term": "生活",
+      "weight": 0.0039105
+    },
+    {
+      "term": "哥们",
+      "weight": 0.00391029
+    },
+    {
+      "term": "链接",
+      "weight": 0.00389806
+    },
+    {
+      "term": "善意",
+      "weight": 0.00388045
+    },
+    {
+      "term": "无论",
+      "weight": 0.00387858
+    },
+    {
+      "term": "得到",
+      "weight": 0.00383279
+    },
+    {
+      "term": "发生",
+      "weight": 0.00383139
+    },
+    {
+      "term": "第一",
+      "weight": 0.0038216
+    },
+    {
+      "term": "信息",
+      "weight": 0.00381657
+    },
+    {
+      "term": "求真",
+      "weight": 0.00381115
+    },
+    {
+      "term": "内容",
+      "weight": 0.00379319
+    },
+    {
+      "term": "人会",
+      "weight": 0.00376937
+    },
+    {
+      "term": "路上",
+      "weight": 0.00376812
+    },
+    {
+      "term": "只是",
+      "weight": 0.00375674
+    },
+    {
+      "term": "两个",
+      "weight": 0.00374861
+    },
+    {
+      "term": "本书",
+      "weight": 0.00374807
+    },
+    {
+      "term": "家族",
+      "weight": 0.00374713
+    },
+    {
+      "term": "他会",
+      "weight": 0.00373241
+    },
+    {
+      "term": "我操",
+      "weight": 0.00373241
+    },
+    {
+      "term": "前面",
+      "weight": 0.00373062
+    },
+    {
+      "term": "音乐",
+      "weight": 0.00372984
+    },
+    {
+      "term": "过程",
+      "weight": 0.00371406
+    },
+    {
+      "term": "吃饭",
+      "weight": 0.00370519
+    },
+    {
+      "term": "社会",
+      "weight": 0.00369155
+    },
+    {
+      "term": "想想",
+      "weight": 0.00363366
+    },
+    {
+      "term": "苦难",
+      "weight": 0.0036324
+    },
+    {
+      "term": "教育",
+      "weight": 0.00361593
+    },
+    {
+      "term": "说江哥",
+      "weight": 0.00358459
+    },
+    {
+      "term": "接下来",
+      "weight": 0.00358032
+    },
+    {
+      "term": "意识",
+      "weight": 0.00357203
+    },
+    {
+      "term": "刚刚",
+      "weight": 0.00353993
+    },
+    {
+      "term": "快乐",
+      "weight": 0.00353475
+    },
+    {
+      "term": "到底",
+      "weight": 0.00353361
+    },
+    {
+      "term": "十年",
+      "weight": 0.00352218
+    },
+    {
+      "term": "最后",
+      "weight": 0.0034978
+    },
+    {
+      "term": "本事",
+      "weight": 0.00348949
+    },
+    {
+      "term": "幸运",
+      "weight": 0.00346845
+    },
+    {
+      "term": "变得",
+      "weight": 0.00346771
+    },
+    {
+      "term": "成林",
+      "weight": 0.00346195
+    },
+    {
+      "term": "周边",
+      "weight": 0.00345093
+    },
+    {
+      "term": "面对",
+      "weight": 0.00344485
+    },
+    {
+      "term": "拥有",
+      "weight": 0.00342257
+    },
+    {
+      "term": "真正",
+      "weight": 0.00342143
+    },
+    {
+      "term": "起来",
+      "weight": 0.00341644
+    },
+    {
+      "term": "我来",
+      "weight": 0.00339982
+    },
+    {
+      "term": "第二个",
+      "weight": 0.00338695
+    },
+    {
+      "term": "意义",
+      "weight": 0.00335822
+    },
+    {
+      "term": "好好",
+      "weight": 0.00335647
+    },
+    {
+      "term": "对于",
+      "weight": 0.00335081
+    },
+    {
+      "term": "但凡",
+      "weight": 0.00333679
+    },
+    {
+      "term": "群里",
+      "weight": 0.00332591
+    },
+    {
+      "term": "当下",
+      "weight": 0.00331994
+    },
+    {
+      "term": "就行了",
+      "weight": 0.00331011
+    },
+    {
+      "term": "不到",
+      "weight": 0.00329906
+    },
+    {
+      "term": "吹牛",
+      "weight": 0.00329694
+    },
+    {
+      "term": "以后",
+      "weight": 0.00329064
+    },
+    {
+      "term": "经验",
+      "weight": 0.00329028
+    },
+    {
+      "term": "原来",
+      "weight": 0.00328974
+    },
+    {
+      "term": "送礼",
+      "weight": 0.00328411
+    },
+    {
+      "term": "愿意",
+      "weight": 0.00328378
+    },
+    {
+      "term": "第一个",
+      "weight": 0.00326611
+    },
+    {
+      "term": "好人",
+      "weight": 0.00324868
+    },
+    {
+      "term": "样子",
+      "weight": 0.00324296
+    },
+    {
+      "term": "判断",
+      "weight": 0.00322095
+    },
+    {
+      "term": "基于",
+      "weight": 0.00321615
+    },
+    {
+      "term": "帮助",
+      "weight": 0.00321429
+    },
+    {
+      "term": "年轻人",
+      "weight": 0.00320574
+    }
+  ],
+  "textrank": [
+    {
+      "term": "江哥",
+      "weight": 0.81560658
+    },
+    {
+      "term": "人生",
+      "weight": 0.71702505
+    },
+    {
+      "term": "事儿",
+      "weight": 0.54518417
+    },
+    {
+      "term": "世界",
+      "weight": 0.50410251
+    },
+    {
+      "term": "不能",
+      "weight": 0.45784301
+    },
+    {
+      "term": "希望",
+      "weight": 0.41791483
+    },
+    {
+      "term": "兄弟",
+      "weight": 0.33483417
+    },
+    {
+      "term": "告诉",
+      "weight": 0.31106923
+    },
+    {
+      "term": "父母",
+      "weight": 0.30910816
+    },
+    {
+      "term": "结果",
+      "weight": 0.29968994
+    },
+    {
+      "term": "看到",
+      "weight": 0.29608203
+    },
+    {
+      "term": "老板",
+      "weight": 0.28960133
+    },
+    {
+      "term": "公司",
+      "weight": 0.28682151
+    },
+    {
+      "term": "还有",
+      "weight": 0.28385658
+    },
+    {
+      "term": "赚钱",
+      "weight": 0.27875339
+    },
+    {
+      "term": "时间",
+      "weight": 0.26446699
+    },
+    {
+      "term": "我会",
+      "weight": 0.25762716
+    },
+    {
+      "term": "大哥",
+      "weight": 0.25233917
+    },
+    {
+      "term": "不行",
+      "weight": 0.25034114
+    },
+    {
+      "term": "不会",
+      "weight": 0.24793599
+    },
+    {
+      "term": "改变",
+      "weight": 0.24545874
+    },
+    {
+      "term": "朋友",
+      "weight": 0.24049688
+    },
+    {
+      "term": "气运",
+      "weight": 0.2392798
+    },
+    {
+      "term": "出来",
+      "weight": 0.21977735
+    },
+    {
+      "term": "发现",
+      "weight": 0.20903512
+    },
+    {
+      "term": "关系",
+      "weight": 0.20232532
+    },
+    {
+      "term": "工作",
+      "weight": 0.20193536
+    },
+    {
+      "term": "选择",
+      "weight": 0.20127293
+    },
+    {
+      "term": "肯定",
+      "weight": 0.20099284
+    },
+    {
+      "term": "地方",
+      "weight": 0.19766554
+    },
+    {
+      "term": "价值",
+      "weight": 0.19620928
+    },
+    {
+      "term": "需要",
+      "weight": 0.19155203
+    },
+    {
+      "term": "感觉",
+      "weight": 0.19150986
+    },
+    {
+      "term": "有没有",
+      "weight": 0.18524857
+    },
+    {
+      "term": "找到",
+      "weight": 0.18096232
+    },
+    {
+      "term": "成为",
+      "weight": 0.17929426
+    },
+    {
+      "term": "想要",
+      "weight": 0.17852416
+    },
+    {
+      "term": "人家",
+      "weight": 0.17545716
+    },
+    {
+      "term": "孩子",
+      "weight": 0.17061008
+    },
+    {
+      "term": "能力",
+      "weight": 0.16818129
+    },
+    {
+      "term": "开始",
+      "weight": 0.16529345
+    },
+    {
+      "term": "看看",
+      "weight": 0.16490449
+    },
+    {
+      "term": "获得",
+      "weight": 0.1599415
+    },
+    {
+      "term": "社会",
+      "weight": 0.15719774
+    },
+    {
+      "term": "影响",
+      "weight": 0.15633839
+    },
+    {
+      "term": "所有人",
+      "weight": 0.15572964
+    },
+    {
+      "term": "城市",
+      "weight": 0.15505996
+    },
+    {
+      "term": "想法",
+      "weight": 0.1549856
+    },
+    {
+      "term": "家庭",
+      "weight": 0.15497746
+    },
+    {
+      "term": "资源",
+      "weight": 0.15423122
+    },
+    {
+      "term": "视角",
+      "weight": 0.15406065
+    },
+    {
+      "term": "直播",
+      "weight": 0.15402221
+    },
+    {
+      "term": "思考",
+      "weight": 0.15250433
+    },
+    {
+      "term": "才能",
+      "weight": 0.14813006
+    },
+    {
+      "term": "个人",
+      "weight": 0.14372717
+    },
+    {
+      "term": "经历",
+      "weight": 0.14189037
+    },
+    {
+      "term": "老师",
+      "weight": 0.1411163
+    },
+    {
+      "term": "金钱",
+      "weight": 0.13954073
+    },
+    {
+      "term": "生活",
+      "weight": 0.13737609
+    },
+    {
+      "term": "道理",
+      "weight": 0.13707887
+    },
+    {
+      "term": "感谢",
+      "weight": 0.13626323
+    },
+    {
+      "term": "感受",
+      "weight": 0.13356704
+    },
+    {
+      "term": "环境",
+      "weight": 0.12906349
+    },
+    {
+      "term": "投资",
+      "weight": 0.12737494
+    },
+    {
+      "term": "解决",
+      "weight": 0.12688323
+    },
+    {
+      "term": "发生",
+      "weight": 0.12594044
+    },
+    {
+      "term": "起来",
+      "weight": 0.12424513
+    },
+    {
+      "term": "礼物",
+      "weight": 0.12379644
+    },
+    {
+      "term": "机会",
+      "weight": 0.12311862
+    },
+    {
+      "term": "遇到",
+      "weight": 0.1216221
+    },
+    {
+      "term": "树林",
+      "weight": 0.12152609
+    },
+    {
+      "term": "财富",
+      "weight": 0.12146407
+    },
+    {
+      "term": "贵人",
+      "weight": 0.11981386
+    },
+    {
+      "term": "过程",
+      "weight": 0.11764394
+    },
+    {
+      "term": "故事",
+      "weight": 0.11636517
+    },
+    {
+      "term": "信息",
+      "weight": 0.11541447
+    },
+    {
+      "term": "学习",
+      "weight": 0.11275522
+    },
+    {
+      "term": "干嘛",
+      "weight": 0.11260032
+    },
+    {
+      "term": "拿到",
+      "weight": 0.11123475
+    },
+    {
+      "term": "不用",
+      "weight": 0.11117371
+    },
+    {
+      "term": "有点",
+      "weight": 0.109403
+    },
+    {
+      "term": "教育",
+      "weight": 0.10718638
+    },
+    {
+      "term": "发展",
+      "weight": 0.10682816
+    },
+    {
+      "term": "不了",
+      "weight": 0.10536732
+    },
+    {
+      "term": "理由",
+      "weight": 0.10504988
+    },
+    {
+      "term": "认知",
+      "weight": 0.10394572
+    },
+    {
+      "term": "开心",
+      "weight": 0.10304047
+    },
+    {
+      "term": "分享",
+      "weight": 0.10286147
+    },
+    {
+      "term": "出去",
+      "weight": 0.10265281
+    },
+    {
+      "term": "不想",
+      "weight": 0.10221336
+    },
+    {
+      "term": "内容",
+      "weight": 0.10186554
+    },
+    {
+      "term": "得到",
+      "weight": 0.10155819
+    },
+    {
+      "term": "意识",
+      "weight": 0.10133829
+    },
+    {
+      "term": "决定",
+      "weight": 0.10106002
+    },
+    {
+      "term": "逻辑",
+      "weight": 0.0996989
+    },
+    {
+      "term": "汽运",
+      "weight": 0.0993228
+    },
+    {
+      "term": "认识",
+      "weight": 0.09725695
+    },
+    {
+      "term": "行为",
+      "weight": 0.09654883
+    },
+    {
+      "term": "老妈",
+      "weight": 0.09516643
+    },
+    {
+      "term": "代表",
+      "weight": 0.09092943
+    },
+    {
+      "term": "回来",
+      "weight": 0.08942586
+    },
+    {
+      "term": "追求",
+      "weight": 0.08891143
+    },
+    {
+      "term": "面对",
+      "weight": 0.08842049
+    },
+    {
+      "term": "方式",
+      "weight": 0.08815269
+    },
+    {
+      "term": "比如",
+      "weight": 0.08727156
+    },
+    {
+      "term": "学校",
+      "weight": 0.0867948
+    },
+    {
+      "term": "意义",
+      "weight": 0.08646265
+    },
+    {
+      "term": "经验",
+      "weight": 0.08466921
+    },
+    {
+      "term": "拥有",
+      "weight": 0.08443038
+    },
+    {
+      "term": "攻略",
+      "weight": 0.0839365
+    },
+    {
+      "term": "体验",
+      "weight": 0.08390594
+    },
+    {
+      "term": "行业",
+      "weight": 0.08384151
+    },
+    {
+      "term": "时代",
+      "weight": 0.08329196
+    },
+    {
+      "term": "好像",
+      "weight": 0.08199906
+    },
+    {
+      "term": "创业",
+      "weight": 0.08198212
+    },
+    {
+      "term": "情况",
+      "weight": 0.08194031
+    },
+    {
+      "term": "答案",
+      "weight": 0.08138172
+    },
+    {
+      "term": "办法",
+      "weight": 0.08127996
+    },
+    {
+      "term": "记住",
+      "weight": 0.07995715
+    },
+    {
+      "term": "有钱",
+      "weight": 0.07913
+    },
+    {
+      "term": "阶段",
+      "weight": 0.07889735
+    },
+    {
+      "term": "做到",
+      "weight": 0.07815444
+    },
+    {
+      "term": "杭州",
+      "weight": 0.07722288
+    },
+    {
+      "term": "全部",
+      "weight": 0.07656552
+    },
+    {
+      "term": "判断",
+      "weight": 0.07620927
+    },
+    {
+      "term": "在于",
+      "weight": 0.07560083
+    },
+    {
+      "term": "块钱",
+      "weight": 0.07406398
+    },
+    {
+      "term": "看一看",
+      "weight": 0.07380389
+    },
+    {
+      "term": "音乐",
+      "weight": 0.07366055
+    },
+    {
+      "term": "帮助",
+      "weight": 0.07295212
+    },
+    {
+      "term": "包括",
+      "weight": 0.07286364
+    },
+    {
+      "term": "吃饭",
+      "weight": 0.07277071
+    },
+    {
+      "term": "准备",
+      "weight": 0.07175618
+    },
+    {
+      "term": "无限",
+      "weight": 0.07163381
+    },
+    {
+      "term": "变成",
+      "weight": 0.07148727
+    },
+    {
+      "term": "做好",
+      "weight": 0.07114789
+    },
+    {
+      "term": "力量",
+      "weight": 0.07112948
+    },
+    {
+      "term": "不到",
+      "weight": 0.07082527
+    },
+    {
+      "term": "大学",
+      "weight": 0.07057791
+    },
+    {
+      "term": "愿意",
+      "weight": 0.07055969
+    },
+    {
+      "term": "提前",
+      "weight": 0.06989634
+    },
+    {
+      "term": "听懂",
+      "weight": 0.06988524
+    },
+    {
+      "term": "方法",
+      "weight": 0.06907388
+    },
+    {
+      "term": "成就",
+      "weight": 0.06816236
+    },
+    {
+      "term": "规矩",
+      "weight": 0.068053
+    },
+    {
+      "term": "儿子",
+      "weight": 0.06768909
+    },
+    {
+      "term": "支持",
+      "weight": 0.06723328
+    },
+    {
+      "term": "需求",
+      "weight": 0.06705051
+    },
+    {
+      "term": "继续",
+      "weight": 0.06698604
+    },
+    {
+      "term": "无法",
+      "weight": 0.06651921
+    },
+    {
+      "term": "项目",
+      "weight": 0.06644626
+    },
+    {
+      "term": "不让",
+      "weight": 0.06624696
+    },
+    {
+      "term": "内耗",
+      "weight": 0.06561618
+    },
+    {
+      "term": "爸妈",
+      "weight": 0.06557246
+    },
+    {
+      "term": "看待",
+      "weight": 0.06556995
+    },
+    {
+      "term": "深圳",
+      "weight": 0.06556131
+    },
+    {
+      "term": "样子",
+      "weight": 0.06550303
+    },
+    {
+      "term": "客户",
+      "weight": 0.06497719
+    },
+    {
+      "term": "放在",
+      "weight": 0.06353807
+    },
+    {
+      "term": "意思",
+      "weight": 0.06351704
+    },
+    {
+      "term": "目标",
+      "weight": 0.06333082
+    },
+    {
+      "term": "年轻人",
+      "weight": 0.06279952
+    },
+    {
+      "term": "思维",
+      "weight": 0.06244975
+    },
+    {
+      "term": "喜欢",
+      "weight": 0.06241982
+    },
+    {
+      "term": "带来",
+      "weight": 0.0621553
+    },
+    {
+      "term": "善意",
+      "weight": 0.06116217
+    },
+    {
+      "term": "付出",
+      "weight": 0.06070712
+    },
+    {
+      "term": "好人",
+      "weight": 0.06070046
+    },
+    {
+      "term": "学生",
+      "weight": 0.06069565
+    },
+    {
+      "term": "事业",
+      "weight": 0.0603449
+    },
+    {
+      "term": "接受",
+      "weight": 0.05982489
+    },
+    {
+      "term": "认可",
+      "weight": 0.05937841
+    },
+    {
+      "term": "证明",
+      "weight": 0.05891182
+    },
+    {
+      "term": "叠加",
+      "weight": 0.05872198
+    },
+    {
+      "term": "变得",
+      "weight": 0.05837431
+    },
+    {
+      "term": "出现",
+      "weight": 0.05823513
+    },
+    {
+      "term": "游戏",
+      "weight": 0.05806884
+    },
+    {
+      "term": "沟通",
+      "weight": 0.05793399
+    },
+    {
+      "term": "电商",
+      "weight": 0.05771175
+    },
+    {
+      "term": "失败",
+      "weight": 0.05727501
+    },
+    {
+      "term": "只能",
+      "weight": 0.05640266
+    },
+    {
+      "term": "链接",
+      "weight": 0.05599616
+    },
+    {
+      "term": "视频",
+      "weight": 0.05581835
+    },
+    {
+      "term": "成长",
+      "weight": 0.0553168
+    },
+    {
+      "term": "作为",
+      "weight": 0.05502232
+    },
+    {
+      "term": "家人",
+      "weight": 0.05482761
+    },
+    {
+      "term": "想想",
+      "weight": 0.05477711
+    },
+    {
+      "term": "懂吗",
+      "weight": 0.05430535
+    },
+    {
+      "term": "相信",
+      "weight": 0.05423058
+    },
+    {
+      "term": "状态",
+      "weight": 0.05313576
+    },
+    {
+      "term": "玩意儿",
+      "weight": 0.05295714
+    },
+    {
+      "term": "成林",
+      "weight": 0.05134062
+    },
+    {
+      "term": "组织",
+      "weight": 0.05131942
+    },
+    {
+      "term": "规则",
+      "weight": 0.05031061
+    },
+    {
+      "term": "对方",
+      "weight": 0.04984623
+    },
+    {
+      "term": "介绍",
+      "weight": 0.04975388
+    },
+    {
+      "term": "买单",
+      "weight": 0.04956575
+    },
+    {
+      "term": "收益",
+      "weight": 0.04924517
+    },
+    {
+      "term": "情绪",
+      "weight": 0.04895429
+    },
+    {
+      "term": "市场",
+      "weight": 0.04877324
+    },
+    {
+      "term": "房子",
+      "weight": 0.04859697
+    },
+    {
+      "term": "好吃",
+      "weight": 0.0485794
+    },
+    {
+      "term": "核心",
+      "weight": 0.04848041
+    },
+    {
+      "term": "来到",
+      "weight": 0.04832597
+    },
+    {
+      "term": "失望",
+      "weight": 0.0482126
+    },
+    {
+      "term": "存在",
+      "weight": 0.04780927
+    },
+    {
+      "term": "说话",
+      "weight": 0.04776015
+    },
+    {
+      "term": "董事长",
+      "weight": 0.04775235
+    },
+    {
+      "term": "同学",
+      "weight": 0.04770467
+    },
+    {
+      "term": "婆婆",
+      "weight": 0.04755112
+    },
+    {
+      "term": "好坏",
+      "weight": 0.04753172
+    },
+    {
+      "term": "创造",
+      "weight": 0.04711275
+    },
+    {
+      "term": "基金",
+      "weight": 0.04639265
+    },
+    {
+      "term": "心态",
+      "weight": 0.04626319
+    },
+    {
+      "term": "类似",
+      "weight": 0.04620873
+    },
+    {
+      "term": "感情",
+      "weight": 0.04618793
+    },
+    {
+      "term": "合作",
+      "weight": 0.04608696
+    },
+    {
+      "term": "观察",
+      "weight": 0.04604558
+    },
+    {
+      "term": "手机",
+      "weight": 0.04602655
+    },
+    {
+      "term": "精彩",
+      "weight": 0.04596807
+    },
+    {
+      "term": "意见",
+      "weight": 0.04589026
+    },
+    {
+      "term": "送礼",
+      "weight": 0.04522637
+    },
+    {
+      "term": "位置",
+      "weight": 0.04519691
+    },
+    {
+      "term": "生意",
+      "weight": 0.0451931
+    },
+    {
+      "term": "会议",
+      "weight": 0.04508408
+    },
+    {
+      "term": "范围",
+      "weight": 0.04506259
+    },
+    {
+      "term": "利用",
+      "weight": 0.04495283
+    },
+    {
+      "term": "想象",
+      "weight": 0.04492337
+    },
+    {
+      "term": "期待",
+      "weight": 0.04470111
+    },
+    {
+      "term": "足够",
+      "weight": 0.04463307
+    },
+    {
+      "term": "变化",
+      "weight": 0.04461058
+    },
+    {
+      "term": "规律",
+      "weight": 0.04458751
+    },
+    {
+      "term": "反馈",
+      "weight": 0.04449291
+    },
+    {
+      "term": "责任",
+      "weight": 0.04448154
+    },
+    {
+      "term": "酒店",
+      "weight": 0.04441028
+    },
+    {
+      "term": "属于",
+      "weight": 0.04433165
+    },
+    {
+      "term": "值得",
+      "weight": 0.04432723
+    },
+    {
+      "term": "方案",
+      "weight": 0.04389594
+    },
+    {
+      "term": "东北",
+      "weight": 0.04367299
+    },
+    {
+      "term": "观念",
+      "weight": 0.04336816
+    },
+    {
+      "term": "要求",
+      "weight": 0.04334406
+    },
+    {
+      "term": "见到",
+      "weight": 0.04319391
+    },
+    {
+      "term": "超越",
+      "weight": 0.04300672
+    },
+    {
+      "term": "上学",
+      "weight": 0.04283361
+    },
+    {
+      "term": "业务",
+      "weight": 0.04222215
+    },
+    {
+      "term": "集团",
+      "weight": 0.04213417
+    },
+    {
+      "term": "命运",
+      "weight": 0.04201339
+    },
+    {
+      "term": "决策",
+      "weight": 0.04195659
+    },
+    {
+      "term": "系统",
+      "weight": 0.04176189
+    },
+    {
+      "term": "照片",
+      "weight": 0.0417325
+    },
+    {
+      "term": "方向",
+      "weight": 0.04162364
+    },
+    {
+      "term": "精神",
+      "weight": 0.04161661
+    },
+    {
+      "term": "毕业",
+      "weight": 0.04130749
+    },
+    {
+      "term": "坚持",
+      "weight": 0.04120946
+    },
+    {
+      "term": "打开",
+      "weight": 0.04109056
+    },
+    {
+      "term": "满足",
+      "weight": 0.04068027
+    },
+    {
+      "term": "意味着",
+      "weight": 0.04059704
+    },
+    {
+      "term": "探索",
+      "weight": 0.04057058
+    },
+    {
+      "term": "坐在",
+      "weight": 0.04043996
+    },
+    {
+      "term": "考虑",
+      "weight": 0.04039525
+    },
+    {
+      "term": "人会",
+      "weight": 0.04012499
+    },
+    {
+      "term": "服务",
+      "weight": 0.04008499
+    },
+    {
+      "term": "难受",
+      "weight": 0.0399968
+    },
+    {
+      "term": "吹牛",
+      "weight": 0.03991094
+    },
+    {
+      "term": "送给",
+      "weight": 0.03989118
+    },
+    {
+      "term": "总结",
+      "weight": 0.03988684
+    },
+    {
+      "term": "程度",
+      "weight": 0.03988367
+    },
+    {
+      "term": "大师",
+      "weight": 0.03977468
+    },
+    {
+      "term": "了解",
+      "weight": 0.03965616
+    },
+    {
+      "term": "中国",
+      "weight": 0.03965204
+    },
+    {
+      "term": "事物",
+      "weight": 0.0396482
+    },
+    {
+      "term": "活着",
+      "weight": 0.03946649
+    },
+    {
+      "term": "生命",
+      "weight": 0.03935256
+    },
+    {
+      "term": "哥们",
+      "weight": 0.03877269
+    },
+    {
+      "term": "花钱",
+      "weight": 0.0387566
+    },
+    {
+      "term": "毛病",
+      "weight": 0.03874079
+    },
+    {
+      "term": "地图",
+      "weight": 0.0387322
+    },
+    {
+      "term": "立场",
+      "weight": 0.03872596
+    },
+    {
+      "term": "经济",
+      "weight": 0.03845482
+    },
+    {
+      "term": "讲课",
+      "weight": 0.03832815
+    },
+    {
+      "term": "全局",
+      "weight": 0.03812173
+    },
+    {
+      "term": "领导",
+      "weight": 0.03810283
+    },
+    {
+      "term": "员工",
+      "weight": 0.03809509
+    },
+    {
+      "term": "妈妈",
+      "weight": 0.03796962
+    },
+    {
+      "term": "内心",
+      "weight": 0.03789037
+    },
+    {
+      "term": "完成",
+      "weight": 0.0377252
+    },
+    {
+      "term": "技术",
+      "weight": 0.0377084
+    }
+  ]
+}

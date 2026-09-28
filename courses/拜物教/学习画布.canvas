@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"lw-a0db249ebd509d75","type":"file","file":"01-交互式学习/02-课程真源/拜物教/00-学习计划.md","x":0,"y":0,"width":480,"height":360,"color":"6"},
+		{"id":"lw-9d46e1606aa0d527","type":"file","file":"01-交互式学习/02-课程真源/拜物教/01.md","x":660,"y":0,"width":480,"height":360,"color":"6"},
+		{"id":"lw-ae9759c8b169cf1a","type":"file","file":"01-交互式学习/02-课程真源/拜物教/02.md","x":1320,"y":0,"width":480,"height":360,"color":"6"},
+		{"id":"lw-3c630d272626cb2b","type":"file","file":"01-交互式学习/02-课程真源/拜物教/03.md","x":0,"y":510,"width":480,"height":360,"color":"6"},
+		{"id":"lw-c663773b25d2d504","type":"file","file":"01-交互式学习/02-课程真源/拜物教/04.md","x":660,"y":510,"width":480,"height":360,"color":"6"},
+		{"id":"lw-783d4dfa2ea09346","type":"file","file":"01-交互式学习/02-课程真源/拜物教/05.md","x":1320,"y":510,"width":480,"height":360,"color":"6"},
+		{"id":"lw-9e59202ae7de5680","type":"file","file":"01-交互式学习/02-课程真源/拜物教/06.md","x":0,"y":1020,"width":480,"height":360,"color":"6"},
+		{"id":"lw-9a17c3b380de3849","type":"file","file":"01-交互式学习/04-用户原话与费曼/工作台视图/lw_899255a20643703190b1d689.md","x":570,"y":1020,"width":400,"height":300,"color":"4"},
+		{"id":"lw-4910326eef3604f4","type":"file","file":"01-交互式学习/02-课程真源/拜物教/07.md","x":1150,"y":1020,"width":480,"height":360,"color":"6"},
+		{"id":"lw-status-ea0d54189ad6971d","type":"text","text":"学习状态｜拜物教\n\n正文 7 篇　｜　候选 0 条\n反馈：入账 1 / 手写 1（无缺口）\n疑问：未结 0　｜　已结清 0","x":0,"y":-300,"width":520,"height":240}
+	],
+	"edges":[
+		{"id":"lw-e-d635ee51ffe7bee6","fromNode":"lw-9e59202ae7de5680","toNode":"lw-9a17c3b380de3849","label":"反馈","fromSide":"right","toSide":"left"}
+	]
+}
