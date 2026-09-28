@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "830e9214048d912f",
+    "type": "split",
+    "children": [
+      {
+        "id": "274423b44f3839cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73ea41cc6c6bc017",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOLUTION-RESEARCH.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SOLUTION-RESEARCH"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aad01ed7c81fb583",
+    "type": "split",
+    "children": [
+      {
+        "id": "203e3da0180d0c46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8d085133a08904c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "2ea1dd0d23f04986",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "21ee2ac6180415dd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "51d40aba631dcee3",
+    "type": "split",
+    "children": [
+      {
+        "id": "0798fda4ad88e6fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb376d5405334fe9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SOLUTION-RESEARCH.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "25b94143e44e8e2f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SOLUTION-RESEARCH.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "a25fcdad242571a6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "1599e064373ff2e1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "9c5b4796e7e19426",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SOLUTION-RESEARCH.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "73ea41cc6c6bc017",
+  "lastOpenFiles": [
+    "CONTRADICTIONS.md",
+    "SOLUTION-RESEARCH.md",
+    "graph/global/cross-project-hub.md",
+    "CONCEPT-COMPOUNDING-REPORT.md",
+    "raw-sources/01_Martin Fowler 为「harness 工程」站台：Thoughtworks 的一线笔记.md",
+    "graph/local/01-concept-network.md",
+    "graph/local/AI实战营-前沿速递/01-概念网络.md",
+    "graph/global/hub-concepts.md",
+    "AI实战营-从Demo到产品/graph/hub-concepts.md",
+    "AI实战营-从Demo到产品/articles/01-从Demo到产品的完整路径.md",
+    "泛化测试-直播稿/质量对比报告.md",
+    "AI实战营-从Demo到产品/articles/01-从Demo到产品.md",
+    "AI实战营-前沿速递/MIGRATION-REPORT.md",
+    "泛化测试-直播稿/articles/从玩具到熔炉系统-学习笔记.md",
+    "articles/01-AI实战营-前沿速递与金融小龙虾.md",
+    "泛化测试-直播稿/graph/local/从玩具到熔炉系统-局部网络.md",
+    "AI实战营-从Demo到产品/graph/local/01-concept-network.md",
+    "泛化测试-直播稿/concepts/一手信息 vs 二手信息.md",
+    "AI实战营-前沿速递/concepts/主观-vs-量化.md",
+    "泛化测试-直播稿/concepts/降熵.md",
+    "AI实战营-前沿速递/concepts/本金基数瓶颈.md",
+    "AI实战营-从Demo到产品/concepts/ai-native.md",
+    "AI实战营-从Demo到产品/concepts/portfolio.md",
+    "AI实战营-前沿速递/concepts/控制回撤.md",
+    "泛化测试-直播稿/concepts/AI 坍塌.md",
+    "AI实战营-从Demo到产品/concepts/skill-security.md",
+    "graph/local/AI实战营-前沿速递",
+    "AI实战营-前沿速递/concepts",
+    "AI实战营-前沿速递",
+    "泛化测试-直播稿/graph/local",
+    "泛化测试-直播稿/graph",
+    "泛化测试-直播稿/concepts",
+    "泛化测试-直播稿/articles",
+    "泛化测试-直播稿",
+    "AI实战营-从Demo到产品/graph/local",
+    "AI实战营-从Demo到产品/graph"
+  ]
+}
