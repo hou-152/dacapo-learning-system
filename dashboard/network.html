@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>社会学概念网络 - DaCapo</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.6.1/mermaid.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            background: linear-gradient(135deg, #0A0D12 0%, #161D2B 100%);
+            color: #E5E7EB;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: rgba(30, 38, 54, 0.6);
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+        }
+        
+        h1 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #38BDF8 0%, #6EE7B7 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .stat-card {
+            background: rgba(30, 38, 54, 0.6);
+            padding: 1.5rem;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(56, 189, 248, 0.2);
+        }
+        
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #38BDF8;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-label {
+            font-size: 0.875rem;
+            color: #9CA3AF;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .network-container {
+            background: rgba(30, 38, 54, 0.4);
+            padding: 2rem;
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(56, 189, 248, 0.1);
+            overflow-x: auto;
+        }
+        
+        .mermaid {
+            display: flex;
+            justify-content: center;
+            min-height: 600px;
+        }
+        
+        .legend {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+        }
+        
+        .color-excellent { background: #90EE90; }
+        .color-good { background: #38BDF8; }
+        .color-learning { background: #E9A568; }
+        .color-weak { background: #FFB6C1; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🕸️ 社会学概念网络</h1>
+            <p style="color: #9CA3AF; margin-top: 0.5rem;">DaCapo 自适应学习系统</p>
+        </header>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-value">18</div>
+                <div class="stat-label">已掌握概念</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">65.3%</div>
+                <div class="stat-label">平均掌握度</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">243</div>
+                <div class="stat-label">概念关联</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">1599.7</div>
+                <div class="stat-label">复利指数</div>
+            </div>
+        </div>
+        
+        <div class="network-container">
+            <div class="mermaid">
+graph LR
+    差序格局["差序格局<br/>90%"]:::excellent
+    礼治秩序["礼治秩序<br/>90%"]:::excellent
+    人情期货["人情期货<br/>90%"]:::excellent
+    面子估值["面子估值<br/>85%"]:::excellent
+    现代长老["现代长老<br/>80%"]:::excellent
+    
+    社会学想象力["社会学想象力<br/>75%"]:::good
+    社会分层["社会分层<br/>70%"]:::good
+    承认政治["承认政治<br/>65%"]:::good
+    理性化铁笼["理性化铁笼<br/>65%"]:::good
+    先赋vs自致["先赋vs自致<br/>60%"]:::good
+    铁笼囚徒困境["铁笼囚徒困境<br/>60%"]:::good
+    
+    公私界碑["公私界碑<br/>55%"]:::learning
+    彩礼异化["彩礼异化<br/>55%"]:::learning
+    结构紧张["结构紧张<br/>50%"]:::learning
+    承认与狂热["承认与狂热<br/>50%"]:::learning
+    婚礼产品发布会["婚礼产品发布会<br/>50%"]:::learning
+    再生产["再生产<br/>45%"]:::learning
+    人性三分法["人性三分法<br/>40%"]:::learning
+    
+    差序格局 --> 礼治秩序
+    差序格局 --> 人情期货
+    差序格局 --> 面子估值
+    差序格局 --> 现代长老
+    差序格局 --> 公私界碑
+    差序格局 --> 社会分层
+    
+    礼治秩序 --> 差序格局
+    礼治秩序 --> 社会分层
+    
+    社会学想象力 --> 差序格局
+    社会学想象力 --> 结构紧张
+    社会学想象力 --> 彩礼异化
+    
+    社会分层 --> 先赋vs自致
+    社会分层 --> 再生产
+    
+    承认政治 --> 承认与狂热
+    承认政治 --> 差序格局
+    
+    理性化铁笼 --> 铁笼囚徒困境
+    理性化铁笼 --> 人性三分法
+    理性化铁笼 --> 差序格局
+    
+    彩礼异化 --> 婚礼产品发布会
+    彩礼异化 --> 差序格局
+    
+    classDef excellent fill:#90EE90,stroke:#2D5016,stroke-width:3px,color:#000
+    classDef good fill:#38BDF8,stroke:#0369A1,stroke-width:2px,color:#000
+    classDef learning fill:#E9A568,stroke:#C2410C,stroke-width:2px,color:#000
+    classDef weak fill:#FFB6C1,stroke:#9F1239,stroke-width:2px,color:#000
+            </div>
+            
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color color-excellent"></div>
+                    <span>优秀 (≥80%)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color color-good"></div>
+                    <span>良好 (60-80%)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color color-learning"></div>
+                    <span>学习中 (40-60%)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color color-weak"></div>
+                    <span>薄弱 (<40%)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            themeVariables: {
+                darkMode: true,
+                background: '#0A0D12',
+                primaryColor: '#38BDF8',
+                primaryTextColor: '#E5E7EB',
+                primaryBorderColor: '#0369A1',
+                lineColor: '#38BDF8',
+                secondaryColor: '#6EE7B7',
+                tertiaryColor: '#E9A568',
+                fontSize: '14px',
+                fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif'
+            },
+            flowchart: {
+                curve: 'basis',
+                padding: 20,
+                nodeSpacing: 80,
+                rankSpacing: 80
+            }
+        });
+    </script>
+</body>
+</html>

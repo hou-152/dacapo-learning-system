@@ -1,298 +1,321 @@
-# DaCapo 交互式学习仓库
+# DaCapo 自适应学习系统
 
-**版本**: v2.0.0  
-**更新日期**: 2026-09-28
-
-一个基于 Obsidian + AI Skills 的交互式学习系统，通过概念提取、关系网络和跨项目关联实现「复利式学习」。
-
----
-
-## 📚 核心特性
-
-### 智能路由系统（v2.0.0 新增）
-- **5 种意图自动识别**：学习、查看进度、探索关联、可视化、推荐
-- **历史上下文检索**：自动获取已学概念的掌握度和依赖关系
-- **统一入口**：一个 `/dacapo` 命令搞定所有学习场景
-
-### 概念复利
-- **概念提取**：从学习材料中自动提取关键概念
-- **关系网络**：构建概念间的语义关联（依赖、组成、对比、应用）
-- **跨项目草蛇灰线**：发现不同课程中的概念关联
-
-### 四个「化」
-- **结构化**：每个概念独立文件，frontmatter 记录状态
-- **网络化**：局部网络（单课程）+ 全局 Hub（核心概念）
-- **可视化**：Obsidian Graph View + Mermaid 图谱
-- **资产化**：学习笔记可重用、可追溯、可复利
-
----
-
-## 🗂️ 目录结构
-
-```
-dacapo-学习仓库/
-├── concepts/              # 概念库（60+ 概念，每个概念一个文件）
-│   ├── harness.md
-│   ├── context-engineering.md
-│   └── ...
-│
-├── courses/               # 课程真源（47 个课程，282 个章节）
-│   ├── INDEX.md          # 课程机械索引（自动生成，不要手改）
-│   ├── README.md         # 课程结构说明
-│   └── [课程名]/
-│       ├── 00-学习计划.md
-│       ├── 01.md, 02.md, ...
-│       ├── 结课-立项-*.md
-│       ├── assets/       # 选材、疑问、反馈上下文
-│       └── 学习画布.canvas
-│
-├── scripts/               # 工具脚本（Python）
-│   ├── backend.py        # 后端核心逻辑
-│   ├── extract_course_concepts.py
-│   ├── generate_concept_graph.py
-│   ├── rebuild_course_index.py
-│   ├── build_evidence_atoms.py
-│   └── ...
-│
-├── user-feedback/         # 用户反馈数据（JSONL）
-│   ├── user-utterances.jsonl
-│   ├── learner-signals.jsonl
-│   └── ...
-│
-├── 04-用户原话与费曼/    # 用户原话归档
-├── 05-证据原子/          # 证据归属判定
-│
-├── .obsidian/            # Obsidian 配置
-├── .learning-progress/   # 学习进度追踪
-│
-└── 文档/
-    ├── RELEASE-v2.0.0.md              # 版本发布说明
-    ├── MVP-FINAL-REPORT.md            # MVP 完成报告
-    ├── CONCEPT-MINING-MVP-REPORT.md   # 概念挖掘报告
-    ├── GENERALIZATION-TEST-FINAL-REPORT.md  # 泛化测试报告
-    └── ...
-```
+让学习上瘾的复利式知识管理系统。
 
 ---
 
 ## 🚀 快速开始
 
-### 1. 在 Obsidian 中打开
+### 方式 1：命令行启动（推荐）
+
+在任意终端窗口输入：
 
 ```bash
-open -a Obsidian ~/Documents/dacapo-学习仓库/
+dacapo              # 打开学习中心
+dacapo-network      # 打开概念网络图
+dacapo-progress     # 打开进度仪表盘
+dacapo-refresh      # 刷新学习数据
 ```
 
-### 2. 开始学习（推荐方式）
+首次使用需要重新加载 shell：`source ~/.zshrc`
 
-使用统一入口 `/dacapo`（需要安装 Skills）：
+### 方式 2：浏览器直接打开
 
 ```bash
-# 学习某个概念
-/dacapo 我想深入学习 harness 这个概念
-
-# 查看学习进度
-/dacapo 查看我的学习进度
-
-# 探索概念关联
-/dacapo 发现与 harness 相关的概念
-
-# 可视化图谱
-/dacapo 可视化概念网络
+open ~/Documents/dacapo-学习仓库/dashboard/index.html
 ```
 
-### 3. 查询概念（通过 dacapo-wiki）
-
-```bash
-# 查询概念上下文
-dacapo-wiki context "harness"
-
-# JSON 格式输出（供其他工具调用）
-dacapo-wiki context "harness" --format json
-```
-
-### 4. 查看课程
-
-打开 `courses/INDEX.md` 查看所有课程列表（47 个课程，282 个章节）。
+或双击 `dashboard/index.html` 文件。
 
 ---
 
-## 🛠️ 脚本工具
+## 📊 当前学习状态
+
+- **已掌握概念**: 18 个
+- **平均掌握度**: 65.3%
+- **概念关联**: 243 条
+- **复利指数**: 1599.7
+
+### 优秀掌握 (≥80%)
+- 差序格局 90%
+- 礼治秩序 90%
+- 人情期货 90%
+- 面子估值 85%
+- 现代长老 80%
+
+---
+
+## 🎯 核心功能
+
+### 1. 即时反馈系统
+学完概念后 3 秒内生成：
+- 📊 反馈类型分析（深度理解、判断标准、应用导向等 5 种类型）
+- 🎉 新掌握的概念列表
+- 🕸️ Mermaid 概念关联网络图
+- 💡 下一步学习建议
+
+### 2. 概念网络可视化
+- 交互式 Mermaid 图谱
+- 颜色编码掌握度（绿色=优秀，蓝色=良好，橙色=学习中）
+- 显示概念依赖关系
+- 可视化网络扩张过程
+
+### 3. 学习进度追踪
+- 实时仪表盘
+- 掌握度分布统计
+- 按类别分组展示
+- 复利指数计算
+
+---
+
+## 📚 使用流程
+
+### 学习新课程
+
+1. 使用 dbs-learning 学习文章课程
+2. 在文章末尾写学习反馈
+3. 运行增强脚本添加即时反馈：
+
+```bash
+cd ~/Documents/dacapo-学习仓库
+python3 scripts/enhance_dbs_learning.py \
+    ~/Documents/dbskill-learning/课程名/01.md \
+    概念1 概念2 概念3
+```
+
+4. 刷新数据并查看可视化：
+
+```bash
+dacapo-refresh
+dacapo
+```
+
+### 查看单个概念的即时反馈
+
+```bash
+cd ~/Documents/dacapo-学习仓库
+python3 scripts/instant_feedback.py "概念名"
+```
+
+### 批量增强已有课程
+
+```bash
+cd ~/Documents/dacapo-学习仓库
+./scripts/batch_enhance_sociology.sh
+```
+
+---
+
+## 🛠️ 技术架构
 
 ### 核心脚本
 
-| 脚本 | 功能 | 用法 |
-|------|------|------|
-| `backend.py` | 后端核心逻辑（62KB） | `python scripts/backend.py` |
-| `extract_course_concepts.py` | 从课程中提取概念 | `python scripts/extract_course_concepts.py [课程目录]` |
-| `generate_concept_graph.py` | 生成概念关系图谱 | `python scripts/generate_concept_graph.py` |
-| `rebuild_course_index.py` | 重建课程索引（自动生成 INDEX.md） | `python scripts/rebuild_course_index.py` |
-| `build_evidence_atoms.py` | 构建证据原子（52KB） | `python scripts/build_evidence_atoms.py` |
+| 脚本 | 功能 |
+|------|------|
+| `extract_sociology_concepts.py` | 从课程中提取概念，创建概念文件 |
+| `enhance_dbs_learning.py` | 为文章添加 DaCapo 即时反馈 |
+| `update_mastery_from_concepts.py` | 从概念文件同步掌握度到 mastery.json |
+| `instant_feedback.py` | 生成单个概念的即时反馈 |
+| `progress_tracker.py` | 生成实时学习进度仪表盘 |
 
-### 测试脚本
+### 数据结构
 
-- `test_backend.py` — 后端单元测试
-- `test_provenance.py` — 溯源测试
-
-### 辅助脚本
-
-- `build_attribution_quarantine.py` — 归属隔离区构建
-- `build_legacy_response_candidates.py` — 遗留响应候选构建
-- `extract_marked_user_responses.py` — 提取标记的用户响应
-- `verify_consolidation.py` — 验证整合结果
-
----
-
-## 📊 数据说明
-
-### 概念库（concepts/）
-
-- 每个概念一个 `.md` 文件
-- frontmatter 记录：
-  - `mastery`: 掌握度（0.0-1.0）
-  - `dependencies`: 前置概念
-  - `tags`: 分类标签
-  - `created`: 创建时间
-  - `updated`: 更新时间
-
-### 用户反馈数据（user-feedback/）
-
-JSONL 格式，记录学习过程：
-
-- `user-utterances.jsonl` — 用户原话（895KB）
-- `learner-signals.jsonl` — 学习信号
-- `readwise-evidence-revision-history.jsonl` — Readwise 证据修订历史（1.5MB）
-- `readwise-provenance-assessments.jsonl` — Readwise 溯源评估（194KB）
-- `legacy-response-candidates.jsonl` — 遗留响应候选（96KB）
-- `verbatim-source-spans.jsonl` — 逐字来源片段（94KB）
-
-### 课程数据（courses/）
-
-- 47 个课程，282 个章节
-- 每个课程独立目录，标准结构：
-  - `00-学习计划.md` — 学习目标、材料池、进度
-  - `01.md`, `02.md`, ... — 课程正文
-  - `结课-立项-*.md` — 结课交付物
-  - `assets/` — 选材、疑问、反馈上下文
-
----
-
-## 📖 深入阅读
-
-### 核心文档
-
-- [RELEASE-v2.0.0.md](./RELEASE-v2.0.0.md) — v2.0.0 智能路由系统发布说明
-- [MVP-FINAL-REPORT.md](./MVP-FINAL-REPORT.md) — MVP 完成报告（泛化测试 4.3/5 分）
-- [CONCEPT-MINING-MVP-REPORT.md](./CONCEPT-MINING-MVP-REPORT.md) — 概念挖掘方法论
-- [GENERALIZATION-TEST-FINAL-REPORT.md](./GENERALIZATION-TEST-FINAL-REPORT.md) — 泛化能力测试
-
-### 研究文档
-
-- [CONCEPT-GRAPH.md](./CONCEPT-GRAPH.md) — 概念图谱设计
-- [SOLUTION-RESEARCH.md](./SOLUTION-RESEARCH.md) — 解决方案研究
-- [INTEGRATION-REPORT.md](./INTEGRATION-REPORT.md) — 集成报告
-- [UNIFIED-MANAGEMENT-REPORT.md](./UNIFIED-MANAGEMENT-REPORT.md) — 统一管理报告
-
-### 项目规划
-
-- [purpose.md](./purpose.md) — 学习目标
-- [MIGRATION-PLAN.md](./MIGRATION-PLAN.md) — 迁移计划
-- [CLEANUP-PLAN.md](./CLEANUP-PLAN.md) — 清理计划
-
----
-
-## 🎯 设计理念
-
-### 提示词占 10%，harness 占 90%
-
-不依赖复杂提示词，而是通过：
-- Skill 组合
-- Obsidian 基建
-- Git worktree 并行
-- 结构化数据
-
-实现工程化的学习系统。
-
-### 局部网络 + 全局 Hub
-
-- **局部网络**：每篇文章/课程的完整概念关系（丰富语义）
-- **全局 Hub**：只显示 inDegree >= 3 的核心概念（避免熵增）
-
-### 可复利的学习资产
-
-- 每次学习留下结构化笔记
-- 概念网络自动积累
-- 跨项目发现「草蛇灰线」
-- 学习效果呈复利增长（测试验证：2.4x 效果提升）
-
----
-
-## 📦 技术栈
-
-| 层次 | 技术 | 作用 |
-|------|------|------|
-| **基建层** | Obsidian | Graph View、wikilink、双向链接 |
-| **处理层** | Python Scripts | 概念提取、关系识别、图谱生成 |
-| **可视化层** | Mermaid | 独立概念网络图 |
-| **协作层** | Git worktree | 并行开发、隔离测试 |
-| **智能层** | AI Skills | dacapo-main、dacapo-learning、dacapo-wiki |
-
----
-
-## 🔧 开发者指南
-
-### 添加新课程
-
-1. 在 `courses/` 下创建课程目录
-2. 创建 `00-学习计划.md`
-3. 开始添加课程正文（`01.md`, `02.md`, ...）
-4. 运行 `python scripts/rebuild_course_index.py` 更新索引
-
-### 提取概念
-
-```bash
-python scripts/extract_course_concepts.py courses/[课程名]
+```
+dacapo-学习仓库/
+├── concepts/              # 概念库（每个概念一个 .md 文件）
+├── .learning-progress/    # 学习数据
+│   ├── mastery.json      # 概念掌握度
+│   ├── timeline.json     # 学习时间线
+│   └── dashboard-realtime.md  # 实时仪表盘
+├── dashboard/            # 可视化页面（持久化）
+│   ├── index.html       # 学习中心首页
+│   ├── network.html     # 概念网络图
+│   └── progress.html    # 学习进度仪表盘
+└── scripts/             # 核心脚本
 ```
 
-### 生成概念图谱
+### 概念文件格式
 
-```bash
-python scripts/generate_concept_graph.py
-```
+```markdown
+---
+tags: concept, sociology-core
+firstAppearance: "[[社会学七书共读/02.md]]"
+mastery: 0.90
+lastStudied: 2026-09-30
+studyCount: 1
+---
 
-### 测试后端
+# 差序格局
 
-```bash
-python scripts/test_backend.py
+## 定义
+
+以自我为中心的同心圆社交网络，圈内人情、圈外规则
+
+## 相关概念
+
+- [[礼治秩序]]
+- [[社会分层]]
 ```
 
 ---
 
-## 📈 统计数据
+## 🎮 成瘾机制
 
-- **概念数量**: 60+
-- **课程数量**: 47 个
-- **章节数量**: 282 个
-- **用户反馈**: ~1MB JSONL 数据
-- **脚本工具**: 16 个 Python 脚本
-- **文档报告**: 15+ 份研究/报告文档
+### 即时反馈
+学完概念 → 3 秒内看到掌握度、网络图、解锁新概念
 
----
+### 可视化进展
+每次学习 → 看到网络扩张、复利指数上升
 
-## 🤝 贡献
-
-这是个人学习仓库，暂不接受外部贡献。
-
-如有问题或建议，请通过 Issue 反馈。
+### 复利效应
+关联越多 → 复利指数增长越快 → 量化学习的「滚雪球效应」
 
 ---
 
-## 📄 许可证
+## 📈 复利指数计算
 
-见 LICENSE 文件
+```
+复利指数 = (已学概念数 × 平均掌握度 × 关联密度) × 100
+
+关联密度 = 总关联数 / (已学概念数 × (已学概念数 - 1))
+```
+
+当前数据：
+```
+18 × 0.653 × 0.752 × 100 = 1599.7
+```
 
 ---
 
-**构建者**: DaCapo Team  
-**生成时间**: 2026-09-28  
-**仓库理念**: 让学习像复利一样增长
+## 🔄 数据同步
+
+### 概念文件 → mastery.json
+
+```bash
+python3 scripts/update_mastery_from_concepts.py
+```
+
+### 刷新仪表盘
+
+```bash
+python3 scripts/progress_tracker.py
+```
+
+### 一键刷新
+
+```bash
+dacapo-refresh
+```
+
+---
+
+## 🎨 可视化样式
+
+- 深色主题（护眼）
+- 渐变色强调
+- 响应式布局
+- 实时数据加载
+
+---
+
+## 📝 已完成课程
+
+### 社会学七书共读（9 篇）
+
+- 01 - 米尔斯与社会学想象力
+- 02 - 差序格局与圈子文化
+- 03 - 人情与面子：礼治秩序
+- 04-09 - 社会分层、承认政治、理性化铁笼等
+
+**提取概念**: 18 个（9 个用户自创 + 9 个社会学核心）
+
+---
+
+## 🚧 下一步计划
+
+### Phase 2: 高级可视化
+
+- [ ] 概念网络 3D 交互图
+- [ ] 学习曲线时间线
+- [ ] 间隔复习调度
+- [ ] 知识资产统计
+
+### Phase 3: 自动化集成
+
+- [ ] 将增强脚本集成到 dbs-learning skill
+- [ ] 学完文章自动生成即时反馈
+- [ ] 自动提取概念并入库
+- [ ] 实时推送学习通知
+
+---
+
+## 🤝 与其他系统集成
+
+### dbs-learning (文章学习)
+
+DaCapo 提供即时反馈和可视化，dbs-learning 提供课程内容和反馈收集。
+
+### 概念库 (concepts/)
+
+所有概念统一管理，frontmatter 记录掌握度和学习历史。
+
+---
+
+## 📖 使用示例
+
+### 完整学习流程
+
+```bash
+# 1. 学习新课程（在 dbs-learning 中）
+cd ~/Documents/dbskill-learning/新课程/
+# 阅读 01.md，在文章末尾写反馈
+
+# 2. 添加即时反馈
+cd ~/Documents/dacapo-学习仓库
+python3 scripts/enhance_dbs_learning.py \
+    ~/Documents/dbskill-learning/新课程/01.md \
+    概念A 概念B
+
+# 3. 查看结果
+open ~/Documents/dbskill-learning/新课程/01.md
+# 滚动到文章末尾，看到完整的 DaCapo 即时反馈
+
+# 4. 刷新仪表盘
+dacapo-refresh
+
+# 5. 打开可视化
+dacapo
+```
+
+---
+
+## 🎓 设计理念
+
+### 即时反馈
+学习不是存钱，是看钱增长。每学完一个概念，立刻看到网络扩张。
+
+### 进度可见
+掌握度分布、复利指数、概念网络——学习进展一目了然。
+
+### 自适应调整
+基于反馈类型和掌握度，推荐下一步学习方向。
+
+### 上下文节省
+轻量索引 + 按需加载，不占用大量 token。
+
+---
+
+## 📞 快捷命令总结
+
+```bash
+dacapo              # 打开学习中心
+dacapo-network      # 概念网络图
+dacapo-progress     # 学习进度仪表盘
+dacapo-refresh      # 刷新数据
+```
+
+首次使用：`source ~/.zshrc`
+
+---
+
+**让学习像滚雪球一样，越滚越大，越滚越快。**

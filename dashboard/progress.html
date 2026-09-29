@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习进度仪表盘 - DaCapo</title>
+    <style>
+        :root {
+            --bg-deepest: #05070C;
+            --bg-deep: #0A0D12;
+            --bg-mid: #0F131C;
+            --bg-elevated: #161D2B;
+            --bg-highest: #1E2636;
+            --accent: #38BDF8;
+            --accent-muted: #6EE7B7;
+            --text-primary: #E5E7EB;
+            --text-secondary: #9CA3AF;
+            --text-tertiary: #6B7280;
+            --excellent: #90EE90;
+            --good: #38BDF8;
+            --learning: #E9A568;
+            --weak: #FFB6C1;
+        }
+        
+        * { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+        }
+        
+        body {
+            background: linear-gradient(135deg, var(--bg-deep) 0%, var(--bg-elevated) 100%);
+            color: var(--text-primary);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif;
+            min-height: 100vh;
+            padding: env(safe-area-inset-top, 0px) 2rem env(safe-area-inset-bottom, 0px);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-muted) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: clamp(0.875rem, 2vw, 1rem);
+        }
+        
+        .grid {
+            display: grid;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .grid-4 {
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+        
+        .card {
+            background: var(--bg-elevated);
+            padding: 2rem;
+            border-radius: 16px;
+            border: 1px solid rgba(56, 189, 248, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        
+        .stat-card {
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 0.75rem;
+        }
+        
+        .stat-value.primary { color: var(--accent); }
+        .stat-value.excellent { color: var(--excellent); }
+        .stat-value.good { color: var(--good); }
+        .stat-value.learning { color: var(--learning); }
+        
+        .stat-label {
+            font-size: clamp(0.75rem, 2vw, 0.875rem);
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        
+        .section-title {
+            font-size: clamp(1.25rem, 3vw, 1.5rem);
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+        }
+        
+        .distribution {
+            display: grid;
+            gap: 1rem;
+        }
+        
+        .dist-item {
+            display: grid;
+            grid-template-columns: 120px 1fr auto;
+            gap: 1rem;
+            align-items: center;
+        }
+        
+        .dist-label {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+        
+        .progress-bar {
+            height: 24px;
+            background: var(--bg-mid);
+            border-radius: 999px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            border-radius: 999px;
+            transition: width 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 0.75rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        .progress-fill.excellent { background: var(--excellent); color: #000; }
+        .progress-fill.good { background: var(--good); color: #000; }
+        .progress-fill.learning { background: var(--learning); color: #000; }
+        .progress-fill.weak { background: var(--weak); color: #000; }
+        
+        .dist-count {
+            font-size: 1.25rem;
+            font-weight: 600;
+            min-width: 3rem;
+            text-align: right;
+        }
+        
+        .concepts-list {
+            display: grid;
+            gap: 0.75rem;
+        }
+        
+        .concept-item {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 1rem;
+            padding: 1rem;
+            background: var(--bg-mid);
+            border-radius: 12px;
+            align-items: center;
+        }
+        
+        .concept-name {
+            font-weight: 500;
+        }
+        
+        .concept-score {
+            font-size: 1.125rem;
+            font-weight: 600;
+            padding: 0.25rem 0.75rem;
+            border-radius: 999px;
+        }
+        
+        .score-excellent { background: var(--excellent); color: #000; }
+        .score-good { background: var(--good); color: #000; }
+        .score-learning { background: var(--learning); color: #000; }
+        
+        .grid-2 {
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        }
+        
+        @media (max-width: 768px) {
+            body { padding: 1rem; }
+            .grid-2 { grid-template-columns: 1fr; }
+            .dist-item { 
+                grid-template-columns: 100px 1fr auto;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 学习进度仪表盘</h1>
+            <p class="subtitle">DaCapo 自适应学习系统 · 实时更新</p>
+        </header>
+        
+        <div class="grid grid-4">
+            <div class="card stat-card">
+                <div class="stat-value primary">18</div>
+                <div class="stat-label">已掌握概念</div>
+            </div>
+            <div class="card stat-card">
+                <div class="stat-value excellent">65.3%</div>
+                <div class="stat-label">平均掌握度</div>
+            </div>
+            <div class="card stat-card">
+                <div class="stat-value good">243</div>
+                <div class="stat-label">概念关联</div>
+            </div>
+            <div class="card stat-card">
+                <div class="stat-value learning">1599.7</div>
+                <div class="stat-label">复利指数</div>
+            </div>
+        </div>
+        
+        <div class="card" style="margin-bottom: 2rem;">
+            <h2 class="section-title">📈 掌握度分布</h2>
+            <div class="distribution">
+                <div class="dist-item">
+                    <span class="dist-label">🟢 优秀 (≥80%)</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill excellent" style="width: 28%;">28%</div>
+                    </div>
+                    <span class="dist-count">5</span>
+                </div>
+                <div class="dist-item">
+                    <span class="dist-label">🟡 良好 (60-80%)</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill good" style="width: 33%;">33%</div>
+                    </div>
+                    <span class="dist-count">6</span>
+                </div>
+                <div class="dist-item">
+                    <span class="dist-label">🟠 学习中 (40-60%)</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill learning" style="width: 39%;">39%</div>
+                    </div>
+                    <span class="dist-count">7</span>
+                </div>
+                <div class="dist-item">
+                    <span class="dist-label">🔴 薄弱 (<40%)</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill weak" style="width: 0%;">0%</div>
+                    </div>
+                    <span class="dist-count">0</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2">
+            <div class="card">
+                <h2 class="section-title">⭐ 优秀掌握 (≥80%)</h2>
+                <div class="concepts-list">
+                    <div class="concept-item">
+                        <span class="concept-name">差序格局</span>
+                        <span class="concept-score score-excellent">90%</span>
+                    </div>
+                    <div class="concept-item">
+                        <span class="concept-name">礼治秩序</span>
+                        <span class="concept-score score-excellent">90%</span>
+                    </div>
+                    <div class="concept-item">
+                        <span class="concept-name">人情期货</span>
+                        <span class="concept-score score-excellent">90%</span>
+                    </div>
+                    <div class="concept-item">
+                        <span class="concept-name">面子估值</span>
+                        <span class="concept-score score-excellent">85%</span>
+                    </div>
+                    <div class="concept-item">
+                        <span class="concept-name">现代长老</span>
+                        <span class="concept-score score-excellent">80%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2 class="section-title">📚 良好掌握 (60-80%)</h2>
+                <div class="concepts-list">
+                    <div class="concept-item">
+                        <span class="concept-name">社会学想象力</span>
+                        <span class="concept-score score-good">75%</span>
+                    </div>
+                    <div class="concept-item">
+                        <span class="concept-name">社会分层</span>
+                        <span class="concept-score score-good">70%</span>
+                    </div>
+                    <div class="concept-item">
+                        <span class="concept-name">承认政治</span>
+                        <span class="concept-score score-good">65%</span>
+                    </div>
+                    <div class="concept-item">
+                        <span class="concept-name">理性化铁笼</span>
+                        <span class="concept-score score-good">65%</span>
+                    </div>
+                    <div class="concept-item">
+                        <span class="concept-name">先赋vs自致</span>
+                        <span class="concept-score score-good">60%</span>
+                    </div>
+                    <div class="concept-item">
+                        <span class="concept-name">铁笼囚徒困境</span>
+                        <span class="concept-score score-good">60%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" style="margin-top: 2rem;">
+            <h2 class="section-title">🎯 学习中 (40-60%)</h2>
+            <div class="concepts-list">
+                <div class="concept-item">
+                    <span class="concept-name">公私界碑</span>
+                    <span class="concept-score score-learning">55%</span>
+                </div>
+                <div class="concept-item">
+                    <span class="concept-name">彩礼异化</span>
+                    <span class="concept-score score-learning">55%</span>
+                </div>
+                <div class="concept-item">
+                    <span class="concept-name">结构紧张</span>
+                    <span class="concept-score score-learning">50%</span>
+                </div>
+                <div class="concept-item">
+                    <span class="concept-name">承认与狂热</span>
+                    <span class="concept-score score-learning">50%</span>
+                </div>
+                <div class="concept-item">
+                    <span class="concept-name">婚礼产品发布会</span>
+                    <span class="concept-score score-learning">50%</span>
+                </div>
+                <div class="concept-item">
+                    <span class="concept-name">再生产</span>
+                    <span class="concept-score score-learning">45%</span>
+                </div>
+                <div class="concept-item">
+                    <span class="concept-name">人性三分法</span>
+                    <span class="concept-score score-learning">40%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
