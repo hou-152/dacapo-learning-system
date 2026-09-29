@@ -1,0 +1,1413 @@
+{
+  "metadata": {
+    "generated": "2026-09-29T21:49:55.262Z",
+    "conceptCount": 78,
+    "edgeCount": 127,
+    "avgRelevance": 0.557,
+    "weights": {
+      "sourceOverlap": 4,
+      "directLink": 3,
+      "commonNeighbor": 1.5,
+      "typeAffinity": 1
+    }
+  },
+  "edges": [
+    {
+      "from": "harness",
+      "to": "拓扑作为新抽象层",
+      "relevance": 0.986,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 1,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "harness",
+      "to": "架构约束的确定性执行",
+      "relevance": 0.986,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 1,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "拓扑作为新抽象层",
+      "to": "架构约束的确定性执行",
+      "relevance": 0.986,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 1,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "ai-友好度作为选型标准",
+      "to": "service-template-与-golden-path",
+      "relevance": 0.842,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 1,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "ai-友好度作为选型标准",
+      "to": "无手打代码",
+      "relevance": 0.842,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 1,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "context-engineering",
+      "to": "harness",
+      "relevance": 0.842,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 1,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "context-engineering",
+      "to": "rigor-的搬迁",
+      "relevance": 0.842,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 1,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "context-engineering",
+      "to": "解空间收窄",
+      "relevance": 0.842,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 1,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "rigor-的搬迁",
+      "to": "service-template-与-golden-path",
+      "relevance": 0.842,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 1,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "rigor-的搬迁",
+      "to": "功能与行为验证的缺口",
+      "relevance": 0.842,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 1,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "service-template-与-golden-path",
+      "to": "架构约束的确定性执行",
+      "relevance": 0.842,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 1,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "功能与行为验证的缺口",
+      "to": "卡住即信号",
+      "relevance": 0.842,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 1,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "卡住即信号",
+      "to": "垃圾回收型-agent",
+      "relevance": 0.842,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 1,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "垃圾回收型-agent",
+      "to": "熵与腐化",
+      "relevance": 0.842,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 1,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "拓扑作为新抽象层",
+      "to": "解空间收窄",
+      "relevance": 0.842,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 1,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "ai-友好度作为选型标准",
+      "to": "rigor-的搬迁",
+      "relevance": 0.67,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "ai-友好度作为选型标准",
+      "to": "架构约束的确定性执行",
+      "relevance": 0.67,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "context-engineering",
+      "to": "service-template-与-golden-path",
+      "relevance": 0.67,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "context-engineering",
+      "to": "功能与行为验证的缺口",
+      "relevance": 0.67,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "context-engineering",
+      "to": "拓扑作为新抽象层",
+      "relevance": 0.67,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "context-engineering",
+      "to": "架构约束的确定性执行",
+      "relevance": 0.67,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "harness",
+      "to": "rigor-的搬迁",
+      "relevance": 0.67,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "harness",
+      "to": "service-template-与-golden-path",
+      "relevance": 0.67,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "harness",
+      "to": "解空间收窄",
+      "relevance": 0.67,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "rigor-的搬迁",
+      "to": "卡住即信号",
+      "relevance": 0.67,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "rigor-的搬迁",
+      "to": "架构约束的确定性执行",
+      "relevance": 0.67,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "rigor-的搬迁",
+      "to": "解空间收窄",
+      "relevance": 0.67,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "service-template-与-golden-path",
+      "to": "功能与行为验证的缺口",
+      "relevance": 0.67,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "service-template-与-golden-path",
+      "to": "拓扑作为新抽象层",
+      "relevance": 0.67,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "service-template-与-golden-path",
+      "to": "无手打代码",
+      "relevance": 0.67,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "功能与行为验证的缺口",
+      "to": "垃圾回收型-agent",
+      "relevance": 0.67,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "卡住即信号",
+      "to": "熵与腐化",
+      "relevance": 0.67,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "架构约束的确定性执行",
+      "to": "解空间收窄",
+      "relevance": 0.67,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "如实所现--12f7c256",
+      "to": "如实所现-重学-2026-07-15",
+      "relevance": 0.579,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 1,
+        "commonNeighbor": 1,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "差序格局",
+      "to": "礼治秩序",
+      "relevance": 0.565,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 1,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "差序格局",
+      "to": "社会分层",
+      "relevance": 0.565,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 1,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "礼治秩序",
+      "to": "社会分层",
+      "relevance": 0.565,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 1,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "ai-友好度作为选型标准",
+      "to": "context-engineering",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "ai-友好度作为选型标准",
+      "to": "harness",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "ai-友好度作为选型标准",
+      "to": "功能与行为验证的缺口",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "ai-友好度作为选型标准",
+      "to": "卡住即信号",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "ai-友好度作为选型标准",
+      "to": "垃圾回收型-agent",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "ai-友好度作为选型标准",
+      "to": "拓扑作为新抽象层",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "ai-友好度作为选型标准",
+      "to": "熵与腐化",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "ai-友好度作为选型标准",
+      "to": "解空间收窄",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "context-engineering",
+      "to": "卡住即信号",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "context-engineering",
+      "to": "垃圾回收型-agent",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "context-engineering",
+      "to": "无手打代码",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "context-engineering",
+      "to": "熵与腐化",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "harness",
+      "to": "功能与行为验证的缺口",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "harness",
+      "to": "卡住即信号",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "harness",
+      "to": "垃圾回收型-agent",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "harness",
+      "to": "无手打代码",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "harness",
+      "to": "熵与腐化",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "rigor-的搬迁",
+      "to": "垃圾回收型-agent",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "rigor-的搬迁",
+      "to": "拓扑作为新抽象层",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "rigor-的搬迁",
+      "to": "无手打代码",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "rigor-的搬迁",
+      "to": "熵与腐化",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "service-template-与-golden-path",
+      "to": "卡住即信号",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "service-template-与-golden-path",
+      "to": "垃圾回收型-agent",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "service-template-与-golden-path",
+      "to": "熵与腐化",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "service-template-与-golden-path",
+      "to": "解空间收窄",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "功能与行为验证的缺口",
+      "to": "拓扑作为新抽象层",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "功能与行为验证的缺口",
+      "to": "无手打代码",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "功能与行为验证的缺口",
+      "to": "架构约束的确定性执行",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "功能与行为验证的缺口",
+      "to": "熵与腐化",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "功能与行为验证的缺口",
+      "to": "解空间收窄",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "卡住即信号",
+      "to": "拓扑作为新抽象层",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "卡住即信号",
+      "to": "无手打代码",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "卡住即信号",
+      "to": "架构约束的确定性执行",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "卡住即信号",
+      "to": "解空间收窄",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "垃圾回收型-agent",
+      "to": "拓扑作为新抽象层",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "垃圾回收型-agent",
+      "to": "无手打代码",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "垃圾回收型-agent",
+      "to": "架构约束的确定性执行",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "垃圾回收型-agent",
+      "to": "解空间收窄",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "拓扑作为新抽象层",
+      "to": "无手打代码",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "拓扑作为新抽象层",
+      "to": "熵与腐化",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "无手打代码",
+      "to": "架构约束的确定性执行",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "无手打代码",
+      "to": "熵与腐化",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "无手打代码",
+      "to": "解空间收窄",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "架构约束的确定性执行",
+      "to": "熵与腐化",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "熵与腐化",
+      "to": "解空间收窄",
+      "relevance": 0.526,
+      "signals": {
+        "sourceOverlap": 1,
+        "directLink": 0,
+        "commonNeighbor": 0,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "人性三分法",
+      "to": "差序格局",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "人性三分法",
+      "to": "礼治秩序",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "人性三分法",
+      "to": "社会分层",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "人情期货",
+      "to": "差序格局",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "人情期货",
+      "to": "礼治秩序",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "人情期货",
+      "to": "社会分层",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "先赋vs自致",
+      "to": "差序格局",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "先赋vs自致",
+      "to": "礼治秩序",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "先赋vs自致",
+      "to": "社会分层",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "公私界碑",
+      "to": "差序格局",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "公私界碑",
+      "to": "礼治秩序",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "公私界碑",
+      "to": "社会分层",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "再生产",
+      "to": "差序格局",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "再生产",
+      "to": "礼治秩序",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "再生产",
+      "to": "社会分层",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "婚礼产品发布会",
+      "to": "差序格局",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "婚礼产品发布会",
+      "to": "礼治秩序",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "婚礼产品发布会",
+      "to": "社会分层",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "差序格局",
+      "to": "彩礼异化",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "差序格局",
+      "to": "承认与狂热",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "差序格局",
+      "to": "承认政治",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "差序格局",
+      "to": "现代长老",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "差序格局",
+      "to": "理性化铁笼",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "差序格局",
+      "to": "社会学想象力",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "差序格局",
+      "to": "结构紧张",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "差序格局",
+      "to": "铁笼囚徒困境",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "差序格局",
+      "to": "面子估值",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "彩礼异化",
+      "to": "礼治秩序",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "彩礼异化",
+      "to": "社会分层",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "承认与狂热",
+      "to": "礼治秩序",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "承认与狂热",
+      "to": "社会分层",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "承认政治",
+      "to": "礼治秩序",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "承认政治",
+      "to": "社会分层",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "现代长老",
+      "to": "礼治秩序",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "现代长老",
+      "to": "社会分层",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "理性化铁笼",
+      "to": "礼治秩序",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "理性化铁笼",
+      "to": "社会分层",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "礼治秩序",
+      "to": "社会学想象力",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "礼治秩序",
+      "to": "结构紧张",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "礼治秩序",
+      "to": "铁笼囚徒困境",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "礼治秩序",
+      "to": "面子估值",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "社会分层",
+      "to": "社会学想象力",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "社会分层",
+      "to": "结构紧张",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "社会分层",
+      "to": "铁笼囚徒困境",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    },
+    {
+      "from": "社会分层",
+      "to": "面子估值",
+      "relevance": 0.438,
+      "signals": {
+        "sourceOverlap": 0,
+        "directLink": 0.6,
+        "commonNeighbor": 0.91,
+        "typeAffinity": 1
+      }
+    }
+  ]
+}
