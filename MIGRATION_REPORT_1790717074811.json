@@ -1,0 +1,84 @@
+{
+  "timestamp": "2026-09-29T21:24:34.810Z",
+  "mode": "dry-run",
+  "stats": {
+    "total": 18,
+    "success": 0,
+    "skipped": 18,
+    "errors": [
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/人性三分法.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/人情期货.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/先赋vs自致.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/公私界碑.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/再生产.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/婚礼产品发布会.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/差序格局.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/彩礼异化.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/承认与狂热.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/承认政治.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/现代长老.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/理性化铁笼.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/礼治秩序.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/社会分层.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/社会学想象力.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/结构紧张.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/铁笼囚徒困境.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/面子估值.md",
+        "error": "Cannot parse frontmatter"
+      }
+    ]
+  },
+  "samples": []
+}

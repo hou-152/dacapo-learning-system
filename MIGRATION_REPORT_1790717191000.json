@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-09-29T21:26:31.000Z",
+  "mode": "dry-run",
+  "stats": {
+    "total": 18,
+    "success": 18,
+    "skipped": 0,
+    "errors": []
+  },
+  "samples": [
+    {
+      "file": "人性三分法.md",
+      "oldMastery": 0.4,
+      "oldTags": "concept, user-generated"
+    },
+    {
+      "file": "人情期货.md",
+      "oldMastery": 0.9,
+      "oldTags": "concept, user-generated"
+    }
+  ]
+}
