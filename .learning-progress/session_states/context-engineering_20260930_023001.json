@@ -1,0 +1,28 @@
+{
+  "concept": "context-engineering",
+  "timestamp": "2026-09-30T02:30:01.293371",
+  "baseline": {
+    "has_heard": false,
+    "can_explain": false,
+    "related_mastered": [],
+    "baseline_level": 0.0
+  },
+  "teaching_strategy": {
+    "skip_definition": false,
+    "focus_on": "basics",
+    "depth_level": 1
+  },
+  "mastery_score": 0.1,
+  "recommendations": [
+    {
+      "concept": "解空间收窄",
+      "score": 0.5,
+      "reason": "与 context-engineering 直接相关"
+    },
+    {
+      "concept": "rigor-的搬迁",
+      "score": 0.5,
+      "reason": "与 context-engineering 直接相关"
+    }
+  ]
+}

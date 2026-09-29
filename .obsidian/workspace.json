@@ -11,10 +11,14 @@
             "id": "ce652a202e7ae0f7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "courses/2026气运+1/材料包-02/材料.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "材料"
             }
           }
         ]
@@ -95,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "concepts/core/2W2H 框架.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "concepts/core/2W2H 框架.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -155,6 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "concepts/core/2W2H 框架.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -183,8 +190,19 @@
   },
   "active": "ce652a202e7ae0f7",
   "lastOpenFiles": [
-    "courses/从知识生产到IP定位/assets/全课程概念网络-压力测试完整版.md",
+    "scripts/demo_full_learning_flow.py",
+    "scripts/progress_tracker.py",
+    "scripts/adaptive_learning.py",
+    "courses/2026气运+1/材料包-01/材料.md",
+    "courses/2026气运+1/材料包-06/材料.md",
+    "02-课程真源/和 agent 一起做规划/01.md",
+    "courses/和 agent 一起做规划/主页.md",
+    "02-课程真源/和 agent 一起做规划",
+    "scripts/instant_feedback.py",
+    "scripts/rebuild_learning_progress.py",
+    "concepts/core/2W2H 框架.md",
     "concepts/INDEX.md",
+    "courses/从知识生产到IP定位/assets/全课程概念网络-压力测试完整版.md",
     "scripts/generate_concept_index.py",
     "scripts/add_relations_to_old_concepts.py",
     "scripts/generate_concept_relations.py",
@@ -206,19 +224,8 @@
     "concepts/core/U 型位置曲线.md",
     "concepts/core/跨模型迁移.md",
     "concepts/core/人机协作规划.md",
-    "concepts/core/最小可用软件闭环.md",
-    "concepts/core/自迭代机制.md",
-    "concepts/core/开放知识格式.md",
-    "concepts/core/2W2H 框架.md",
-    "concepts/core/商业方法论.md",
-    "concepts/core/frontier 分层.md",
     "scripts/analyze_and_create_concepts.py",
     "scripts/concept_extraction_raw.json",
-    "scripts/extract_concepts_from_chapters.py",
-    "concepts/core",
-    "concepts/courses",
-    "02-课程真源/Agentic Engineering 工作流",
-    "02-课程真源",
     "courses/和 agent 一起做规划/学习画布.canvas",
     "courses/拜物教/学习画布.canvas",
     "courses/自迭代小龙虾与自迭代Skill/学习画布.canvas",

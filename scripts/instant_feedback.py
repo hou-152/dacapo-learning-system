@@ -26,12 +26,6 @@ def load_concept_relations() -> Dict[str, List[str]]:
     """
     relations = {}
 
-    # TODO: 从 CONCEPT-GRAPH.md 或概念文件的 frontmatter 中提取关系
-    # 目前概念文件格式：
-    # ## 相关概念
-    # - [[概念1]]
-    # - [[概念2]]
-
     for concept_file in CONCEPTS_DIR.rglob("*.md"):
         if concept_file.name == "INDEX.md":
             continue
@@ -39,19 +33,23 @@ def load_concept_relations() -> Dict[str, List[str]]:
         concept_name = concept_file.stem
         related = []
 
-        with open(concept_file, 'r', encoding='utf-8') as f:
-            in_related_section = False
-            for line in f:
-                if line.strip() == "## 相关概念":
-                    in_related_section = True
-                    continue
-                if in_related_section:
-                    if line.startswith("##"):
-                        break
-                    if line.strip().startswith("- [["):
-                        # 提取 [[概念名]]
-                        related_concept = line.strip()[4:-2]
-                        related.append(related_concept)
+        try:
+            with open(concept_file, 'r', encoding='utf-8') as f:
+                in_related_section = False
+                for line in f:
+                    if line.strip() == "## 相关概念":
+                        in_related_section = True
+                        continue
+                    if in_related_section:
+                        if line.startswith("##"):
+                            break
+                        if line.strip().startswith("- [["):
+                            # 提取 [[概念名]]
+                            related_concept = line.strip()[4:-2]
+                            related.append(related_concept)
+        except Exception as e:
+            print(f"⚠️  读取 {concept_file} 失败: {e}")
+            continue
 
         relations[concept_name] = related
 
@@ -109,10 +107,17 @@ def generate_relation_network_mermaid(
 
     返回: Mermaid 图的 Markdown 代码
     """
+    def get_mastery_score(concept):
+        """提取掌握度分数"""
+        m = mastery.get(concept, 0)
+        if isinstance(m, dict):
+            return m.get("score", 0)
+        return m
+
     mermaid = ["```mermaid", "graph TD"]
 
     # 中心概念（高亮）
-    mastery_score = mastery.get(center_concept, 0)
+    mastery_score = get_mastery_score(center_concept)
     center_style = "fill:#ffd700,stroke:#333,stroke-width:3px"
     mermaid.append(f'    CENTER["{center_concept}\\n掌握度: {mastery_score:.0%}"]')
     mermaid.append(f'    style CENTER {center_style}')
@@ -120,7 +125,7 @@ def generate_relation_network_mermaid(
     # 前置概念（依赖）
     dependencies = relations.get(center_concept, [])
     for dep in dependencies:
-        dep_mastery = mastery.get(dep, 0)
+        dep_mastery = get_mastery_score(dep)
         dep_color = "#90EE90" if dep_mastery >= 0.6 else "#FFB6C1"
         mermaid.append(f'    DEP_{dep}["{dep}\\n{dep_mastery:.0%}"]')
         mermaid.append(f'    style DEP_{dep} fill:{dep_color}')
@@ -129,7 +134,7 @@ def generate_relation_network_mermaid(
     # 后续概念（被引用）
     for concept, related in relations.items():
         if center_concept in related:
-            concept_mastery = mastery.get(concept, 0)
+            concept_mastery = get_mastery_score(concept)
             concept_color = "#90EE90" if concept_mastery >= 0.6 else "#E0E0E0"
             mermaid.append(f'    POST_{concept}["{concept}\\n{concept_mastery:.0%}"]')
             mermaid.append(f'    style POST_{concept} fill:{concept_color}')
@@ -172,9 +177,16 @@ def generate_instant_feedback(concept_name: str) -> str:
     # 计算解锁状态
     unlocked, near_unlock = calculate_unlocked_concepts(concept_name, relations, mastery)
 
-    # 计算统计数据
-    learned_count = sum(1 for m in mastery.values() if m >= 0.6)
-    avg_mastery = sum(mastery.values()) / len(mastery) if mastery else 0
+    # 计算统计数据（处理新格式）
+    scores = []
+    for m in mastery.values():
+        if isinstance(m, dict):
+            scores.append(m.get("score", 0))
+        else:
+            scores.append(m)
+
+    learned_count = sum(1 for s in scores if s >= 0.6)
+    avg_mastery = sum(scores) / len(scores) if scores else 0
     total_connections = sum(len(related) for related in relations.values())
     compound_index = calculate_compound_index(learned_count, total_connections, avg_mastery)
 

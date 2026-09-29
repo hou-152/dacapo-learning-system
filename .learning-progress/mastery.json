@@ -32,7 +32,7 @@
     "total_signals": 4
   },
   "context-engineering": {
-    "score": 0.75,
+    "score": 0.1,
     "signal_type": "deep_understanding",
     "mention_count": 1,
     "first_date": "2026-09-30",
