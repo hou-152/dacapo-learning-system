@@ -1,0 +1,32 @@
+{
+  "01.md": {
+    "mainConcepts": ["差序格局"],
+    "relatedConcepts": {
+      "礼治秩序": {
+        "relevance": 0.8,
+        "context": "下一章引入的秩序维持机制"
+      },
+      "承认政治": {
+        "relevance": 0.7,
+        "context": "差序格局中的承认机制"
+      },
+      "社会分层": {
+        "relevance": 0.6,
+        "context": "差序格局是中国式社会分层"
+      }
+    }
+  },
+  "02.md": {
+    "mainConcepts": ["礼治秩序"],
+    "relatedConcepts": {
+      "差序格局": {
+        "relevance": 0.8,
+        "context": "上一章讲解的社会结构"
+      },
+      "承认政治": {
+        "relevance": 0.7,
+        "context": "礼治中的承认维度"
+      }
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "articles": {
+    "社会学七书共读/07.md": {
+      "title": "社会学七书共读/07.md",
+      "author": "未知",
+      "concepts": [
+        {
+          "name": "人性三分法",
+          "type": "concept",
+          "mastery": 0.3,
+          "filePath": "concepts/人性三分法.md"
+        },
+        {
+          "name": "承认与狂热",
+          "type": "concept",
+          "mastery": 0.3,
+          "filePath": "concepts/承认与狂热.md"
+        },
+        {
+          "name": "承认政治",
+          "type": "concept",
+          "mastery": 0.9,
+          "filePath": "concepts/承认政治.md"
+        }
+      ],
+      "conceptCount": 3
+    },
+    "社会学七书共读/03.md": {
+      "title": "社会学七书共读/03.md",
+      "author": "未知",
+      "concepts": [
+        {
+          "name": "人情期货",
+          "type": "concept",
+          "mastery": 0.3,
+          "filePath": "concepts/人情期货.md"
+        },
+        {
+          "name": "现代长老",
+          "type": "concept",
+          "mastery": 0.3,
+          "filePath": "concepts/现代长老.md"
+        },
+        {
+          "name": "礼治秩序",
+          "type": "concept",
+          "mastery": 0.9,
+          "filePath": "concepts/礼治秩序.md"
+        },
+        {
+          "name": "面子估值",
+          "type": "concept",
+          "mastery": 0.3,
+          "filePath": "concepts/面子估值.md"
+        }
+      ],
+      "conceptCount": 4
+    },
+    "社会学七书共读/04.md": {
+      "title": "社会学七书共读/04.md",
+      "author": "未知",
+      "concepts": [
+        {
+          "name": "先赋vs自致",
+          "type": "concept",
+          "mastery": 0.3,
+          "filePath": "concepts/先赋vs自致.md"
+        },
+        {
+          "name": "社会分层",
+          "type": "concept",
+          "mastery": 0.3,
+          "filePath": "concepts/社会分层.md"
+        },
+        {
+          "name": "结构紧张",
+          "type": "concept",
+          "mastery": 0.3,
+          "filePath": "concepts/结构紧张.md"
+        }
+      ],
+      "conceptCount": 3
+    },
+    "社会学七书共读/06.md": {
+      "title": "社会学七书共读/06.md",
+      "author": "未知",
+      "concepts": [
+        {
+          "name": "公私界碑",
+          "type": "concept",
+          "mastery": 0.3,
+          "filePath": "concepts/公私界碑.md"
+        },
+        {
+          "name": "彩礼异化",
+          "type": "concept",
+          "mastery": 0.3,
+          "filePath": "concepts/彩礼异化.md"
+        }
+      ],
+      "conceptCount": 2
+    },
+    "社会学七书共读/05.md": {
+      "title": "社会学七书共读/05.md",
+      "author": "未知",
+      "concepts": [
+        {
+          "name": "再生产",
+          "type": "concept",
+          "mastery": 0.3,
+          "filePath": "concepts/再生产.md"
+        },
+        {
+          "name": "婚礼产品发布会",
+          "type": "concept",
+          "mastery": 0.3,
+          "filePath": "concepts/婚礼产品发布会.md"
+        }
+      ],
+      "conceptCount": 2
+    },
+    "社会学七书共读/02.md": {
+      "title": "社会学七书共读/02.md",
+      "author": "未知",
+      "concepts": [
+        {
+          "name": "差序格局",
+          "type": "concept",
+          "mastery": 0.9,
+          "filePath": "concepts/差序格局.md"
+        }
+      ],
+      "conceptCount": 1
+    },
+    "社会学七书共读/08.md": {
+      "title": "社会学七书共读/08.md",
+      "author": "未知",
+      "concepts": [
+        {
+          "name": "理性化铁笼",
+          "type": "concept",
+          "mastery": 0.3,
+          "filePath": "concepts/理性化铁笼.md"
+        },
+        {
+          "name": "铁笼囚徒困境",
+          "type": "concept",
+          "mastery": 0.3,
+          "filePath": "concepts/铁笼囚徒困境.md"
+        }
+      ],
+      "conceptCount": 2
+    },
+    "社会学七书共读/01.md": {
+      "title": "社会学七书共读/01.md",
+      "author": "未知",
+      "concepts": [
+        {
+          "name": "社会学想象力",
+          "type": "concept",
+          "mastery": 0.3,
+          "filePath": "concepts/社会学想象力.md"
+        }
+      ],
+      "conceptCount": 1
+    }
+  },
+  "authors": {
+    "未知": {
+      "name": "未知",
+      "articles": [
+        "社会学七书共读/07.md",
+        "社会学七书共读/03.md",
+        "社会学七书共读/04.md",
+        "社会学七书共读/06.md",
+        "社会学七书共读/05.md",
+        "社会学七书共读/02.md",
+        "社会学七书共读/08.md",
+        "社会学七书共读/01.md"
+      ],
+      "conceptCount": 18
+    }
+  },
+  "stats": {
+    "articleCount": 8,
+    "authorCount": 0,
+    "conceptCount": 78,
+    "generatedAt": "2026-09-29T22:31:54.829Z"
+  }
+}

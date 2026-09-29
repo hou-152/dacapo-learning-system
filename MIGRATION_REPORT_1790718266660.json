@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-09-29T21:44:26.660Z",
+  "mode": "dry-run",
+  "stats": {
+    "total": 129,
+    "success": 78,
+    "skipped": 51,
+    "errors": []
+  },
+  "samples": [
+    {
+      "file": "core/ai-友好度作为选型标准.md",
+      "oldMastery": 0.3,
+      "oldTags": "concept",
+      "extractedRelated": 3,
+      "extractedPrereq": 0
+    },
+    {
+      "file": "core/context-engineering.md",
+      "oldMastery": 0.3,
+      "oldTags": "concept",
+      "extractedRelated": 3,
+      "extractedPrereq": 0
+    },
+    {
+      "file": "core/harness.md",
+      "oldMastery": 0.3,
+      "oldTags": "concept",
+      "extractedRelated": 3,
+      "extractedPrereq": 0
+    }
+  ]
+}

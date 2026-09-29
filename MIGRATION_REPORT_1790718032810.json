@@ -1,0 +1,238 @@
+{
+  "timestamp": "2026-09-29T21:40:32.810Z",
+  "mode": "dry-run",
+  "stats": {
+    "total": 129,
+    "success": 78,
+    "skipped": 0,
+    "errors": [
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/2W2H 框架.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/AI 文本可检测性.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/ENTP 天赋.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/ETL 模式.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/First Mate.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/Loop Engineering.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/U 型位置曲线.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/ai-memory.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/compile-not-retrieve.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/frontier 分层.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/retain-recall-reflect.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/slop.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/三层架构.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/两条检测技术路线.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/主题阅读法.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/交互式学习.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/人机协作规划.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/位置鲁棒性.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/修辞三要素.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/双向钢人论证.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/商业方法论.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/四类记忆.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/如实所现.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/学习工作台.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/并行工作树.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/开放知识格式.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/探测规划教学.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/控制权边界.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/摄入查询体检.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/收原话归属回填.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/斯多葛哲学.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/显影与退役判据.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/最小可用软件闭环.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/最小闭环.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/有界 handoff.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/材料内机制.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/树林认知体系.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/现查模式.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/理解边缘探测.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/知识编译.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/社会行动.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/稻草人谬误.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/窗口到系统.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/第一性原理.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/能力库存与工作记忆.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/自迭代机制.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/船长船员比喻.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/行动实验.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/跨模型迁移.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/金钱性格.md",
+        "error": "Cannot parse frontmatter"
+      },
+      {
+        "file": "/Users/housibo/Documents/dacapo-学习仓库/concepts/core/验证流水线.md",
+        "error": "Cannot parse frontmatter"
+      }
+    ]
+  },
+  "samples": [
+    {
+      "file": "core/ai-友好度作为选型标准.md",
+      "oldMastery": 0.3,
+      "oldTags": "concept",
+      "extractedRelated": 0,
+      "extractedPrereq": 0
+    },
+    {
+      "file": "core/context-engineering.md",
+      "oldMastery": 0.3,
+      "oldTags": "concept",
+      "extractedRelated": 0,
+      "extractedPrereq": 0
+    },
+    {
+      "file": "core/harness.md",
+      "oldMastery": 0.3,
+      "oldTags": "concept",
+      "extractedRelated": 0,
+      "extractedPrereq": 0
+    }
+  ]
+}
