@@ -1,0 +1,42 @@
+{
+  "交互式学习": {
+    "score": 0.7,
+    "signal_type": "application_oriented",
+    "mention_count": 1,
+    "first_date": "2026-07-14",
+    "last_date": "2026-07-14",
+    "total_signals": 1
+  },
+  "知识库": {
+    "score": 0.7,
+    "signal_type": "active_challenge",
+    "mention_count": 2,
+    "first_date": "2026-07-14",
+    "last_date": "2026-07-14-02",
+    "total_signals": 1
+  },
+  "第一性原理": {
+    "score": 0.7,
+    "signal_type": "application_oriented",
+    "mention_count": 1,
+    "first_date": "2026-07-14",
+    "last_date": "2026-07-14",
+    "total_signals": 1
+  },
+  "harness": {
+    "score": 0.9,
+    "signal_type": "deep_understanding",
+    "mention_count": 4,
+    "first_date": "2026-07-14",
+    "last_date": "2026-07-14-02",
+    "total_signals": 4
+  },
+  "context-engineering": {
+    "score": 0.75,
+    "signal_type": "deep_understanding",
+    "mention_count": 1,
+    "first_date": "2026-09-30",
+    "last_date": "2026-09-30",
+    "total_signals": 1
+  }
+}
