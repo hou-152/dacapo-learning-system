@@ -1,38 +1,142 @@
 {
-  "交互式学习": {
-    "score": 0.7,
-    "signal_type": "application_oriented",
+  "现代长老": {
+    "score": 0.8,
+    "signal_type": "deep_understanding",
     "mention_count": 1,
-    "first_date": "2026-07-14",
-    "last_date": "2026-07-14",
+    "first_date": "2026-09-30",
+    "last_date": "2026-09-30",
     "total_signals": 1
   },
-  "知识库": {
-    "score": 0.7,
-    "signal_type": "active_challenge",
-    "mention_count": 2,
-    "first_date": "2026-07-14",
-    "last_date": "2026-07-14-02",
-    "total_signals": 1
-  },
-  "第一性原理": {
-    "score": 0.7,
-    "signal_type": "application_oriented",
-    "mention_count": 1,
-    "first_date": "2026-07-14",
-    "last_date": "2026-07-14",
-    "total_signals": 1
-  },
-  "harness": {
+  "人情期货": {
     "score": 0.9,
     "signal_type": "deep_understanding",
-    "mention_count": 4,
-    "first_date": "2026-07-14",
-    "last_date": "2026-07-14-02",
-    "total_signals": 4
+    "mention_count": 1,
+    "first_date": "2026-09-30",
+    "last_date": "2026-09-30",
+    "total_signals": 1
   },
-  "context-engineering": {
-    "score": 0.1,
+  "差序格局": {
+    "score": 0.9,
+    "signal_type": "deep_understanding",
+    "mention_count": 1,
+    "first_date": "2026-09-30",
+    "last_date": "2026-09-30",
+    "total_signals": 1
+  },
+  "面子估值": {
+    "score": 0.85,
+    "signal_type": "deep_understanding",
+    "mention_count": 1,
+    "first_date": "2026-09-30",
+    "last_date": "2026-09-30",
+    "total_signals": 1
+  },
+  "承认政治": {
+    "score": 0.65,
+    "signal_type": "deep_understanding",
+    "mention_count": 1,
+    "first_date": "2026-09-30",
+    "last_date": "2026-09-30",
+    "total_signals": 1
+  },
+  "理性化铁笼": {
+    "score": 0.65,
+    "signal_type": "deep_understanding",
+    "mention_count": 1,
+    "first_date": "2026-09-30",
+    "last_date": "2026-09-30",
+    "total_signals": 1
+  },
+  "人性三分法": {
+    "score": 0.4,
+    "signal_type": "deep_understanding",
+    "mention_count": 1,
+    "first_date": "2026-09-30",
+    "last_date": "2026-09-30",
+    "total_signals": 1
+  },
+  "先赋vs自致": {
+    "score": 0.6,
+    "signal_type": "deep_understanding",
+    "mention_count": 1,
+    "first_date": "2026-09-30",
+    "last_date": "2026-09-30",
+    "total_signals": 1
+  },
+  "铁笼囚徒困境": {
+    "score": 0.6,
+    "signal_type": "deep_understanding",
+    "mention_count": 1,
+    "first_date": "2026-09-30",
+    "last_date": "2026-09-30",
+    "total_signals": 1
+  },
+  "礼治秩序": {
+    "score": 0.9,
+    "signal_type": "deep_understanding",
+    "mention_count": 1,
+    "first_date": "2026-09-30",
+    "last_date": "2026-09-30",
+    "total_signals": 1
+  },
+  "公私界碑": {
+    "score": 0.55,
+    "signal_type": "deep_understanding",
+    "mention_count": 1,
+    "first_date": "2026-09-30",
+    "last_date": "2026-09-30",
+    "total_signals": 1
+  },
+  "社会分层": {
+    "score": 0.7,
+    "signal_type": "deep_understanding",
+    "mention_count": 1,
+    "first_date": "2026-09-30",
+    "last_date": "2026-09-30",
+    "total_signals": 1
+  },
+  "彩礼异化": {
+    "score": 0.55,
+    "signal_type": "deep_understanding",
+    "mention_count": 1,
+    "first_date": "2026-09-30",
+    "last_date": "2026-09-30",
+    "total_signals": 1
+  },
+  "社会学想象力": {
+    "score": 0.75,
+    "signal_type": "deep_understanding",
+    "mention_count": 1,
+    "first_date": "2026-09-30",
+    "last_date": "2026-09-30",
+    "total_signals": 1
+  },
+  "结构紧张": {
+    "score": 0.5,
+    "signal_type": "deep_understanding",
+    "mention_count": 1,
+    "first_date": "2026-09-30",
+    "last_date": "2026-09-30",
+    "total_signals": 1
+  },
+  "承认与狂热": {
+    "score": 0.5,
+    "signal_type": "deep_understanding",
+    "mention_count": 1,
+    "first_date": "2026-09-30",
+    "last_date": "2026-09-30",
+    "total_signals": 1
+  },
+  "婚礼产品发布会": {
+    "score": 0.5,
+    "signal_type": "deep_understanding",
+    "mention_count": 1,
+    "first_date": "2026-09-30",
+    "last_date": "2026-09-30",
+    "total_signals": 1
+  },
+  "再生产": {
+    "score": 0.45,
     "signal_type": "deep_understanding",
     "mention_count": 1,
     "first_date": "2026-09-30",

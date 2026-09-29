@@ -73,6 +73,13 @@ def calculate_unlocked_concepts(
 
     返回: (新解锁的概念列表, 接近解锁的概念列表)
     """
+    def get_mastery_score(concept):
+        """提取掌握度分数"""
+        m = mastery.get(concept, 0)
+        if isinstance(m, dict):
+            return m.get("score", 0)
+        return m
+
     unlocked = []
     near_unlock = []
 
@@ -81,7 +88,7 @@ def calculate_unlocked_concepts(
         if learned_concept in related:
             # 检查其他前置概念是否都已掌握
             dependencies = related
-            mastered_deps = sum(1 for dep in dependencies if mastery.get(dep, 0) >= 0.6)
+            mastered_deps = sum(1 for dep in dependencies if get_mastery_score(dep) >= 0.6)
             total_deps = len(dependencies)
 
             if mastered_deps == total_deps:
