@@ -1,19 +1,33 @@
 ---
-type: course
-course_path: courses/AI 时代更重要的三种技能
-lessons:
-  - 01
-  - 02
-  - 03
-  - 04
-  - 05
-  - 06
-lesson_count: 6
-status: available-01-to-06
-created: 2026-09-28
+name: AI-时代更重要的三种技能
+type: concept
 tags:
-  - 课程
-  - 学习
+  - - 课程
+created: 2026-09-29
+updated: 2026-09-29
+
+sources:
+
+mastery:
+  level: 0
+  rawScore: 0
+  decay:
+    lastReviewed: 2026-09-29
+    halfLife: 30
+
+masteryHistory: []
+
+prerequisites: []
+derivedConcepts: []
+relatedConcepts: []
+
+patterns: []
+
+theoryGrounding: null
+
+studyCount: 0
+lastStudied: null
+studySessions: []
 ---
 
 # AI 时代更重要的三种技能

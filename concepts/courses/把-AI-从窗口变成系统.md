@@ -1,17 +1,33 @@
 ---
-type: course
-course_path: courses/把 AI 从窗口变成系统
-lessons:
-  - 01
-  - 02
-  - 03
-  - 04
-lesson_count: 4
-status: available-01-to-04
-created: 2026-09-28
+name: 把-AI-从窗口变成系统
+type: concept
 tags:
-  - 课程
-  - 学习
+  - - 课程
+created: 2026-09-29
+updated: 2026-09-29
+
+sources:
+
+mastery:
+  level: 0
+  rawScore: 0
+  decay:
+    lastReviewed: 2026-09-29
+    halfLife: 30
+
+masteryHistory: []
+
+prerequisites: []
+derivedConcepts: []
+relatedConcepts: []
+
+patterns: []
+
+theoryGrounding: null
+
+studyCount: 0
+lastStudied: null
+studySessions: []
 ---
 
 # 把 AI 从窗口变成系统

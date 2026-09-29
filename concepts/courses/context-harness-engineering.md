@@ -1,21 +1,33 @@
 ---
-type: course
-course_path: courses/context-harness-engineering
-lessons:
-  - 01
-  - 02
-  - 03
-  - 04
-  - 05
-  - 06
-  - 07
-  - 08
-lesson_count: 8
-status: available-01-to-08
-created: 2026-09-28
+name: context-harness-engineering
+type: concept
 tags:
-  - 课程
-  - 学习
+  - - 课程
+created: 2026-09-29
+updated: 2026-09-29
+
+sources:
+
+mastery:
+  level: 0
+  rawScore: 0
+  decay:
+    lastReviewed: 2026-09-29
+    halfLife: 30
+
+masteryHistory: []
+
+prerequisites: []
+derivedConcepts: []
+relatedConcepts: []
+
+patterns: []
+
+theoryGrounding: null
+
+studyCount: 0
+lastStudied: null
+studySessions: []
 ---
 
 # context-harness-engineering

@@ -1,7 +1,35 @@
 ---
-tags: concept
-inDegree: 1
-firstAppearance: "[[01-Martin-Fowler-harness-engineering]]"
+name: ai-友好度作为选型标准
+type: concept
+tags:
+  - concept
+created: 2026-09-29
+updated: 2026-09-29
+
+sources:
+  - link: "[[01-Martin-Fowler-harness-engineering]]"
+  - link: "[[01-Martin-Fowler-harness-engineering]]"
+
+mastery:
+  level: 0.3
+  rawScore: 30
+  decay:
+    lastReviewed: 2026-09-29
+    halfLife: 30
+
+masteryHistory: []
+
+prerequisites: []
+derivedConcepts: []
+relatedConcepts: ["service-template-与-golden-path", "无手打代码", "跨模型迁移"]
+
+patterns: []
+
+theoryGrounding: null
+
+studyCount: 0
+lastStudied: null
+studySessions: []
 ---
 
 # AI 友好度（AI-friendliness）作为选型标准

@@ -1,7 +1,35 @@
 ---
-tags: concept
-inDegree: 1
-firstAppearance: "[[01-Martin-Fowler-harness-engineering]]"
+name: service-template-与-golden-path
+type: concept
+tags:
+  - concept
+created: 2026-09-29
+updated: 2026-09-29
+
+sources:
+  - link: "[[01-Martin-Fowler-harness-engineering]]"
+  - link: "[[01-Martin-Fowler-harness-engineering]]"
+
+mastery:
+  level: 0.3
+  rawScore: 30
+  decay:
+    lastReviewed: 2026-09-29
+    halfLife: 30
+
+masteryHistory: []
+
+prerequisites: []
+derivedConcepts: []
+relatedConcepts: ["架构约束的确定性执行", "ai-友好度作为选型标准", "rigor-的搬迁"]
+
+patterns: []
+
+theoryGrounding: null
+
+studyCount: 0
+lastStudied: null
+studySessions: []
 ---
 
 # service template 与 golden path

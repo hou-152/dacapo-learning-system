@@ -1,18 +1,33 @@
 ---
-type: course
-course_path: courses/Hindsight
-lessons:
-  - 01
-  - 02
-  - 03
-  - 04
-  - 05
-lesson_count: 5
-status: available-01-to-05
-created: 2026-09-28
+name: Hindsight
+type: concept
 tags:
-  - 课程
-  - 学习
+  - - 课程
+created: 2026-09-29
+updated: 2026-09-29
+
+sources:
+
+mastery:
+  level: 0
+  rawScore: 0
+  decay:
+    lastReviewed: 2026-09-29
+    halfLife: 30
+
+masteryHistory: []
+
+prerequisites: []
+derivedConcepts: []
+relatedConcepts: []
+
+patterns: []
+
+theoryGrounding: null
+
+studyCount: 0
+lastStudied: null
+studySessions: []
 ---
 
 # Hindsight

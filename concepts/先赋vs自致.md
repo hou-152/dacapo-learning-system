@@ -2,33 +2,31 @@
 name: 先赋vs自致
 type: concept
 tags:
-  - concept
-  - sociology-core
+  - - concept
 created: 2026-09-29
 updated: 2026-09-29
 
 sources:
-  - link: "[[社会学七书共读/04.md]]"
 
 mastery:
-  level: 0.6
-  rawScore: 60
+  level: 0.3
+  rawScore: 30
   decay:
-    lastReviewed: 2026-09-30
+    lastReviewed: 2026-09-29
     halfLife: 30
 
 masteryHistory: []
 
 prerequisites: []
 derivedConcepts: []
-relatedConcepts: []
+relatedConcepts: ["差序格局", "礼治秩序", "社会分层"]
 
 patterns: []
 
 theoryGrounding: null
 
-studyCount: 1
-lastStudied: 2026-09-30
+studyCount: 0
+lastStudied: null
 studySessions: []
 ---
 

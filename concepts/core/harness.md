@@ -1,7 +1,35 @@
 ---
-tags: concept
-inDegree: 1
-firstAppearance: "[[01-Martin-Fowler-harness-engineering]]"
+name: harness
+type: concept
+tags:
+  - concept
+created: 2026-09-29
+updated: 2026-09-29
+
+sources:
+  - link: "[[01-Martin-Fowler-harness-engineering]]"
+  - link: "[[01-Martin-Fowler-harness-engineering]]"
+
+mastery:
+  level: 0.3
+  rawScore: 30
+  decay:
+    lastReviewed: 2026-09-29
+    halfLife: 30
+
+masteryHistory: []
+
+prerequisites: []
+derivedConcepts: []
+relatedConcepts: ["context-engineering", "架构约束的确定性执行", "拓扑作为新抽象层"]
+
+patterns: []
+
+theoryGrounding: null
+
+studyCount: 0
+lastStudied: null
+studySessions: []
 ---
 
 # harness（把 agent 管住的那套工装）

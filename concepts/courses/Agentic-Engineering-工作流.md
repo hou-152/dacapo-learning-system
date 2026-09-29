@@ -1,27 +1,33 @@
 ---
-type: course
-course_path: courses/Agentic Engineering 工作流
-lessons:
-  - 01
-  - 02
-  - 03
-  - 04
-  - 05
-  - 06
-  - 07
-  - 08
-  - 09
-  - 10
-  - 10.5
-  - 10.6
-  - 11
-  - 11.5
-lesson_count: 14
-status: available-01-to-11.5
-created: 2026-09-28
+name: Agentic-Engineering-工作流
+type: concept
 tags:
-  - 课程
-  - 学习
+  - - 课程
+created: 2026-09-29
+updated: 2026-09-29
+
+sources:
+
+mastery:
+  level: 0.3
+  rawScore: 30
+  decay:
+    lastReviewed: 2026-09-29
+    halfLife: 30
+
+masteryHistory: []
+
+prerequisites: []
+derivedConcepts: []
+relatedConcepts: ["AI工作流控制权迁移"]
+
+patterns: []
+
+theoryGrounding: null
+
+studyCount: 0
+lastStudied: null
+studySessions: []
 ---
 
 # Agentic Engineering 工作流

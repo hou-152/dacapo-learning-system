@@ -1,17 +1,33 @@
 ---
-type: course
-course_path: courses/如实所现与牌一直在你手里--ce8ccdb8
-lessons:
-  - 01
-  - 02
-  - 03
-  - 04
-lesson_count: 4
-status: in-progress-01-waiting
-created: 2026-09-28
+name: 如实所现与牌一直在你手里--ce8ccdb8
+type: concept
 tags:
-  - 课程
-  - 学习
+  - - 课程
+created: 2026-09-29
+updated: 2026-09-29
+
+sources:
+
+mastery:
+  level: 0
+  rawScore: 0
+  decay:
+    lastReviewed: 2026-09-29
+    halfLife: 30
+
+masteryHistory: []
+
+prerequisites: []
+derivedConcepts: []
+relatedConcepts: []
+
+patterns: []
+
+theoryGrounding: null
+
+studyCount: 0
+lastStudied: null
+studySessions: []
 ---
 
 # 如实所现与牌一直在你手里--ce8ccdb8

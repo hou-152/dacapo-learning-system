@@ -21,17 +21,59 @@ function extractField(frontmatter, fieldName) {
 }
 
 /**
- * 解析 markdown
+ * 从 Markdown body 提取 wikilink（[[概念名]]）
  */
-function parseFrontmatter(content) {
-  content = content.replace(/\r\n/g, '\n');
-  const match = content.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
-  if (!match) return null;
+function extractWikilinks(text) {
+  const matches = text.match(/\[\[([^\]]+)\]\]/g);
+  if (!matches) return [];
+  return matches.map(m => m.slice(2, -2).trim());
+}
 
-  const frontmatterRaw = match[1];
-  const body = match[2];
+/**
+ * 检测是否为旧格式（有 ## 相关概念 等 Markdown 章节）
+ */
+function isOldFormat(body) {
+  return /^## (相关概念|出现文章|前置概念)/m.test(body);
+}
 
-  // 手动提取关键字段
+/**
+ * 解析旧格式（Markdown 章节）
+ */
+function parseOldFormat(frontmatterRaw, body) {
+  const tags = extractField(frontmatterRaw, 'tags');
+  const firstAppearance = extractField(frontmatterRaw, 'firstAppearance');
+
+  // 从 body 提取 ## 相关概念（修正：用 (?:.*\n)* 明确匹配多行）
+  const relatedMatch = body.match(/## 相关概念\n((?:.*\n)*?)(?=\n##|$)/);
+  const relatedConcepts = relatedMatch ? extractWikilinks(relatedMatch[1]) : [];
+
+  // 从 body 提取 ## 前置概念
+  const prereqMatch = body.match(/## 前置概念\n((?:.*\n)*?)(?=\n##|$)/);
+  const prerequisites = prereqMatch ? extractWikilinks(prereqMatch[1]) : [];
+
+  // 从 body 提取 ## 出现文章（作为额外来源）
+  const articlesMatch = body.match(/## 出现文章\n((?:.*\n)*?)(?=\n##|$)/);
+  const articleLinks = articlesMatch ? extractWikilinks(articlesMatch[1]) : [];
+
+  return {
+    frontmatter: {
+      tags: tags ? tags.replace(/"/g, '') : null,
+      firstAppearance: firstAppearance ? firstAppearance.replace(/"/g, '') : null,
+      mastery: 0.3, // 旧格式默认初始掌握度
+      lastStudied: null,
+      studyCount: 0,
+      relatedConcepts,
+      prerequisites,
+      articleLinks,
+    },
+    body
+  };
+}
+
+/**
+ * 解析新格式（已有 mastery、studyCount 等字段）
+ */
+function parseNewFormat(frontmatterRaw, body) {
   const tags = extractField(frontmatterRaw, 'tags');
   const firstAppearance = extractField(frontmatterRaw, 'firstAppearance');
   const mastery = extractField(frontmatterRaw, 'mastery');
@@ -45,9 +87,31 @@ function parseFrontmatter(content) {
       mastery: mastery ? parseFloat(mastery) : 0,
       lastStudied: lastStudied ? lastStudied.replace(/"/g, '') : null,
       studyCount: studyCount ? parseInt(studyCount) : 0,
+      relatedConcepts: [],
+      prerequisites: [],
+      articleLinks: [],
     },
     body
   };
+}
+
+/**
+ * 解析 markdown（自动检测格式）
+ */
+function parseFrontmatter(content) {
+  content = content.replace(/\r\n/g, '\n');
+  const match = content.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
+  if (!match) return null;
+
+  const frontmatterRaw = match[1];
+  const body = match[2];
+
+  // 检测格式并分别处理
+  if (isOldFormat(body)) {
+    return parseOldFormat(frontmatterRaw, body);
+  } else {
+    return parseNewFormat(frontmatterRaw, body);
+  }
 }
 
 /**
@@ -71,6 +135,14 @@ function generateFrontmatter(name, old) {
   if (old.firstAppearance) {
     yaml += `  - link: "${old.firstAppearance}"\n`;
   }
+  // 从 body 提取的文章链接也加入 sources
+  if (old.articleLinks && old.articleLinks.length > 0) {
+    old.articleLinks.forEach(link => {
+      if (link !== old.firstAppearance) { // 避免重复
+        yaml += `  - link: "[[${link}]]"\n`;
+      }
+    });
+  }
   yaml += `\n`;
 
   yaml += `mastery:\n`;
@@ -84,9 +156,11 @@ function generateFrontmatter(name, old) {
   yaml += `masteryHistory: []\n`;
   yaml += `\n`;
 
-  yaml += `prerequisites: []\n`;
+  // 从 body 提取的前置概念
+  yaml += `prerequisites: [${old.prerequisites.map(p => `"${p}"`).join(', ')}]\n`;
   yaml += `derivedConcepts: []\n`;
-  yaml += `relatedConcepts: []\n`;
+  // 从 body 提取的相关概念
+  yaml += `relatedConcepts: [${old.relatedConcepts.map(c => `"${c}"`).join(', ')}]\n`;
   yaml += `\n`;
 
   yaml += `patterns: []\n`;
@@ -110,7 +184,7 @@ function migrateConcept(filePath) {
   const parsed = parseFrontmatter(content);
 
   if (!parsed) {
-    throw new Error('Cannot parse frontmatter');
+    return null; // 跳过无 frontmatter 文件
   }
 
   const { frontmatter: old, body } = parsed;
@@ -129,9 +203,20 @@ function runMigration() {
   console.log('🚀 开始迁移 Schema...\n');
   console.log(`模式: ${DRY_RUN ? 'DRY RUN（不写入）' : 'LIVE（写入）'}\n`);
 
-  const files = fs.readdirSync(CONCEPTS_DIR)
-    .filter(f => f.endsWith('.md') && f !== 'INDEX.md')
-    .map(f => path.join(CONCEPTS_DIR, f));
+  // 扫描 concepts/ 及其子目录
+  const files = [];
+  function scanDir(dir) {
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    for (const entry of entries) {
+      const fullPath = path.join(dir, entry.name);
+      if (entry.isDirectory()) {
+        scanDir(fullPath);
+      } else if (entry.name.endsWith('.md') && entry.name !== 'INDEX.md') {
+        files.push(fullPath);
+      }
+    }
+  }
+  scanDir(CONCEPTS_DIR);
 
   stats.total = files.length;
   console.log(`找到 ${stats.total} 个概念文件\n`);
@@ -141,6 +226,14 @@ function runMigration() {
   for (const filePath of files) {
     try {
       const result = migrateConcept(filePath);
+
+      if (!result) {
+        stats.skipped++;
+        const relPath = path.relative(CONCEPTS_DIR, filePath);
+        console.log(`⊘ ${relPath} (无 frontmatter，跳过)`);
+        continue;
+      }
+
       results.push(result);
 
       if (!DRY_RUN) {
@@ -148,10 +241,12 @@ function runMigration() {
       }
 
       stats.success++;
-      console.log(`✅ ${path.basename(filePath)}`);
+      const relPath = path.relative(CONCEPTS_DIR, filePath);
+      console.log(`✅ ${relPath}`);
     } catch (e) {
       stats.errors.push({ file: filePath, error: e.message });
-      console.log(`❌ ${path.basename(filePath)}: ${e.message}`);
+      const relPath = path.relative(CONCEPTS_DIR, filePath);
+      console.log(`❌ ${relPath}: ${e.message}`);
     }
   }
 
@@ -164,7 +259,7 @@ function runMigration() {
   if (stats.errors.length > 0) {
     console.log('\n=== 错误详情 ===');
     stats.errors.forEach(({ file, error }) => {
-      console.log(`${path.basename(file)}: ${error}`);
+      console.log(`${path.relative(CONCEPTS_DIR, file)}: ${error}`);
     });
   }
 
@@ -172,10 +267,12 @@ function runMigration() {
     timestamp: new Date().toISOString(),
     mode: DRY_RUN ? 'dry-run' : 'live',
     stats,
-    samples: results.slice(0, 2).map(r => ({
-      file: path.basename(r.filePath),
+    samples: results.slice(0, 3).map(r => ({
+      file: path.relative(CONCEPTS_DIR, r.filePath),
       oldMastery: r.old.mastery,
       oldTags: r.old.tags,
+      extractedRelated: r.old.relatedConcepts ? r.old.relatedConcepts.length : 0,
+      extractedPrereq: r.old.prerequisites ? r.old.prerequisites.length : 0,
     })),
   };
 
@@ -187,7 +284,7 @@ function runMigration() {
     console.log('\n💡 这是 DRY RUN，未实际修改');
     console.log('   移除 --dry-run 执行真实迁移');
   } else {
-    console.log('\n✅ 迁移完成！备份: concepts.backup.*');
+    console.log('\n✅ 迁移完成！');
   }
 }
 

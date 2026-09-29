@@ -1,15 +1,33 @@
 ---
-type: course
-course_path: courses/ABB机器人应用编程考证-理论知识题库
-lessons:
-  - 01
-  - 02
-lesson_count: 2
-status: in-progress-02-waiting
-created: 2026-09-28
+name: ABB机器人应用编程考证-理论知识题库
+type: concept
 tags:
-  - 课程
-  - 学习
+  - - 课程
+created: 2026-09-29
+updated: 2026-09-29
+
+sources:
+
+mastery:
+  level: 0
+  rawScore: 0
+  decay:
+    lastReviewed: 2026-09-29
+    halfLife: 30
+
+masteryHistory: []
+
+prerequisites: []
+derivedConcepts: []
+relatedConcepts: []
+
+patterns: []
+
+theoryGrounding: null
+
+studyCount: 0
+lastStudied: null
+studySessions: []
 ---
 
 # ABB机器人应用编程考证-理论知识题库

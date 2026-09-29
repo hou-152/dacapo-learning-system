@@ -1,17 +1,33 @@
 ---
-type: course
-course_path: courses/双向钢人论证与深度思考Prompt
-lessons:
-  - 01
-  - 02
-  - 03
-  - 04
-lesson_count: 4
-status: available-01-to-04
-created: 2026-09-28
+name: 双向钢人论证与深度思考Prompt
+type: concept
 tags:
-  - 课程
-  - 学习
+  - - 课程
+created: 2026-09-29
+updated: 2026-09-29
+
+sources:
+
+mastery:
+  level: 0
+  rawScore: 0
+  decay:
+    lastReviewed: 2026-09-29
+    halfLife: 30
+
+masteryHistory: []
+
+prerequisites: []
+derivedConcepts: []
+relatedConcepts: []
+
+patterns: []
+
+theoryGrounding: null
+
+studyCount: 0
+lastStudied: null
+studySessions: []
 ---
 
 # 双向钢人论证与深度思考Prompt

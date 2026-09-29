@@ -1,7 +1,35 @@
 ---
-tags: concept
-inDegree: 1
-firstAppearance: "[[01-Martin-Fowler-harness-engineering]]"
+name: context-engineering
+type: concept
+tags:
+  - concept
+created: 2026-09-29
+updated: 2026-09-29
+
+sources:
+  - link: "[[01-Martin-Fowler-harness-engineering]]"
+  - link: "[[01-Martin-Fowler-harness-engineering]]"
+
+mastery:
+  level: 0.3
+  rawScore: 30
+  decay:
+    lastReviewed: 2026-09-29
+    halfLife: 30
+
+masteryHistory: []
+
+prerequisites: []
+derivedConcepts: []
+relatedConcepts: ["harness", "解空间收窄", "rigor-的搬迁"]
+
+patterns: []
+
+theoryGrounding: null
+
+studyCount: 0
+lastStudied: null
+studySessions: []
 ---
 
 # context engineering（上下文工程）
