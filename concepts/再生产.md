@@ -17,7 +17,7 @@ mastery:
 
 masteryHistory: []
 
-prerequisites: []
+prerequisites: ["社会分层"]
 derivedConcepts: []
 relatedConcepts: ["差序格局", "礼治秩序", "社会分层"]
 

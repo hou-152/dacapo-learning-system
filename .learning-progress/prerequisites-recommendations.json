@@ -1,0 +1,1451 @@
+[
+  {
+    "conceptId": "ai-友好度作为选型标准",
+    "concept": "ai-友好度作为选型标准",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "harness",
+        "name": "harness",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "service-template-与-golden-path",
+        "name": "service-template-与-golden-path",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      },
+      {
+        "id": "无手打代码",
+        "name": "无手打代码",
+        "score": 5,
+        "reasons": [
+          "定义中引用",
+          "A 定义更复杂",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "context-engineering",
+    "concept": "context-engineering",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "harness",
+        "name": "harness",
+        "score": 8,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "rigor-的搬迁",
+        "name": "rigor-的搬迁",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      },
+      {
+        "id": "解空间收窄",
+        "name": "解空间收窄",
+        "score": 4,
+        "reasons": [
+          "定义中引用",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "harness",
+    "concept": "harness",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "context-engineering",
+        "name": "context-engineering",
+        "score": 9,
+        "reasons": [
+          "定义中引用",
+          "A 定义更复杂",
+          "B 被 3 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "拓扑作为新抽象层",
+        "name": "拓扑作为新抽象层",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "A 定义更复杂",
+          "B 被 3 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      },
+      {
+        "id": "架构约束的确定性执行",
+        "name": "架构约束的确定性执行",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "A 定义更复杂",
+          "B 被 3 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "rigor-的搬迁",
+    "concept": "rigor-的搬迁",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "context-engineering",
+        "name": "context-engineering",
+        "score": 8,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "harness",
+        "name": "harness",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "service-template-与-golden-path",
+        "name": "service-template-与-golden-path",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "service-template-与-golden-path",
+    "concept": "service-template-与-golden-path",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "harness",
+        "name": "harness",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "rigor-的搬迁",
+        "name": "rigor-的搬迁",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      },
+      {
+        "id": "架构约束的确定性执行",
+        "name": "架构约束的确定性执行",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "功能与行为验证的缺口",
+    "concept": "功能与行为验证的缺口",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "harness",
+        "name": "harness",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "rigor-的搬迁",
+        "name": "rigor-的搬迁",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      },
+      {
+        "id": "context-engineering",
+        "name": "context-engineering",
+        "score": 4,
+        "reasons": [
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "卡住即信号",
+    "concept": "卡住即信号",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "harness",
+        "name": "harness",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "context-engineering",
+        "name": "context-engineering",
+        "score": 4,
+        "reasons": [
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "功能与行为验证的缺口",
+        "name": "功能与行为验证的缺口",
+        "score": 4,
+        "reasons": [
+          "定义中引用",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "垃圾回收型-agent",
+    "concept": "垃圾回收型-agent",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "harness",
+        "name": "harness",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "context-engineering",
+        "name": "context-engineering",
+        "score": 4,
+        "reasons": [
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "卡住即信号",
+        "name": "卡住即信号",
+        "score": 4,
+        "reasons": [
+          "定义中引用",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "拓扑作为新抽象层",
+    "concept": "拓扑作为新抽象层",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "harness",
+        "name": "harness",
+        "score": 8,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "架构约束的确定性执行",
+        "name": "架构约束的确定性执行",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      },
+      {
+        "id": "context-engineering",
+        "name": "context-engineering",
+        "score": 4,
+        "reasons": [
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "无手打代码",
+    "concept": "无手打代码",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "harness",
+        "name": "harness",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "ai-友好度作为选型标准",
+        "name": "ai-友好度作为选型标准",
+        "score": 4,
+        "reasons": [
+          "定义中引用",
+          "有直接关联"
+        ]
+      },
+      {
+        "id": "context-engineering",
+        "name": "context-engineering",
+        "score": 4,
+        "reasons": [
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "架构约束的确定性执行",
+    "concept": "架构约束的确定性执行",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "harness",
+        "name": "harness",
+        "score": 8,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "service-template-与-golden-path",
+        "name": "service-template-与-golden-path",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      },
+      {
+        "id": "拓扑作为新抽象层",
+        "name": "拓扑作为新抽象层",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "熵与腐化",
+    "concept": "熵与腐化",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "harness",
+        "name": "harness",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "最小可用软件闭环",
+        "name": "最小可用软件闭环",
+        "score": 5,
+        "reasons": [
+          "定义中引用",
+          "A 定义更复杂",
+          "有直接关联"
+        ]
+      },
+      {
+        "id": "context-engineering",
+        "name": "context-engineering",
+        "score": 4,
+        "reasons": [
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "解空间收窄",
+    "concept": "解空间收窄",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "context-engineering",
+        "name": "context-engineering",
+        "score": 8,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "harness",
+        "name": "harness",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "拓扑作为新抽象层",
+        "name": "拓扑作为新抽象层",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "ABB机器人应用编程考证-理论知识题库-2",
+    "concept": "ABB机器人应用编程考证-理论知识题库-2",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "ABB机器人应用编程考证-理论知识题库",
+        "name": "ABB机器人应用编程考证-理论知识题库",
+        "score": 4,
+        "reasons": [
+          "定义中引用",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "Agentic-Engineering-工作流",
+    "concept": "Agentic-Engineering-工作流",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "AI工作流控制权迁移",
+        "name": "AI工作流控制权迁移",
+        "score": 4,
+        "reasons": [
+          "定义中引用",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "Hindsight",
+    "concept": "Hindsight",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "context-engineering",
+        "name": "context-engineering",
+        "score": 4,
+        "reasons": [
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "harness",
+        "name": "harness",
+        "score": 4,
+        "reasons": [
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "context-harness-engineering",
+    "concept": "context-harness-engineering",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "harness",
+        "name": "harness",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "context-engineering",
+        "name": "context-engineering",
+        "score": 4,
+        "reasons": [
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "和-agent-一起做规划",
+    "concept": "和-agent-一起做规划",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "context-engineering",
+        "name": "context-engineering",
+        "score": 4,
+        "reasons": [
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "harness",
+        "name": "harness",
+        "score": 4,
+        "reasons": [
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "如实所现--12f7c256",
+    "concept": "如实所现--12f7c256",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "如实所现-重学-2026-07-15",
+        "name": "如实所现-重学-2026-07-15",
+        "score": 4,
+        "reasons": [
+          "定义中引用",
+          "有直接关联"
+        ]
+      },
+      {
+        "id": "如实所现",
+        "name": "如实所现",
+        "score": 4,
+        "reasons": [
+          "定义中引用",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "如实所现-树林的认知体系",
+    "concept": "如实所现-树林的认知体系",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "如实所现",
+        "name": "如实所现",
+        "score": 3,
+        "reasons": [
+          "定义中引用"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "如实所现-重学-2026-07-15",
+    "concept": "如实所现-重学-2026-07-15",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "如实所现--12f7c256",
+        "name": "如实所现--12f7c256",
+        "score": 4,
+        "reasons": [
+          "定义中引用",
+          "有直接关联"
+        ]
+      },
+      {
+        "id": "如实所现",
+        "name": "如实所现",
+        "score": 4,
+        "reasons": [
+          "定义中引用",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "如实所现与牌一直在你手里--ce8ccdb8",
+    "concept": "如实所现与牌一直在你手里--ce8ccdb8",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "如实所现",
+        "name": "如实所现",
+        "score": 3,
+        "reasons": [
+          "定义中引用"
+        ]
+      },
+      {
+        "id": "牌一直在你手里",
+        "name": "牌一直在你手里",
+        "score": 3,
+        "reasons": [
+          "定义中引用"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "开放知识格式-OKF",
+    "concept": "开放知识格式-OKF",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "context-engineering",
+        "name": "context-engineering",
+        "score": 4,
+        "reasons": [
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      },
+      {
+        "id": "harness",
+        "name": "harness",
+        "score": 4,
+        "reasons": [
+          "B 被 3 个概念引用（基础概念）",
+          "B 是 harness 工程基础"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "社会学七书共读",
+    "concept": "社会学七书共读",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "差序格局",
+        "name": "差序格局",
+        "score": 3,
+        "reasons": [
+          "B 被 18 个概念引用（基础概念）",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "礼治秩序",
+        "name": "礼治秩序",
+        "score": 3,
+        "reasons": [
+          "B 被 18 个概念引用（基础概念）",
+          "B 是社会学基础概念"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "社会学基本概念",
+    "concept": "社会学基本概念",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "差序格局",
+        "name": "差序格局",
+        "score": 3,
+        "reasons": [
+          "B 被 18 个概念引用（基础概念）",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "礼治秩序",
+        "name": "礼治秩序",
+        "score": 3,
+        "reasons": [
+          "B 被 18 个概念引用（基础概念）",
+          "B 是社会学基础概念"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "人性三分法",
+    "concept": "人性三分法",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "差序格局",
+        "name": "差序格局",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "礼治秩序",
+        "name": "礼治秩序",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "社会分层",
+        "name": "社会分层",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "人情期货",
+    "concept": "人情期货",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "差序格局",
+        "name": "差序格局",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "礼治秩序",
+        "name": "礼治秩序",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "社会分层",
+        "name": "社会分层",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "先赋vs自致",
+    "concept": "先赋vs自致",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "差序格局",
+        "name": "差序格局",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "礼治秩序",
+        "name": "礼治秩序",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "社会分层",
+        "name": "社会分层",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "公私界碑",
+    "concept": "公私界碑",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "差序格局",
+        "name": "差序格局",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "礼治秩序",
+        "name": "礼治秩序",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "社会分层",
+        "name": "社会分层",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "再生产",
+    "concept": "再生产",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "差序格局",
+        "name": "差序格局",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "礼治秩序",
+        "name": "礼治秩序",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "社会分层",
+        "name": "社会分层",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "婚礼产品发布会",
+    "concept": "婚礼产品发布会",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "差序格局",
+        "name": "差序格局",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "礼治秩序",
+        "name": "礼治秩序",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "社会分层",
+        "name": "社会分层",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "差序格局",
+    "concept": "差序格局",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "礼治秩序",
+        "name": "礼治秩序",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "社会分层",
+        "name": "社会分层",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      },
+      {
+        "id": "社会学七书共读",
+        "name": "社会学七书共读",
+        "score": 4,
+        "reasons": [
+          "定义中引用",
+          "A 定义更复杂"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "彩礼异化",
+    "concept": "彩礼异化",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "差序格局",
+        "name": "差序格局",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "礼治秩序",
+        "name": "礼治秩序",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "社会分层",
+        "name": "社会分层",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "承认与狂热",
+    "concept": "承认与狂热",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "差序格局",
+        "name": "差序格局",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "礼治秩序",
+        "name": "礼治秩序",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "社会分层",
+        "name": "社会分层",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "A 定义更复杂",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "承认政治",
+    "concept": "承认政治",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "差序格局",
+        "name": "差序格局",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "礼治秩序",
+        "name": "礼治秩序",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "社会分层",
+        "name": "社会分层",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "现代长老",
+    "concept": "现代长老",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "差序格局",
+        "name": "差序格局",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "礼治秩序",
+        "name": "礼治秩序",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "社会分层",
+        "name": "社会分层",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "理性化铁笼",
+    "concept": "理性化铁笼",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "差序格局",
+        "name": "差序格局",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "礼治秩序",
+        "name": "礼治秩序",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "社会分层",
+        "name": "社会分层",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "礼治秩序",
+    "concept": "礼治秩序",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "差序格局",
+        "name": "差序格局",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "社会分层",
+        "name": "社会分层",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      },
+      {
+        "id": "社会学七书共读",
+        "name": "社会学七书共读",
+        "score": 4,
+        "reasons": [
+          "定义中引用",
+          "A 定义更复杂"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "社会分层",
+    "concept": "社会分层",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "差序格局",
+        "name": "差序格局",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "礼治秩序",
+        "name": "礼治秩序",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "社会学七书共读",
+        "name": "社会学七书共读",
+        "score": 4,
+        "reasons": [
+          "定义中引用",
+          "A 定义更复杂"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "社会学想象力",
+    "concept": "社会学想象力",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "差序格局",
+        "name": "差序格局",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "礼治秩序",
+        "name": "礼治秩序",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "社会分层",
+        "name": "社会分层",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "结构紧张",
+    "concept": "结构紧张",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "差序格局",
+        "name": "差序格局",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "礼治秩序",
+        "name": "礼治秩序",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "社会分层",
+        "name": "社会分层",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "铁笼囚徒困境",
+    "concept": "铁笼囚徒困境",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "差序格局",
+        "name": "差序格局",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "礼治秩序",
+        "name": "礼治秩序",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "社会分层",
+        "name": "社会分层",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  },
+  {
+    "conceptId": "面子估值",
+    "concept": "面子估值",
+    "currentPrerequisites": [],
+    "recommended": [
+      {
+        "id": "差序格局",
+        "name": "差序格局",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "礼治秩序",
+        "name": "礼治秩序",
+        "score": 7,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联",
+          "B 是社会学基础概念"
+        ]
+      },
+      {
+        "id": "社会分层",
+        "name": "社会分层",
+        "score": 6,
+        "reasons": [
+          "定义中引用",
+          "B 被 18 个概念引用（基础概念）",
+          "有直接关联"
+        ]
+      }
+    ]
+  }
+]

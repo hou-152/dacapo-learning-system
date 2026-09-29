@@ -19,7 +19,7 @@ mastery:
 
 masteryHistory: []
 
-prerequisites: []
+prerequisites: ["harness"]
 derivedConcepts: []
 relatedConcepts: ["卡住即信号", "显影与退役判据", "熵与腐化"]
 

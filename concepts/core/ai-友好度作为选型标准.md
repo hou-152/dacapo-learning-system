@@ -19,7 +19,7 @@ mastery:
 
 masteryHistory: []
 
-prerequisites: []
+prerequisites: ["harness"]
 derivedConcepts: []
 relatedConcepts: ["service-template-与-golden-path", "无手打代码", "跨模型迁移"]
 

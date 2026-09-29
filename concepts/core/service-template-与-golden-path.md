@@ -19,7 +19,7 @@ mastery:
 
 masteryHistory: []
 
-prerequisites: []
+prerequisites: ["harness"]
 derivedConcepts: []
 relatedConcepts: ["架构约束的确定性执行", "ai-友好度作为选型标准", "rigor-的搬迁"]
 

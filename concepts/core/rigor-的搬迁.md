@@ -19,7 +19,7 @@ mastery:
 
 masteryHistory: []
 
-prerequisites: []
+prerequisites: ["context-engineering", "harness"]
 derivedConcepts: []
 relatedConcepts: ["功能与行为验证的缺口", "service-template-与-golden-path", "context-engineering"]
 
