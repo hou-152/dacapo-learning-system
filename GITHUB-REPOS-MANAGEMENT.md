@@ -12,7 +12,7 @@
 
 | 仓库 | 状态 | 最后更新 | 说明 |
 |------|------|----------|------|
-| **dacapo-learning-system** | public | 2026-09-30 | ✅ v1.0.0 发布 - 交互式学习系统（course-generator + dbs-learning + concept-bridge） |
+| **dacapo-learning-system** | public | 2026-09-30 | ✅ v1.0.1 - 文档完善版（4 个 Skills README + 项目盘点报告 + 仓库管理脚本） |
 | dacapo-learning-coordinator | public | 2026-09-27 | 学习协调器 |
 | dacapo-learning-mvp | private | 2026-09-27 | MVP 版本 |
 | learning-note-concept-skills | public | 2026-06-07 | 学习笔记概念技能 |
@@ -149,7 +149,8 @@
 ### 立即执行
 
 1. **为主要项目添加 Release**
-   - [ ] dacapo-learning-system ✅ v1.0.0 已发布
+   - [x] dacapo-learning-system ✅ v1.0.0 已发布
+   - [x] dacapo-learning-system ✅ v1.0.1 文档完善
    - [ ] skill-adapter
    - [ ] fitness-family
    - [ ] ai-native-helpdesk

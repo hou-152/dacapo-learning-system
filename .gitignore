@@ -1,0 +1,29 @@
+# Editor
+.obsidian/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and caches
+*.log
+*.cache
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Backups
+*.bak
+*~
+.backup/
+
+# Temp
+*.tmp
+.tmp/
