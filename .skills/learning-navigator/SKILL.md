@@ -110,6 +110,8 @@ description: 识别用户学习意图，推荐合适的 Skill（course-generator
 
 **重要**：生成推荐和提示词后，立即停止。不得直接进入执行阶段。
 
+**提示词原则**：简洁易读，不包含文件路径或技术细节，用户能直接理解和复制。
+
 ```
 🎯 学习场景识别
 
@@ -130,7 +132,7 @@ description: 识别用户学习意图，推荐合适的 Skill（course-generator
 
 ✨ 可直接发送的提示词
 
-> /[skill-name] [具体任务描述]
+> /[skill-name] [用户能理解的任务描述，不含路径]
 
 ---
 
@@ -144,6 +146,12 @@ description: 识别用户学习意图，推荐合适的 Skill（course-generator
 - 对标 `/dbs` 和 `/skill-adapter` 的工作方式：推荐 → 生成提示词 → 等用户确认
 - 避免角色混淆：你是**路由/导航**，不是**执行器**
 - 给用户确认机会：推荐可能需要调整
+
+**提示词格式说明**：
+- ✅ `/course-generator 基于《乡土中国》生成课程`（用户能理解）
+- ❌ `/course-generator /Users/.../02.md`（路径用户看不见）
+- ✅ `/dbs-learning 学习差序格局课程`（简洁描述）
+- ❌ `/dbs-learning /path/to/course`（技术细节）
 
 #### 3.2 示例输出
 
@@ -170,7 +178,7 @@ description: 识别用户学习意图，推荐合适的 Skill（course-generator
 
 ✨ 可直接发送的提示词
 
-> /course-generator /Users/housibo/Documents/dacapo-学习仓库/courses/社会学七书共读/02.md
+> /course-generator 基于《乡土中国》生成课程
 
 ---
 
@@ -181,6 +189,8 @@ description: 识别用户学习意图，推荐合适的 Skill（course-generator
 ```
 
 **用户确认后**：用户发送「确认」「开始」或直接说「生成课程」，才调用 course-generator 执行。
+
+**注意**：提示词应该简洁易读，不包含具体的文件路径（用户看不见服务器上的路径）。如果需要路径，由执行时的 Skill 自己去查找。
 
 ---
 
