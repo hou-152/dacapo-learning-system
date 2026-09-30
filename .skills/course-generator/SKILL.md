@@ -107,7 +107,7 @@ description: 从深度文章或概念名生成结构化课程目录。接收文�
 
 为每个章节文件标注概念关联。
 
-**输出格式**：
+**输出格式**（必须按章节分组）：
 ```json
 {
   "01.md": {
@@ -116,9 +116,22 @@ description: 从深度文章或概念名生成结构化课程目录。接收文�
       "perplexity": { "relevance": 0.7, "context": "下一章引入的检测指标" },
       "RLHF": { "relevance": 0.6, "context": "对齐的具体技术" }
     }
+  },
+  "02.md": {
+    "mainConcepts": ["RLHF"],
+    "relatedConcepts": {
+      "对齐": { "relevance": 0.7, "context": "上一章讲解的理论基础" }
+    }
   }
 }
 ```
+
+**关键要求**：
+- ✅ 顶层 key 必须是章节文件名（"01.md", "02.md"）
+- ✅ relatedConcepts 必须是对象（key 是概念名）
+- ✅ 每个相关概念必须有 relevance 和 context
+- ❌ 不要生成单层结构（没有章节分组）
+- ❌ 不要把 relatedConcepts 写成数组
 
 **生成步骤**（详细实现见 `references/generate-concepts-json.md`）：
 
@@ -144,6 +157,7 @@ description: 从深度文章或概念名生成结构化课程目录。接收文�
 - [ ] mainConcepts 至少 1 个
 - [ ] relatedConcepts 的 name 都能在概念库找到
 - [ ] relevance 在 0.5-1.0 之间
+- [ ] 格式符合 dbs-learning 的期望（按章节分组）
 
 ### 阶段 4：写入与验证（2 分钟）
 

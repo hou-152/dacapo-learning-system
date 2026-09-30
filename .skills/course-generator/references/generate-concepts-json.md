@@ -32,6 +32,27 @@
 
 ## 三、生成算法
 
+### 总体流程
+
+```javascript
+// 1. 初始化结果对象（按章节分组）
+const conceptsJson = {};
+
+// 2. 遍历所有章节
+const chapters = ['01.md', '02.md', '03.md']; // 从已生成的章节列表获取
+
+for (const chapter of chapters) {
+  // 3. 为每个章节生成元数据
+  conceptsJson[chapter] = {
+    mainConcepts: extractMainConcepts(chapter),
+    relatedConcepts: extractRelatedConcepts(chapter)
+  };
+}
+
+// 4. 写入文件
+fs.writeFileSync('.concepts.json', JSON.stringify(conceptsJson, null, 2));
+```
+
 ### 步骤 1：为每个章节提取 mainConcepts
 
 **方法 A：从章节标题提取**
@@ -227,7 +248,73 @@ function calculateRelevance(conceptA, conceptB, relations) {
 }
 ```
 
-## 四、完整示例
+## 四、输出格式规范
+
+### 标准格式（多章节课程）
+
+**关键要求**：必须按章节分组，每个章节一个顶层 key。
+
+```json
+{
+  "01.md": {
+    "mainConcepts": ["概念 A", "概念 B"],
+    "relatedConcepts": {
+      "概念 C": {
+        "relevance": 0.7,
+        "context": "为什么相关的说明"
+      }
+    }
+  },
+  "02.md": {
+    "mainConcepts": ["概念 C"],
+    "relatedConcepts": {
+      "概念 A": {
+        "relevance": 0.7,
+        "context": "上一章讲解的内容"
+      }
+    }
+  }
+}
+```
+
+### 特殊情况：单章节课程
+
+即使只有一个章节，也必须按章节分组：
+
+```json
+{
+  "01.md": {
+    "mainConcepts": ["差序格局"],
+    "relatedConcepts": {
+      "礼治秩序": {
+        "relevance": 0.7,
+        "context": "下一篇讲解的内容"
+      }
+    }
+  }
+}
+```
+
+### ❌ 错误格式（不要这样）
+
+```json
+{
+  "mainConcepts": ["差序格局"],
+  "relatedConcepts": [
+    {
+      "name": "礼治秩序",
+      "relevance": 0.7
+    }
+  ]
+}
+```
+
+**问题**：
+- 没有章节分组（dbs-learning 无法识别）
+- relatedConcepts 是数组而不是对象
+- 缺少 context 字段
+
+## 五、完整示例
 
 假设生成了 3 个章节：
 
