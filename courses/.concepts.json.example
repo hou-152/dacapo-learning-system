@@ -1,0 +1,24 @@
+{
+  "01.md": {
+    "mainConcepts": ["差序格局"],
+    "relatedConcepts": {
+      "礼治秩序": {
+        "relevance": 0.7,
+        "context": "下一章讲解的规则机制"
+      },
+      "关系资源": {
+        "relevance": 0.8,
+        "context": "差序格局的实践应用"
+      }
+    }
+  },
+  "02.md": {
+    "mainConcepts": ["礼治秩序"],
+    "relatedConcepts": {
+      "差序格局": {
+        "relevance": 0.7,
+        "context": "上一章讲解的社会结构"
+      }
+    }
+  }
+}
